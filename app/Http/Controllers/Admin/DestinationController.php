@@ -25,7 +25,12 @@ class DestinationController extends Controller
             'name' => 'required|string|max:255',
             'description' => 'nullable|string',
             'location' => 'nullable|string|max:255',
-            'image' => 'nullable|image|max:2048'
+            'image' => 'nullable|image|max:2048',
+            'meta_title' => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords' => 'nullable|string',
+            'meta_tags' => 'nullable|string',
+            'alt_text' => 'nullable|string|max:255'
         ]);
 
         if ($request->hasFile('image')) {
@@ -47,7 +52,12 @@ class DestinationController extends Controller
             'name' => 'required|string|max:255',
             'description' => 'nullable|string',
             'location' => 'nullable|string|max:255',
-            'image' => 'nullable|image|max:2048'
+            'image' => 'nullable|image|max:2048',
+            'meta_title' => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords' => 'nullable|string',
+            'meta_tags' => 'nullable|string',
+            'alt_text' => 'nullable|string|max:255'
         ]);
 
         if ($request->hasFile('image')) {

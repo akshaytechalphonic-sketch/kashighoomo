@@ -22,6 +22,11 @@ class Hotel extends Model
         'airports',
         'attractions',
         'map_embed_url',
+        'meta_title',
+        'meta_description',
+        'meta_keywords',
+        'meta_tags',
+        'alt_text',
     ];
     
     protected function casts(): array
@@ -33,6 +38,7 @@ class Hotel extends Model
             'landmarks'   => 'array',
             'airports'    => 'array',
             'attractions' => 'array',
+            'alt_text'    => 'array',
         ];
     }
 

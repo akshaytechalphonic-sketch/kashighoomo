@@ -31,6 +31,7 @@ class BannerController extends Controller
             'button_text' => 'nullable|string|max:255',
             'button_link' => 'nullable|string|max:255',
             'status'      => 'sometimes|boolean',
+            'alt_text'    => 'nullable|string|max:255',
         ]);
 
         if ($request->hasFile('image')) {
@@ -60,6 +61,7 @@ class BannerController extends Controller
             'button_text' => 'nullable|string|max:255',
             'button_link' => 'nullable|string|max:255',
             'status'      => 'sometimes|boolean',
+            'alt_text'    => 'nullable|string|max:255',
         ]);
 
         if ($request->hasFile('image')) {

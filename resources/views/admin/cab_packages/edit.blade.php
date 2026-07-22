@@ -51,19 +51,27 @@
                     @error('price')<div class="invalid-feedback">{{ $message }}</div>@enderror
                 </div>
 
-                <!-- Existing Images -->
+                <!-- Existing Images & Alt Text -->
                 <div class="col-12">
-                    <label class="form-label fw-bold">Vehicle Images</label>
+                    <label class="form-label fw-bold">Vehicle Images & Alt Text</label>
                     @if(!empty($cabPackage->images) && count($cabPackage->images) > 0)
-                        <div class="d-flex flex-wrap gap-3 mb-3">
+                        <div class="row g-3 mb-3">
                             @foreach($cabPackage->images as $img)
-                                <div class="position-relative image-container">
-                                    <img src="{{ asset('storage/' . $img) }}" alt="Cab" class="rounded border shadow-sm" style="height: 100px; width: 140px; object-fit: cover;">
-                                    <button type="button" class="btn btn-danger btn-sm position-absolute top-0 end-0 p-0 rounded-circle remove-image" 
-                                            style="width: 24px; height: 24px; line-height: 1; transform: translate(35%, -35%);"
-                                            data-path="{{ $img }}">
-                                        &times;
-                                    </button>
+                                <div class="col-md-3 col-sm-6 image-container">
+                                    <div class="card h-100 border">
+                                        <div class="position-relative text-center bg-light p-2" style="height:120px;">
+                                            <img src="{{ asset('storage/' . $img) }}" class="h-100 w-auto object-fit-contain rounded">
+                                            <button type="button" class="btn btn-danger btn-sm position-absolute top-0 end-0 p-0 rounded-circle remove-image" 
+                                                    style="width:20px; height:20px; line-height:1; transform: translate(-5px, 5px);"
+                                                    data-path="{{ $img }}">
+                                                &times;
+                                            </button>
+                                        </div>
+                                        <div class="card-body p-2">
+                                            <label class="small fw-bold mb-1">Alt Text</label>
+                                            <input type="text" name="alt_text[{{ $img }}]" class="form-control form-control-sm" value="{{ $cabPackage->alt_text[$img] ?? '' }}" placeholder="Image description">
+                                        </div>
+                                    </div>
                                 </div>
                             @endforeach
                         </div>
@@ -89,6 +97,25 @@
                         <input class="form-check-input" type="checkbox" name="status" id="status" value="1" {{ old('status', $cabPackage->status) ? 'checked' : '' }}>
                         <label class="form-check-label fw-bold" for="status">Active (Available for booking)</label>
                     </div>
+                </div>
+
+                {{-- SEO Metadata --}}
+                <div class="col-12"><hr><h5 class="fw-bold text-secondary">SEO Metadata</h5></div>
+                <div class="col-12">
+                    <label class="form-label fw-bold">Meta Title</label>
+                    <input type="text" name="meta_title" class="form-control" value="{{ old('meta_title', $cabPackage->meta_title) }}" placeholder="SEO title for search results">
+                </div>
+                <div class="col-12">
+                    <label class="form-label fw-bold">Meta Description</label>
+                    <textarea name="meta_description" rows="3" class="form-control" placeholder="Describe the cab package in 150-160 characters...">{{ old('meta_description', $cabPackage->meta_description) }}</textarea>
+                </div>
+                <div class="col-12">
+                    <label class="form-label fw-bold">Meta Keywords</label>
+                    <input type="text" name="meta_keywords" class="form-control" value="{{ old('meta_keywords', $cabPackage->meta_keywords) }}" placeholder="keyword1, keyword2, keyword3">
+                </div>
+                <div class="col-12">
+                    <label class="form-label fw-bold">Custom Meta Tags (HTML)</label>
+                    <textarea name="meta_tags" class="form-control" rows="4" placeholder="Enter custom HTML meta tags (e.g. Open Graph, Canonical, JSON-LD)">{{ old('meta_tags', $cabPackage->meta_tags) }}</textarea>
                 </div>
 
                 <!-- Submit Button -->

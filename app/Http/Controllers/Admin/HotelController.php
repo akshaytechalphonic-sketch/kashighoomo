@@ -36,15 +36,19 @@ class HotelController extends Controller
             'managed_by'     => 'nullable|string|max:255',
             'usps'           => 'nullable|string',
             'map_embed_url'  => 'nullable|string',
-            'images.*'       => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096'
+            'images.*'       => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096',
+            'meta_title'       => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords'    => 'nullable|string',
+            'meta_tags'        => 'nullable|string',
+            'alt_text'         => 'nullable|array'
         ]);
 
-        $imagePaths = [];
-        if ($request->hasFile('images')) {
-            foreach ($request->file('images') as $image) {
-                $imagePaths[] = $image->store('hotels', 'public');
-            }
+        if ($validator->fails()) {
+            return back()->withErrors($validator)->withInput();
         }
+
+        $validated = $validator->validated();
 
         $mapUrl = null;
 
@@ -90,6 +94,11 @@ class HotelController extends Controller
             'landmarks'   => $this->parseKeyValueLines($request->landmarks),
             'airports'    => $this->parseKeyValueLines($request->airports),
             'attractions' => $this->parseKeyValueLines($request->attractions),
+            'meta_title' => $request->meta_title,
+            'meta_description' => $request->meta_description,
+            'meta_keywords' => $request->meta_keywords,
+            'meta_tags' => $request->meta_tags,
+            'alt_text' => $request->input('alt_text') ?? [],
         ]);
 
         return redirect()->route('admin.hotels.index')->with('success', 'Hotel created successfully.');
@@ -115,7 +124,12 @@ class HotelController extends Controller
             'managed_by'     => 'nullable|string|max:255',
             'usps'           => 'nullable|string',
             'map_embed_url'  => 'nullable|string',
-            'images.*'       => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096'
+            'images.*'       => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096',
+            'meta_title'       => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords'    => 'nullable|string',
+            'meta_tags'        => 'nullable|string',
+            'alt_text'         => 'nullable|array'
         ]);
 
         if ($validator->fails()) {
@@ -169,6 +183,11 @@ class HotelController extends Controller
             'landmarks'   => $this->parseKeyValueLines($request->landmarks),
             'airports'    => $this->parseKeyValueLines($request->airports),
             'attractions' => $this->parseKeyValueLines($request->attractions),
+            'meta_title' => $request->meta_title,
+            'meta_description' => $request->meta_description,
+            'meta_keywords' => $request->meta_keywords,
+            'meta_tags' => $request->meta_tags,
+            'alt_text' => $request->input('alt_text') ?? [],
         ]);
 
         return redirect()->route('admin.hotels.index')->with('success', 'Hotel updated successfully.');
@@ -187,7 +206,15 @@ class HotelController extends Controller
                 Storage::disk('public')->delete($imagePath);
             }
 
-            $hotel->update(['images' => array_values($images)]);
+            $altText = $hotel->alt_text ?? [];
+            if (isset($altText[$imagePath])) {
+                unset($altText[$imagePath]);
+            }
+
+            $hotel->update([
+                'images' => array_values($images),
+                'alt_text' => $altText
+            ]);
             return response()->json(['success' => true]);
         }
 

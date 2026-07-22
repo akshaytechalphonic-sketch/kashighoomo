@@ -50,6 +50,12 @@
                     </div>
 
                     <div class="mb-4">
+                        <label class="form-label fw-bold small text-muted text-uppercase mb-2">Image Alt Text</label>
+                        <input type="text" name="alt_text" class="form-control form-control-lg @error('alt_text') is-invalid @enderror" value="{{ old('alt_text', $gallery->alt_text) }}" placeholder="Alt text description">
+                        @error('alt_text') <div class="invalid-feedback">{{ $message }}</div> @enderror
+                    </div>
+
+                    <div class="mb-4">
                         <label class="form-label fw-bold small text-muted text-uppercase mb-2">Display Status</label>
                         <select name="status" class="form-select form-select-lg">
                             <option value="1" {{ $gallery->status ? 'selected' : '' }}>Published (Live)</option>

@@ -47,6 +47,12 @@
                     <input type="text" name="meta_keywords" class="form-control" value="{{ $page->meta_keywords }}" placeholder="keyword1, keyword2, keyword3">
                 </div>
 
+                <div class="col-md-12">
+                    <label class="form-label fw-bold">Custom Meta Tags (HTML)</label>
+                    <textarea name="meta_tags" class="form-control" rows="4" placeholder="Enter custom HTML meta tags (e.g. Open Graph, Canonical, JSON-LD, Twitter Cards)">{{ $page->meta_tags }}</textarea>
+                    <small class="text-muted">Place raw tags here like &lt;link rel="canonical" href="..." /&gt; or &lt;meta property="og:title" ... /&gt;</small>
+                </div>
+
                 <div class="col-md-6 mt-4">
                     <label class="form-label fw-bold">Status</label>
                     <select name="status" class="form-select">

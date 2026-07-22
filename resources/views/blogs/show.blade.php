@@ -467,7 +467,7 @@
                             <a href="{{ route('blogs.show', $rb->slug) }}" class="recent-post-item">
                                 <div class="recent-post-thumb">
                                     <img src="{{ $rb->featured_image ? asset('storage/'.$rb->featured_image) : $fallbackImages[$i % count($fallbackImages)] }}"
-                                         alt="{{ $rb->title }}">
+                                         alt="{{ $rb->alt_text ?? $rb->title }}">
                                 </div>
                                 <div style="min-width:0; flex:1;">
                                     <div class="recent-post-title">{{ $rb->title }}</div>
@@ -496,7 +496,7 @@
                                        class="d-block text-decoration-none rounded-3 overflow-hidden position-relative"
                                        style="height:88px; border:1px solid #f0f0f0;">
                                         <img src="{{ $rb->featured_image ? asset('storage/'.$rb->featured_image) : $fallbackImages[$i % count($fallbackImages)] }}"
-                                             alt="{{ $rb->title }}"
+                                             alt="{{ $rb->alt_text ?? $rb->title }}"
                                              style="width:100%; height:100%; object-fit:cover; transition:transform 0.4s ease;">
                                         <div class="position-absolute w-100 p-1"
                                              style="bottom:0; left:0; background:linear-gradient(transparent,rgba(5,20,33,0.92)); z-index:2;">

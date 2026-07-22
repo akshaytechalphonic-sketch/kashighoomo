@@ -81,6 +81,24 @@
                     <input type="file" name="images[]" class="form-control" multiple accept="image/*">
                     <small class="text-muted">First image will be used as the cover photo.</small>
                 </div>
+                {{-- SEO Metadata --}}
+                <div class="col-12"><hr><h5 class="fw-bold text-secondary">SEO Metadata</h5></div>
+                <div class="col-12">
+                    <label class="form-label fw-bold">Meta Title</label>
+                    <input type="text" name="meta_title" class="form-control" value="{{ old('meta_title') }}" placeholder="SEO title for search results">
+                </div>
+                <div class="col-12">
+                    <label class="form-label fw-bold">Meta Description</label>
+                    <textarea name="meta_description" rows="3" class="form-control" placeholder="Describe the hotel in 150-160 characters...">{{ old('meta_description') }}</textarea>
+                </div>
+                <div class="col-12">
+                    <label class="form-label fw-bold">Meta Keywords</label>
+                    <input type="text" name="meta_keywords" class="form-control" value="{{ old('meta_keywords') }}" placeholder="keyword1, keyword2, keyword3">
+                </div>
+                <div class="col-12">
+                    <label class="form-label fw-bold">Custom Meta Tags (HTML)</label>
+                    <textarea name="meta_tags" class="form-control" rows="4" placeholder="Enter custom HTML meta tags (e.g. Open Graph, Canonical, JSON-LD)">{{ old('meta_tags') }}</textarea>
+                </div>
             </div>
             <div class="mt-4">
                 <button type="submit" class="btn btn-primary px-5">Save Hotel</button>

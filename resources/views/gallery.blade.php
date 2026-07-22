@@ -42,7 +42,7 @@
                          data-img="{{ asset('storage/'.$gallery->image) }}"
                          data-title="{{ $gallery->title ?? 'Visual Showcase' }}"
                          data-category="{{ $gallery->category }}">
-                        <img src="{{ asset('storage/'.$gallery->image) }}" class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;" alt="{{ $gallery->title }}">
+                        <img src="{{ asset('storage/'.$gallery->image) }}" class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;" alt="{{ $gallery->alt_text ?? $gallery->title }}">
                         
                         <div class="gallery-overlay d-flex flex-column align-items-center justify-content-center text-white text-center p-3 rounded-4">
                             <div class="bg-warning p-3 rounded-circle mb-3 d-flex align-items-center justify-content-center" style="width:50px; height:50px;">

@@ -14,6 +14,7 @@ class PageSection extends Model
         'image',
         'extra_data',
         'status',
+        'alt_text',
     ];
 
     protected $casts = [

@@ -41,7 +41,7 @@
                             @foreach($galleryImages as $img)
                                 <div class="col-md-6 col-12">
                                     <a href="{{ asset('storage/' . $img) }}" data-fancybox="room-gallery" class="d-block rounded-3 overflow-hidden shadow-sm" style="height:210px; border:1px solid #eee;">
-                                        <img src="{{ asset('storage/' . $img) }}" class="w-100 h-100 object-fit-cover hover-scale transition-all" style="transition:0.4s;" alt="Suite Photo">
+                                        <img src="{{ asset('storage/' . $img) }}" class="w-100 h-100 object-fit-cover hover-scale transition-all" style="transition:0.4s;" alt="{{ (is_array($room->alt_text) && isset($room->alt_text[$img])) ? $room->alt_text[$img] : ($room->room_type . ' - Photo') }}">
                                     </a>
                                 </div>
                             @endforeach

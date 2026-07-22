@@ -1373,7 +1373,7 @@
                     </div>
                     <!-- Right Curved Media Area (dynamic image) -->
                     <div class="hero-media-right">
-                        <img src="{{ asset('storage/' . $banner->image) }}" alt="{{ $banner->title }}"
+                        <img src="{{ asset('storage/' . $banner->image) }}" alt="{{ $banner->alt_text ?? $banner->title }}"
                             style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                 </div>
@@ -1428,7 +1428,7 @@
                     </div>
                     <!-- Right Curved Media Area (dynamic image) -->
                     <div class="hero-media-right">
-                        <img src="{{ $heroImage }}" alt="{{ $heroTitle }}"
+                        <img src="{{ $heroImage }}" alt="{{ $heroSection?->alt_text ?? $heroTitle }}"
                             style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                 </div>
@@ -1451,7 +1451,7 @@
                 <a href="{{ route('destinations.show', $dest->slug) }}" class="category-circle-item">
                     <div class="category-circle-icon">
                         <img src="{{ $dest->image ? asset('storage/' . $dest->image) : 'https://images.unsplash.com/photo-1598897516650-df69c2fdd6a7?auto=format&fit=crop&q=80&w=200' }}"
-                            alt="{{ $dest->name }}">
+                            alt="{{ $dest->alt_text ?? $dest->name }}">
                     </div>
                     <div class="category-circle-title">{{ $dest->name }}</div>
                 </a>
@@ -1658,7 +1658,7 @@
                                             ? asset('storage/' . $pkg->images[0])
                                             : 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800';
                                     @endphp
-                                    <img src="{{ $cover }}" alt="{{ $pkg->title }}">
+                                    <img src="{{ $cover }}" alt="{{ (!empty($pkg->images) && is_array($pkg->alt_text) && isset($pkg->alt_text[$pkg->images[0]])) ? $pkg->alt_text[$pkg->images[0]] : $pkg->title }}">
                                     <div class="pkg-badge-level">{{ $pkg->difficulty ?? 'Popular' }}</div>
 
                                     {{-- <div class="pkg-card-wishlist"
@@ -1711,7 +1711,7 @@
                                 <div class="archive-top position-relative overflow-hidden"
                                     style="height:170px; background-color:#f8fafc;">
                                     @if (!empty($cab->images) && count($cab->images) > 0)
-                                        <img src="{{ asset('storage/' . $cab->images[0]) }}" alt="{{ $cab->cab_name }}"
+                                        <img src="{{ asset('storage/' . $cab->images[0]) }}" alt="{{ (is_array($cab->alt_text) && isset($cab->alt_text[$cab->images[0]])) ? $cab->alt_text[$cab->images[0]] : $cab->cab_name }}"
                                             class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;">
                                     @else
                                         <div
@@ -1782,7 +1782,7 @@
                                         : 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800';
                                 @endphp
                                 <a href="{{ route('hotels.show', $hotel->id) }}" class="d-block h-100">
-                                    <img src="{{ $hotelCover }}" alt="{{ $hotel->name }}"
+                                    <img src="{{ $hotelCover }}" alt="{{ (!empty($hotel->images) && is_array($hotel->alt_text) && isset($hotel->alt_text[$hotel->images[0]])) ? $hotel->alt_text[$hotel->images[0]] : $hotel->name }}"
                                         class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;">
                                 </a>
                                 <div class="position-absolute bg-warning text-white rounded-pill px-3 py-1 fw-bold"
@@ -1857,7 +1857,7 @@
 
                                     <div class="testimonial-user">
                                         <img src="{{ $t->image ? asset('storage/' . $t->image) : 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200' }}"
-                                            alt="{{ $t->name }}" class="testimonial-avatar">
+                                            alt="{{ $t->alt_text ?? $t->name }}" class="testimonial-avatar">
                                         <div class="testimonial-info">
                                             <h4>{{ $t->name }}</h4>
                                             <p>{{ $t->role ?? 'Traveler' }}</p>

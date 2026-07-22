@@ -327,7 +327,7 @@
                 <!-- Left Side: Image -->
                 <div class="col-lg-5 col-md-12">
                     <div class="about-image-wrapper wow animate__animated animate__fadeInLeft" data-wow-duration="1s">
-                        <img src="{{ $mainAbout && $mainAbout->image ? asset('storage/'.$mainAbout->image) : asset('frontend-theme/images/backgrounds/bg-about-us.jpg') }}" alt="About Kashi Tourism">
+                        <img src="{{ $mainAbout && $mainAbout->image ? asset('storage/'.$mainAbout->image) : asset('frontend-theme/images/backgrounds/bg-about-us.jpg') }}" alt="{{ $mainAbout?->alt_text ?? 'About Kashi Tourism' }}">
                     </div>
                 </div>
                 <!-- Right Side: Content -->

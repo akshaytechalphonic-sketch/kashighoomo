@@ -31,7 +31,12 @@ class RoomController extends Controller
             'bed_type'   => 'nullable|string|max:100',
             'view_type'  => 'nullable|string|max:100',
             'description' => 'nullable|string',
-            'images.*'   => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096'
+            'images.*'   => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096',
+            'meta_title'       => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords'    => 'nullable|string',
+            'meta_tags'        => 'nullable|string',
+            'alt_text'         => 'nullable|array'
         ]);
 
         $imagePaths = [];
@@ -56,6 +61,11 @@ class RoomController extends Controller
             'rate_plans'  => $this->buildRatePlans($request),
             'inclusions'  => $request->inclusions ? array_map('trim', explode(',', $request->inclusions)) : [],
             'exclusions'  => $request->exclusions ? array_map('trim', explode(',', $request->exclusions)) : [],
+            'meta_title' => $request->meta_title,
+            'meta_description' => $request->meta_description,
+            'meta_keywords' => $request->meta_keywords,
+            'meta_tags' => $request->meta_tags,
+            'alt_text' => $request->input('alt_text') ?? [],
         ]);
 
         return redirect()->route('admin.rooms.index')->with('success', 'Room created successfully.');
@@ -78,7 +88,12 @@ class RoomController extends Controller
             'bed_type'   => 'nullable|string|max:100',
             'view_type'  => 'nullable|string|max:100',
             'description' => 'nullable|string',
-            'images.*'   => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096'
+            'images.*'   => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096',
+            'meta_title'       => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords'    => 'nullable|string',
+            'meta_tags'        => 'nullable|string',
+            'alt_text'         => 'nullable|array'
         ]);
 
         $imagePaths = $room->images ?? [];
@@ -103,6 +118,11 @@ class RoomController extends Controller
             'rate_plans'  => $this->buildRatePlans($request),
             'inclusions'  => $request->inclusions ? array_map('trim', explode(',', $request->inclusions)) : [],
             'exclusions'  => $request->exclusions ? array_map('trim', explode(',', $request->exclusions)) : [],
+            'meta_title' => $request->meta_title,
+            'meta_description' => $request->meta_description,
+            'meta_keywords' => $request->meta_keywords,
+            'meta_tags' => $request->meta_tags,
+            'alt_text' => $request->input('alt_text') ?? [],
         ]);
 
         return redirect()->route('admin.rooms.index')->with('success', 'Room updated successfully.');
@@ -121,7 +141,15 @@ class RoomController extends Controller
                 \Illuminate\Support\Facades\Storage::disk('public')->delete($imagePath);
             }
 
-            $room->update(['images' => array_values($images)]);
+            $altText = $room->alt_text ?? [];
+            if (isset($altText[$imagePath])) {
+                unset($altText[$imagePath]);
+            }
+
+            $room->update([
+                'images' => array_values($images),
+                'alt_text' => $altText
+            ]);
             return response()->json(['success' => true]);
         }
 

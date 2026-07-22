@@ -40,6 +40,10 @@
                         <label class="form-label fw-bold">Guest Photo</label>
                         <input type="file" name="image" class="form-control">
                     </div>
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">Photo Alt Text</label>
+                        <input type="text" name="alt_text" class="form-control" placeholder="Alt text description for accessibility">
+                    </div>
                 </div>
                 <div class="col-12 mt-4">
                     <button type="submit" class="btn btn-primary px-5 py-2 fw-bold shadow-sm">PUBLISH TESTIMONY</button>

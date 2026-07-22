@@ -37,6 +37,11 @@
 </div>
 
 <div class="mb-3">
+    <label for="alt_text" class="form-label">Image Alt Text (optional)</label>
+    <input type="text" name="alt_text" id="alt_text" class="form-control" value="{{ old('alt_text', $isEdit ? $banner->alt_text : '') }}" placeholder="Alt text description for search engines and accessibility">
+</div>
+
+<div class="mb-3">
     <label for="button_text" class="form-label">Button Text (optional)</label>
     <input type="text" name="button_text" id="button_text" class="form-control" value="{{ old('button_text', $isEdit ? $banner->button_text : '') }}" placeholder="e.g. Book Yatra Now">
 </div>

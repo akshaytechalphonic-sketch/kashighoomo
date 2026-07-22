@@ -37,7 +37,36 @@
                         <input type="file" name="image" class="form-control">
                         <small class="text-muted">Leave empty to keep existing image.</small>
                     </div>
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">Image Alt Text</label>
+                        <input type="text" name="alt_text" class="form-control" value="{{ old('alt_text', $destination->alt_text) }}" placeholder="Describe the image for SEO and screen readers">
+                    </div>
                 </div>
+
+                <div class="col-12 mt-4">
+                    <h5 class="fw-bold border-bottom pb-2 mb-3">SEO Settings</h5>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label class="form-label fw-bold">Meta Title</label>
+                    <input type="text" name="meta_title" class="form-control" value="{{ old('meta_title', $destination->meta_title) }}" placeholder="SEO title for search results">
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label class="form-label fw-bold">Meta Description</label>
+                    <textarea name="meta_description" class="form-control" rows="3" placeholder="Brief summary of the destination page">{{ old('meta_description', $destination->meta_description) }}</textarea>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label class="form-label fw-bold">Meta Keywords</label>
+                    <input type="text" name="meta_keywords" class="form-control" value="{{ old('meta_keywords', $destination->meta_keywords) }}" placeholder="keyword1, keyword2, keyword3">
+                </div>
+
+                <div class="col-md-12 mb-4">
+                    <label class="form-label fw-bold">Custom Meta Tags (HTML)</label>
+                    <textarea name="meta_tags" class="form-control" rows="4" placeholder="Enter custom HTML meta tags (e.g. Open Graph, Canonical, JSON-LD)">{{ old('meta_tags', $destination->meta_tags) }}</textarea>
+                </div>
+
                 <div class="col-12 mt-4">
                     <button type="submit" class="btn btn-primary px-5 py-2 fw-bold shadow-sm">UPDATE DESTINATION</button>
                 </div>

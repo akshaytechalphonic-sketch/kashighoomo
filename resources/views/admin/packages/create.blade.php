@@ -135,6 +135,11 @@
                     @error('meta_keywords')<div class="invalid-feedback">{{ $message }}</div>@enderror
                 </div>
 
+                <div class="col-12">
+                    <label class="form-label fw-bold">Custom Meta Tags (HTML)</label>
+                    <textarea name="meta_tags" class="form-control" rows="4" placeholder="Enter custom HTML meta tags (e.g. Open Graph, Canonical, JSON-LD)">{{ old('meta_tags') }}</textarea>
+                </div>
+
                 {{-- Images --}}
                 <div class="col-12"><hr><h5 class="fw-bold text-secondary">Package Images</h5></div>
                 <div class="col-12">

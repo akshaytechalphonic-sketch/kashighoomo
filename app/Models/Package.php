@@ -28,6 +28,8 @@ class Package extends Model
         'meta_title',
         'meta_description',
         'meta_keywords',
+        'meta_tags',
+        'alt_text',
     ];
 
     protected function casts(): array
@@ -37,6 +39,7 @@ class Package extends Model
             'exclusions' => 'array',
             'itinerary'  => 'array',
             'images'      => 'array',
+            'alt_text'    => 'array',
             'status'      => 'boolean',
             'featured'    => 'boolean',
             'price'       => 'decimal:2',

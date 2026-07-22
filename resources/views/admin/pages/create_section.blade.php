@@ -39,6 +39,11 @@
                 </div>
 
                 <div class="col-md-6">
+                    <label class="form-label fw-bold">Image Alt Text</label>
+                    <input type="text" name="alt_text" class="form-control" placeholder="Describe the image for SEO and screen readers">
+                </div>
+
+                <div class="col-md-6">
                     <label class="form-label fw-bold">Status</label>
                     <select name="status" class="form-select">
                         <option value="1" selected>Visible</option>

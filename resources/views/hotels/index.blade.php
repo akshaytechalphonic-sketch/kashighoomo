@@ -47,7 +47,7 @@
                                 @php
                                     $coverImage = !empty($hotel->images) ? asset('storage/'.$hotel->images[0]) : 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800';
                                 @endphp
-                                <img src="{{ $coverImage }}" alt="{{ $hotel->name }}" class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;">
+                                <img src="{{ $coverImage }}" alt="{{ (!empty($hotel->images) && is_array($hotel->alt_text) && isset($hotel->alt_text[$hotel->images[0]])) ? $hotel->alt_text[$hotel->images[0]] : $hotel->name }}" class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;">
                             </a>
                             <div class="position-absolute bg-white text-dark rounded-pill px-3 py-1 fw-bold shadow-sm d-flex align-items-center gap-1" style="top:12px; left:12px; font-size:11.5px; z-index:5;">
                                 <i class="bi bi-star-fill text-warning"></i> 4.9

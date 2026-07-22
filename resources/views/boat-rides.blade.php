@@ -54,7 +54,7 @@
                                 ];
                                 $imgSrc = (!empty($pkg->images) && count($pkg->images) > 0) ? asset('storage/' . $pkg->images[0]) : $fallbackImages[$loop->index % count($fallbackImages)];
                             @endphp
-                            <img src="{{ $imgSrc }}" alt="{{ $pkg->title }}" class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;">
+                            <img src="{{ $imgSrc }}" alt="{{ (!empty($pkg->images) && is_array($pkg->alt_text) && isset($pkg->alt_text[$pkg->images[0]])) ? $pkg->alt_text[$pkg->images[0]] : $pkg->title }}" class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;">
                             
                             <div class="position-absolute bg-dark text-white rounded-pill px-3 py-1 fw-bold" style="top:12px; left:12px; font-size:10px; z-index:3;">
                                 <i class="bi bi-clock text-warning me-1"></i>{{ $pkg->duration }}

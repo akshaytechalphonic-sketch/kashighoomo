@@ -13,20 +13,26 @@
         $metaTitle       = $seoSource->meta_title       ?? ($settings->seo_meta_title ?? config('app.name', 'Kashi Tourism – Himalayan Journeys'));
         $metaDescription = $seoSource->meta_description ?? ($settings->seo_meta_description ?? 'Experience Kashi like never before — premium bike expeditions, luxury stays, and customised Himalayan itineraries crafted with passion.');
         $metaKeywords    = $seoSource->meta_keywords    ?? ($settings->seo_meta_keywords    ?? 'Kashi Tourism, Kashi tour packages, Varanasi Kashi, himalayan travel, bike expedition Kashi');
+        $metaTags        = $seoSource->meta_tags        ?? null;
     @endphp
 
     <title>@yield('title', $metaTitle)</title>
     <meta name="description" content="@yield('meta_description', $metaDescription)">
     <meta name="keywords"    content="@yield('meta_keywords',    $metaKeywords)">
-    {{-- Open Graph --}}
-    <meta property="og:title"       content="@yield('title', $metaTitle)">
+  
+    {{-- <meta property="og:title"       content="@yield('title', $metaTitle)">
     <meta property="og:description" content="@yield('meta_description', $metaDescription)">
     <meta property="og:type"        content="website">
     <meta property="og:url"         content="{{ url()->current() }}">
-    {{-- Twitter Card --}}
+  
     <meta name="twitter:card"        content="summary_large_image">
     <meta name="twitter:title"       content="@yield('title', $metaTitle)">
-    <meta name="twitter:description" content="@yield('meta_description', $metaDescription)">
+    <meta name="twitter:description" content="@yield('meta_description', $metaDescription)"> --}}
+
+    @yield('meta_tags')
+    @if(!empty($metaTags))
+        {!! $metaTags !!}
+    @endif
 
     <!-- Fonts -->
     <link rel="stylesheet" href="{{ asset('frontend-theme/fonts/fonts.css') }}">

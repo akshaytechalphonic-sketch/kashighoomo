@@ -28,6 +28,7 @@ class PageController extends Controller
             'meta_title' => 'nullable|string|max:255',
             'meta_description' => 'nullable|string',
             'meta_keywords' => 'nullable|string',
+            'meta_tags' => 'nullable|string',
             'status' => 'required|boolean',
         ]);
 
@@ -53,6 +54,7 @@ class PageController extends Controller
             'meta_title' => 'nullable|string|max:255',
             'meta_description' => 'nullable|string',
             'meta_keywords' => 'nullable|string',
+            'meta_tags' => 'nullable|string',
             'status' => 'required|boolean',
         ]);
 
@@ -82,6 +84,7 @@ class PageController extends Controller
             'image' => 'nullable',
             'status' => 'required|boolean',
             'extra_data_json' => 'nullable|string',
+            'alt_text' => 'nullable|string|max:255',
         ]);
 
         if ($request->hasFile('image')) {
@@ -112,6 +115,7 @@ class PageController extends Controller
             'image' => 'nullable|image',
             'status' => 'required|boolean',
             'extra_data_json' => 'nullable|string',
+            'alt_text' => 'nullable|string|max:255',
         ]);
 
         if ($request->hasFile('image')) {

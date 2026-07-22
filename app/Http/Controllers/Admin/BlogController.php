@@ -25,7 +25,12 @@ class BlogController extends Controller
             'title' => 'required|string|max:255',
             'content' => 'required|string',
             'is_published' => 'boolean',
-            'featured_image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'
+            'featured_image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'meta_title' => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords' => 'nullable|string',
+            'meta_tags' => 'nullable|string',
+            'alt_text' => 'nullable|string|max:255',
         ]);
 
         $imagePath = null;
@@ -40,6 +45,11 @@ class BlogController extends Controller
             'content' => $validated['content'],
             'is_published' => $request->has('is_published'),
             'featured_image' => $imagePath,
+            'meta_title' => $request->input('meta_title'),
+            'meta_description' => $request->input('meta_description'),
+            'meta_keywords' => $request->input('meta_keywords'),
+            'meta_tags' => $request->input('meta_tags'),
+            'alt_text' => $request->input('alt_text'),
         ]);
 
         return redirect()->route('admin.blogs.index')->with('success', 'Blog post created successfully.');
@@ -56,7 +66,12 @@ class BlogController extends Controller
             'title' => 'required|string|max:255',
             'content' => 'required|string',
             'is_published' => 'boolean',
-            'featured_image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'
+            'featured_image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'meta_title' => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords' => 'nullable|string',
+            'meta_tags' => 'nullable|string',
+            'alt_text' => 'nullable|string|max:255',
         ]);
 
         $imagePath = $blog->featured_image;
@@ -70,6 +85,11 @@ class BlogController extends Controller
             'content' => $validated['content'],
             'is_published' => $request->has('is_published'),
             'featured_image' => $imagePath,
+            'meta_title' => $request->input('meta_title'),
+            'meta_description' => $request->input('meta_description'),
+            'meta_keywords' => $request->input('meta_keywords'),
+            'meta_tags' => $request->input('meta_tags'),
+            'alt_text' => $request->input('alt_text'),
         ]);
 
         return redirect()->route('admin.blogs.index')->with('success', 'Blog post updated successfully.');

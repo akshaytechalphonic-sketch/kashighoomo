@@ -13,6 +13,11 @@ class Blog extends Model
         'content',
         'featured_image',
         'is_published',
+        'meta_title',
+        'meta_description',
+        'meta_keywords',
+        'meta_tags',
+        'alt_text',
     ];
 
     protected function casts(): array

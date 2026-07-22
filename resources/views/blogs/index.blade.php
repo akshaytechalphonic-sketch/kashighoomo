@@ -421,7 +421,7 @@ nav.vk-pagination ul li span[aria-current] {
                 <div class="vk-card-img">
                     <span class="vk-card-badge">Article</span>
                     <img src="{{ $blog->featured_image ? asset('storage/'.$blog->featured_image) : 'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&q=80&w=600' }}"
-                         alt="{{ $blog->title }}">
+                         alt="{{ $blog->alt_text ?? $blog->title }}">
                 </div>
                 <div class="vk-card-body">
                     <h3 class="vk-card-title">{{ $blog->title }}</h3>

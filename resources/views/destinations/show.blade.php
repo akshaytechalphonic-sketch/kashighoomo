@@ -34,7 +34,7 @@
                         
                         <div class="rounded-4 overflow-hidden shadow-sm mt-4" style="height: 400px; border:1px solid #eee;">
                             <img src="{{ $destination->image ? asset('storage/' . $destination->image) : 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=1200' }}"
-                                class="w-100 h-100 object-fit-cover" alt="{{ $destination->name }}">
+                                class="w-100 h-100 object-fit-cover" alt="{{ $destination->alt_text ?? $destination->name }}">
                         </div>
                     </div>
                 </div>

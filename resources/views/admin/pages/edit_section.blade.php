@@ -47,6 +47,12 @@
                     </div>
 
                     <div class="mb-4">
+                        <label class="form-label fw-bold small text-muted text-uppercase">Image Alt Text</label>
+                        <input type="text" name="alt_text" class="form-control @error('alt_text') is-invalid @enderror" value="{{ old('alt_text', $section->alt_text) }}" placeholder="Describe image for SEO & accessibility">
+                        @error('alt_text') <div class="invalid-feedback">{{ $message }}</div> @enderror
+                    </div>
+
+                    <div class="mb-4">
                         <label class="form-label fw-bold small text-muted text-uppercase">Section Status</label>
                         <select name="status" class="form-select">
                             <option value="1" {{ $section->status ? 'selected' : '' }}>Published (Live)</option>

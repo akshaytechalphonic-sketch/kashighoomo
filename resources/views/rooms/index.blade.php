@@ -78,7 +78,7 @@
                     <div class="item hover-img bg-white shadow-sm border-0 rounded-4 overflow-hidden h-100 d-flex flex-column">
                         <div class="archive-top position-relative overflow-hidden" style="height:230px;">
                             <a href="{{ route('rooms.show', $room) }}" class="images-group img-style d-block h-100">
-                                <img src="{{ $roomImage }}" alt="{{ $room->room_type }}" class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;">
+                                <img src="{{ $roomImage }}" alt="{{ (!empty($room->images) && is_array($room->alt_text) && isset($room->alt_text[$room->images[0]])) ? $room->alt_text[$room->images[0]] : $room->room_type }}" class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;">
                             </a>
                             <div class="position-absolute bg-warning text-white rounded-pill px-3 py-1 fw-bold shadow-sm" style="top:12px; right:12px; font-size:11px; z-index:5;">
                                 ₹{{ number_format($room->price) }} / nt

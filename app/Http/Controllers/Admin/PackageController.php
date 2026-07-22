@@ -42,7 +42,9 @@ class PackageController extends Controller
             'meta_title'       => 'nullable|string|max:255',
             'meta_description' => 'nullable|string',
             'meta_keywords'    => 'nullable|string',
-            'images.*'       => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096'
+            'meta_tags'        => 'nullable|string',
+            'images.*'       => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096',
+            'alt_text'         => 'nullable|array'
         ]);
 
         $imagePaths = [];
@@ -69,10 +71,12 @@ class PackageController extends Controller
             'meta_title'       => $request->meta_title,
             'meta_description' => $request->meta_description,
             'meta_keywords'    => $request->meta_keywords,
+            'meta_tags'        => $request->meta_tags,
             'inclusions'       => $request->inclusions ? array_filter(array_map('trim', explode("\n", $request->inclusions))) : [],
             'exclusions'       => $request->exclusions ? array_filter(array_map('trim', explode("\n", $request->exclusions))) : [],
             'itinerary'        => $this->parseItineraryLines($request->itinerary),
             'images'           => $imagePaths,
+            'alt_text'         => $request->input('alt_text') ?? [],
             'status'           => $request->has('status'),
             'featured'         => $request->has('featured'),
         ]);
@@ -104,7 +108,9 @@ class PackageController extends Controller
             'meta_title'       => 'nullable|string|max:255',
             'meta_description' => 'nullable|string',
             'meta_keywords'    => 'nullable|string',
-            'images.*'       => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096'
+            'meta_tags'        => 'nullable|string',
+            'images.*'       => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096',
+            'alt_text'         => 'nullable|array'
         ]);
 
         $imagePaths = $package->images ?? [];
@@ -135,10 +141,12 @@ class PackageController extends Controller
             'meta_title'       => $request->meta_title,
             'meta_description' => $request->meta_description,
             'meta_keywords'    => $request->meta_keywords,
+            'meta_tags'        => $request->meta_tags,
             'inclusions'       => $request->inclusions ? array_filter(array_map('trim', explode("\n", $request->inclusions))) : [],
             'exclusions'       => $request->exclusions ? array_filter(array_map('trim', explode("\n", $request->exclusions))) : [],
             'itinerary'        => $this->parseItineraryLines($request->itinerary),
             'images'           => $imagePaths,
+            'alt_text'         => $request->input('alt_text') ?? [],
             'status'           => $request->has('status'),
             'featured'         => $request->has('featured'),
         ]);
@@ -158,7 +166,15 @@ class PackageController extends Controller
                 Storage::disk('public')->delete($imagePath);
             }
 
-            $package->update(['images' => array_values($images)]);
+            $altText = $package->alt_text ?? [];
+            if (isset($altText[$imagePath])) {
+                unset($altText[$imagePath]);
+            }
+
+            $package->update([
+                'images' => array_values($images),
+                'alt_text' => $altText
+            ]);
             return response()->json(['success' => true]);
         }
 

@@ -561,7 +561,7 @@ nav.pkg-pagination ul li span[aria-current] {
             <div class="pkg-card-item">
                 <div class="pkg-card-img">
                     <a href="{{ route('packages.show', $package->slug) }}" class="d-block w-100 h-100">
-                        <img src="{{ $imgUrl }}" alt="{{ $package->title }}">
+                        <img src="{{ $imgUrl }}" alt="{{ (!empty($package->images) && is_array($package->alt_text) && isset($package->alt_text[$package->images[0]])) ? $package->alt_text[$package->images[0]] : $package->title }}">
                     </a>
                     @if($package->difficulty)
                         <span class="pkg-img-badge diff">{{ $package->difficulty }}</span>

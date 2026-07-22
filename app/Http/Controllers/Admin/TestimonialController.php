@@ -28,6 +28,7 @@ class TestimonialController extends Controller
             'rating' => 'required|integer|min:1|max:5',
             'image' => 'nullable|image|max:2048',
             'video_link' => 'nullable|url|max:255',
+            'alt_text' => 'nullable|string|max:255',
         ]);
 
         if ($request->hasFile('image')) {
@@ -52,6 +53,7 @@ class TestimonialController extends Controller
             'rating' => 'required|integer|min:1|max:5',
             'image' => 'nullable|image|max:2048',
             'video_link' => 'nullable|url|max:255',
+            'alt_text' => 'nullable|string|max:255',
         ]);
 
         if ($request->hasFile('image')) {

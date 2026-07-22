@@ -27,6 +27,7 @@ class GalleryController extends Controller
             'image' => 'required|image',
             'category' => 'required|string',
             'status' => 'required|boolean',
+            'alt_text' => 'nullable|string|max:255',
         ]);
 
         if ($request->hasFile('image')) {
@@ -50,6 +51,7 @@ class GalleryController extends Controller
             'image' => 'nullable|image|max:2048',
             'category' => 'required|string',
             'status' => 'required|boolean',
+            'alt_text' => 'nullable|string|max:255',
         ]);
 
         if ($request->hasFile('image')) {

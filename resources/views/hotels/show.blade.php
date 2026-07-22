@@ -128,7 +128,7 @@
                             @foreach(array_slice($hotel->images, 1) as $img)
                                 <div class="col-md-6">
                                     <div class="rounded-4 overflow-hidden shadow-sm" style="height: 220px; border: 1px solid #eee;">
-                                        <img src="{{ asset('storage/' . $img) }}" class="w-100 h-100 object-fit-cover hover-scale transition-all" style="transition:0.4s;" alt="Gallery">
+                                        <img src="{{ asset('storage/' . $img) }}" class="w-100 h-100 object-fit-cover hover-scale transition-all" style="transition:0.4s;" alt="{{ (is_array($hotel->alt_text) && isset($hotel->alt_text[$img])) ? $hotel->alt_text[$img] : ($hotel->name . ' - Gallery Image') }}">
                                     </div>
                                 </div>
                             @endforeach
@@ -152,7 +152,7 @@
                                         <div class="p-4 border-bottom hover-bg-light transition-all" style="transition: 0.25s;">
                                             @if(!empty($room->images))
                                                 <div class="rounded-4 overflow-hidden mb-3" style="height: 160px; border:1px solid #eee;">
-                                                    <img src="{{ asset('storage/' . $room->images[0]) }}" class="w-100 h-100 object-fit-cover" alt="{{ $room->room_type }}">
+                                                    <img src="{{ asset('storage/' . $room->images[0]) }}" class="w-100 h-100 object-fit-cover" alt="{{ (is_array($room->alt_text) && isset($room->alt_text[$room->images[0]])) ? $room->alt_text[$room->images[0]] : $room->room_type }}">
                                                 </div>
                                             @endif
                                             <div class="d-flex justify-content-between align-items-start mb-2">

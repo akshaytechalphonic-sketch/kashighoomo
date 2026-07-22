@@ -52,6 +52,10 @@
                             <small class="text-muted">Leave empty to keep existing photo.</small>
                         </div>
                         <div class="mb-4">
+                            <label class="form-label fw-bold">Photo Alt Text</label>
+                            <input type="text" name="alt_text" class="form-control" value="{{ old('alt_text', $testimonial->alt_text) }}" placeholder="Describe guest photo for screen readers & SEO">
+                        </div>
+                        <div class="mb-4">
                             <label class="form-label fw-bold">YouTube Video URL</label>
                             <input type="url" name="video_link" class="form-control"
                                 placeholder="https://youtu.be/Lmjd3CsjYiM or https://www.youtube.com/watch?v=Lmjd3CsjYiM"

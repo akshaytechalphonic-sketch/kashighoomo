@@ -16,7 +16,7 @@
             <div class="card border-0 shadow-premium p-4 rounded-4 h-100 position-relative d-flex flex-column text-center">
                 <i class="bi bi-quote fs-1 opacity-25" style="position: absolute; top: 10px; right: 20px; color: var(--secondary-blue);"></i>
                 <div class="mb-4 d-flex justify-content-center">
-                    <img src="{{ $testimony->image ? asset('storage/'.$testimony->image) : 'https://ui-avatars.com/api/?name='.urlencode($testimony->name).'&background=0B2240&color=C90000' }}" class="rounded-circle shadow-sm border border-2" width="100" height="100" style="object-fit: cover; border-color: var(--secondary-blue) !important;" alt="Guest">
+                    <img src="{{ $testimony->image ? asset('storage/'.$testimony->image) : 'https://ui-avatars.com/api/?name='.urlencode($testimony->name).'&background=0B2240&color=C90000' }}" class="rounded-circle shadow-sm border border-2" width="100" height="100" style="object-fit: cover; border-color: var(--secondary-blue) !important;" alt="{{ $testimony->alt_text ?? $testimony->name }}">
                 </div>
                 <p class="text-muted italic mb-4">"{{ $testimony->content }}"</p>
                 <div class="mt-auto">

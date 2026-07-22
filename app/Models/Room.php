@@ -22,6 +22,11 @@ class Room extends Model
         'rate_plans',
         'inclusions',
         'exclusions',
+        'meta_title',
+        'meta_description',
+        'meta_keywords',
+        'meta_tags',
+        'alt_text',
     ];
 
     protected function casts(): array
@@ -33,6 +38,7 @@ class Room extends Model
             'rate_plans'   => 'array',
             'inclusions'   => 'array',
             'exclusions'   => 'array',
+            'alt_text'     => 'array',
         ];
     }
 

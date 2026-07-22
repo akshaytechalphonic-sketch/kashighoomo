@@ -28,7 +28,12 @@ class CabBookingPackageController extends Controller
             'seating_capacity' => 'required|integer|min:1',
             'price'            => 'required|numeric|min:0',
             'description'      => 'nullable|string',
-            'images.*'         => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096'
+            'images.*'         => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096',
+            'meta_title'       => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords'    => 'nullable|string',
+            'meta_tags'        => 'nullable|string',
+            'alt_text'         => 'nullable|array'
         ]);
 
         $imagePaths = [];
@@ -46,6 +51,11 @@ class CabBookingPackageController extends Controller
             'description'      => $request->description,
             'images'           => $imagePaths,
             'status'           => $request->has('status'),
+            'meta_title'       => $request->meta_title,
+            'meta_description' => $request->meta_description,
+            'meta_keywords'    => $request->meta_keywords,
+            'meta_tags'        => $request->meta_tags,
+            'alt_text'         => $request->input('alt_text') ?? [],
         ]);
 
         return redirect()->route('admin.cab-packages.index')->with('success', 'Cab booking package created successfully.');
@@ -67,7 +77,12 @@ class CabBookingPackageController extends Controller
             'seating_capacity' => 'required|integer|min:1',
             'price'            => 'required|numeric|min:0',
             'description'      => 'nullable|string',
-            'images.*'         => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096'
+            'images.*'         => 'nullable|image|mimes:jpeg,png,jpg,gif|max:4096',
+            'meta_title'       => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords'    => 'nullable|string',
+            'meta_tags'        => 'nullable|string',
+            'alt_text'         => 'nullable|array'
         ]);
 
         $imagePaths = $cabPackage->images ?? [];
@@ -85,6 +100,11 @@ class CabBookingPackageController extends Controller
             'description'      => $request->description,
             'images'           => $imagePaths,
             'status'           => $request->has('status'),
+            'meta_title'       => $request->meta_title,
+            'meta_description' => $request->meta_description,
+            'meta_keywords'    => $request->meta_keywords,
+            'meta_tags'        => $request->meta_tags,
+            'alt_text'         => $request->input('alt_text') ?? [],
         ]);
 
         return redirect()->route('admin.cab-packages.index')->with('success', 'Cab booking package updated successfully.');
@@ -103,7 +123,15 @@ class CabBookingPackageController extends Controller
                 Storage::disk('public')->delete($imagePath);
             }
 
-            $cabPackage->update(['images' => array_values($images)]);
+            $altText = $cabPackage->alt_text ?? [];
+            if (isset($altText[$imagePath])) {
+                unset($altText[$imagePath]);
+            }
+
+            $cabPackage->update([
+                'images' => array_values($images),
+                'alt_text' => $altText
+            ]);
             return response()->json(['success' => true]);
         }
 

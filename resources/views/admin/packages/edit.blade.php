@@ -144,24 +144,37 @@
                     @error('meta_keywords')<div class="invalid-feedback">{{ $message }}</div>@enderror
                 </div>
 
+                <div class="col-12">
+                    <label class="form-label fw-bold">Custom Meta Tags (HTML)</label>
+                    <textarea name="meta_tags" class="form-control" rows="4" placeholder="Enter custom HTML meta tags (e.g. Open Graph, Canonical, JSON-LD)">{{ old('meta_tags', $package->meta_tags) }}</textarea>
+                </div>
+
                 {{-- Existing Images --}}
                 <div class="col-12"><hr><h5 class="fw-bold text-secondary">Package Images</h5></div>
                 @if(!empty($package->images))
                 <div class="col-12">
-                    <label class="form-label text-muted small">Existing Images:</label>
-                    <div class="d-flex flex-wrap gap-2">
+                    <label class="form-label text-muted small">Existing Images & Alt Text:</label>
+                    <div class="row g-3">
                         @foreach($package->images as $img)
-                        <div class="position-relative image-container">
-                            <img src="{{ asset('storage/'.$img) }}" height="80" class="rounded border">
-                            <button type="button" class="btn btn-danger btn-sm position-absolute top-0 end-0 p-0 rounded-circle remove-image" 
-                                    style="width:20px; height:20px; line-height:1; transform: translate(50%, -50%);"
-                                    data-path="{{ $img }}">
-                                &times;
-                            </button>
+                        <div class="col-md-3 col-sm-6 image-container">
+                            <div class="card h-100 border">
+                                <div class="position-relative text-center bg-light p-2" style="height:120px;">
+                                    <img src="{{ asset('storage/'.$img) }}" class="h-100 w-auto object-fit-contain rounded">
+                                    <button type="button" class="btn btn-danger btn-sm position-absolute top-0 end-0 p-0 rounded-circle remove-image" 
+                                            style="width:20px; height:20px; line-height:1; transform: translate(-5px, 5px);"
+                                            data-path="{{ $img }}">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="card-body p-2">
+                                    <label class="small fw-bold mb-1">Alt Text</label>
+                                    <input type="text" name="alt_text[{{ $img }}]" class="form-control form-control-sm" value="{{ $package->alt_text[$img] ?? '' }}" placeholder="Image description">
+                                </div>
+                            </div>
                         </div>
                         @endforeach
                     </div>
-                    <small class="text-muted">Upload new images to add more. Existing ones are kept.</small>
+                    <small class="text-muted d-block mt-2">Upload new images below to add more. Existing ones are kept.</small>
                 </div>
                 @endif
                 <div class="col-12">

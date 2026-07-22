@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', $package->meta_title ?: ($package->title . ' | Kashi Tourism'))
+{{-- @section('title', $package->meta_title ?: ($package->title . ' | Kashi Tourism'))
 @section('meta_description', $package->meta_description ?: ($page->meta_description ?? ''))
-@section('meta_keywords', $package->meta_keywords ?: ($page->meta_keywords ?? ''))
+@section('meta_keywords', $package->meta_keywords ?: ($page->meta_keywords ?? '')) --}}
 
 @push('styles')
     <style>
@@ -106,6 +106,7 @@
             <!-- Airbnb-style Photo Grid Collage -->
             @php
                 $images = !empty($package->images) && count($package->images) > 0 ? $package->images : [];
+                $altTexts = is_array($package->alt_text) ? $package->alt_text : [];
                 $defaultImages = [
                     'https://images.unsplash.com/photo-1598897516650-df69c2fdd6a7?auto=format&fit=crop&q=80&w=1000', // Ganga ghats
                     'https://images.unsplash.com/photo-1561361060-61992518e1b8?auto=format&fit=crop&q=80&w=600',  // Ganga Aarti
@@ -128,16 +129,16 @@
                     <!-- Left Main Image -->
                     <div class="col-md-8 col-12">
                         <div class="collage-main-wrapper position-relative rounded-4 overflow-hidden" style="height: 400px; border: 1px solid #E8E8E8;">
-                            <img src="{{ $displayImages[0] }}" class="w-100 h-100 object-fit-cover" alt="Main image">
+                            <img src="{{ $displayImages[0] }}" class="w-100 h-100 object-fit-cover" alt="{{ (isset($images[0]) && isset($altTexts[$images[0]])) ? $altTexts[$images[0]] : ($package->title . ' - Cover') }}">
                         </div>
                     </div>
                     <!-- Right Stacking Images -->
                     <div class="col-md-4 col-12 d-flex flex-column gap-2">
                         <div class="collage-side-wrapper position-relative rounded-4 overflow-hidden" style="height: 196px; border: 1px solid #E8E8E8;">
-                            <img src="{{ $displayImages[1] }}" class="w-100 h-100 object-fit-cover" alt="Side image 1">
+                            <img src="{{ $displayImages[1] }}" class="w-100 h-100 object-fit-cover" alt="{{ (isset($images[1]) && isset($altTexts[$images[1]])) ? $altTexts[$images[1]] : ($package->title . ' - Sightseeing') }}">
                         </div>
                         <div class="collage-side-wrapper position-relative rounded-4 overflow-hidden" style="height: 196px; border: 1px solid #E8E8E8;">
-                            <img src="{{ $displayImages[2] }}" class="w-100 h-100 object-fit-cover" alt="Side image 2">
+                            <img src="{{ $displayImages[2] }}" class="w-100 h-100 object-fit-cover" alt="{{ (isset($images[2]) && isset($altTexts[$images[2]])) ? $altTexts[$images[2]] : ($package->title . ' - Attractions') }}">
                             <button class="btn btn-light position-absolute show-all-photos-btn" data-bs-toggle="modal" data-bs-target="#galleryModal">
                                 <i class="bi bi-grid-3x3-gap-fill me-2"></i> Show all {{ max(count($images), 3) }} photos
                             </button>
@@ -323,7 +324,7 @@
                         <div class="item hover-img bg-white shadow-sm border-0 rounded-4 overflow-hidden h-100 d-flex flex-column">
                             <div class="position-relative" style="height:190px;">
                                 <a href="{{ route('packages.show', $rp->slug) }}" class="d-block w-100 h-100">
-                                    <img src="{{ !empty($rp->images) ? asset('storage/'.$rp->images[0]) : 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800' }}" class="w-100 h-100 object-fit-cover" alt="{{ $rp->title }}">
+                                    <img src="{{ !empty($rp->images) ? asset('storage/'.$rp->images[0]) : 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800' }}" class="w-100 h-100 object-fit-cover" alt="{{ (!empty($rp->images) && is_array($rp->alt_text) && isset($rp->alt_text[$rp->images[0]])) ? $rp->alt_text[$rp->images[0]] : $rp->title }}">
                                 </a>
                                 <div class="position-absolute text-white rounded-pill px-3 py-1 fw-bold" style="background-color: #F57C00 !important; top:12px; right:12px; font-size:10px;">
                                     {{ $rp->duration }}
@@ -359,7 +360,7 @@
                             @foreach($images as $img)
                                 <div class="col-md-6 col-12">
                                     <div class="rounded-3 overflow-hidden shadow-sm h-100" style="border: 1px solid #E8E8E8;">
-                                        <img src="{{ asset('storage/'.$img) }}" class="w-100 h-100 object-fit-cover" style="min-height: 250px;" alt="Tour photo">
+                                        <img src="{{ asset('storage/'.$img) }}" class="w-100 h-100 object-fit-cover" style="min-height: 250px;" alt="{{ (is_array($package->alt_text) && isset($package->alt_text[$img])) ? $package->alt_text[$img] : ($package->title . ' - Gallery Photo') }}">
                                     </div>
                                 </div>
                             @endforeach

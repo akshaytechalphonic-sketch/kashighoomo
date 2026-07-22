@@ -12,6 +12,7 @@ class Page extends Model
         'meta_title',
         'meta_description',
         'meta_keywords',
+        'meta_tags',
         'status',
     ];
 

@@ -48,7 +48,7 @@
                     <div class="item hover-img bg-white shadow-sm border-0 rounded-4 overflow-hidden h-100 d-flex flex-column" style="border: 1px solid #eee !important;">
                         <div class="archive-top position-relative overflow-hidden" style="height:180px; background-color:#f3f4f6;">
                             @if(!empty($cab->images) && count($cab->images) > 0)
-                                <img src="{{ asset('storage/' . $cab->images[0]) }}" alt="{{ $cab->cab_name }}" class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;">
+                                <img src="{{ asset('storage/' . $cab->images[0]) }}" alt="{{ (is_array($cab->alt_text) && isset($cab->alt_text[$cab->images[0]])) ? $cab->alt_text[$cab->images[0]] : $cab->cab_name }}" class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;">
                             @else
                                 <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center text-muted">
                                     <i class="bi bi-car-front text-warning display-4"></i>

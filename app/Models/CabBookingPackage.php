@@ -14,6 +14,11 @@ class CabBookingPackage extends Model
         'price',
         'description',
         'status',
+        'meta_title',
+        'meta_description',
+        'meta_keywords',
+        'meta_tags',
+        'alt_text',
     ];
 
     protected function casts(): array
@@ -23,6 +28,7 @@ class CabBookingPackage extends Model
             'status'           => 'boolean',
             'seating_capacity' => 'integer',
             'price'            => 'decimal:2',
+            'alt_text'         => 'array',
         ];
     }
 
