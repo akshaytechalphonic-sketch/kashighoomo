@@ -36,6 +36,7 @@
         .login-logo img {
             max-height: 65px;
             object-fit: contain;
+            margin-left:80px;
         }
 
         .login-title {
