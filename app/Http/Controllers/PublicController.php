@@ -375,13 +375,36 @@ class PublicController extends Controller
         return view('faq', compact('page', 'sections', 'faqs'));
     }
 
-    public function packages(Request $request)
+    public function packages(Request $request, $slug = null)
     {
+        if ($slug) {
+            // Check if there is a package with this slug
+            $package = Package::where('slug', $slug)->where('status', true)->first();
+            if ($package) {
+                return $this->packageShow($slug);
+            }
+
+            // Check if there is a destination with this slug
+            $destinationExists = Destination::where('slug', $slug)->where('status', true)->exists();
+            if (!$destinationExists) {
+                abort(404);
+            }
+        }
+
         $query = Package::where('status', true)->with(['destination', 'service']);
 
-        if ($request->filled('destination_id')) {
+        if ($slug) {
+            $query->whereHas('destination', function($q) use ($slug) {
+                $q->where('slug', $slug);
+            });
+        } elseif ($request->filled('destination_id')) {
             $query->where('destination_id', $request->destination_id);
+        } elseif ($request->filled('slug')) {
+            $query->whereHas('destination', function($q) use ($request) {
+                $q->where('slug', $request->slug);
+            });
         }
+
         if ($request->filled('service_id')) {
             $query->where('service_id', $request->service_id);
         }

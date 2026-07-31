@@ -728,7 +728,7 @@
                                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Tour Packages <span class="bi bi-chevron-down ms-1" style="font-size: 10px;"></span></a>
                                             <ul class="dropdown-menu border-0 shadow-lg p-2 rounded-3 dropdown-menu-premium">
                                                 @forelse($headerDestinations as $dest)
-                                                    <li><a class="dropdown-item rounded-2" href="{{ route('packages.index', ['destination_id' => $dest->id]) }}">{{ $dest->name }} Tour</a></li>
+                                                    <li><a class="dropdown-item rounded-2" href="{{ route('packages.index', $dest->slug) }}">{{ $dest->name }} Tour</a></li>
                                                 @empty
                                                     <li><a class="dropdown-item rounded-2" href="{{ route('packages.index') }}">Varanasi Tour</a></li>
                                                 @endforelse

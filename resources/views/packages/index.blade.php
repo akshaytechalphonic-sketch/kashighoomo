@@ -431,12 +431,25 @@ nav.pkg-pagination ul li span[aria-current] {
     $pkgTitle = $bannerSection?->title ?: 'Kashi Tour Packages';
     $pkgDesc  = $bannerSection?->description ?: 'Explore handpicked premium tours and spiritual itineraries across Kashi.';
 
+    // Resolve the destination from the route parameter 'slug' or the 'destination_id' query parameter
+    $selectedDestId = request('destination_id');
+    $routeSlug = request()->route('slug');
+    
     // Active filter labels for pills
     $activeFilters = [];
-    if(request('destination_id')) {
-        $activeDest = $destinations->firstWhere('id', request('destination_id'));
-        if($activeDest) $activeFilters[] = ['icon' => 'bi-geo-alt-fill', 'label' => $activeDest->name];
+    if ($routeSlug) {
+        $activeDest = $destinations->firstWhere('slug', $routeSlug);
+        if ($activeDest) {
+            $selectedDestId = $activeDest->id;
+            $activeFilters[] = ['icon' => 'bi-geo-alt-fill', 'label' => $activeDest->name];
+        }
+    } elseif ($selectedDestId) {
+        $activeDest = $destinations->firstWhere('id', $selectedDestId);
+        if ($activeDest) {
+            $activeFilters[] = ['icon' => 'bi-geo-alt-fill', 'label' => $activeDest->name];
+        }
     }
+
     if(request('service_id')) {
         $activeSvc = $services->firstWhere('id', request('service_id'));
         if($activeSvc) $activeFilters[] = ['icon' => 'bi-compass-fill', 'label' => $activeSvc->title];
@@ -476,7 +489,7 @@ nav.pkg-pagination ul li span[aria-current] {
                         <select name="destination_id">
                             <option value="">All Destinations</option>
                             @foreach($destinations as $dest)
-                                <option value="{{ $dest->id }}" {{ request('destination_id') == $dest->id ? 'selected' : '' }}>
+                                <option value="{{ $dest->id }}" {{ $selectedDestId == $dest->id ? 'selected' : '' }}>
                                     {{ $dest->name }}
                                 </option>
                             @endforeach
