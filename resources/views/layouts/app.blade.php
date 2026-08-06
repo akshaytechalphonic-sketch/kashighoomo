@@ -1067,7 +1067,8 @@
                     </div>
                     <form class="form-account" id="loginForm" onsubmit="event.preventDefault(); alert('Login simulated successfully!');">
                         <div class="title-box">
-                            <h1>Login</h1>
+                            {{-- <h1>Login</h1> --}}
+                            <p style="font-size:2em;font-weight:bold;margin:0.67em 0;">Login</p>
                             <span class="close-modal icon-X" data-bs-dismiss="modal"></span>
                         </div>
                         <div class="box">
@@ -1113,7 +1114,8 @@
                     </div>
                     <form class="form-account" onsubmit="event.preventDefault(); alert('Registration simulated successfully!');">
                         <div class="title-box">
-                            <h1>Register</h1>
+                            {{-- <h1>Register</h1> --}}
+                            <p style="font-size:2em;font-weight:bold;margin:0.67em 0;">Register</p>
                             <span class="close-modal icon-X" data-bs-dismiss="modal"></span>
                         </div>
                         <div class="box">
@@ -1163,7 +1165,8 @@
                     </div>
                     <form class="form-account" onsubmit="event.preventDefault();">
                         <div class="title-box">
-                            <h1>Forgot Password</h1>
+                            {{-- <h1>Forgot Password</h1> --}}
+                            <p style="font-size:2em;font-weight:bold;margin:0.67em 0;">Forgot Password</p>
                             <span class="close-modal icon-X" data-bs-dismiss="modal"></span>
                         </div>
                         <div class="box">
@@ -1198,7 +1201,8 @@
                     </div>
                     <form class="form-account otp-form" id="otpForm" onsubmit="event.preventDefault();">
                         <div class="title-box">
-                            <h1>Enter Code</h1>
+                            {{-- <h1>Enter Code</h1> --}}
+                            <p style="font-size:2em;font-weight:bold;margin:0.67em 0;">Enter Code</p>
                             <span class="close-modal icon-X" data-bs-dismiss="modal"></span>
                         </div>
                         <p class="text-center caption-2 mb-4">
@@ -1239,7 +1243,8 @@
                     </div>
                     <form class="form-account" onsubmit="event.preventDefault();">
                         <div class="title-box">
-                            <h1>Reset Password</h1>
+                            {{-- <h1>Reset Password</h1> --}}
+                            <p style="font-size:2em;font-weight:bold;margin:0.67em 0;">Reset Password</p>
                             <span class="close-modal icon-X" data-bs-dismiss="modal"></span>
                         </div>
                         <div class="box">
