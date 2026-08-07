@@ -20,6 +20,7 @@
     <meta name="description" content="@yield('meta_description', $metaDescription)">
     <meta name="keywords"    content="@yield('meta_keywords',    $metaKeywords)">
   
+
     {{-- <meta property="og:title"       content="@yield('title', $metaTitle)">
     <meta property="og:description" content="@yield('meta_description', $metaDescription)">
     <meta property="og:type"        content="website">
@@ -33,6 +34,20 @@
     @if(!empty($metaTags))
         {!! $metaTags !!}
     @endif
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6NXL4XDWS"></script>
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+ 
+  gtag('config', 'G-Z6NXL4XDWS');
+</script>
+ 
 
     <!-- Fonts -->
     <link rel="stylesheet" href="{{ asset('frontend-theme/fonts/fonts.css') }}">
