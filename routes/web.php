@@ -67,6 +67,7 @@ Route::get('/destinations/{slug}', [PublicController::class, 'destinationDetails
 
 // Public Cabs and Boat Rides routes
 Route::get('/cabs', [PublicController::class, 'cabs'])->name('cabs.index');
+Route::get('/cabs/{slug}', [PublicController::class, 'cabDetails'])->name('cabs.show');
 Route::post('/cabs/{id}/enquire', [PublicController::class, 'storeCabEnquiry'])->name('cabs.enquire');
 Route::get('/boat-rides', [PublicController::class, 'boatRides'])->name('boat-rides.index');
 

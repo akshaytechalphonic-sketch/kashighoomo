@@ -43,8 +43,11 @@ class CabBookingPackageController extends Controller
             }
         }
 
+        $slug = CabBookingPackage::generateSlug($request->cab_name);
+
         CabBookingPackage::create([
             'cab_name'         => $request->cab_name,
+            'slug'             => $slug,
             'vehicle_type'     => $request->vehicle_type,
             'seating_capacity' => $request->seating_capacity,
             'price'            => $request->price,
@@ -92,8 +95,14 @@ class CabBookingPackageController extends Controller
             }
         }
 
+        $slug = $cabPackage->slug;
+        if ($cabPackage->cab_name !== $request->cab_name) {
+            $slug = CabBookingPackage::generateSlug($request->cab_name);
+        }
+
         $cabPackage->update([
             'cab_name'         => $request->cab_name,
+            'slug'             => $slug,
             'vehicle_type'     => $request->vehicle_type,
             'seating_capacity' => $request->seating_capacity,
             'price'            => $request->price,

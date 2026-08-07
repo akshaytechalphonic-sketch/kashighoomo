@@ -377,6 +377,7 @@ class PublicController extends Controller
 
     public function packages(Request $request, $slug = null)
     {
+       
         if ($slug) {
             // Check if there is a package with this slug
             $package = Package::where('slug', $slug)->where('status', true)->first();
@@ -411,7 +412,11 @@ class PublicController extends Controller
         if ($request->filled('difficulty')) {
             $query->where('difficulty', $request->difficulty);
         }
-        if ($request->filled('cab_booking_package_id')) {
+        if ($request->filled('cab_booking_package_slug')) {
+            $query->whereHas('cabBookingPackage', function($q) use ($request) {
+                $q->where('slug', $request->cab_booking_package_slug);
+            });
+        } elseif ($request->filled('cab_booking_package_id')) {
             $query->where('cab_booking_package_id', $request->cab_booking_package_id);
         }
 
@@ -495,6 +500,15 @@ class PublicController extends Controller
         $page = Page::where('slug', 'cab-booking')->first() ?? Page::create(['page_name' => 'Cab Booking', 'slug' => 'cab-booking', 'status' => true]);
         $sections = $page->sections()->where('status', true)->get()->keyBy('section_name');
         return view('cabs', compact('cabs', 'page', 'sections'));
+    }
+
+    public function cabDetails($slug)
+    {
+        $cab = \App\Models\CabBookingPackage::where('slug', $slug)->where('status', true)->firstOrFail();
+        $packages = Package::where('cab_booking_package_id', $cab->id)->where('status', true)->latest()->paginate(8);
+        $page = Page::where('slug', 'cab-booking')->first();
+        $sections = $page ? $page->sections()->where('status', true)->get()->keyBy('section_name') : collect();
+        return view('cabs.show', compact('cab', 'packages', 'page', 'sections'));
     }
 
     public function storeCabEnquiry(Request $request, $id)

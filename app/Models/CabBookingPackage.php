@@ -3,11 +3,13 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class CabBookingPackage extends Model
 {
     protected $fillable = [
         'cab_name',
+        'slug',
         'vehicle_type',
         'images',
         'seating_capacity',
@@ -30,6 +32,14 @@ class CabBookingPackage extends Model
             'price'            => 'decimal:2',
             'alt_text'         => 'array',
         ];
+    }
+
+    public static function generateSlug($cabName)
+    {
+        $slug = Str::slug($cabName);
+        $count = self::where('slug', 'LIKE', "{$slug}%")->count();
+
+        return $count ? "{$slug}-{$count}" : $slug;
     }
 
     public function packages()

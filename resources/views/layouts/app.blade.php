@@ -749,7 +749,7 @@
                                                         }
                                                     @endphp
                                                     <li>
-                                                        <a class="dropdown-item rounded-2" href="{{ route('packages.index', ['cab_booking_package_id' => $cab->id]) }}">
+                                                        <a class="dropdown-item rounded-2" href="{{ route('cabs.show', $cab->slug) }}">
                                                             {{ $icon }} {{ $cab->cab_name }}
                                                         </a>
                                                     </li>
@@ -980,7 +980,7 @@
                                 <div class="text-white h5 fw-bold mb-4" style="border-bottom: 2px solid #8B1E1E; padding-bottom: 8px; display: inline-block; font-size: 15px;">CAB BOOKING</div>
                                 <ul class="tour-list p-0" style="list-style:none; line-height: 2;">
                                     @forelse($headerCabs as $cab)
-                                        <li><a href="{{ route('packages.index', ['cab_booking_package_id' => $cab->id]) }}" class="text-white-50 text-decoration-none hover-text-warning" style="font-size: 13px;">{{ $cab->cab_name }}</a></li>
+                                        <li><a href="{{ route('cabs.show', $cab->slug) }}" class="text-white-50 text-decoration-none hover-text-warning" style="font-size: 13px;">{{ $cab->cab_name }}</a></li>
                                     @empty
                                         <li><a href="{{ route('cabs.index') }}" class="text-white-50 text-decoration-none hover-text-warning" style="font-size: 13px;">All Cab Booking Services</a></li>
                                     @endforelse
