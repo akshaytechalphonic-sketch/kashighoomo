@@ -73,4 +73,9 @@ class Package extends Model
     {
         return $this->hasMany(Enquiry::class);
     }
+
+    public function faqs()
+    {
+        return $this->hasMany(Faq::class)->orderBy('order');
+    }
 }

@@ -23,6 +23,14 @@
                     @error('cab_name')<div class="invalid-feedback">{{ $message }}</div>@enderror
                 </div>
 
+                <!-- Custom Slug -->
+                <div class="col-md-6">
+                    <label for="slug" class="form-label fw-bold">Custom Slug (Optional)</label>
+                    <input type="text" name="slug" id="slug" class="form-control @error('slug') is-invalid @enderror" value="{{ old('slug', $cabPackage->slug) }}" placeholder="e.g. maruti-suzuki-dzire">
+                    @error('slug')<div class="invalid-feedback">{{ $message }}</div>@enderror
+                    <small class="text-muted d-block mt-1">Will remain unchanged or auto-generated if left blank.</small>
+                </div>
+
                 <!-- Vehicle Type -->
                 <div class="col-md-6">
                     <label for="vehicle_type" class="form-label fw-bold">Vehicle Type <span class="text-danger">*</span></label>

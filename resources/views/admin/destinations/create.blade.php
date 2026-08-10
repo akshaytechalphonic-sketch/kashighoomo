@@ -13,8 +13,15 @@
             <div class="row g-4">
                 <div class="col-md-8">
                     <div class="mb-4">
-                        <label class="form-label fw-bold">Destination Name</label>
-                        <input type="text" name="name" class="form-control" required placeholder="e.g. Maldives Turquoise Atolls">
+                        <label class="form-label fw-bold">Destination Name *</label>
+                        <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" required placeholder="e.g. Maldives Turquoise Atolls" value="{{ old('name') }}">
+                        @error('name')<div class="invalid-feedback">{{ $message }}</div>@enderror
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">Custom Slug (Optional)</label>
+                        <input type="text" name="slug" class="form-control @error('slug') is-invalid @enderror" placeholder="e.g. maldives-turquoise-atolls" value="{{ old('slug') }}">
+                        @error('slug')<div class="invalid-feedback">{{ $message }}</div>@enderror
+                        <small class="text-muted d-block mt-1">Will be auto-generated from Name if left blank.</small>
                     </div>
                     <div class="mb-4">
                         <label class="form-label fw-bold">Detailed Description</label>

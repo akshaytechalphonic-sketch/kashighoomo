@@ -30,6 +30,7 @@ class PackageController extends Controller
     {
         $request->validate([
             'title'          => 'required|string|max:255',
+            'slug'           => 'nullable|string|max:255|unique:packages,slug',
             'duration'       => 'required|string|max:255',
             'price'          => 'required|numeric|min:0',
             'destination_id' => 'nullable|integer',
@@ -54,7 +55,7 @@ class PackageController extends Controller
             }
         }
 
-        $slug = Package::generateSlug($request->title);
+        $slug = $request->filled('slug') ? \Illuminate\Support\Str::slug($request->slug) : Package::generateSlug($request->title);
 
         Package::create([
             'destination_id'   => $request->destination_id,
@@ -96,6 +97,7 @@ class PackageController extends Controller
     {
         $request->validate([
             'title'          => 'required|string|max:255',
+            'slug'           => 'nullable|string|max:255|unique:packages,slug,' . $package->id,
             'duration'       => 'required|string|max:255',
             'price'          => 'required|numeric|min:0',
             'destination_id' => 'nullable|integer',
@@ -120,9 +122,11 @@ class PackageController extends Controller
             }
         }
 
-        // Only regenerate slug if title changes
+        // Only regenerate slug if custom slug is updated or title changes
         $slug = $package->slug;
-        if ($package->title !== $request->title) {
+        if ($request->filled('slug')) {
+            $slug = \Illuminate\Support\Str::slug($request->slug);
+        } elseif ($package->title !== $request->title) {
             $slug = Package::generateSlug($request->title);
         }
 

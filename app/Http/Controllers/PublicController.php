@@ -444,7 +444,9 @@ class PublicController extends Controller
         $page = Page::where('slug', 'package-detail')->first();
         $sections = $page ? $page->sections()->where('status', true)->get()->keyBy('section_name') : collect();
 
-        return view('packages.show', compact('package', 'relatedPackages', 'page', 'sections'));
+        $faqs = \App\Models\Faq::where('package_id', $package->id)->where('status', true)->orderBy('order')->get();
+
+        return view('packages.show', compact('package', 'relatedPackages', 'page', 'sections', 'faqs'));
     }
 
     public function storePackageEnquiry(Request $request, Package $package)

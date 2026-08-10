@@ -23,6 +23,7 @@ class DestinationController extends Controller
     {
         $validated = $request->validate([
             'name' => 'required|string|max:255',
+            'slug' => 'nullable|string|max:255|unique:destinations,slug',
             'description' => 'nullable|string',
             'location' => 'nullable|string|max:255',
             'image' => 'nullable|image|max:2048',
@@ -36,6 +37,8 @@ class DestinationController extends Controller
         if ($request->hasFile('image')) {
             $validated['image'] = $request->file('image')->store('destinations', 'public');
         }
+
+        $validated['slug'] = $request->filled('slug') ? \Illuminate\Support\Str::slug($request->slug) : Destination::generateSlug($request->name);
 
         Destination::create($validated);
         return redirect()->route('admin.destinations.index')->with('success', 'Destination created successfully.');
@@ -50,6 +53,7 @@ class DestinationController extends Controller
     {
         $validated = $request->validate([
             'name' => 'required|string|max:255',
+            'slug' => 'nullable|string|max:255|unique:destinations,slug,' . $destination->id,
             'description' => 'nullable|string',
             'location' => 'nullable|string|max:255',
             'image' => 'nullable|image|max:2048',
@@ -63,7 +67,15 @@ class DestinationController extends Controller
         if ($request->hasFile('image')) {
             $validated['image'] = $request->file('image')->store('destinations', 'public');
         }
-        $validated['slug'] = Destination::generateSlug($request->name);
+
+        if ($request->filled('slug')) {
+            $validated['slug'] = \Illuminate\Support\Str::slug($request->slug);
+        } else {
+            $validated['slug'] = $destination->slug;
+            if ($destination->name !== $request->name) {
+                $validated['slug'] = Destination::generateSlug($request->name);
+            }
+        }
 
         $destination->update($validated);
         return redirect()->route('admin.destinations.index')->with('success', 'Destination updated successfully.');

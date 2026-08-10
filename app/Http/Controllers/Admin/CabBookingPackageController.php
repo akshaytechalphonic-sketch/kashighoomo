@@ -24,6 +24,7 @@ class CabBookingPackageController extends Controller
     {
         $request->validate([
             'cab_name'         => 'required|string|max:255',
+            'slug'             => 'nullable|string|max:255|unique:cab_booking_packages,slug',
             'vehicle_type'     => 'required|string|max:255',
             'seating_capacity' => 'required|integer|min:1',
             'price'            => 'required|numeric|min:0',
@@ -43,7 +44,7 @@ class CabBookingPackageController extends Controller
             }
         }
 
-        $slug = CabBookingPackage::generateSlug($request->cab_name);
+        $slug = $request->filled('slug') ? \Illuminate\Support\Str::slug($request->slug) : CabBookingPackage::generateSlug($request->cab_name);
 
         CabBookingPackage::create([
             'cab_name'         => $request->cab_name,
@@ -76,6 +77,7 @@ class CabBookingPackageController extends Controller
 
         $request->validate([
             'cab_name'         => 'required|string|max:255',
+            'slug'             => 'nullable|string|max:255|unique:cab_booking_packages,slug,' . $cabPackage->id,
             'vehicle_type'     => 'required|string|max:255',
             'seating_capacity' => 'required|integer|min:1',
             'price'            => 'required|numeric|min:0',
@@ -95,8 +97,11 @@ class CabBookingPackageController extends Controller
             }
         }
 
+        // Only regenerate slug if custom slug is updated or cab name changes
         $slug = $cabPackage->slug;
-        if ($cabPackage->cab_name !== $request->cab_name) {
+        if ($request->filled('slug')) {
+            $slug = \Illuminate\Support\Str::slug($request->slug);
+        } elseif ($cabPackage->cab_name !== $request->cab_name) {
             $slug = CabBookingPackage::generateSlug($request->cab_name);
         }
 

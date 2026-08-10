@@ -17,12 +17,18 @@
                     <input type="text" name="title" class="form-control @error('title') is-invalid @enderror" value="{{ old('title') }}" required>
                     @error('title')<div class="invalid-feedback">{{ $message }}</div>@enderror
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Custom Slug (Optional)</label>
+                    <input type="text" name="slug" class="form-control @error('slug') is-invalid @enderror" value="{{ old('slug') }}" placeholder="e.g. best-varanasi-tour">
+                    @error('slug')<div class="invalid-feedback">{{ $message }}</div>@enderror
+                    <small class="text-muted">Will be auto-generated from title if left blank.</small>
+                </div>
+                <div class="col-md-6">
                     <label class="form-label fw-bold">Duration *</label>
                     <input type="text" name="duration" class="form-control @error('duration') is-invalid @enderror" value="{{ old('duration') }}" placeholder="e.g. 6 Days / 5 Nights" required>
                     @error('duration')<div class="invalid-feedback">{{ $message }}</div>@enderror
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <label class="form-label fw-bold">Starting Price (INR) *</label>
                     <input type="number" step="0.01" name="price" class="form-control @error('price') is-invalid @enderror" value="{{ old('price') }}" required>
                     @error('price')<div class="invalid-feedback">{{ $message }}</div>@enderror

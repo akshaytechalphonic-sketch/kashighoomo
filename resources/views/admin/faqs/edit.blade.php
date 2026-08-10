@@ -27,6 +27,19 @@
                 @enderror
             </div>
 
+            <div class="mb-3">
+                <label for="package_id" class="form-label fw-bold">Associate with Tour Package (Optional)</label>
+                <select name="package_id" id="package_id" class="form-select @error('package_id') is-invalid @enderror">
+                    <option value="">-- Select Tour Package (Optional) --</option>
+                    @foreach($packages as $pkg)
+                        <option value="{{ $pkg->id }}" {{ old('package_id', $faq->package_id) == $pkg->id ? 'selected' : '' }}>{{ $pkg->title }}</option>
+                    @endforeach
+                </select>
+                @error('package_id')
+                    <div class="invalid-feedback">{{ $message }}</div>
+                @enderror
+            </div>
+
             <div class="row">
                 <div class="col-md-6">
                     <div class="mb-3">

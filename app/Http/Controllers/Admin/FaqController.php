@@ -16,7 +16,8 @@ class FaqController extends Controller
 
     public function create()
     {
-        return view('admin.faqs.create');
+        $packages = \App\Models\Package::orderBy('title')->get();
+        return view('admin.faqs.create', compact('packages'));
     }
 
     public function store(Request $request)
@@ -26,6 +27,7 @@ class FaqController extends Controller
             'answer' => 'required|string',
             'order' => 'nullable|integer',
             'status' => 'nullable|boolean',
+            'package_id' => 'nullable|exists:packages,id',
         ]);
 
         $validated['status'] = $request->has('status');
@@ -37,7 +39,8 @@ class FaqController extends Controller
 
     public function edit(Faq $faq)
     {
-        return view('admin.faqs.edit', compact('faq'));
+        $packages = \App\Models\Package::orderBy('title')->get();
+        return view('admin.faqs.edit', compact('faq', 'packages'));
     }
 
     public function update(Request $request, Faq $faq)
@@ -47,6 +50,7 @@ class FaqController extends Controller
             'answer' => 'required|string',
             'order' => 'nullable|integer',
             'status' => 'nullable|boolean',
+            'package_id' => 'nullable|exists:packages,id',
         ]);
 
         $validated['status'] = $request->has('status');

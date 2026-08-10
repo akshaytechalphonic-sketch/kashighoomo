@@ -314,6 +314,55 @@
                 </div>
             </div>
 
+            <!-- Associated FAQs Accordion -->
+            @if(isset($faqs) && $faqs->count() > 0)
+            <div class="py-5 mt-5 border-top border-light-muted">
+                <h3 class="fw-bold mb-4 font-family-poppins text-dark text-center">Frequently Asked Questions</h3>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="accordion shadow-sm rounded-4 overflow-hidden border-0 bg-white" id="faqAccordion">
+                            @foreach($faqs as $faq)
+                            <div class="accordion-item border-0 border-bottom">
+                                <h2 class="accordion-header" id="heading{{ $faq->id }}">
+                                    <button class="accordion-button {{ $loop->first ? '' : 'collapsed' }} py-4 px-4 fw-bold text-dark font-family-poppins" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ $faq->id }}" aria-expanded="{{ $loop->first ? 'true' : 'false' }}" aria-controls="collapse{{ $faq->id }}" style="box-shadow:none; font-size:16px;">
+                                        {{ $faq->question }}
+                                    </button>
+                                </h2>
+                                <div id="collapse{{ $faq->id }}" class="accordion-collapse collapse {{ $loop->first ? 'show' : '' }}" aria-labelledby="heading{{ $faq->id }}" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body p-4 text-muted border-top bg-light" style="line-height:1.6; font-size:14.5px;">
+                                        {!! $faq->answer !!}
+                                    </div>
+                                </div>
+                            </div>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @push('styles')
+            <style>
+                .accordion-button:not(.collapsed) {
+                    background-color: #fff9f0 !important;
+                    color: #e8900a !important;
+                }
+                .accordion-button::after {
+                    font-family: 'bootstrap-icons';
+                    content: "\f282";
+                    background-image: none !important;
+                    transform: none !important;
+                    font-size: 16px;
+                    color: #333;
+                    transition: 0.3s;
+                }
+                .accordion-button:not(.collapsed)::after {
+                    content: "\f27f";
+                    color: #e8900a;
+                }
+            </style>
+            @endpush
+            @endif
+
             <!-- Related Packages Slider -->
             @if($relatedPackages->count() > 0)
             <div class="py-5 mt-5">

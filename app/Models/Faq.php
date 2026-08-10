@@ -14,9 +14,15 @@ class Faq extends Model
         'answer',
         'order',
         'status',
+        'package_id',
     ];
 
     protected $casts = [
         'status' => 'boolean',
     ];
+
+    public function package()
+    {
+        return $this->belongsTo(Package::class);
+    }
 }
