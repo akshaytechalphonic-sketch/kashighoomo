@@ -1781,7 +1781,7 @@
                                         ? asset('storage/' . $hotel->images[0])
                                         : 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800';
                                 @endphp
-                                <a href="{{ route('hotels.show', $hotel->id) }}" class="d-block h-100">
+                                <a href="{{ route('hotels.show', $hotel->slug) }}" class="d-block h-100">
                                     <img src="{{ $hotelCover }}" alt="{{ (!empty($hotel->images) && is_array($hotel->alt_text) && isset($hotel->alt_text[$hotel->images[0]])) ? $hotel->alt_text[$hotel->images[0]] : $hotel->name }}"
                                         class="w-100 h-100 object-fit-cover transition-all" style="transition:0.4s;">
                                 </a>
@@ -1792,7 +1792,7 @@
                             </div>
                             <div class="archive-bottom p-4 d-flex flex-column flex-grow-1">
                                 <h3 class="tour-title h6 mb-2 fw-bold font-family-poppins">
-                                    <a href="{{ route('hotels.show', $hotel->id) }}"
+                                    <a href="{{ route('hotels.show', $hotel->slug) }}"
                                         class="text-dark text-decoration-none hover-warning">{{ $hotel->name }}</a>
                                 </h3>
                                 <p class="text-muted small mb-3">
@@ -1819,7 +1819,7 @@
                                             style="color:#061624;">₹{{ number_format($hotel->min_price ?? 2200) }}<small
                                                 class="text-muted" style="font-size:9.5px;">/night</small></span>
                                     </div>
-                                    <a href="{{ route('hotels.show', $hotel->id) }}"
+                                    <a href="{{ route('hotels.show', $hotel->slug) }}"
                                         class="tf-btn primary hover-1 px-4  rounded-pill font-size-12 text-white border-0 fw-bold text-decoration-none">Book
                                         Rooms</a>
                                 </div>

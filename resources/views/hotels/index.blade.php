@@ -43,7 +43,7 @@
                 <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeInUp" data-wow-duration="1s">
                     <div class="item hover-img bg-white shadow-sm border-0 rounded-4 overflow-hidden h-100 d-flex flex-column">
                         <div class="archive-top position-relative overflow-hidden" style="height:230px;">
-                            <a href="{{ route('hotels.show', $hotel) }}" class="images-group img-style d-block h-100">
+                            <a href="{{ route('hotels.show', $hotel->slug) }}" class="images-group img-style d-block h-100">
                                 @php
                                     $coverImage = !empty($hotel->images) ? asset('storage/'.$hotel->images[0]) : 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800';
                                 @endphp
@@ -59,7 +59,7 @@
                                 {{ $hotel->location }}
                             </div>
                             <h3 class="tour-title h5 mb-3 fw-bold">
-                                <a href="{{ route('hotels.show', $hotel) }}" class="link text-dark text-decoration-none hover-warning transition-all">{{ $hotel->name }}</a>
+                                <a href="{{ route('hotels.show', $hotel->slug) }}" class="link text-dark text-decoration-none hover-warning transition-all">{{ $hotel->name }}</a>
                             </h3>
                             <p class="text-muted flex-grow-1" style="font-size:13.5px; line-height:1.5;">
                                 {{ Str::limit(strip_tags($hotel->description), 110) }}
@@ -78,7 +78,7 @@
                                     <span class="fw-extrabold text-primary h4 mb-0" style="color:#061624;">₹{{ rand(2999, 5999) }}</span>
                                     <small class="text-muted" style="font-size:10px;">/nt</small>
                                 </div>
-                                <a href="{{ route('hotels.show', $hotel) }}" class="tf-btn primary hover-1 px-4 py-2 rounded-pill font-size-13 text-white text-decoration-none">Details</a>
+                                <a href="{{ route('hotels.show', $hotel->slug) }}" class="tf-btn primary hover-1 px-4 py-2 rounded-pill font-size-13 text-white text-decoration-none">Details</a>
                             </div>
                         </div>
                     </div>

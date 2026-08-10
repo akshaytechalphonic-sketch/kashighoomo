@@ -8,6 +8,7 @@ use App\Models\Hotel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Str;
 
 class HotelController extends Controller
 {
@@ -28,6 +29,7 @@ class HotelController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'name'           => 'required|string|max:255',
+            'slug'           => 'nullable|string|max:255|unique:hotels,slug',
             'destination_id' => 'required|integer',
             'location'       => 'nullable|string|max:255',
             'description'    => 'nullable|string',
@@ -77,7 +79,12 @@ class HotelController extends Controller
             }
         }
 
-        $slug = Hotel::generateSlug($request->name);
+        // Use custom slug if provided, otherwise auto-generate from name
+        if ($request->filled('slug')) {
+            $slug = Str::slug($request->slug);
+        } else {
+            $slug = Hotel::generateSlug($request->name);
+        }
     
         Hotel::create([
             'name'        => $validated['name'],
@@ -116,6 +123,7 @@ class HotelController extends Controller
 
         $validator = Validator::make($request->all(), [
             'name'           => 'required|string|max:255',
+            'slug'           => 'nullable|string|max:255|unique:hotels,slug,' . $hotel->id,
             'destination_id' => 'required|integer',
             'location'       => 'nullable|string|max:255',
             'description'    => 'nullable|string',
@@ -166,7 +174,14 @@ class HotelController extends Controller
             }
         }
 
-        $slug = Hotel::generateSlug($request->name);
+        // Use custom slug if provided, otherwise keep existing or auto-generate
+        if ($request->filled('slug')) {
+            $slug = Str::slug($request->slug);
+        } elseif ($hotel->slug) {
+            $slug = $hotel->slug; // keep existing slug unless explicitly changed
+        } else {
+            $slug = Hotel::generateSlug($request->name);
+        }
         
         $check = $hotel->update([
             'name'        => $request->name,

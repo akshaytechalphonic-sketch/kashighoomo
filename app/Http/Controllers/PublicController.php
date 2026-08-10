@@ -26,7 +26,7 @@ class PublicController extends Controller
     public function index()
     {
         $featuredHotels = Hotel::withCount('rooms')->latest()->take(6)->get();
-       
+
         $featuredServices = Service::where('status', true)->latest()->take(4)->get();
         $testimonials = Testimonial::where('status', true)->latest()->take(3)->get();
         $offers = Offer::where('status', true)->latest()->take(2)->get();
@@ -39,7 +39,7 @@ class PublicController extends Controller
         // Fetch Home Page Sections
         $page = Page::where('slug', 'home')->first();
         $sections = $page ? $page->sections()->where('status', true)->get()->keyBy('section_name') : collect();
-       
+
         // Fetch active banners for the Home page
         $banners = $page ? \App\Models\Banner::where('page_id', $page->id)->where('status', 1)->get() : collect();
 
@@ -63,8 +63,8 @@ class PublicController extends Controller
 
     public function hotels(Request $request)
     {
-     
-        
+
+
         $query = Hotel::query();
 
         if ($request->filled('destination')) {
@@ -77,15 +77,18 @@ class PublicController extends Controller
         return view('hotels.index', compact('hotels', 'page', 'sections'));
     }
 
-    public function hotel(Hotel $hotel)
+    public function hotel($slug)
     {
+        $hotel = Hotel::where('slug', $slug)->firstOrFail();
 
         $page = Page::where('slug', 'hotel')->first();
         $sections = $page ? $page->sections()->where('status', true)->get()->keyBy('section_name') : collect();
-        $hotel->load(['rooms' => function ($q) {
-            $q->where('is_available', true);
-        }]);
-       
+        $hotel->load([
+            'rooms' => function ($q) {
+                $q->where('is_available', true);
+            }
+        ]);
+
         return view('hotels.show', compact('hotel', 'sections'));
     }
 
@@ -150,37 +153,37 @@ class PublicController extends Controller
     public function storeBooking(Request $request, Room $room)
     {
         $validated = $request->validate([
-            'name'             => 'required|string|max:255',
-            'email'            => 'required|email|max:255',
-            'phone'            => 'required|string|max:20',
-            'check_in'         => 'required|date|after_or_equal:today',
-            'check_out'        => 'required|date|after:check_in',
-            'guests'           => 'required|integer|min:1|max:' . $room->capacity,
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:20',
+            'check_in' => 'required|date|after_or_equal:today',
+            'check_out' => 'required|date|after:check_in',
+            'guests' => 'required|integer|min:1|max:' . $room->capacity,
             'special_requests' => 'nullable|string',
-            'rate_plan_name'   => 'nullable|string|max:255',
-            'rate_plan_price'  => 'nullable|numeric|min:0',
+            'rate_plan_name' => 'nullable|string|max:255',
+            'rate_plan_price' => 'nullable|numeric|min:0',
         ]);
 
-        $checkIn    = \Carbon\Carbon::parse($validated['check_in']);
-        $checkOut   = \Carbon\Carbon::parse($validated['check_out']);
-        $nights     = $checkIn->diffInDays($checkOut);
+        $checkIn = \Carbon\Carbon::parse($validated['check_in']);
+        $checkOut = \Carbon\Carbon::parse($validated['check_out']);
+        $nights = $checkIn->diffInDays($checkOut);
         // Use selected plan price if provided, otherwise fall back to base room price
         $pricePerNight = !empty($validated['rate_plan_price']) ? $validated['rate_plan_price'] : $room->price;
         $totalPrice = $nights * $pricePerNight;
 
         Booking::create([
-            'room_id'          => $room->id,
-            'name'             => $validated['name'],
-            'email'            => $validated['email'],
-            'phone'            => $validated['phone'],
-            'check_in'         => $validated['check_in'],
-            'check_out'        => $validated['check_out'],
-            'guests'           => $validated['guests'],
+            'room_id' => $room->id,
+            'name' => $validated['name'],
+            'email' => $validated['email'],
+            'phone' => $validated['phone'],
+            'check_in' => $validated['check_in'],
+            'check_out' => $validated['check_out'],
+            'guests' => $validated['guests'],
             'special_requests' => $validated['special_requests'],
-            'total_price'      => $totalPrice,
-            'rate_plan_name'   => $validated['rate_plan_name'] ?? null,
-            'rate_plan_price'  => $validated['rate_plan_price'] ?? null,
-            'status'           => 'pending',
+            'total_price' => $totalPrice,
+            'rate_plan_name' => $validated['rate_plan_name'] ?? null,
+            'rate_plan_price' => $validated['rate_plan_price'] ?? null,
+            'status' => 'pending',
         ]);
 
         return redirect()->route('home')->with('success', 'Your booking request has been submitted successfully! We will contact you soon.');
@@ -199,7 +202,7 @@ class PublicController extends Controller
 
         $page = Page::where('slug', 'contact-us')->first();
         $sections = $page ? $page->sections->where('status', true)->keyBy('section_name') : collect();
-        
+
         return view('contact', compact('page', 'sections'));
     }
 
@@ -262,8 +265,8 @@ class PublicController extends Controller
 
         $page = Page::where('slug', 'about-us')->first();
         $sections = $page ? $page->sections()->where('status', true)->get()->keyBy('section_name') : collect();
-    
-      
+
+
         $testimonials = Testimonial::where('status', true)->latest()->take(3)->get();
         $galllery = Gallery::where('status', true)->get();
         return view('about', compact('page', 'sections', 'testimonials', 'galllery'));
@@ -321,46 +324,46 @@ class PublicController extends Controller
     {
         $page = Page::where('slug', 'destination')->first();
         $sections = $page ? $page->sections()->where('status', true)->get()->keyBy('section_name') : collect();
-       
-     
+
+
         $destinations = Destination::where('status', true)->latest()->get();
         return view('destinations.index', compact('page', 'sections', 'destinations'));
     }
 
     public function destinationDetails($slug)
     {
-        
+
         $page = Page::where('slug', 'destination-detial')->first();
         $sections = $page ? $page->sections()->where('status', true)->get()->keyBy('section_name') : collect();
-        $destination = Destination::with(['hotels.rooms'])->where('slug',$slug)->first();
+        $destination = Destination::with(['hotels.rooms'])->where('slug', $slug)->first();
         $minprice = $destination->hotels
             ->pluck('rooms')
             ->flatten()
             ->min('price');
-           
+
 
         $maxprice = $destination->hotels
             ->pluck('rooms')
             ->flatten()
             ->max('price');
-       
 
-        return view('destinations.show', compact('destination', 'sections','minprice','maxprice'));
+
+        return view('destinations.show', compact('destination', 'sections', 'minprice', 'maxprice'));
     }
 
     public function privacyPolicy()
     {
         $page = Page::where('slug', 'privacy-policy')->first();
         $sections = $page ? $page->sections()->where('status', true)->get()->keyBy('section_name') : collect();
-       
+
         return view('privacy-policy', compact('page', 'sections'));
     }
 
     public function termsConditions()
     {
         $page = Page::where('slug', 'terms-and-conditions')->first();
-      
-       
+
+
         $sections = $page ? $page->sections()->where('status', true)->get()->keyBy('section_name') : collect();
         // dd($sections);
         return view('terms-conditions', compact('page', 'sections'));
@@ -370,14 +373,14 @@ class PublicController extends Controller
     {
         $page = Page::where('slug', 'faq')->first();
         $sections = $page ? $page->sections()->where('status', true)->get()->keyBy('section_name') : collect();
-      
+
         $faqs = \App\Models\Faq::where('status', true)->orderBy('order')->get();
         return view('faq', compact('page', 'sections', 'faqs'));
     }
 
     public function packages(Request $request, $slug = null)
     {
-       
+
         if ($slug) {
             // Check if there is a package with this slug
             $package = Package::where('slug', $slug)->where('status', true)->first();
@@ -395,13 +398,13 @@ class PublicController extends Controller
         $query = Package::where('status', true)->with(['destination', 'service']);
 
         if ($slug) {
-            $query->whereHas('destination', function($q) use ($slug) {
+            $query->whereHas('destination', function ($q) use ($slug) {
                 $q->where('slug', $slug);
             });
         } elseif ($request->filled('destination_id')) {
             $query->where('destination_id', $request->destination_id);
         } elseif ($request->filled('slug')) {
-            $query->whereHas('destination', function($q) use ($request) {
+            $query->whereHas('destination', function ($q) use ($request) {
                 $q->where('slug', $request->slug);
             });
         }
@@ -413,7 +416,7 @@ class PublicController extends Controller
             $query->where('difficulty', $request->difficulty);
         }
         if ($request->filled('cab_booking_package_slug')) {
-            $query->whereHas('cabBookingPackage', function($q) use ($request) {
+            $query->whereHas('cabBookingPackage', function ($q) use ($request) {
                 $q->where('slug', $request->cab_booking_package_slug);
             });
         } elseif ($request->filled('cab_booking_package_id')) {
@@ -435,9 +438,9 @@ class PublicController extends Controller
         $package = Package::where('slug', $slug)->where('status', true)->firstOrFail();
         $relatedPackages = Package::where('status', true)
             ->where('id', '!=', $package->id)
-            ->where(function($q) use ($package) {
+            ->where(function ($q) use ($package) {
                 $q->where('destination_id', $package->destination_id)
-                  ->orWhere('service_id', $package->service_id);
+                    ->orWhere('service_id', $package->service_id);
             })
             ->take(3)->get();
 
@@ -452,32 +455,32 @@ class PublicController extends Controller
     public function storePackageEnquiry(Request $request, Package $package)
     {
         $validated = $request->validate([
-            'name'        => 'required|string|max:255',
-            'email'       => 'required|email|max:255',
-            'phone'       => 'required|string|max:20',
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:20',
             'travel_date' => 'required|date|after_or_equal:today',
-            'adults'      => 'required|integer|min:1',
-            'children'    => 'nullable|integer|min:0',
-            'message'     => 'nullable|string',
+            'adults' => 'required|integer|min:1',
+            'children' => 'nullable|integer|min:0',
+            'message' => 'nullable|string',
         ]);
 
         $enquiry = Enquiry::create([
-            'name'         => $validated['name'],
-            'email'        => $validated['email'],
-            'phone'        => $validated['phone'],
-            'travel_date'  => $validated['travel_date'],
-            'adults'       => $validated['adults'],
-            'children'     => $validated['children'] ?? 0,
-            'message'      => $validated['message'] ?? 'No message provided.',
-            'package_id'   => $package->id,
+            'name' => $validated['name'],
+            'email' => $validated['email'],
+            'phone' => $validated['phone'],
+            'travel_date' => $validated['travel_date'],
+            'adults' => $validated['adults'],
+            'children' => $validated['children'] ?? 0,
+            'message' => $validated['message'] ?? 'No message provided.',
+            'package_id' => $package->id,
             'is_responded' => false,
         ]);
 
         // Send email notifications (wrapped in try/catch so a mail failure never breaks the flow)
         try {
-            $settings        = Setting::first();
-            $adminEmail      = $settings?->contact_email ?? 'akkiakshay1414@gmail.com';
-           
+            $settings = Setting::first();
+            $adminEmail = $settings?->contact_email ?? 'akkiakshay1414@gmail.com';
+
             $package->load('destination'); // eager-load for email template
 
             // 1. Notify admin
@@ -518,26 +521,26 @@ class PublicController extends Controller
         $cab = \App\Models\CabBookingPackage::findOrFail($id);
 
         $validated = $request->validate([
-            'name'        => 'required|string|max:255',
-            'email'       => 'required|email|max:255',
-            'phone'       => 'required|string|max:20',
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:20',
             'travel_date' => 'required|date|after_or_equal:today',
-            'adults'      => 'required|integer|min:1',
-            'children'    => 'nullable|integer|min:0',
-            'message'     => 'nullable|string',
+            'adults' => 'required|integer|min:1',
+            'children' => 'nullable|integer|min:0',
+            'message' => 'nullable|string',
         ]);
 
         Enquiry::create([
-            'name'                   => $validated['name'],
-            'email'                  => $validated['email'],
-            'phone'                  => $validated['phone'],
-            'travel_date'            => $validated['travel_date'],
-            'adults'                 => $validated['adults'],
-            'children'               => $validated['children'] ?? 0,
-            'message'                => $validated['message'] ?? 'No message provided.',
+            'name' => $validated['name'],
+            'email' => $validated['email'],
+            'phone' => $validated['phone'],
+            'travel_date' => $validated['travel_date'],
+            'adults' => $validated['adults'],
+            'children' => $validated['children'] ?? 0,
+            'message' => $validated['message'] ?? 'No message provided.',
             'cab_booking_package_id' => $cab->id,
-            'is_responded'           => false,
-            'subject'                => 'Cab Enquiry: ' . $cab->cab_name
+            'is_responded' => false,
+            'subject' => 'Cab Enquiry: ' . $cab->cab_name
         ]);
 
         return redirect()->back()->with('success', 'Your booking enquiry for cab ' . $cab->cab_name . ' has been submitted successfully! We will contact you soon.');

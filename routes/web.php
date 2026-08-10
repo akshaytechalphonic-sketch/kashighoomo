@@ -26,22 +26,22 @@ Route::get('/storage/{path}', function ($path) {
 
 
 Route::get('/fix-storage', function () {
-    $source = storage_path('app/public'); 
-    $destination = public_path('storage'); 
- 
+    $source = storage_path('app/public');
+    $destination = public_path('storage');
+
     if (!File::exists($destination)) {
         File::makeDirectory($destination, 0755, true);
     }
- 
+
     // Copy all files recursively
     File::copyDirectory($source, $destination);
- 
+
     return 'All storage files copied to public/storage successfully!';
 });
 
 Route::get('/', [PublicController::class, 'index'])->name('home');
 Route::get('/hotels', [PublicController::class, 'hotels'])->name('hotels.index');
-Route::get('/hotels/{hotel}', [PublicController::class, 'hotel'])->name('hotels.show');
+Route::get('/hotels/{slug}', [PublicController::class, 'hotel'])->name('hotels.show');
 
 Route::get('/rooms', [PublicController::class, 'rooms'])->name('rooms.index');
 Route::get('/rooms/{room}', [PublicController::class, 'roomShow'])->name('rooms.show');
@@ -116,11 +116,11 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(fun
     Route::resource('services', ServiceController::class);
     Route::resource('destinations', DestinationController::class);
     Route::resource('testimonials', TestimonialController::class);
-     Route::resource('settings', SettingController::class);
+    Route::resource('settings', SettingController::class);
     Route::post('settings/save', [SettingController::class, 'update'])->name('settings.save');
     Route::resource('packages', \App\Http\Controllers\Admin\PackageController::class);
     Route::post('packages/{package}/remove-image', [\App\Http\Controllers\Admin\PackageController::class, 'removeImage'])->name('packages.remove-image');
-    
+
     // Cab Booking Packages admin routes
     Route::resource('cab-packages', \App\Http\Controllers\Admin\CabBookingPackageController::class);
     Route::post('cab-packages/{id}/remove-image', [\App\Http\Controllers\Admin\CabBookingPackageController::class, 'removeImage'])->name('cab-packages.remove-image');

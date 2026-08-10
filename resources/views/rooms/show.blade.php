@@ -198,7 +198,7 @@
                                 </div>
                             </div>
                             <p class="text-muted small mb-3" style="line-height:1.5; font-size:13px;">{{ Str::limit(strip_tags($room->hotel->description), 120) }}</p>
-                            <a href="{{ route('hotels.show', $room->hotel_id) }}" class="btn btn-outline-dark w-100 rounded-pill small fw-bold py-1.5 btn-sm">Explore Property</a>
+                            <a href="{{ route('hotels.show', $room->hotel->slug) }}" class="btn btn-outline-dark w-100 rounded-pill small fw-bold py-1.5 btn-sm">Explore Property</a>
                         </div>
                         @endif
                     </div>

@@ -17,6 +17,15 @@
                     <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name', $hotel->name) }}" required>
                     @error('name')<div class="invalid-feedback">{{ $message }}</div>@enderror
                 </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Custom Slug <span class="text-muted fw-normal">(Optional)</span></label>
+                    <div class="input-group">
+                        <span class="input-group-text text-muted small">/hotels/</span>
+                        <input type="text" name="slug" id="hotel-slug" class="form-control @error('slug') is-invalid @enderror" value="{{ old('slug', $hotel->slug) }}" placeholder="e.g. taj-ganges-varanasi">
+                        @error('slug')<div class="invalid-feedback">{{ $message }}</div>@enderror
+                    </div>
+                    <small class="text-muted">Current URL: <code>/hotels/{{ $hotel->slug }}</code> — Leave blank to keep existing slug.</small>
+                </div>
                 {{-- <div class="col-md-4">
                     <label class="form-label fw-bold">Location *</label>
                     <input type="text" name="location" class="form-control @error('location') is-invalid @enderror" value="{{ old('location', $hotel->location) }}" required>
