@@ -363,6 +363,115 @@
             @endpush
             @endif
 
+            {{-- ===== Package Gallery Section (after FAQs) ===== --}}
+            @if(!empty($package->images) && count($package->images) > 0)
+            <div class="py-5 mt-4 border-top border-light-muted" id="pkg-gallery-section">
+                <div class="text-center mb-4">
+                    <span class="d-inline-block px-3 py-1 rounded-pill fw-bold text-white mb-2"
+                        style="background: linear-gradient(135deg, #F57C00, #D4AF37); font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
+                        Visual Journey
+                    </span>
+                    <h3 class="fw-bold font-family-poppins text-dark mb-2">Photo Gallery</h3>
+                    <p class="text-muted" style="font-size: 14px;">A glimpse of what awaits you — click any photo to explore.</p>
+                </div>
+
+                @push('styles')
+                <style>
+                    .pkg-gallery-grid {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        gap: 10px;
+                    }
+                    .pkg-gallery-grid .gallery-item {
+                        position: relative;
+                        overflow: hidden;
+                        border-radius: 12px;
+                        cursor: pointer;
+                        aspect-ratio: 4/3;
+                    }
+                    .pkg-gallery-grid .gallery-item:first-child {
+                        grid-column: 1 / 3;
+                        grid-row: 1 / 3;
+                        aspect-ratio: auto;
+                        min-height: 320px;
+                    }
+                    .pkg-gallery-grid .gallery-item img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        transition: transform 0.4s ease;
+                    }
+                    .pkg-gallery-grid .gallery-item:hover img {
+                        transform: scale(1.07);
+                    }
+                    .pkg-gallery-grid .gallery-item .gallery-overlay {
+                        position: absolute;
+                        inset: 0;
+                        background: rgba(0,0,0,0);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        transition: 0.3s;
+                    }
+                    .pkg-gallery-grid .gallery-item:hover .gallery-overlay {
+                        background: rgba(0,0,0,0.28);
+                    }
+                    .gallery-overlay .zoom-icon {
+                        width: 44px;
+                        height: 44px;
+                        border-radius: 50%;
+                        background: rgba(255,255,255,0.92);
+                        color: #F57C00;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 18px;
+                        opacity: 0;
+                        transform: scale(0.7);
+                        transition: 0.3s;
+                    }
+                    .pkg-gallery-grid .gallery-item:hover .zoom-icon {
+                        opacity: 1;
+                        transform: scale(1);
+                    }
+                    @media (max-width: 767px) {
+                        .pkg-gallery-grid {
+                            grid-template-columns: repeat(2, 1fr);
+                        }
+                        .pkg-gallery-grid .gallery-item:first-child {
+                            grid-column: 1 / 3;
+                            min-height: 200px;
+                        }
+                    }
+                </style>
+                @endpush
+
+                <div class="pkg-gallery-grid">
+                    @foreach($package->images as $i => $img)
+                    <a href="{{ asset('storage/'.$img) }}" data-fancybox="pkg-gallery"
+                        data-caption="{{ (is_array($package->alt_text) && isset($package->alt_text[$img])) ? $package->alt_text[$img] : $package->title }}"
+                        class="gallery-item">
+                        <img src="{{ asset('storage/'.$img) }}"
+                            alt="{{ (is_array($package->alt_text) && isset($package->alt_text[$img])) ? $package->alt_text[$img] : $package->title . ' photo ' . ($i+1) }}"
+                            loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="zoom-icon">
+                                <i class="bi bi-arrows-fullscreen"></i>
+                            </div>
+                        </div>
+                        @if($i === 0 && count($package->images) > 4)
+                        <span class="position-absolute bottom-0 end-0 m-3 bg-dark bg-opacity-60 text-white rounded-pill px-3 py-1 fw-bold"
+                            style="font-size: 12px;">
+                            +{{ count($package->images) - 4 }} more
+                        </span>
+                        @endif
+                    </a>
+                    @if($i >= 5) @break @endif
+                    @endforeach
+                </div>
+            </div>
+            @endif
+
             <!-- Related Packages Slider -->
             @if($relatedPackages->count() > 0)
             <div class="py-5 mt-5">

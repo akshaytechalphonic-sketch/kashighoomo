@@ -329,7 +329,7 @@
         }
 
         .btn-floating.phone {
-            bottom: 85px;
+            bottom: 145px;
             background-color: #8B1E1E;
         }
 
@@ -339,11 +339,67 @@
 
         .btn-floating.whatsapp {
             background-color: #34af23;
-            bottom: 25px;
+            bottom: 85px;
         }
 
         .btn-floating.whatsapp:hover {
             background-color: #1f7a12;
+        }
+
+        /* Dev Deepawali Floating Banner */
+        .dev-diwali-banner {
+            position: fixed;
+            right: 25px;
+            bottom: 15px;
+            z-index: 9998;
+            display: flex;
+            align-items: center;
+            background: #ffffff;
+            border-radius: 50px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+            padding: 10px 10px 10px 18px;
+            gap: 12px;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            min-width: 220px;
+            border: 1.5px solid #f0e8d8;
+        }
+        .dev-diwali-banner:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 32px rgba(245,124,0,0.22);
+        }
+        .dev-diwali-banner .banner-text {
+            display: flex;
+            flex-direction: column;
+        }
+        .dev-diwali-banner .banner-title {
+            font-weight: 700;
+            font-size: 13px;
+            color: #1a1a1a;
+            line-height: 1.2;
+            font-family: 'Poppins', sans-serif;
+        }
+        .dev-diwali-banner .banner-sub {
+            font-size: 11px;
+            font-weight: 600;
+            color: #e53935;
+        }
+        .dev-diwali-banner .banner-sub::before {
+            content: '🔥 ';
+        }
+        .dev-diwali-banner .banner-cta {
+            background: #F57C00;
+            color: #fff;
+            font-weight: 700;
+            font-size: 13px;
+            border-radius: 50px;
+            padding: 9px 16px;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            flex-shrink: 0;
+            letter-spacing: 0.2px;
         }
 
         .header.style-1 .header-wrap .header-ct-right .wrap-login-menu .login a {
@@ -456,23 +512,36 @@
 
             /* Floating buttons */
             .btn-floating {
-                right: 14px !important;
-                width: 46px !important;
-                height: 46px !important;
-                border-radius: 50% !important;
-                padding: 0 !important;
+                width: 46px;
+                height: 46px;
+                right: 16px;
             }
-
             .btn-floating.phone {
-                bottom: 78px !important;
+                bottom: 180px;
             }
-
             .btn-floating.whatsapp {
-                bottom: 18px !important;
+                bottom: 122px;
             }
-
             .btn-floating span {
                 display: none !important;
+            }
+            /* Dev Deepawali banner mobile */
+            .dev-diwali-banner {
+                right: 12px;
+                bottom: 15px;
+                min-width: 0;
+                padding: 8px 8px 8px 14px;
+                gap: 8px;
+            }
+            .dev-diwali-banner .banner-title {
+                font-size: 11px;
+            }
+            .dev-diwali-banner .banner-sub {
+                font-size: 10px;
+            }
+            .dev-diwali-banner .banner-cta {
+                font-size: 11px;
+                padding: 7px 12px;
             }
         }
 
@@ -564,11 +633,11 @@
             }
 
             .btn-floating.phone {
-                bottom: 78px !important;
+                bottom: 130px !important;
             }
 
             .btn-floating.whatsapp {
-                bottom: 18px !important;
+                bottom: 72px !important;
             }
 
             .btn-floating i {
@@ -1514,6 +1583,17 @@
                 </button>
             </a>
         @endif
+
+        {{-- Dev Deepawali Floating Banner --}}
+        <a href="{{ route('packages.show', 'dev-diwali-boat-ride-experience') }}"
+            class="dev-diwali-banner"
+            title="Book Dev Deepawali 2026 Boat Ride">
+            <div class="banner-text">
+                <span class="banner-title">Dev Deepawali 2026</span>
+                <span class="banner-sub">Selling out fast</span>
+            </div>
+            <span class="banner-cta">Book Now &nbsp;›</span>
+        </a>
 
         <!-- Back to top -->
         <button class="backtotop" id="backtotop">
