@@ -23,6 +23,7 @@ class BlogController extends Controller
     {
         $validated = $request->validate([
             'title' => 'required|string|max:255',
+            'slug' => 'nullable|string|max:255|unique:blogs,slug',
             'content' => 'required|string',
             'is_published' => 'boolean',
             'featured_image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
@@ -38,10 +39,14 @@ class BlogController extends Controller
             $imagePath = $request->file('featured_image')->store('blogs', 'public');
         }
 
+        $slug = $request->input('slug') 
+            ? Str::slug($request->input('slug')) 
+            : Str::slug($validated['title']) . '-' . time();
+
         Blog::create([
             'user_id' => \Illuminate\Support\Facades\Auth::id(),
             'title' => $validated['title'],
-            'slug' => Str::slug($validated['title']) . '-' . time(),
+            'slug' => $slug,
             'content' => $validated['content'],
             'is_published' => $request->has('is_published'),
             'featured_image' => $imagePath,
@@ -64,6 +69,7 @@ class BlogController extends Controller
     {
         $validated = $request->validate([
             'title' => 'required|string|max:255',
+            'slug' => 'nullable|string|max:255|unique:blogs,slug,' . $blog->id,
             'content' => 'required|string',
             'is_published' => 'boolean',
             'featured_image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
@@ -79,9 +85,13 @@ class BlogController extends Controller
             $imagePath = $request->file('featured_image')->store('blogs', 'public');
         }
 
+        $slug = $request->input('slug') 
+            ? Str::slug($request->input('slug')) 
+            : Str::slug($validated['title']) . '-' . $blog->id;
+
         $blog->update([
             'title' => $validated['title'],
-            'slug' => Str::slug($validated['title']) . '-' . $blog->id,
+            'slug' => $slug,
             'content' => $validated['content'],
             'is_published' => $request->has('is_published'),
             'featured_image' => $imagePath,
