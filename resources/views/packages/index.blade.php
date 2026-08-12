@@ -641,9 +641,9 @@ nav.pkg-pagination ul li span[aria-current] {
         </div>
 
         {{-- ===== PAGINATION ===== --}}
-        @if($packages->hasPages())
+        {{-- @if($packages->hasPages())
         <nav class="pkg-pagination">{{ $packages->links() }}</nav>
-        @endif
+        @endif --}}
 
     </div>
 </div>
