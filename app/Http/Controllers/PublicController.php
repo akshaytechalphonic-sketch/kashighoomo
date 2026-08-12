@@ -64,12 +64,11 @@ class PublicController extends Controller
     public function hotels(Request $request)
     {
 
-
         $query = Hotel::query();
 
-        if ($request->filled('destination')) {
-            $query->where('destination_id', $request->destination);
-        }
+        // if ($request->filled('destination')) {
+        //     $query->where('destination_id', $request->destination);
+        // }
 
         $hotels = $query->with('rooms')->latest()->paginate(9);
         $page = Page::where('slug', 'hotel')->first();

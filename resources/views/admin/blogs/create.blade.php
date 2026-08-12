@@ -12,10 +12,16 @@
             @csrf
             
             <div class="row">
-                <div class="col-md-8 mb-3">
+                <div class="col-md-4 mb-3">
                     <label class="form-label">Post Title</label>
                     <input type="text" name="title" class="form-control @error('title') is-invalid @enderror" value="{{ old('title') }}" required>
                     @error('title')<div class="invalid-feedback">{{ $message }}</div>@enderror
+                </div>
+                
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">Slug (Optional)</label>
+                    <input type="text" name="slug" class="form-control @error('slug') is-invalid @enderror" value="{{ old('slug') }}" placeholder="Leave blank to auto-generate">
+                    @error('slug')<div class="invalid-feedback">{{ $message }}</div>@enderror
                 </div>
                 
                 <div class="col-md-4 mb-3 d-flex align-items-end pb-2">

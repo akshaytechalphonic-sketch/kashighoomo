@@ -19,7 +19,7 @@
     <div class="flat-section bg-light-blue py-6" style="background-color: #f7f9fc;">
         <div class="container">
             <!-- Search Form -->
-            <div class="form-s1 shadow-sm bg-white p-4 rounded-pill mb-5 max-w-800 mx-auto border border-light">
+            {{-- <div class="form-s1 shadow-sm bg-white p-4 rounded-pill mb-5 max-w-800 mx-auto border border-light">
                 <form action="{{ route('hotels.index') }}" method="GET">
                     <div class="row g-2 align-items-center">
                         <div class="col-md-9 px-4">
@@ -35,7 +35,7 @@
                         </div>
                     </div>
                 </form>
-            </div>
+            </div> --}}
 
             <!-- Hotels Grid -->
             <div class="row g-4">

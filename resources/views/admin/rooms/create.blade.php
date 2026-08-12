@@ -22,10 +22,15 @@
                     </select>
                     @error('hotel_id')<div class="invalid-feedback">{{ $message }}</div>@enderror
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <label class="form-label fw-bold">Room Type / Name *</label>
                     <input type="text" name="room_type" class="form-control @error('room_type') is-invalid @enderror" value="{{ old('room_type') }}" placeholder="e.g. Deluxe King Suite" required>
                     @error('room_type')<div class="invalid-feedback">{{ $message }}</div>@enderror
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">Slug (Optional)</label>
+                    <input type="text" name="slug" class="form-control @error('slug') is-invalid @enderror" value="{{ old('slug') }}" placeholder="Leave blank to auto-generate">
+                    @error('slug')<div class="invalid-feedback">{{ $message }}</div>@enderror
                 </div>
                 <div class="col-md-3">
                     <label class="form-label fw-bold">Price per Night (₹) *</label>

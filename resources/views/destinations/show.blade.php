@@ -58,7 +58,7 @@
                             </div>
                             
                             <div class="d-grid gap-3">
-                                <a href="{{ route('hotels.index', ['destination' => $destination->id]) }}"
+                                <a href="{{ route('hotels.index') }}"
                                     class="tf-btn primary hover-1 py-3 rounded-pill fw-bold text-center text-white text-decoration-none">
                                     Explore Hotels in {{ $destination->name }}
                                 </a>
