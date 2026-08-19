@@ -556,4 +556,10 @@ class PublicController extends Controller
         $sections = $page->sections()->where('status', true)->get()->keyBy('section_name');
         return view('boat-rides', compact('packages', 'page', 'sections'));
     }
+
+    public function devdiwali(){
+        $faqs = \App\Models\Faq::where('status', true)->orderBy('order')->get();
+        $galleries = \App\Models\Gallery::where('status', true)->latest()->get();
+        return view('dev-diwali', compact('faqs', 'galleries'));
+    }
 }

@@ -20,7 +20,8 @@
     <title>@yield('title', $metaTitle)</title>
     <meta name="description" content="@yield('meta_description', $metaDescription)">
     <meta name="keywords" content="@yield('meta_keywords', $metaKeywords)">
-
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     {{--
     <meta property="og:title" content="@yield('title', $metaTitle)">
@@ -960,7 +961,10 @@
                                                     </li>
                                                 </ul>
                                             </li>
-
+                                           <li class="menu-item flex-center gap-1 h-full">
+                                                <a href="{{ route('dev-diwali.index') }}"
+                                                    class="nav-link {{ request()->routeIs('dev-diwali.index') ? 'active' : '' }}">Book Dev Diwali Boat Rides</a>
+                                            </li>
 
                                             <li class="menu-item flex-center gap-1 h-full">
                                                 <a href="{{ route('blogs.index') }}"

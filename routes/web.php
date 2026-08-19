@@ -72,6 +72,7 @@ Route::post('/cabs/{id}/enquire', [PublicController::class, 'storeCabEnquiry'])-
 Route::get('/boat-rides', [PublicController::class, 'boatRides'])->name('boat-rides.index');
 
 
+Route::get('/dev-diwali', [PublicController::class, 'devdiwali'])->name('dev-diwali.index');
 
 
 Route::get('/packages/{slug?}', [PublicController::class, 'packages'])->name('packages.index');
