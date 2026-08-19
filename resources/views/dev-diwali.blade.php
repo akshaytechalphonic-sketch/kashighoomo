@@ -706,7 +706,7 @@
                 boat seat for an unobstructed, mesmerizing view of Varanasi's grandest night.</p>
             <div class="hero-btns">
                 <a href="{{route('contact')}}" class="btn-primary">BOOK YOUR BOAT NOW</a>
-                <a href="https://wa.me/918604336988" class="btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WHATSAPP
+                <a href="https://wa.me/919214191918" class="btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WHATSAPP
                     INQUIRY</a>
             </div>
         </section>
@@ -783,8 +783,8 @@
                     <div class="pkg-body">
                         <div class="pkg-title">Shared Motor Boat</div>
                         <div class="pkg-price">
-                            <span class="original">₹3,499</span>
-                            <span class="current">₹2,499</span>
+                            <span class="original">₹2,499</span>
+                            <span class="current">₹1,499</span>
                         </div>
                         <div>
                             <span class="per-person-pill">Per Person*</span>
@@ -828,7 +828,7 @@
                     </div>
                     <div class="pkg-footer">
                         <a href="{{route('contact')}}" class="btn-primary btn-full">Book Now - ₹1,499</a>
-                        <a href="https://wa.me/918604336988" class="btn-whatsapp btn-full"><i
+                        <a href="https://wa.me/919214191918" class="btn-whatsapp btn-full"><i
                                 class="fa-brands fa-whatsapp"></i> Book via WhatsApp</a>
                     </div>
                 </div>
@@ -842,8 +842,8 @@
                     <div class="pkg-body">
                         <div class="pkg-title">Premium Shared Light Motor Boat</div>
                         <div class="pkg-price">
-                            <span class="original">₹4,500</span>
-                            <span class="current">₹3,499</span>
+                            <span class="original">₹3,500</span>
+                            <span class="current">₹2,499</span>
                         </div>
                         <div>
                             <span class="per-person-pill">Per Person*</span>
@@ -887,7 +887,7 @@
                     </div>
                     <div class="pkg-footer">
                         <a href="{{route('contact')}}" class="btn-primary btn-full">Book Now - ₹2,499</a>
-                        <a href="https://wa.me/918604336988" class="btn-whatsapp btn-full"><i
+                        <a href="https://wa.me/919214191918" class="btn-whatsapp btn-full"><i
                                 class="fa-brands fa-whatsapp"></i> Book via WhatsApp</a>
                     </div>
                 </div>
@@ -901,8 +901,8 @@
                     <div class="pkg-body">
                         <div class="pkg-title">Double Decker Maharaja Boat</div>
                         <div class="pkg-price">
-                            <span class="original">₹6,000</span>
-                            <span class="current">₹4,999</span>
+                            <span class="original">₹5,000</span>
+                            <span class="current">₹3,999</span>
                         </div>
                         <div>
                             <span class="per-person-pill">Per Person*</span>
@@ -945,7 +945,7 @@
                     </div>
                     <div class="pkg-footer">
                         <a href="{{route('contact')}}" class="btn-primary btn-full">Book Now - ₹3,999</a>
-                        <a href="https://wa.me/918604336988" class="btn-whatsapp btn-full"><i
+                        <a href="https://wa.me/919214191918" class="btn-whatsapp btn-full"><i
                                 class="fa-brands fa-whatsapp"></i> Book via WhatsApp</a>
                     </div>
                 </div>
@@ -959,8 +959,8 @@
                     <div class="pkg-body">
                         <div class="pkg-title">Premium Luxury Cruise</div>
                         <div class="pkg-price">
-                            <span class="original">₹10,000</span>
-                            <span class="current">₹7,499</span>
+                            <span class="original">₹9,000</span>
+                            <span class="current">₹8,499</span>
                         </div>
                         <div>
                             <span class="per-person-pill">Per Person*</span>
@@ -1003,7 +1003,7 @@
                     </div>
                     <div class="pkg-footer">
                         <a href="{{route('contact')}}" class="btn-primary btn-full">Book Now - ₹6,499</a>
-                        <a href="https://wa.me/918604336988" class="btn-whatsapp btn-full"><i
+                        <a href="https://wa.me/919214191918" class="btn-whatsapp btn-full"><i
                                 class="fa-brands fa-whatsapp"></i> Book via WhatsApp</a>
                     </div>
                 </div>
@@ -1053,9 +1053,9 @@
 
         <!-- Floating Quick Buttons -->
         <div class="floating-widgets">
-            <a href="https://wa.me/918604336988" class="float-btn float-wa" target="_blank"><i
+            <a href="https://wa.me/919214191918" class="float-btn float-wa" target="_blank"><i
                     class="fa-brands fa-whatsapp"></i></a>
-            <a href="tel:+918604336988" class="float-btn float-call"><i class="fa-solid fa-phone"></i></a>
+            <a href="tel:+919214191918" class="float-btn float-call"><i class="fa-solid fa-phone"></i></a>
         </div>
     </div>
 @endsection
