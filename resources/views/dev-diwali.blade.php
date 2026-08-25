@@ -783,8 +783,8 @@
                     <div class="pkg-body">
                         <div class="pkg-title">Shared Motor Boat</div>
                         <div class="pkg-price">
-                            <span class="original">₹2,499</span>
-                            <span class="current">₹1,499</span>
+                            <span class="original">₹4,499</span>
+                            <span class="current">₹2,999</span>
                         </div>
                         <div>
                             <span class="per-person-pill">Per Person*</span>
@@ -827,7 +827,7 @@
                         </ul>
                     </div>
                     <div class="pkg-footer">
-                        <a href="{{route('contact')}}" class="btn-primary btn-full">Book Now - ₹1,499</a>
+                        <a href="{{route('contact')}}" class="btn-primary btn-full">Book Now - ₹2,999</a>
                         <a href="https://wa.me/919214191918" class="btn-whatsapp btn-full"><i
                                 class="fa-brands fa-whatsapp"></i> Book via WhatsApp</a>
                     </div>
@@ -842,8 +842,8 @@
                     <div class="pkg-body">
                         <div class="pkg-title">Premium Shared Light Motor Boat</div>
                         <div class="pkg-price">
-                            <span class="original">₹3,500</span>
-                            <span class="current">₹2,499</span>
+                            <span class="original">₹4,500</span>
+                            <span class="current">₹3,999</span>
                         </div>
                         <div>
                             <span class="per-person-pill">Per Person*</span>
@@ -886,7 +886,7 @@
                         </ul>
                     </div>
                     <div class="pkg-footer">
-                        <a href="{{route('contact')}}" class="btn-primary btn-full">Book Now - ₹2,499</a>
+                        <a href="{{route('contact')}}" class="btn-primary btn-full">Book Now - ₹3,999</a>
                         <a href="https://wa.me/919214191918" class="btn-whatsapp btn-full"><i
                                 class="fa-brands fa-whatsapp"></i> Book via WhatsApp</a>
                     </div>
@@ -901,8 +901,8 @@
                     <div class="pkg-body">
                         <div class="pkg-title">Double Decker Maharaja Boat</div>
                         <div class="pkg-price">
-                            <span class="original">₹5,000</span>
-                            <span class="current">₹3,999</span>
+                            <span class="original">₹6,000</span>
+                            <span class="current">₹4,999</span>
                         </div>
                         <div>
                             <span class="per-person-pill">Per Person*</span>
@@ -944,7 +944,7 @@
                         </ul>
                     </div>
                     <div class="pkg-footer">
-                        <a href="{{route('contact')}}" class="btn-primary btn-full">Book Now - ₹3,999</a>
+                        <a href="{{route('contact')}}" class="btn-primary btn-full">Book Now - ₹4,999</a>
                         <a href="https://wa.me/919214191918" class="btn-whatsapp btn-full"><i
                                 class="fa-brands fa-whatsapp"></i> Book via WhatsApp</a>
                     </div>
@@ -1002,7 +1002,7 @@
                         </ul>
                     </div>
                     <div class="pkg-footer">
-                        <a href="{{route('contact')}}" class="btn-primary btn-full">Book Now - ₹6,499</a>
+                        <a href="{{route('contact')}}" class="btn-primary btn-full">Book Now - ₹8,499</a>
                         <a href="https://wa.me/919214191918" class="btn-whatsapp btn-full"><i
                                 class="fa-brands fa-whatsapp"></i> Book via WhatsApp</a>
                     </div>
