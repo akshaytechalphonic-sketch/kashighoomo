@@ -25,8 +25,8 @@
             background: linear-gradient(135deg, #0a1b29 0%, #051421 55%, #2a1b12 100%);
             position: relative;
             width: 100%;
-            height: 440px !important;
-            min-height: 440px !important;
+            height: 540px !important;
+            min-height: 540px !important;
             overflow: hidden;
             display: flex;
             align-items: center;
@@ -53,7 +53,7 @@
         .hero-content-left {
             width: 50%;
             height: 100%;
-            padding: 60px 40px 15px 80px;
+            padding: 85px 40px 20px 80px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -99,8 +99,8 @@
         .hero-features-grid {
             display: grid !important;
             grid-template-columns: repeat(2, 1fr) !important;
-            gap: 10px 18px !important;
-            margin-bottom: 18px !important;
+            gap: 12px 20px !important;
+            margin-bottom: 20px !important;
             width: 100% !important;
             max-width: 420px;
         }
@@ -112,10 +112,10 @@
 
         .hero-media-right {
             position: absolute;
-            top: 60px;
+            top: 75px;
             right: 0;
             width: 50%;
-            height: calc(100% - 60px);
+            height: calc(100% - 75px);
             border-left: 6px solid var(--vk-saffron);
             border-top-left-radius: 460px 50%;
             border-bottom-left-radius: 460px 50%;
@@ -1364,7 +1364,7 @@
                     <div class="hero-content-left text-white">
                         @if($banner->title)
                             <div class="mb-3 h1 font-family-poppins fw-extrabold hero-dynamic-title"
-                                style="font-size: 30px; line-height: 1.25; font-weight: 800; letter-spacing: -0.5px; color: #ffffff !important;">
+                                style="font-size: 35px; line-height: 1.25; font-weight: 800; letter-spacing: -0.5px; color: #ffffff !important;">
                                 <span style="color: #fff;">{{ $banner->title }}</span>
                             </div>
                         @endif
@@ -1430,7 +1430,7 @@
                     <!-- Left Content -->
                     <div class="hero-content-left text-white">
                         <div class="mb-3 h1 font-family-poppins fw-extrabold hero-dynamic-title"
-                            style="font-size: 30px; line-height: 1.25; font-weight: 800; letter-spacing: -0.5px; color: #ffffff !important;">
+                            style="font-size: 35px; line-height: 1.25; font-weight: 800; letter-spacing: -0.5px; color: #ffffff !important;">
                             <span style="color: #fff;">{{ $sections['home_banner']->title ?? 'Experience Divine Kashi' }}</span>
                         </div>
                         @if(isset($sections['home_banner']))
