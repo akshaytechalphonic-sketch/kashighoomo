@@ -1,0 +1,1120 @@
+Uri: https://fonts.gstatic.com/s/lexend/v26/wlpwgwvFAVdoq2_v-6QU.woff2
+File Name: C:\theme\tfglobetrek.vercel.app\s\lexend\v26\wlpwgwvFAVdoq2_v-6QU.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lexend/v26/wlpwgwvFAVdoq2_v9aQU4Wc.woff2
+File Name: C:\theme\tfglobetrek.vercel.app\s\lexend\v26\wlpwgwvFAVdoq2_v9aQU4Wc.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lexend/v26/wlpwgwvFAVdoq2_v9KQU4Wc.woff2
+File Name: C:\theme\tfglobetrek.vercel.app\s\lexend\v26\wlpwgwvFAVdoq2_v9KQU4Wc.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtq.woff2
+File Name: C:\theme\tfglobetrek.vercel.app\s\outfit\v15\QGYvz_MVcBeNP4NJtEtq.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJuktqQ4E.woff2
+File Name: C:\theme\tfglobetrek.vercel.app\s\outfit\v15\QGYvz_MVcBeNP4NJuktqQ4E.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/yellowtail/v25/OZpGg_pnoDtINPfRIlLohlvHwQ.woff2
+File Name: C:\theme\tfglobetrek.vercel.app\s\yellowtail\v25\OZpGg_pnoDtINPfRIlLohlvHwQ.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/yellowtail/v25/OZpGg_pnoDtINPfRIlLohlXHwXD-.woff2
+File Name: C:\theme\tfglobetrek.vercel.app\s\yellowtail\v25\OZpGg_pnoDtINPfRIlLohlXHwXD-.woff2
+Content Type: font/woff2
+
+Uri: https://tfglobetrek.vercel.app/
+File Name: C:\theme\tfglobetrek.vercel.app\index.htm
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/aboutus.html
+File Name: C:\theme\tfglobetrek.vercel.app\aboutus.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/asqquestion.html
+File Name: C:\theme\tfglobetrek.vercel.app\asqquestion.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/blogdetail.html
+File Name: C:\theme\tfglobetrek.vercel.app\blogdetail.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/bloggrid.html
+File Name: C:\theme\tfglobetrek.vercel.app\bloggrid.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/bloglist.html
+File Name: C:\theme\tfglobetrek.vercel.app\bloglist.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/contactus.html
+File Name: C:\theme\tfglobetrek.vercel.app\contactus.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/css/animate.css
+File Name: C:\theme\tfglobetrek.vercel.app\css\animate.css
+Content Type: text/css
+
+Uri: https://tfglobetrek.vercel.app/css/boostrap.css
+File Name: C:\theme\tfglobetrek.vercel.app\css\boostrap.css
+Content Type: text/css
+
+Uri: https://tfglobetrek.vercel.app/css/fancybox.css
+File Name: C:\theme\tfglobetrek.vercel.app\css\fancybox.css
+Content Type: text/css
+
+Uri: https://tfglobetrek.vercel.app/css/nouislider.min.css
+File Name: C:\theme\tfglobetrek.vercel.app\css\nouislider.min.css
+Content Type: text/css
+
+Uri: https://tfglobetrek.vercel.app/css/style.css
+File Name: C:\theme\tfglobetrek.vercel.app\css\style.css
+Content Type: text/css
+
+Uri: https://tfglobetrek.vercel.app/css/swiper-bundle.min.css
+File Name: C:\theme\tfglobetrek.vercel.app\css\swiper-bundle.min.css
+Content Type: text/css
+
+Uri: https://tfglobetrek.vercel.app/destination1.html
+File Name: C:\theme\tfglobetrek.vercel.app\destination1.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/destination2.html
+File Name: C:\theme\tfglobetrek.vercel.app\destination2.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/destinationdetail.html
+File Name: C:\theme\tfglobetrek.vercel.app\destinationdetail.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/fonts/font-icons.css
+File Name: C:\theme\tfglobetrek.vercel.app\fonts\font-icons.css
+Content Type: text/css
+
+Uri: https://tfglobetrek.vercel.app/fonts/fonts.css
+File Name: C:\theme\tfglobetrek.vercel.app\fonts\fonts.css
+Content Type: text/css
+
+Uri: https://tfglobetrek.vercel.app/fonts/icomoon.eot?ctxhj7
+File Name: C:\theme\tfglobetrek.vercel.app\fonts\icomoon.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tfglobetrek.vercel.app/fonts/icomoon.svg?ctxhj7
+File Name: C:\theme\tfglobetrek.vercel.app\fonts\icomoon.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/fonts/icomoon.ttf?ctxhj7
+File Name: C:\theme\tfglobetrek.vercel.app\fonts\icomoon.ttf
+Content Type: font/ttf
+
+Uri: https://tfglobetrek.vercel.app/fonts/icomoon.woff?ctxhj7
+File Name: C:\theme\tfglobetrek.vercel.app\fonts\icomoon.woff
+Content Type: font/woff
+
+Uri: https://tfglobetrek.vercel.app/gridsidebarleft.html
+File Name: C:\theme\tfglobetrek.vercel.app\gridsidebarleft.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/gridsidebarright.html
+File Name: C:\theme\tfglobetrek.vercel.app\gridsidebarright.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/gridstyle01.html
+File Name: C:\theme\tfglobetrek.vercel.app\gridstyle01.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/gridstyle02.html
+File Name: C:\theme\tfglobetrek.vercel.app\gridstyle02.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/gridstylefullwidth.html
+File Name: C:\theme\tfglobetrek.vercel.app\gridstylefullwidth.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/gridtourhalfmapright.html
+File Name: C:\theme\tfglobetrek.vercel.app\gridtourhalfmapright.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/home-video-background.html
+File Name: C:\theme\tfglobetrek.vercel.app\home-video-background.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/homepage2.html
+File Name: C:\theme\tfglobetrek.vercel.app\homepage2.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/homepage3.html
+File Name: C:\theme\tfglobetrek.vercel.app\homepage3.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/homepage4.html
+File Name: C:\theme\tfglobetrek.vercel.app\homepage4.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/homepage5.html
+File Name: C:\theme\tfglobetrek.vercel.app\homepage5.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/images/backgrounds/bg-01.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\backgrounds\bg-01.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/backgrounds/bg-02.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\backgrounds\bg-02.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/backgrounds/bg-03.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\backgrounds\bg-03.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/backgrounds/bg-04.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\backgrounds\bg-04.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/backgrounds/bg-05.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\backgrounds\bg-05.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/backgrounds/bg-about-us.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\backgrounds\bg-about-us.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/backgrounds/bg-blog.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\backgrounds\bg-blog.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/backgrounds/bg-mobile-phone.png
+File Name: C:\theme\tfglobetrek.vercel.app\images\backgrounds\bg-mobile-phone.png
+Content Type: image/png
+
+Uri: https://tfglobetrek.vercel.app/images/backgrounds/bg-transparent-2.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\backgrounds\bg-transparent-2.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/backgrounds/bg-transparent.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\backgrounds\bg-transparent.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/backgrounds/map.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\backgrounds\map.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/banner/bg-slide-01.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\banner\bg-slide-01.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/banner/bg-slide-02.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\banner\bg-slide-02.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/banner/bg-slide-03.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\banner\bg-slide-03.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/banner/bg-slide-04.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\banner\bg-slide-04.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/banner/bg-slide-05.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\banner\bg-slide-05.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/banner/bg-slide-06.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\banner\bg-slide-06.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/banner/bg-slide-07.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\banner\bg-slide-07.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/banner/bg-slide-08.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\banner\bg-slide-08.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/banner/bg-slide-09.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\banner\bg-slide-09.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/banner/bg-slide-10.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\banner\bg-slide-10.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/banner/bg-slide-11.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\banner\bg-slide-11.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/banner/bg-slide-12.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\banner\bg-slide-12.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/categories/ct-01.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\categories\ct-01.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/categories/ct-02.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\categories\ct-02.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/categories/ct-03.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\categories\ct-03.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/categories/ct-04.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\categories\ct-04.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/icons/advanced.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\advanced.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/arrow-left-1.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\arrow-left-1.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/arrow-right-2.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\arrow-right-2.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/arrow-up.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\arrow-up.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/beach.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\beach.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/benefit-1.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\benefit-1.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/benefit-2.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\benefit-2.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/benefit-3.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\benefit-3.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/bike.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\bike.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/calendar.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\calendar.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/camera-1.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\camera-1.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/camera.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\camera.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/camping-2.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\camping-2.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/camping-3.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\camping-3.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/camping.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\camping.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/caplecar.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\caplecar.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/check-box.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\check-box.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/climbing.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\climbing.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/clock-2.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\clock-2.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/clock.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\clock.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/comment.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\comment.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/cuisine.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\cuisine.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/cycle.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\cycle.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/discovery.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\discovery.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/fb.png
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\fb.png
+Content Type: image/png
+
+Uri: https://tfglobetrek.vercel.app/images/icons/fire-2.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\fire-2.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/fire.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\fire.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/gg.png
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\gg.png
+Content Type: image/png
+
+Uri: https://tfglobetrek.vercel.app/images/icons/icon-arrow-right.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\icon-arrow-right.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/icon-lock.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\icon-lock.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/icon-send.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\icon-send.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/icon-share.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\icon-share.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/icon-viewmap.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\icon-viewmap.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/icon-wishlist.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\icon-wishlist.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/language.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\language.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/like.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\like.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/list-2.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\list-2.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/list.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\list.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/location.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\location.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/long-dis.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\long-dis.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/mail.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\mail.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/map-info.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\map-info.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/map.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\map.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/money.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\money.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/mount.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\mount.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/national.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\national.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/phone-call.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\phone-call.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/phone-send.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\phone-send.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/photograp.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\photograp.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/picture.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\picture.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/place.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\place.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/sailboat.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\sailboat.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/send-mail.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\send-mail.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/service-1.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\service-1.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/shipper-icon.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\shipper-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/shopping-cart-icon.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\shopping-cart-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/sticky.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\sticky.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/trip.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\trip.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/unlike.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\unlike.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/user.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\user.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/users-2.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\users-2.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/users.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\users.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/icons/wild.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\icons\wild.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-01.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-01.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-02.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-02.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-03.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-03.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-04.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-04.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-05.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-05.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-06.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-06.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-07.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-07.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-08.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-08.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-09.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-09.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-10.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-10.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-100.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-100.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-11.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-11.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-12.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-12.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-13.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-13.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-14.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-14.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-15.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-15.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-16.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-16.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-17.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-17.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-18.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-18.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-19.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-19.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-20.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-20.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-21.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-21.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-22.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-22.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-23.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-23.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-24.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-24.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-25.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-25.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-26.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-26.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-27.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-27.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-28.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-28.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-29.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-29.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-30.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-30.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-31.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-31.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-32.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-32.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-33.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-33.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-34.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-34.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-35.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-35.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-36.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-36.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-37.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-37.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-39.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-39.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-40.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-40.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-41.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-41.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-42.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-42.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-43.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-43.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-44.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-44.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-45.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-45.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-46.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-46.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-47.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-47.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-48.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-48.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-49.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-49.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-50.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-50.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-51.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-51.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-52.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-52.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-53.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-53.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-54.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-54.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-55.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-55.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-56.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-56.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-57.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-57.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-58.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-58.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-59.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-59.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-60.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-60.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-61.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-61.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-62.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-62.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-63.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-63.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-64.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-64.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-65.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-65.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-66.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-66.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-67.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-67.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-68.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-68.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-71.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-71.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-72.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-72.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-73.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-73.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-74.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-74.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-75.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-75.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-76.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-76.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-77.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-77.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-78.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-78.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-79.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-79.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-80.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-80.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-81.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-81.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-82.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-82.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-83.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-83.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-84.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-84.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-85.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-85.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-86.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-86.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-87.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-87.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-88.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-88.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-89.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-89.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-91.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-91.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-92.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-92.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-93.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-93.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-94.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-94.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-95.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-95.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-96.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-96.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-97.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-97.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-98.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-98.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/locations/tour-99.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\locations\tour-99.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/logo/destination.png
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\destination.png
+Content Type: image/png
+
+Uri: https://tfglobetrek.vercel.app/images/logo/favicon.png
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\favicon.png
+Content Type: image/png
+
+Uri: https://tfglobetrek.vercel.app/images/logo/logo-app.png
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\logo-app.png
+Content Type: image/png
+
+Uri: https://tfglobetrek.vercel.app/images/logo/logo-company-1.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\logo-company-1.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/logo/logo-company-2.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\logo-company-2.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/logo/logo-company-3.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\logo-company-3.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/logo/logo-company-4.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\logo-company-4.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/logo/logo-company-5.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\logo-company-5.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/logo/logo-company-6.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\logo-company-6.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/logo/logo-gg.png
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\logo-gg.png
+Content Type: image/png
+
+Uri: https://tfglobetrek.vercel.app/images/logo/logo-white.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\logo-white.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/logo/logo.svg
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\logo.svg
+Content Type: image/svg+xml
+
+Uri: https://tfglobetrek.vercel.app/images/logo/nofind.png
+File Name: C:\theme\tfglobetrek.vercel.app\images\logo\nofind.png
+Content Type: image/png
+
+Uri: https://tfglobetrek.vercel.app/images/teams/user-01.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\teams\user-01.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/teams/user-02.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\teams\user-02.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/teams/user-03.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\teams\user-03.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/teams/user-04.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\teams\user-04.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/teams/user-05.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\teams\user-05.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/teams/user-06.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\teams\user-06.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/teams/user-07.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\teams\user-07.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/teams/user-08.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\teams\user-08.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/teams/user-09.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\teams\user-09.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/teams/user-10.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\teams\user-10.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/teams/user-11.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\teams\user-11.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/teams/user-12.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\teams\user-12.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/users/user-1.png
+File Name: C:\theme\tfglobetrek.vercel.app\images\users\user-1.png
+Content Type: image/png
+
+Uri: https://tfglobetrek.vercel.app/images/users/user-2.png
+File Name: C:\theme\tfglobetrek.vercel.app\images\users\user-2.png
+Content Type: image/png
+
+Uri: https://tfglobetrek.vercel.app/images/users/user-3.png
+File Name: C:\theme\tfglobetrek.vercel.app\images\users\user-3.png
+Content Type: image/png
+
+Uri: https://tfglobetrek.vercel.app/images/users/user-4.png
+File Name: C:\theme\tfglobetrek.vercel.app\images\users\user-4.png
+Content Type: image/png
+
+Uri: https://tfglobetrek.vercel.app/images/vacation/vc-01.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\vacation\vc-01.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/vacation/vc-02.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\vacation\vc-02.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/vacation/vc-03.jpg
+File Name: C:\theme\tfglobetrek.vercel.app\images\vacation\vc-03.jpg
+Content Type: image/jpeg
+
+Uri: https://tfglobetrek.vercel.app/images/video-1.mp4
+File Name: C:\theme\tfglobetrek.vercel.app\images\video-1.mp4
+Content Type: video/mp4
+
+Uri: https://tfglobetrek.vercel.app/index.html
+File Name: C:\theme\tfglobetrek.vercel.app\index.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/js/bootstrap.bundle.min.js
+File Name: C:\theme\tfglobetrek.vercel.app\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://tfglobetrek.vercel.app/js/fancybox.umd.js
+File Name: C:\theme\tfglobetrek.vercel.app\js\fancybox.umd.js
+Content Type: application/javascript
+
+Uri: https://tfglobetrek.vercel.app/js/jquery.min.js
+File Name: C:\theme\tfglobetrek.vercel.app\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://tfglobetrek.vercel.app/js/main.js
+File Name: C:\theme\tfglobetrek.vercel.app\js\main.js
+Content Type: application/javascript
+
+Uri: https://tfglobetrek.vercel.app/js/nouislider.min.js
+File Name: C:\theme\tfglobetrek.vercel.app\js\nouislider.min.js
+Content Type: application/javascript
+
+Uri: https://tfglobetrek.vercel.app/js/swiper-bundle.min.js
+File Name: C:\theme\tfglobetrek.vercel.app\js\swiper-bundle.min.js
+Content Type: application/javascript
+
+Uri: https://tfglobetrek.vercel.app/js/swiper.js
+File Name: C:\theme\tfglobetrek.vercel.app\js\swiper.js
+Content Type: application/javascript
+
+Uri: https://tfglobetrek.vercel.app/js/wNumb.min.js
+File Name: C:\theme\tfglobetrek.vercel.app\js\wNumb.min.js
+Content Type: application/javascript
+
+Uri: https://tfglobetrek.vercel.app/js/wow.min.js
+File Name: C:\theme\tfglobetrek.vercel.app\js\wow.min.js
+Content Type: application/javascript
+
+Uri: https://tfglobetrek.vercel.app/listhalfmapright.html
+File Name: C:\theme\tfglobetrek.vercel.app\listhalfmapright.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/listsidebarleft.html
+File Name: C:\theme\tfglobetrek.vercel.app\listsidebarleft.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/liststyle.html
+File Name: C:\theme\tfglobetrek.vercel.app\liststyle.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/liststylefullwidth.html
+File Name: C:\theme\tfglobetrek.vercel.app\liststylefullwidth.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/listtopmap.html
+File Name: C:\theme\tfglobetrek.vercel.app\listtopmap.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/listtopmap01.html
+File Name: C:\theme\tfglobetrek.vercel.app\listtopmap01.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/teammember.html
+File Name: C:\theme\tfglobetrek.vercel.app\teammember.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/toursingle1.html
+File Name: C:\theme\tfglobetrek.vercel.app\toursingle1.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/toursingle2.html
+File Name: C:\theme\tfglobetrek.vercel.app\toursingle2.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/toursingle3.html
+File Name: C:\theme\tfglobetrek.vercel.app\toursingle3.html
+Content Type: text/html
+
+Uri: https://tfglobetrek.vercel.app/wishlist.html
+File Name: C:\theme\tfglobetrek.vercel.app\wishlist.html
+Content Type: text/html
+
