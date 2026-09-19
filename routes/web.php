@@ -69,7 +69,8 @@ Route::get('/destinations/{slug}', [PublicController::class, 'destinationDetails
 Route::get('/cabs', [PublicController::class, 'cabs'])->name('cabs.index');
 Route::post('/cabs/{id}/enquire', [PublicController::class, 'storeCabEnquiry'])->name('cabs.enquire');
 Route::get('/boat-rides', [PublicController::class, 'boatRides'])->name('boat-rides.index');
-Route::get('/book-dev-diwali-boat-rides', [PublicController::class, 'boatRides'])->name('boat-rides.dev-diwali');
+Route::redirect('/dev-diwali', '/book-dev-diwali-boat-rides', 301);
+Route::get('/book-dev-diwali-boat-rides', [PublicController::class, 'devdiwali'])->name('dev-diwali.index');
 
 
 
