@@ -47,6 +47,36 @@
         .description-content a:hover {
             color: #E65100 !important;
         }
+        .description-content ul {
+            list-style-type: disc !important;
+            padding-left: 26px !important;
+            margin-bottom: 20px !important;
+        }
+        .description-content ol {
+            list-style-type: decimal !important;
+            padding-left: 26px !important;
+            margin-bottom: 20px !important;
+        }
+        .description-content li {
+            list-style: disc !important;
+            display: list-item !important;
+            margin-bottom: 10px !important;
+            line-height: 1.75 !important;
+            color: #2C2C2C !important;
+        }
+        .description-content p {
+            color: #2C2C2C !important;
+            margin-bottom: 18px !important;
+            line-height: 1.8 !important;
+        }
+        .description-content h2,
+        .description-content h3,
+        .description-content h4 {
+            color: #1a1a1a !important;
+            font-weight: 700 !important;
+            margin-top: 28px !important;
+            margin-bottom: 14px !important;
+        }
         .itinerary-timeline .badge {
             background-color: #8B1E1E !important;
         }
