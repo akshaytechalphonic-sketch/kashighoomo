@@ -1,152 +1,7 @@
--- SQL Dump to update packages on Hostinger Database (kashi)
+-- SQL Dump to update all packages on Hostinger Database (kashi)
 -- Run this query in phpMyAdmin if needed
 
-UPDATE packages SET 
-  title = 'Assi Ghat Sunrise Tour: The Side of Varanasi You Shouldn\'t Miss',
-  description = '<h1>Assi Ghat Sunrise Tour: The Side of Varanasi You Shouldn\'t Miss</h1>
-
-<p>The mornings in Varanasi are just different. You don’t have to pray immediately; you can watch the sun rise over the banks of the Ganga. It is more than a perspective of Varanasi and your normal everyday life.</p>
-
-<p>Experience Assi Ghat Morning with the <strong>Subah-e-Banaras</strong> Program, a boat ride on the Ganga, temple visits &amp; sightseeing among temples, &amp; many more. <strong>Kashi Ghoomo</strong> ensures that you get everything in one go, so your experience of Varanasi is never interrupted by the time you need to search for another place.</p>
-
-<h2>What Can You Experience at Assi Ghat in the Morning?</h2>
-
-<p>Assi Ghat is another favorite spot to visit in Varanasi in the morning hours. There are different types of people at the ghat. People come here for a prayer, as a yoga session, or just to sit down and watch the sunrise at the ghat with a view of the Ganga. You can also see locals starting their day while visitors enjoy the view.</p>
-
-<p>One of the main things to see here is the <strong>Subah-e-Banaras</strong> program. It allows visitors to feel a part of a few of the traditions of Varanasi.</p>
-
-<p><strong>In the program, you may find:</strong></p>
-<ul>
-    <li><strong>Vedic chanting:</strong> Hear prayers and chants in the morning.</li>
-    <li><strong>Yoga:</strong> See the yoga teacher in action as the day gets underway.</li>
-    <li><strong>Music for the Heart:</strong> Listen to the music of the morning program.</li>
-</ul>
-
-<p>You don\'t have to understand every word of each prayer or ritual in order to enjoy it. You can simply sit and listen to it and experience it.</p>
-
-<p>And then of course there\'s the sunrise. As the day grows brighter, the river and the ghats begin to take on a different form. Boats are cruising the Ganga.</p>
-<p>If you are a photography lover, then take some snaps of the boat, river, and ghats for yourself and relax for a few minutes. Both are good ways for you to have a lovely morning.</p>
-
-<h2>What Your Day in Varanasi Will Look Like</h2>
-
-<p>The tour starts early, so it is best to get a good night\'s sleep before the trip. Once you are picked up from your hotel or another agreed location, you will head towards Assi Ghat.</p>
-
-<p><strong>Here is how the day is planned:</strong></p>
-
-<div class=\"day-plan-section\">
-    <h3>1. Start With the Sunrise and Subah-e-Banaras</h3>
-    <p>Our first destination is <strong>Assi Ghat</strong>, where you’ll attend the morning programs and enjoy by the river Ganga. Just relax and be simply aware. Notice the minute things happening around you.</p>
-    <p>Notice the pilgrims sitting peacefully on the bank of the River Ganges and doing yoga and prayer. Do take an opportunity to know more about why the River Ganges is so holy for the people of Varanasi.</p>
-
-    <h3>2. See the Ghats from a Boat</h3>
-    <p>After the morning experience, you can enjoy a <strong>boat ride on the Ganga</strong>. Seeing the ghats from the water offers a new perspective of the city. You will pass steps to the river and some old buildings along the banks and begin to see people starting their day. This boat journey also provides an opportunity to take a rest and relax while taking in the views without walking.</p>
-    <p>If you like taking pictures, click photos of the scene and the environment to capture a memorable moment and keep it as a memory.</p>
-
-    <h3>3. Visit Tulsi Ghat</h3>
-    <p><strong>Tulsi Ghat</strong> is another place you will visit during the tour. Situated on the Ganga like the rest of the ghats, it adds to the history of Varanasi\' uniqueness and its culture.</p>
-    <p>This is also your chance to observe your environment, snap a few pictures where you\'re allowed, and discover more about this ghat with your local guide. You may also wish to spend a few moments soaking up the river before proceeding to the next point.</p>
-
-    <h3>4. Visit Sankat Mochan Hanuman Temple</h3>
-    <p>Your guide will take you to the <strong>Sankat Mochan Hanuman Temple</strong>. It is a popular temple dedicated to Lord Hanuman. And many pilgrims come here for offering prayers.</p>
-    <p>Please remember that others could be observing for religious reasons or personal things when you visit. Follow the guidelines, keep an eye on your belongings, and walk with manners around the temple.</p>
-
-    <h3>5. Explore BHU and New Vishwanath Temple</h3>
-    <p><strong>Banaras Hindu University (BHU)</strong> is another famous university in Varanasi. Its spacious campus is a sight to behold, and it is also an integral part of the education history of India.</p>
-    <p>The <strong>New Vishwanath Temple</strong> is situated at the BHU campus. It is one of the most visited temples by devotees for all time when they visit Varanasi.</p>
-    <p>Varanasi is not famous only for its ghats, but it’s beautiful because of its history, temples, markets, people, and educational institutions.</p>
-
-    <h3>6. Pause for Snacks or Shopping</h3>
-    <p>Later you can take a rest for some time, and you can have some snacks and can visit local shops &amp; markets.</p>
-    <p><strong>You could:</strong></p>
-    <ul>
-        <li>Stop for a quick snack or drink.</li>
-        <li>Bring back a small souvenir.</li>
-        <li>Sit down and rest before heading back.</li>
-    </ul>
-    <p><strong>Food &amp; beverage quick reminder:</strong> Your package does not include breakfast or any other of your meals. Save some of your money for food &amp; drinks.</p>
-</div>
-
-<h2>What Is Included in the Tour?</h2>
-<p>The idea is to keep the main travel arrangements in one place. <strong>Kashi Ghoomo</strong> lists the following services as part of the package:</p>
-<ul>
-    <li>Pickup and drop-off from your hotel, airport, or railway station</li>
-    <li>Private air-conditioned cab</li>
-    <li>Sunrise boat ride on the River Ganga</li>
-    <li>Subah-e-Banaras cultural experience</li>
-    <li>Walking tour around Assi Ghat</li>
-    <li>Visit to Tulsi Ghat</li>
-    <li>Visit to Sankat Mochan Hanuman Temple</li>
-    <li>Visits to BHU and New Vishwanath Temple</li>
-    <li>Local tour guide</li>
-    <li>Mineral water bottle</li>
-    <li>Parking and toll charges</li>
-</ul>
-
-<h2>What Will You Need to Pay For Separately?</h2>
-<p>Some expenses are not included in the tour price. You should plan for these on your own:</p>
-<ul>
-    <li>Breakfast and other meals</li>
-    <li>Personal shopping</li>
-    <li>Temple donations</li>
-    <li>Camera charges, where applicable</li>
-    <li>Travel insurance</li>
-    <li>Tips for the driver and guide</li>
-</ul>
-<p><strong>Pricing:</strong> Starting from <strong>₹6,000 per person</strong>. Confirm the final amount, date of travel, pickup point, and any other applicable details before you make a booking.</p>
-
-<h2>A Few Things to Remember Before Leaving Your Hotel</h2>
-<p>Getting an early start on the tour means a little bit of planning in advance to help get your morning off to a good start.</p>
-<ul>
-    <li><strong>Comfy Clothes &amp; Comfortable Shoes:</strong> As we will walk a lot, visiting the Ghat and some temples, we advise you to wear comfortable shoes and appropriate clothes.</li>
-    <li><strong>Keep your belongings safe:</strong> When you are out in public, keep your wallet, phone, and small pack safe.</li>
-    <li><strong>Clarify the pickup time:</strong> If your tour starts in the early morning or night, ensure you head early. Confirm the hour and place far earlier so you aren\'t missing it.</li>
-    <li><strong>Keep Cash:</strong> Have some cash with you for buying snacks or souvenirs, as there might be some stores that do not accept digital modes of payment.</li>
-    <li><strong>Get permission for photography:</strong> There are rules, as everyone is not comfortable. So ask your permission first at the temple or any religious activities.</li>
-    <li><strong>Take breaks in your plans:</strong> Traffic, crowds, the rules of the temple, or whatever other circumstances may be necessary for you to spend time at each place. Relax and take the sightseeing tour at a leisurely pace.</li>
-</ul>
-
-<h2>Why Take This Tour with Kashi Ghoomo?</h2>
-<p>Travel planning and researching transport in a new city, not to mention where to go, can take a while. It can be more difficult when the day begins before sunrise.</p>
-<p><strong>Kashi Ghoomo</strong> provides this as a guided tour, which includes transfers, a boat journey, a local guide, and the sites listed in the itinerary, so you can relax without stressing over how to get from one place to another in the morning.</p>
-<p>A guide is also good to have, especially if this is your first trip to Varanasi. They can answer questions you have about the places you\'re going and explain their importance to the city.</p>
-<p>This tour could be perfect for first-time visitors, families, couples, or anyone who would like to get a taste of the spiritual Varanasi. Just expect an early morning and some walking.</p>
-<p>Before you book, please go through the itinerary to check what is included. If you are travelling with seniors and kids, talk to Kashi Ghoomo. The team will guide and do the arrangements with you.</p>
-
-<h2>Frequently Asked Questions</h2>
-<div class=\"faq-list\">
-    <div class=\"faq-item\">
-        <p><strong>1. What is the highlighted part of the Assi Ghat Sunrise Tour?</strong><br>
-        Sunrise and Subah-e-Banaras are the standout features. The boat cruise and temple visits top the list of features for me.</p>
-    </div>
-    <div class=\"faq-item\">
-        <p><strong>2. Is the boat ride included?</strong><br>
-        Yes, the boat ride on the River Ganga in the morning has been included in the package.</p>
-    </div>
-    <div class=\"faq-item\">
-        <p><strong>3. What temples will be on the pilgrimage itinerary?</strong><br>
-        The tour takes you to Sankat Mochan Hanuman Temple and New Vishwanath Temple, as well as to Tulsi Ghat and Banaras Hindu University.</p>
-    </div>
-    <div class=\"faq-item\">
-        <p><strong>4. Are food and breakfast included?</strong><br>
-        No. These are excluded items, so you will need to budget for these individually.</p>
-    </div>
-    <div class=\"faq-item\">
-        <p><strong>5. In which locations will I be picked up?</strong><br>
-        The package includes pickup and drop-off from the hotel, airport, and railway station. Please confirm your exact pickup point with the booking team before the tour.</p>
-    </div>
-</div>
-
-<h2>See Varanasi Before the Day Gets Busy</h2>
-<p>The early morning in Varanasi may be a very nice experience. Sitting in the boat, glancing at the ghats, hearing the music at the Assi Ghat, or observing the Ganga as the sun rises, you may enjoy all of them. It is a matter of style for everyone.</p>
-<p>With a <strong>Kashi Ghoomo</strong> package, you get to see the ghat and the temples and see how Varanasi appears in the morning hours.</p>
-<p><strong>Relax &amp; Recline.</strong> If you want to explore Varanasi, it is certainly the best tour for you. Check our packages, plan your trip, and get ready for your very first sunrise at the Ganga.</p>',
-  inclusions = '[\"Pickup and drop-off from your hotel, airport, or railway station\",\"Private air-conditioned cab\",\"Sunrise boat ride on the River Ganga\",\"Subah-e-Banaras cultural experience\",\"Walking tour around Assi Ghat\",\"Visit to Tulsi Ghat\",\"Visit to Sankat Mochan Hanuman Temple\",\"Visits to BHU and New Vishwanath Temple\",\"Local tour guide\",\"Mineral water bottle\",\"Parking and toll charges\"]',
-  exclusions = '[\"Breakfast and other meals\",\"Personal shopping\",\"Temple donations\",\"Camera charges, where applicable\",\"Travel insurance\",\"Tips for the driver and guide\"]',
-  itinerary = '[{\"day\":\"Step 1\",\"title\":\"Start With the Sunrise and Subah-e-Banaras\",\"description\":\"Our first destination is Assi Ghat, where you\\u2019ll attend the morning programs and enjoy by the river Ganga. Just relax and be simply aware. Notice the minute things happening around you. Notice the pilgrims sitting peacefully on the bank of the River Ganges and doing yoga and prayer. Do take an opportunity to know more about why the River Ganges is so holy for the people of Varanasi.\"},{\"day\":\"Step 2\",\"title\":\"See the Ghats from a Boat\",\"description\":\"After the morning experience, you can enjoy a boat ride on the Ganga. Seeing the ghats from the water offers a new perspective of the city. You will pass steps to the river and some old buildings along the banks and begin to see people starting their day. This boat journey also provides an opportunity to take a rest and relax while taking in the views without walking. If you like taking pictures, click photos of the scene and the environment to capture a memorable moment and keep it as a memory.\"},{\"day\":\"Step 3\",\"title\":\"Visit Tulsi Ghat\",\"description\":\"Tulsi Ghat is another place you will visit during the tour. Situated on the Ganga like the rest of the ghats, it adds to the history of Varanasi\' uniqueness and its culture. This is also your chance to observe your environment, snap a few pictures where you\'re allowed, and discover more about this ghat with your local guide. You may also wish to spend a few moments soaking up the river before proceeding to the next point.\"},{\"day\":\"Step 4\",\"title\":\"Visit Sankat Mochan Hanuman Temple\",\"description\":\"Your guide will take you to the Sankat Mochan Hanuman Temple. It is a popular temple dedicated to Lord Hanuman. And many pilgrims come here for offering prayers. Please remember that others could be observing for religious reasons or personal things when you visit. Follow the guidelines, keep an eye on your belongings, and walk with manners around the temple.\"},{\"day\":\"Step 5\",\"title\":\"Explore BHU and New Vishwanath Temple\",\"description\":\"Banaras Hindu University (BHU) is another famous university in Varanasi. Its spacious campus is a sight to behold, and it is also an integral part of the education history of India. The New Vishwanath Temple is situated at the BHU campus. It is one of the most visited temples by devotees for all time when they visit Varanasi. Varanasi is not famous only for its ghats, but it\\u2019s beautiful because of its history, temples, markets, people, and educational institutions.\"},{\"day\":\"Step 6\",\"title\":\"Pause for Snacks or Shopping\",\"description\":\"Later you can take a rest for some time, and you can have some snacks and can visit local shops & markets. Stop for a quick snack or drink, bring back a small souvenir, and sit down and rest before heading back. (Note: Meals are not included in the package).\"}]',
-  meta_title = 'Assi Ghat Sunrise Tour | The Side of Varanasi You Shouldn\'t Miss | Kashi Ghoomo',
-  meta_description = 'Experience Assi Ghat Morning with Subah-e-Banaras, Ganga boat ride, Tulsi Ghat, Sankat Mochan Temple, BHU & New Vishwanath Temple with Kashi Ghoomo.'
-WHERE slug = 'assi-ghat-sunrise-spiritual-walk-experience';
-
+-- Package: Banaras Tour Package That Doesn't Rush the One City You Shouldn't Rush (varansi-2-days-1-night)
 UPDATE packages SET 
   title = 'Banaras Tour Package That Doesn\'t Rush the One City You Shouldn\'t Rush',
   description = '<h1>Banaras Tour Package That Doesn\'t Rush the One City You Shouldn\'t Rush</h1>
@@ -316,6 +171,1137 @@ UPDATE packages SET
   exclusions = '[\"Own expenses to certain monuments\",\"Lunch and dinner (if not decided in advance)\",\"Shopping or personal expenses\",\"Tips for driver and guide\",\"Travel insurance\",\"Extra boat rides beyond the scheduled itinerary\",\"Camera charges at specific temples\",\"Early check-in and late check-out or time charges\",\"Offering or pooja expenses\",\"Any miscellaneous expenses due to weather delay\"]',
   itinerary = '[{\"day\":\"Day 1\",\"title\":\"Arrival, Hotel Check-in & Evening Ganga Aarti Boat Ride\",\"description\":\"On arrival, meet with our representative and transfer to the hotel. Assist you at the hotel and relax. Evening is free for your own activities, and later in the evening you can visit the ghats and in front of Dashashwamedh Ghat for a boat ride for Aarti. Observing the Aarti from the water rather than being away from the crowd on the banks will make it magical for you.\"},{\"day\":\"Day 2\",\"title\":\"Sunrise Boat Ride, Big Three Temples Darshan & Sarnath\",\"description\":\"Starts early with another boat ride, this time at sunrise \\u2014 quiet and almost meditative. Next, head off to darshan at Kashi Vishwanath, Annapurna Devi, and Kal Bhairav in succession to save travel time. Enjoy breakfast, then proceed to Sarnath where Buddha held his first sermon. Afterward, transfer to the airport or railway station for your onward journey.\"}]',
   meta_title = 'Banaras Tour Package (2 Days / 1 Night) | Kashi Ghoomo',
-  meta_description = 'A well-planned 2 Days / 1 Night Banaras tour package with Ganga Aarti boat ride, sunrise cruise, Kashi Vishwanath darshan & Sarnath without rushing.'
+  meta_description = 'A well-planned 2 Days / 1 Night Banaras tour package with Ganga Aarti boat ride, sunrise cruise, Kashi Vishwanath darshan & Sarnath without rushing.',
+  duration = '2 Days / 1 Night'
 WHERE slug = 'varansi-2-days-1-night';
+
+-- Package: varansi |2 Days / 1 Night (varansi-2-days-1-night-1)
+UPDATE packages SET 
+  title = 'varansi |2 Days / 1 Night',
+  description = '<h2 style=\"color: #1a1a1a; font-weight: 700; margin-top: 20px; margin-bottom: 16px; line-height: 1.35;\">The Varanasi Tour Package for Family That Skips the Boat Ride Crowd</h2>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Varanasi isn\'t a city that you \'blitzkrieg\' through, but for a family with a tight weekend, a properly planned Varanasi tour package for family will give you the heart of Kashi without any of the fillers. Two days is really enough time to get a sense of the Ganga Aarti, the main temples, and the pulse of spiritual Varanasi if your itinerary sticks to what matters and not every triple thousand thing you can do.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Kashi Ghoomo\'s 2 Days 1 Night package is curated, especially keeping this balance in perspective, providing families, couples &amp; first-time visitors to Varanasi an authentic experience of temples, ghats &amp; riverside evenings without the tiring &amp; overwhelming schedule. If you\'re traveling with senior citizens or kids or just want a short &amp; sweet Banaras tour package that truly does justice to the core of this city and its spirit, then this is an ideal itinerary to keep things close to comfortable yet offer a glimpse of what this city is all about.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Why This Varanasi Tour Package for Family Works So Well</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Exploring Varanasi on your own tour means you will have to manage queues of temples, book boat rides, and figure out which ghats are worth being present at. When you have only a two-day visit, this Varanasi tour package for family takes the headache off your hands with transport, hotel, temple darshan, and boat rides pre-arranged in one seamless travel plan.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">Kashi Ghoomo takes care of the travel arrangements so that families can enjoy the experience fully by just witnessing the Ganga Aarti, seeking blessings at the Kashi Vishwanath, and enjoying the ghats — without getting busily occupied with booking cabs and running from place to place to stand in lines at every temple. The real difference is truly reflected in how smoothly the two days go.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">What\'s Included in This Package</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">A well-planned Varanasi tour package for family should take care of the essentials upfront, so nothing gets left to chance once you\'ve actually arrived in the city. Here\'s what\'s typically covered in Kashi Ghoomo\'s 2 Days 1 Night itinerary:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 22px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Airport or railway station pickup and drop</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">One night\'s hotel stay with breakfast included</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Private evening boat ride during Ganga Aarti</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Morning boat ride through the ghats</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Guided darshan at Kashi Vishwanath Temple</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Annapurna Devi Temple visit &amp; Darshan at Kal Bhairav Temple</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Sarnath Tour on Day 2</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Air-conditioned car for all local transfers</li>
+</ul>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">Now families who opt for this family tour package for Banaras can forget about searching for separate cabs, boat tickets, and guides once they arrive; we have already taken care of everything.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">A Day-by-Day Look at This Varanasi Tour Package for Family</h3>
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 24px; margin-bottom: 12px; font-size: 18px; line-height: 1.4;\">Day 1: Arrival &amp; Evening Ganga Aarti Boat Ride</h3>
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Meeting with our representative at Varanasi Airport/Railway Station. Get assisted to the hotel for check-in and relax. After refreshment, proceed to visit the Ghats of Varanasi, and in the evening, enjoy a boat ride in and around Ganga Aarti. Boat ride from Dashashwamedh Ghat to watch Ganga Aarti peacefully from the boat and not from the crowd.</p>
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 24px; margin-bottom: 12px; font-size: 18px; line-height: 1.4;\">Day 2: Morning Ghats, Temple Darshan &amp; Sarnath Tour</h3>
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Morning boat ride on the ghats of Varanasi, followed by Darshan at Kashi Vishwanath Temple, Annapurna Devi Temple &amp; Kal Bhairav Temple. Afternoon visit to Sarnath, where Lord Buddha gave his first sermon. Drop off at the airport/railway station for your next leg of the journey.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Why Varanasi Deserves a Spot on Every Traveler\'s List</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Not many cities on earth carry this much history. They say Varanasi is the oldest existing city in the world, and honestly, after a while, you begin to think it. The city has been shaped against the banks of the Ganga, the river we\'ve been trekking to for eons, and the city itself still lies in tune to it: The bells in the morning, the priests on the banks, the low hum of devotions that never ends. Hard to explain it properly until you\'ve actually stood on those ghats yourself.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">A Varanasi tour package for family isn\'t really about checking off a list of famous spots. It\'s more about being present for all that, watching the Ganga Aarti with the fire, drums, and chanting going on right in front of you, or just sitting by the river as the sun comes up and everything\'s quiet. Sarnath adds something different too — calmer, tied to Buddhist history, a refreshing change of pace. This is basically why people keep coming back for this Banaras tour package year after year; it\'s genuinely not something photos can capture well.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">What You Actually Get by Booking Through Kashi Ghoomo</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Planning this trip yourself sounds simple enough, until you\'re actually standing at Varanasi Junction trying to figure out boat timings and temple queues on your own. Booking this Varanasi tour package for family through Kashi Ghoomo means someone\'s already sorted that out for you. You\'ve got a representative meeting you at arrival, a driver who actually knows the city\'s chaotic lanes, and boat rides timed properly so you\'re not stuck watching the Ganga Aarti from three rows back in a crowd.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">Hotel, transport, darshan — all of it is coordinated before you even land, which matters a lot when you\'ve only got two days and don\'t want to waste half of one figuring out logistics. For families especially, that kind of planning means less stress and more actual time enjoying the trip, which is really the whole point of choosing this Banaras tour package over piecing everything together yourself.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Tips for Making the Most of Your Trip</h3>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Visit during shoulder season:</strong> October to March has comfortable weather for sightseeing, steering clear of the harsh summer heat when walking around the ghats feels challenging.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Wear modest clothing while visiting temples:</strong> Shoulders and knees should be covered, and it\'s wise to carry a light shawl or scarf as you tour temples and open areas throughout the day.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Have some cash on hand:</strong> Most accommodations and major transportation options accept cards/UPI, but street shops, prasad stalls, and local boatmen on the river are often cash-only.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Keep your mornings free for the boat ride:</strong> Sunrise on the Ganga is peaceful and serene, and you\'ll get a head start on avoiding crowds and the rising heat of the day.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Respect photography restrictions:</strong> Some temples, such as parts of the Kashi Vishwanath temple, do not allow photography or electronic devices inside, so be sure to check beforehand.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Prepare for temple queues:</strong> Visiting during special days and festivals will mean long queues, so be ready for a relaxed and patient pace.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Carry water along the ghats:</strong> The riverside walks are longer than they seem, so carrying drinking water is well worth it, especially in the warmer months.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">What\'s Not Included in This Package</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">While most of the Varanasi travel package for family from Kashi Ghoomo is included, there are a few things that are not covered. It is worth knowing these upfront to plan your trip budget comfortably:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Monument-specific entrance fees are separate.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Lunch and dinner (unless specifically customized/requested).</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Personal expenses such as shopping or tips.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Travel insurance is not part of the package.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Extra boat rides beyond the included ones.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Toll and parking charges are additional.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Camera or video fees at temples/monuments.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Early check-in or late check-out charges.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Any offering or pooja-related personal expenses at temples.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Costs that arise from unexpected weather delays or travel disruptions.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Who This Package Is Genuinely Suited For</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">This Varanasi tour package for family works well across a fairly wide range of travelers:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Families travelling with elderly parents</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Couples wanting a short spiritual getaway</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">First-time visitors to Varanasi</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Solo travelers seeking guided support</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Small groups of friends</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Photography enthusiasts drawn to the ghats</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Pilgrims with limited time for a proper darshan</li>
+</ul>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">Whether you\'re here for the spiritual significance or simply curious about experiencing Kashi firsthand, this Banaras tour package is flexible enough to genuinely suit most travel styles.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Booking Your Trip With Kashi Ghoomo</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Getting started with this Varanasi tour package for family is meant to be simple, without the usual back-and-forth that comes with piecing a trip together on your own. When you contact Kashi Ghoomo, they\'ll clarify what services you\'ll receive, confirm your dates, and ensure your hotel and boat ride timings are booked in advance of your actual arrival in the city.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">All payments and confirmations are arranged seamlessly in advance, so you won\'t end up frantically coordinating from the airport or train station. For parents with kids on diverse schedules or senior family members in need of special planning, pre-arranged reservations make all the difference, leaving you free to enjoy everything Varanasi has to offer your way.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Why Families Keep Choosing This Varanasi Tour Package</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">A short, well-organized trip to Kashi shouldn\'t feel rushed or stressful, and that\'s exactly what this package is built around:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Authentic Local Knowledge:</strong> The Kashi Ghoomo team knows all the temple timings, quieter ghat routes, and transit points that a first-time visitor would take days to understand.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Pre-Arranged Logistics:</strong> Hotel, boats, transport, and guides are sorted out before the start of the tour, so there\'s zero stress once you arrive.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Relaxed Itinerary:</strong> The schedule allows for genuine rest and relaxation, rather than maxing out days with exhausting schedules.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Trustworthy Transfers:</strong> Air-conditioned cars and trusted drivers operate between sites, navigating Varanasi\'s lively streets smoothly.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Assistance at Every Moment:</strong> At any point during your experience, Kashi Ghoomo\'s dedicated ground team is ready to help you directly.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">What to Expect From Your Hotel Stay</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">For this trip, accommodation is selected with comfort and location in genuine mind, not just a distant view. Rooms feature everything you need, including comfortable beds, air-conditioning, clean attached washrooms with hot water, and fresh breakfast, so you start each day easily before heading out for sightseeing.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">Positioning of the hotel is carefully planned, saving travel time and long morning drives that could impact your sightseeing. For children or elderly grandparents, having a comfortable, quiet place to retire in the evening is essential and genuinely ensures the trip feels refreshing rather than tiring.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Ready to Experience Varanasi for Yourself</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Two days in Varanasi will allow you to experience what most have only read about: the Ganga Aarti\'s sacred flames shimmering in the water, the early morning sun rising slowly over ancient ghats, and centuries of living culture and devotion continuing around you.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">If you\'ve been contemplating a trip like this with your family — for a short spiritual pilgrimage or a peaceful weekend getaway — the team at Kashi Ghoomo will be delighted to help you set it up.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">Reach out, share your travel dates, and let every detail get sorted from there: hotel, transport, boat rides, and darshan. There\'s no need to figure everything out alone when Varanasi\'s sacred rhythm is waiting to welcome you, right from the moment you arrive.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 20px; line-height: 1.4;\">Frequently Asked Questions (FAQs)</h3>
+
+<div class=\"faq-list\" style=\"margin-top: 16px;\">
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">1. What are the inclusions in this Varanasi tour package for family?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">The package includes pre-booked hotel accommodation with breakfast, transfers from the airport and railway station, private boat rides at sunrise and sunset (Ganga Aarti), and guided visits to Kashi Vishwanath, Annapurna, Kal Bhairav temples, and Sarnath.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">2. Can I take this tour with senior citizens?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Yes! The schedule is very comfortable and paced thoughtfully. We provide private AC transportation, conveniently located hotels, and assistance throughout the trip to ensure senior citizens travel with maximum ease.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">3. Does this Banaras tour package include meals?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Daily breakfast at the hotel is included. Lunch and dinner are kept flexible so your family can explore Varanasi\'s famous local cuisine and street specialties whenever you wish.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">4. How long in advance can I book this trip? Should I make a reservation?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">We recommend booking a few weeks in advance. During peak winter months, festivals (like Dev Deepawali and Shivratri), and holidays, quality hotels and private boats book out very quickly.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">5. Is this package available for extended stay?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Of course! If you wish to extend your stay beyond 2 Days and 1 Night or add nearby destinations like Prayagraj, Ayodhya, or Vindhyachal, Kashi Ghoomo will gladly customize your itinerary.</p>
+    </div>
+</div>',
+  inclusions = '[\"1 Night Accommodation in Deluxe Hotel\",\"Daily Breakfast\",\"Private AC Cab for Sightseeing\",\"Ram Mandir Darshan Assistance\",\"Hanuman Garhi Visit\",\"Kanak Bhawan Visit\",\"Saryu Aarti Experience\",\"Airport\\/Railway Station Pickup & Drop\",\"Professional Local Guide\",\"Parking & Toll Charges\"]',
+  exclusions = '[\"Temple Donations & Personal Pooja\",\"Lunch & Dinner\",\"Camera Charges\",\"Personal Expenses\",\"Airfare\\/Train Tickets\",\"Travel Insurance\",\"Tips to Driver & Guide\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Arrival & Ram Janmabhoomi Darshan\",\"description\":\"Arrive at Ayodhya Airport or Railway Station. Transfer to hotel. Visit Shri Ram Janmabhoomi Mandir, Hanuman Garhi, Kanak Bhawan and attend the beautiful evening Saryu Aarti at Ram Ki Paidi.\"},{\"day\":\"Day 2\",\"title\":\"Spiritual Sightseeing & Departure\",\"description\":\"After breakfast visit Nageshwarnath Temple, Dashrath Mahal and Tulsi Smarak Bhawan. Enjoy local shopping before transfer to Airport or Railway Station.\"}]',
+  meta_title = 'Ayodhya Ram Mandir Pilgrimage Tour | 2 Days Ayodhya Package',
+  meta_description = 'Book a 2 Days Ayodhya Ram Mandir pilgrimage package with hotel stay, AC cab, Ram Janmabhoomi Darshan, Hanuman Garhi, Kanak Bhawan and Saryu Aarti.',
+  duration = '2 Days / 1 Night'
+WHERE slug = 'varansi-2-days-1-night-1';
+
+-- Package: Divine Prayagraj Triveni Sangam Yatra (prayagraj)
+UPDATE packages SET 
+  title = 'Divine Prayagraj Triveni Sangam Yatra',
+  description = '<h2 style=\"color: #1a1a1a; font-weight: 700; margin-top: 20px; margin-bottom: 16px; line-height: 1.35;\">Prayagraj Tour Package for a Trip Filled With Faith, History, and Local Experiences</h2>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Prayagraj is a city where a visit can be interpreted in so many ways. For some it might be about the Triveni Sangam and lying by the river, for some about the temples and the old architecture, and for some about the food and the history or the city\'s significance in India\'s spiritual history.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">In the confluence of the Yamuna and Ganga at Triveni Sangam, there exists the legendary other goddess Saraswati. Her mythical waters have been flowing ever since, as if forming a confluence with the waters of the other two. There\'ll be bathers and prayerers, boats and lazy river-bank loungers. The atmosphere is vastly different from the popular tourist sites.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">All of this can be easily combined in one Prayagraj tour package without adding an additional amount of hassle to the trip. There is time to see the key religious sites, learn a little of the history of the city, relax at the Sangam, and have time left over for yourself.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">The concept behind Kashi Ghoomo is simple: make planning your travel easy and focus on the experience.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">What Makes Prayagraj More Than Just the Sangam?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">There is a lot more to Prayagraj than just the Sangam, even though this will be where everyone will start.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">The city is dotted with ancient temples, historic sites, Mughal architecture, and bustling markets and has an affinity with India\'s political and cultural history. Anand Bhavan, Khusro Bagh, and many other tourist spots offer you another face of the city altogether. And then there is the local side of Prayagraj.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">You may also stop for a bite of something to eat, walk from one market stall to another in a busy market, pick up some religious souvenirs, or simply find yourself a nice, shady place to sit and watch the city go by for a while.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">There is no reason to keep rushing from one attraction to another. This is exactly what is important about visiting a Prayagraj tour package. The important places can be planned beforehand, but you can still have enough breathing room to enjoy the city.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Which Places Are Worth Exploring During Your Prayagraj Trip?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Triveni Sangam:</strong> In Hindu mythology, the Sangam is considered to be the Triveni of Ganga, Yamuna, and Saraswati on the riverbanks. The place has sacred significance for devotees. The river and the environment over the Sangam itself make it an unforgettable experience for tourists. Relax by the river, observe the boats, and if you like, participate in the religious ceremonies held there.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Allahabad Fort:</strong> Another popular tourist destination associated with the city is Allahabad Fort. Located at Sangam, the fort was constructed in the year 1583 by Mughal emperor Akbar. One of the three major tourist destinations of Prayagraj. Even if you aren\'t visiting for history, there is something unique about seeing such a monument during your trip.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Akshayavat and Patalpuri Temple:</strong> For devout travelers, Prayagraj is also famous for its ancient religious sites. Particularly, Akshayavat and Patalpuri Temple are worth visiting. These two attractions are deeply linked with the spiritual practice of the locals and can be added to the itinerary as one explores the religious culture of the region.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Anand Bhavan:</strong> Give yourself a breather from the temples and the river at Anand Bhavan. This historic home was owned by the Nehru family and was closely associated with the nation\'s fight for independence. It makes a worthwhile stop for those interested in learning about the city\'s ties to contemporary Indian history as well as the city\'s more ancient heritage.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Khusro Bagh:</strong> Include this next one if you are a fan of history and historical architecture. One of the city\'s most well-known sights is this tranquil walled garden of Mughal-style tombs. This is a stark contrast to the Sangam and is a perfect element of a day trip city tour.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">What Can You Experience During a Trip to Prayagraj?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">You don\'t need to make your Prayagraj tour package all about checking off major attractions. Make it spiritual, informative, cultural, or chill however you want.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 14px; font-weight: 600;\">Some experiences you can include are:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 22px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Visiting Triveni Sangam</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Spending peaceful time near the river</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Taking a boat ride around the Sangam area</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Visiting Bade Hanuman Temple (Lete Hanuman Ji)</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Exploring Akshayavat and Patalpuri Temple</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Seeing the historic Allahabad Fort</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Visiting Anand Bhavan</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Walking through Khusro Bagh</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Exploring bustling local markets</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Trying delicious local food and traditional sweets</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Spending a peaceful moment at places of worship across the city</li>
+</ul>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">The places you go will depend upon the amount of time you have as well as what kind of journey you want. You cannot do it all in one day.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">How Can You Spend Three Days Exploring Prayagraj?</h3>
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 24px; margin-bottom: 12px; font-size: 18px; line-height: 1.4;\">Day 1 – Arrival and Local Sightseeing</h3>
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Once you land in Prayagraj, you can begin the trip by visiting some of the key Places to Visit in Prayagraj. If you reach early enough, plan to explore the expansive grounds of Anand Bhavan or Khusro Bagh. You can spend quality time taking in the authentic local side of the city. No need to rush on the first day — taking things slow allows you to relax and get ready for an early morning visit to the Sangam the next day.</p>
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 24px; margin-bottom: 12px; font-size: 18px; line-height: 1.4;\">Day 2 — Triveni Sangam and Temple Visits</h3>
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Start the day around Triveni Sangam. Morning is the best time to go out on the river before things get hectic. Enjoy a tranquil boat ride, witness the sacred confluence, and take part in prayers or rituals. Following your time at the Sangam, make your way to the revered Bade Hanuman Temple and nearby sacred shrines. The rest of the day can be used for places you may not have covered on the first day.</p>
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 24px; margin-bottom: 12px; font-size: 18px; line-height: 1.4;\">Day 3 — More History and Departure</h3>
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">If you have an extra day, there is no need to repeat the same kind of sightseeing. Use the additional time for historical landmarks, local markets, or anything you missed earlier. Keep part of the day free for shopping and trying local delicacies before continuing your onward journey.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\"><em>This is only a suggested plan. A shorter or longer trip can be easily tailored around your schedule and the places you actually want to see.</em></p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Why Is Triveni Sangam Such an Important Part of Prayagraj?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">There is something about seeing the Sangam in person that photographs do not quite capture.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">You see the sacred rivers stretching out in front of you, wooden boats carrying visitors across the calm water, and pilgrims arriving from all corners of the world. Some are there for prayer, some fulfilling a lifelong family tradition, while others simply want to witness one of India\'s most celebrated pilgrimage centers.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Hindu tradition holds that a holy dip in the Sangam purifies the soul. Prayagraj is the revered home of the Kumbh Mela and Magh Mela, where millions gather for worship.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">If you are visiting, don\'t just stop at the Sangam to take photos. Instead, take a moment to pause, sit by the riverbank, and absorb the divine atmosphere.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">When Should You Plan Your Prayagraj Trip?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Weather is an essential aspect to consider prior to confirming your reservation.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Kashi Ghoomo recommends the months of <strong style=\"color: #1a1a1a;\">October to March</strong> as the best time to visit Prayagraj for pleasant weather, temple darshan, and outdoor sightseeing.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">Festival periods are a different story: during Magh Mela and Kumbh Mela, the city hosts massive congregations of pilgrims. If you wish to witness these grand spiritual gatherings, plan well in advance. If you prefer a quieter, relaxed trip, choosing non-festival dates is ideal.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Who Can Enjoy a Trip to Prayagraj?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">You don\'t need to fit into a particular category of traveler to enjoy this tour:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Families:</strong> Can comfortably combine temple darshan with relaxing historical sightseeing, keeping the pace smooth for children and senior members.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Pilgrims:</strong> Ideal for devotees primarily seeking the holy Sangam snan, temple visits, and spiritual fulfillment.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">History Lovers:</strong> Landmarks like Allahabad Fort, Anand Bhavan, and Khusro Bagh offer deep insights into Mughal architecture and India\'s freedom struggle.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">First-Time Visitors:</strong> A structured itinerary eliminates guesswork, saving you from wandering aimlessly and letting you enjoy the city stress-free.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">What Should You Know Before Travelling to Prayagraj?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">A little preparation goes a long way:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Comfortable clothing and footwear:</strong> Walking is an integral part of visiting riverbanks, temples, and heritage sites.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Pack essential gear:</strong> Carry sunglasses, personal medications, a hat, and a reusable water bottle.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Keep buffer time:</strong> Avoid overpacked schedules so minor travel delays don\'t disrupt your day.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Respect temple customs:</strong> Follow the dress codes and photography regulations observed at sacred sites.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Verify timings:</strong> Opening hours and entry permissions may vary, particularly on festival and holy days.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Comfort for all age groups:</strong> If seniors or kids are traveling, ensure adequate rest breaks throughout the day.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Why Plan Your Prayagraj Trip With Kashi Ghoomo?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Planning a multi-attraction trip sounds simple until you actually start coordinating logistics: where to head first, how much time to allocate for Sangam, boat bookings, and managing transport. When you wish to combine Prayagraj with Varanasi or Ayodhya, planning can become overwhelming.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Kashi Ghoomo provides end-to-end travel and cultural tour solutions across Uttar Pradesh — including verified hotels, private AC cabs, boat rides, and professional guides. We also offer integrated <strong style=\"color: #1a1a1a;\">Kashi, Prayagraj &amp; Ayodhya</strong> packages, enabling you to cover all three sacred cities smoothly in a single journey rather than booking each separately.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">What Can Be Included in a Prayagraj Tour Package?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 14px; font-weight: 600;\">Standard package inclusions typically cover:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Sightseeing arrangements</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Local transport</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Hotel stay, where applicable</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Assistance with itinerary planning</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Transfers, depending on the selected plan</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Support during the journey</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">What Is Usually Not Included in the Prayagraj Tour Package?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 14px; font-weight: 600;\">Some expenses are generally separate and can be planned in advance:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Personal expenses</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Meals unless specifically mentioned</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Entry tickets where applicable</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Travel to and from Prayagraj if not part of the package</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Camera or photography charges where applicable</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Donations or religious offerings</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Anything not specifically mentioned in your package inclusions</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">What Can You Actually Expect From a Prayagraj Tour Package?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">A good Prayagraj trip doesn’t have to be a race. You don\'t need to return with a photo from every possible spot to feel like you\'ve experienced the city.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Maybe your favorite memory will be sitting quietly near the Sangam watching the boats float by. Maybe Anand Bhavan\'s history will touch you deeper than expected. Or perhaps you\'ll remember a warm cup of chai and conversations with locals more than any monument.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">That is the beauty of traveling to Prayagraj: it has a legendary, historic side, but also a serene everyday rhythm that you only discover when you slow down.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Can You Add Prayagraj to a Varanasi or Ayodhya Trip?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Yes, absolutely! Prayagraj forms an essential part of the holy triangle along with Varanasi and Ayodhya:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 20px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Varanasi:</strong> World-famous Ganga Ghats, Kashi Vishwanath Jyotirlinga, and divine evening aarti.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Prayagraj:</strong> The sacred Triveni Sangam, historic fort, and ancient temples.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Ayodhya:</strong> The divine birthplace of Lord Rama and Ram Janmabhoomi Mandir.</li>
+</ul>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">Kashi Ghoomo offers a popular <strong style=\"color: #1a1a1a;\">3 Nights / 4 Days Kashi, Prayagraj &amp; Ayodhya</strong> package, providing seamless transfers and VIP darshan across all three spiritual centers.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">How Can You Experience Prayagraj Beyond the Main Tourist Spots?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">There is no single mold for exploring Prayagraj. It is a city of timeless devotion, but also of living history. Alongside sacred shrines, you\'ll find traditional bazaars, authentic local eateries, grand colonial architecture, and vibrant daily life.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">If you are visiting for the first time, honor the sacred shrines with devotion, but allow yourself some unhurried space to let the spirit of the city surprise you.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 20px; line-height: 1.4;\">Frequently Asked Questions (FAQs)</h3>
+
+<div class=\"faq-list\" style=\"margin-top: 16px;\">
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">1. What is the famous thing of Prayagraj?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Prayagraj is globally famous for the sacred Triveni Sangam — the confluence of the rivers Ganga, Yamuna, and mythical Saraswati. It is also world-renowned for hosting the grand Kumbh Mela and Magh Mela.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">2. How many days are sufficient for a Prayagraj trip?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">A 1 to 2 days visit is ideal to comfortably experience the Triveni Sangam, take a boat ride, perform holy snan, and visit key attractions like Bade Hanuman Temple, Allahabad Fort, Anand Bhavan, and Khusro Bagh.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">3. Which other main tourist attractions to see apart from Triveni Sangam in Prayagraj?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Other major places of interest include the historic Allahabad Fort, Akshayavat Tree, Patalpuri Underground Temple, Anand Bhavan (Nehru family ancestral home), Khusro Bagh, and Alopi Devi Shaktipeeth.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">4. Is it possible to schedule a family trip for the Prayagraj tour package?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Yes! Kashi Ghoomo specializes in family-friendly tour packages featuring private AC vehicle transfers, verified hotels, and guided boat rides tailored for the comfort of kids and senior citizens.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">5. When should I visit Prayagraj?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">The best time for sightseeing and pleasant weather is between October and March. If you wish to witness holy festivities, Magh Mela (January–February) and Kumbh Mela offer unique spiritual spectacles.</p>
+    </div>
+</div>',
+  inclusions = '[\"1 Night Accommodation in Deluxe Hotel\",\"Daily Breakfast\",\"Private AC Cab for Sightseeing\",\"Holy Boat Ride at Triveni Sangam\",\"Visit to Bade Hanuman Temple\",\"Visit to Akshayavat\",\"Airport\\/Railway Station Pickup & Drop\",\"Experienced Local Tour Guide\",\"Parking & Toll Charges\"]',
+  exclusions = '[\"Personal Pooja Expenses\",\"Lunch & Dinner\",\"Camera Charges\",\"Personal Shopping\",\"Airfare\\/Train Tickets\",\"Travel Insurance\",\"Tips to Driver & Guide\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Arrival & Sangam Darshan\",\"description\":\"Arrive at Prayagraj Airport or Railway Station. Check in to the hotel and proceed to Triveni Sangam for a holy dip and boat ride. Visit Bade Hanuman Temple and attend the peaceful evening aarti.\"},{\"day\":\"Day 2\",\"title\":\"Temple & Heritage Tour\",\"description\":\"After breakfast, visit Akshayavat, Allahabad Fort, Anand Bhavan and Alopi Devi Temple. Later transfer to Airport or Railway Station for departure.\"}]',
+  meta_title = 'Prayagraj Triveni Sangam Tour Package | 2 Days Pilgrimage',
+  meta_description = 'Book the Prayagraj Triveni Sangam Tour Package with hotel stay, AC cab, Sangam boat ride, temple visits, and guided sightseeing for a divine pilgrimage.',
+  duration = '2 Days / 1 Night'
+WHERE slug = 'prayagraj';
+
+-- Package: Sacred Vindhyachal Devi Darshan Yatra (sacred-vindhyachal-devi-darshan-yatra)
+UPDATE packages SET 
+  title = 'Sacred Vindhyachal Devi Darshan Yatra',
+  description = '<p>Seek the divine blessings of Maa Vindhyavasini with this spiritually enriching 2 Days / 1 Night pilgrimage package. Visit the sacred Vindhyavasini Temple, Ashtabhuja Devi Temple, Kali Khoh Temple, and the holy Ganga Ghats of Vindhyachal. Enjoy a comfortable stay, private AC transportation, and guided sightseeing for a peaceful and memorable yatra.</p>',
+  inclusions = '[\"1 Night Accommodation in Deluxe Hotel\",\"Daily Breakfast\",\"Private AC Cab for Sightseeing\",\"Darshan Assistance at Vindhyavasini Temple\",\"Visit to Ashtabhuja Devi Temple\",\"Visit to Kali Khoh Temple\",\"Airport\\/Railway Station Pickup & Drop\",\"Experienced Local Tour Guide\",\"Parking & Toll Charges\"]',
+  exclusions = '[\"Temple Donations & Personal Pooja\",\"Lunch & Dinner\",\"Camera Charges\",\"Personal Expenses\",\"Airfare\\/Train Tickets\",\"Travel Insurance\",\"Tips to Driver & Guide\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Arrival & Maa Vindhyavasini Darshan\",\"description\":\"Arrive at Varanasi Airport or Railway Station and proceed to Vindhyachal. Check in to the hotel and visit Maa Vindhyavasini Temple. Attend the evening aarti and explore the local temple market.\"},{\"day\":\"Day 2\",\"title\":\"Trikon Parikrama & Departure\",\"description\":\"After breakfast, visit Ashtabhuja Devi Temple, Kali Khoh Temple, and the sacred Ganga Ghat. Complete the Trikon Parikrama before returning to Varanasi Airport or Railway Station for departure.\"}]',
+  meta_title = 'Vindhyachal Devi Darshan Tour Package | 2 Days Pilgrimage from Varanasi',
+  meta_description = 'Book the Vindhyachal Devi Darshan Tour Package with hotel stay, AC cab, Trikon Parikrama, Vindhyavasini Temple, and guided sightseeing from Varanasi.',
+  duration = '2 Days / 1 Night'
+WHERE slug = 'sacred-vindhyachal-devi-darshan-yatra';
+
+-- Package: Sarnath Buddhist Heritage Tour (sarnath-buddhist-heritage-tour)
+UPDATE packages SET 
+  title = 'Sarnath Buddhist Heritage Tour',
+  description = '<h2 style=\"color: #1a1a1a; font-weight: 800; font-size: 24px; margin-bottom: 18px; line-height: 1.3;\">Sarnath Buddhist Heritage Tour: The National Emblem Was Sitting in This Museum All Along</h2>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Early morning in Sarnath has a particular quiet to it. Before the tour groups arrive, before the museum gates open, it\'s just the Dhamek Stupa standing against the sky and whatever birds happen to be around. A Sarnath Buddhist Heritage Tour is all about that feeling, not simply ticking off a list of ancient buildings. Kashi Ghoomo conducts this tour regularly from Varanasi; since the two locations are close enough, most travelers visit them both in one trip.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 16px; line-height: 1.4;\">Why a Handful of Old Stones Changed the Course of Religion</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">Before we jump into the itinerary, it\'s worth knowing why people actually visit here in the first place.</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 20px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\">Buddha gave his first teaching just after getting enlightenment in Bodh Gaya.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\">That is the reason why Sarnath is counted in the list of four most revered Buddhist destinations in the world, with Bodh Gaya, Kushinagar, and Lumbini.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\">The first group of monks, the original Sangha, formed here, starting with a man named Kondanna.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\">For many travelers on a Sarnath Buddhist Heritage Tour, this isn\'t sightseeing in the usual sense; it\'s closer to standing at the starting point of an entire religion.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 16px; line-height: 1.4;\">The Second Trip Nobody Plans, Then Can\'t Imagine Skipping</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">A lot of people assume Sarnath needs its own separate trip. It really doesn\'t. It is just 10 km from the city, so you can spend your morning or afternoon visiting Sarnath and still have time for other things in your Varanasi itinerary.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Kashi Ghoomo normally does not directly advertise this as a standalone tour but includes it as part of a more comprehensive Varanasi tour. This also makes it easier to combine the Sarnath visit with other Varanasi experiences, such as a boat tour or the Ganga Aarti.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 16px; line-height: 1.4;\">Five Stops, One Morning, A Lot More History Than You\'d Expect</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">Here\'s the shape a typical Sarnath Buddhist Heritage Tour usually takes.</p>
+
+<ol style=\"list-style-type: decimal !important; padding-left: 28px !important; margin-bottom: 20px !important;\">
+    <li style=\"list-style: decimal !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">First, the Dhamek Stupa:</strong> This is the big one, over 40 meters tall, marking the exact spot of Buddha\'s first sermon. Most people spend longer here than they expect to.</li>
+    <li style=\"list-style: decimal !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Then the Chaukhandi Stupa:</strong> A short walk away, and genuinely interesting because of the Mughal-era tower built right on top of the original Buddhist mound. Two very different periods of history, stacked on each other.</li>
+    <li style=\"list-style: decimal !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">The Archaeological Museum:</strong> Comes next. This is where the Lion Capital of Ashoka lives, the actual sculpture that became India\'s national emblem. Worth slowing down for.</li>
+    <li style=\"list-style: decimal !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Mulagandha Kuti Vihara:</strong> A newer temple with wall paintings depicting Buddha\'s life, follows after.</li>
+    <li style=\"list-style: decimal !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Deer Park:</strong> And finally, Deer Park, the quiet grounds surrounding everything, named for the deer said to have gathered nearby during that first sermon.</li>
+</ol>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 16px; line-height: 1.4;\">This Isn\'t Just Old; It\'s the Exact Spot</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">There is something special about the Dhamek Stupa here as opposed to some of the other stops that you make on a Sarnath Buddhist Heritage Tour. And I\'d like to tell you why.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">It\'s not just old; it\'s specific. This exact spot is where the sermon happened, not a general area, not a reconstruction. People often just sit near it for a while once they arrive, not really doing anything, just being there. That\'s genuinely become one of the more talked-about parts of the whole visit, more than the museum, more than the temple, just the stillness of sitting near something that old and that specific.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 16px; line-height: 1.4;\">The One Object Everyone Recognizes and Nobody Expects to See Here</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">The museum stop sometimes gets rushed through, which is a mistake. The Lion Capital of Ashoka is the centerpiece, and most Indians recognize it instantly from the national emblem, even if they\'ve never connected it to this exact building before.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Beyond that one piece, there\'s a reasonable collection of sculptures and inscriptions spanning different periods, giving a fuller sense of how the site was maintained and visited across centuries. A Sarnath Buddhist Heritage Tour that gives this stop proper time, rather than ten rushed minutes, genuinely adds context to everything you\'ve already walked past outside.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 16px; line-height: 1.4;\">A Temple With Its Own Quiet Atmosphere</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Even though it\'s not that old like the stupas, the Mulagandha Kuti Vihara has nonetheless become quite an attraction for many visitors. The walls are decorated with detailed mural paintings depicting Buddha\'s life, and there\'s enough detail in those pictures to have taken years to paint.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">The temple is serene with the odd faint chant when you happen to be visiting, quite a contrast to the open-air ruins around you. For anyone wanting a few minutes of stillness during the day, this tends to be where they find it.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 16px; line-height: 1.4;\">Picking Your Date Around Something Older Than the Calendar</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">A few timing details genuinely change the experience here.</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 20px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">From October through March:</strong> It\'s just more comfortable, simply cooler, and easier to walk around when traversing between the different parts of the site.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">On the Vaisakha full moon (April or May):</strong> This date is associated with Buddha\'s birth, enlightenment, and death, and it attracts a much larger number of pilgrims.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">The Asadh full moon (July/August):</strong> Is not only the first sermon in the past but is in fact the very thing that the entire site is based upon.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 16px; line-height: 1.4;\">What Old Stone Won\'t Tell You Without Someone Explaining It</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Technically, you can. A lot of travelers try. It usually doesn\'t go as smoothly as they expect. Without someone explaining what you\'re actually looking at, old stone structures just look like old stone structures.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">A Sarnath Buddhist Heritage Tour through Kashi Ghoomo comes with proper guidance throughout, plus transport sorted from your Varanasi hotel, so you\'re not trying to arrange a cab and figure out site timings on your own halfway through the day.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 16px; line-height: 1.4;\">Where This Fits Into the Rest of Your Varanasi Days</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Most people don\'t book a Sarnath Buddhist Heritage Tour as a completely standalone thing.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Typically, it\'s something that fits into a longer Varanasi trip: one morning here, followed by Ganga Aarti at Dashashwamedh Ghat that night. Others also plan to do a boat ride at dawn the following day to combine the Buddhist and Hindu highlights of the city in a long weekend.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 16px; line-height: 1.4;\">The One Detail Everyone Brings Up, Unprompted</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">A few specific things come up again and again when past travelers talk about their Sarnath Buddhist Heritage Tour:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 20px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">The size of the Dhamek Stupa:</strong> Really bigger than it looks in these photos.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">The Lion Capital:</strong> Obviously recognizable, but still surprising to see in person rather than in a book.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">The quietness of the place:</strong> A stark contrast to the crowds and sounds of central Varanasi.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 16px; line-height: 1.4;\">Small Things That Make a Long Morning Easier</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">Just a few little things that get us through the day:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 20px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\">Take comfortable shoes because there is quite a bit of walking involved.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\">Dress with modesty if you plan on going inside a temple.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\">Take some water with you (outside of the cooler months).</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\">Take some change for the small stalls near the site selling prayer wheels and other inexpensive Buddhist souvenirs.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 16px; line-height: 1.4;\">Why Choose Kashi Ghoomo for Your Sarnath Visit?</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">So this isn\'t one of those places where it doesn\'t matter who is describing to you what you\'re looking at. A lot of the history is in the details, and some background can help avoid a lot of purely aesthetic wandering by.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">With Kashi Ghoomo, a Sarnath Buddhist Heritage Tour is planned as part of your wider Varanasi experience rather than treating Sarnath as a completely separate stop.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">A few things that make the experience easier:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 20px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Local explanations during your visit:</strong> You are provided with some insight into the main sites visited rather than trying to interpret things on your own.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Getting around Varanasi:</strong> Your transport to Sarnath is included in the tour. So, you need not hire any separate cab.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">All major attractions of one trip:</strong> Dhamek Stupa, Chaukhandi Stupa, Archaeological Museum, Mulagandha Kuti Vihara, and Deer Park can be seen in a nice way.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Complement your Varanasi visit effortlessly:</strong> Sarnath can seamlessly be combined with other things to do in the city, which makes it useful if you are in Varanasi for a couple of days.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Beyond just sightseeing:</strong> The concept is to \"know why Sarnath matters\" rather than knowing you\'re taking a lot of pictures and rushing off to the next one.</li>
+</ul>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">Ultimately, the biggest benefit might just be having someone join the dots for you. You know where you\'re going, but you also know where it counts.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 28px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; font-size: 20px; margin-top: 24px; margin-bottom: 20px; line-height: 1.4;\">Frequently Asked Questions (FAQs)</h3>
+
+<div class=\"faq-list\" style=\"margin-top: 16px;\">
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">1. How far is Sarnath from Varanasi?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Around 10 km. A Sarnath Buddhist Heritage Tour can be completed anywhere between ½ day and 1 day.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">2. What places are usually included in the tour?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Dhamek Stupa, Chaukhandi Stupa, Archaeological Museum, Mulagandha Kuti Vihara, and Deer Park are visited by the majority of Sarnath Buddhist Heritage Tour packages.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">3. Can only Buddhists take part in the tour?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Not in the slightest. Many people go there solely for the history and the buildings, and the tranquil environment is very much loved by all visitors no matter where they come from.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">4. Can this be combined with other things to do in Varanasi?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Yes, it can be combined seamlessly with the evening Ganga Aarti or a sunrise boat ride (sometimes Kashi Ghoomo incorporates it into a wider Varanasi tour).</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">5. When\'s the best time to visit?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">October to March for good weather, though there\'s extra religious meaning during the Vaisakha and Asadh full moon periods if that\'s something you want.</p>
+    </div>
+</div>',
+  inclusions = '[\"Private AC Cab for Full-Day Sightseeing\",\"Experienced Local Tour Guide\",\"Entry Assistance to Monuments\",\"Visit to Dhamek Stupa\",\"Visit to Chaukhandi Stupa\",\"Visit to Mulagandha Kuti Vihara\",\"Visit to Sarnath Archaeological Museum\",\"Pickup & Drop from Varanasi Hotel\\/Airport\\/Railway Station\",\"Parking & Toll Charges\",\"Mineral Water Bottle\"]',
+  exclusions = '[\"Monument Entry Tickets (if applicable)\",\"Lunch & Personal Meals\",\"Personal Shopping\",\"Camera Charges\",\"Travel Insurance\",\"Tips & Gratuities\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Sarnath Heritage Exploration\",\"description\":\"Pickup from Varanasi and drive to Sarnath. Visit Dhamek Stupa, Chaukhandi Stupa, Mulagandha Kuti Vihara, Ashoka Pillar site, Sarnath Museum, and Buddha Park. Enjoy free time for photography and shopping before returning to Varanasi in the evening.\"}]',
+  meta_title = 'Sarnath Buddhist Heritage Tour | One Day Tour from Varanasi',
+  meta_description = 'Book a one-day Sarnath Heritage Tour from Varanasi with AC cab, local guide, Dhamek Stupa, museum visit, and Buddhist pilgrimage sightseeing.',
+  duration = '1 Day'
+WHERE slug = 'sarnath-buddhist-heritage-tour';
+
+-- Package: Assi Ghat Sunrise Tour: The Side of Varanasi You Shouldn't Miss (assi-ghat-sunrise-spiritual-walk-experience)
+UPDATE packages SET 
+  title = 'Assi Ghat Sunrise Tour: The Side of Varanasi You Shouldn\'t Miss',
+  description = '<h1>Assi Ghat Sunrise Tour: The Side of Varanasi You Shouldn\'t Miss</h1>
+
+<p>The mornings in Varanasi are just different. You don’t have to pray immediately; you can watch the sun rise over the banks of the Ganga. It is more than a perspective of Varanasi and your normal everyday life.</p>
+
+<p>Experience Assi Ghat Morning with the <strong>Subah-e-Banaras</strong> Program, a boat ride on the Ganga, temple visits &amp; sightseeing among temples, &amp; many more. <strong>Kashi Ghoomo</strong> ensures that you get everything in one go, so your experience of Varanasi is never interrupted by the time you need to search for another place.</p>
+
+<h2>What Can You Experience at Assi Ghat in the Morning?</h2>
+
+<p>Assi Ghat is another favorite spot to visit in Varanasi in the morning hours. There are different types of people at the ghat. People come here for a prayer, as a yoga session, or just to sit down and watch the sunrise at the ghat with a view of the Ganga. You can also see locals starting their day while visitors enjoy the view.</p>
+
+<p>One of the main things to see here is the <strong>Subah-e-Banaras</strong> program. It allows visitors to feel a part of a few of the traditions of Varanasi.</p>
+
+<p><strong>In the program, you may find:</strong></p>
+<ul>
+    <li><strong>Vedic chanting:</strong> Hear prayers and chants in the morning.</li>
+    <li><strong>Yoga:</strong> See the yoga teacher in action as the day gets underway.</li>
+    <li><strong>Music for the Heart:</strong> Listen to the music of the morning program.</li>
+</ul>
+
+<p>You don\'t have to understand every word of each prayer or ritual in order to enjoy it. You can simply sit and listen to it and experience it.</p>
+
+<p>And then of course there\'s the sunrise. As the day grows brighter, the river and the ghats begin to take on a different form. Boats are cruising the Ganga.</p>
+<p>If you are a photography lover, then take some snaps of the boat, river, and ghats for yourself and relax for a few minutes. Both are good ways for you to have a lovely morning.</p>
+
+<h2>What Your Day in Varanasi Will Look Like</h2>
+
+<p>The tour starts early, so it is best to get a good night\'s sleep before the trip. Once you are picked up from your hotel or another agreed location, you will head towards Assi Ghat.</p>
+
+<p><strong>Here is how the day is planned:</strong></p>
+
+<div class=\"day-plan-section\">
+    <h3>1. Start With the Sunrise and Subah-e-Banaras</h3>
+    <p>Our first destination is <strong>Assi Ghat</strong>, where you’ll attend the morning programs and enjoy by the river Ganga. Just relax and be simply aware. Notice the minute things happening around you.</p>
+    <p>Notice the pilgrims sitting peacefully on the bank of the River Ganges and doing yoga and prayer. Do take an opportunity to know more about why the River Ganges is so holy for the people of Varanasi.</p>
+
+    <h3>2. See the Ghats from a Boat</h3>
+    <p>After the morning experience, you can enjoy a <strong>boat ride on the Ganga</strong>. Seeing the ghats from the water offers a new perspective of the city. You will pass steps to the river and some old buildings along the banks and begin to see people starting their day. This boat journey also provides an opportunity to take a rest and relax while taking in the views without walking.</p>
+    <p>If you like taking pictures, click photos of the scene and the environment to capture a memorable moment and keep it as a memory.</p>
+
+    <h3>3. Visit Tulsi Ghat</h3>
+    <p><strong>Tulsi Ghat</strong> is another place you will visit during the tour. Situated on the Ganga like the rest of the ghats, it adds to the history of Varanasi\' uniqueness and its culture.</p>
+    <p>This is also your chance to observe your environment, snap a few pictures where you\'re allowed, and discover more about this ghat with your local guide. You may also wish to spend a few moments soaking up the river before proceeding to the next point.</p>
+
+    <h3>4. Visit Sankat Mochan Hanuman Temple</h3>
+    <p>Your guide will take you to the <strong>Sankat Mochan Hanuman Temple</strong>. It is a popular temple dedicated to Lord Hanuman. And many pilgrims come here for offering prayers.</p>
+    <p>Please remember that others could be observing for religious reasons or personal things when you visit. Follow the guidelines, keep an eye on your belongings, and walk with manners around the temple.</p>
+
+    <h3>5. Explore BHU and New Vishwanath Temple</h3>
+    <p><strong>Banaras Hindu University (BHU)</strong> is another famous university in Varanasi. Its spacious campus is a sight to behold, and it is also an integral part of the education history of India.</p>
+    <p>The <strong>New Vishwanath Temple</strong> is situated at the BHU campus. It is one of the most visited temples by devotees for all time when they visit Varanasi.</p>
+    <p>Varanasi is not famous only for its ghats, but it’s beautiful because of its history, temples, markets, people, and educational institutions.</p>
+
+    <h3>6. Pause for Snacks or Shopping</h3>
+    <p>Later you can take a rest for some time, and you can have some snacks and can visit local shops &amp; markets.</p>
+    <p><strong>You could:</strong></p>
+    <ul>
+        <li>Stop for a quick snack or drink.</li>
+        <li>Bring back a small souvenir.</li>
+        <li>Sit down and rest before heading back.</li>
+    </ul>
+    <p><strong>Food &amp; beverage quick reminder:</strong> Your package does not include breakfast or any other of your meals. Save some of your money for food &amp; drinks.</p>
+</div>
+
+<h2>What Is Included in the Tour?</h2>
+<p>The idea is to keep the main travel arrangements in one place. <strong>Kashi Ghoomo</strong> lists the following services as part of the package:</p>
+<ul>
+    <li>Pickup and drop-off from your hotel, airport, or railway station</li>
+    <li>Private air-conditioned cab</li>
+    <li>Sunrise boat ride on the River Ganga</li>
+    <li>Subah-e-Banaras cultural experience</li>
+    <li>Walking tour around Assi Ghat</li>
+    <li>Visit to Tulsi Ghat</li>
+    <li>Visit to Sankat Mochan Hanuman Temple</li>
+    <li>Visits to BHU and New Vishwanath Temple</li>
+    <li>Local tour guide</li>
+    <li>Mineral water bottle</li>
+    <li>Parking and toll charges</li>
+</ul>
+
+<h2>What Will You Need to Pay For Separately?</h2>
+<p>Some expenses are not included in the tour price. You should plan for these on your own:</p>
+<ul>
+    <li>Breakfast and other meals</li>
+    <li>Personal shopping</li>
+    <li>Temple donations</li>
+    <li>Camera charges, where applicable</li>
+    <li>Travel insurance</li>
+    <li>Tips for the driver and guide</li>
+</ul>
+<p><strong>Pricing:</strong> Starting from <strong>₹6,000 per person</strong>. Confirm the final amount, date of travel, pickup point, and any other applicable details before you make a booking.</p>
+
+<h2>A Few Things to Remember Before Leaving Your Hotel</h2>
+<p>Getting an early start on the tour means a little bit of planning in advance to help get your morning off to a good start.</p>
+<ul>
+    <li><strong>Comfy Clothes &amp; Comfortable Shoes:</strong> As we will walk a lot, visiting the Ghat and some temples, we advise you to wear comfortable shoes and appropriate clothes.</li>
+    <li><strong>Keep your belongings safe:</strong> When you are out in public, keep your wallet, phone, and small pack safe.</li>
+    <li><strong>Clarify the pickup time:</strong> If your tour starts in the early morning or night, ensure you head early. Confirm the hour and place far earlier so you aren\'t missing it.</li>
+    <li><strong>Keep Cash:</strong> Have some cash with you for buying snacks or souvenirs, as there might be some stores that do not accept digital modes of payment.</li>
+    <li><strong>Get permission for photography:</strong> There are rules, as everyone is not comfortable. So ask your permission first at the temple or any religious activities.</li>
+    <li><strong>Take breaks in your plans:</strong> Traffic, crowds, the rules of the temple, or whatever other circumstances may be necessary for you to spend time at each place. Relax and take the sightseeing tour at a leisurely pace.</li>
+</ul>
+
+<h2>Why Take This Tour with Kashi Ghoomo?</h2>
+<p>Travel planning and researching transport in a new city, not to mention where to go, can take a while. It can be more difficult when the day begins before sunrise.</p>
+<p><strong>Kashi Ghoomo</strong> provides this as a guided tour, which includes transfers, a boat journey, a local guide, and the sites listed in the itinerary, so you can relax without stressing over how to get from one place to another in the morning.</p>
+<p>A guide is also good to have, especially if this is your first trip to Varanasi. They can answer questions you have about the places you\'re going and explain their importance to the city.</p>
+<p>This tour could be perfect for first-time visitors, families, couples, or anyone who would like to get a taste of the spiritual Varanasi. Just expect an early morning and some walking.</p>
+<p>Before you book, please go through the itinerary to check what is included. If you are travelling with seniors and kids, talk to Kashi Ghoomo. The team will guide and do the arrangements with you.</p>
+
+<h2>Frequently Asked Questions</h2>
+<div class=\"faq-list\">
+    <div class=\"faq-item\">
+        <p><strong>1. What is the highlighted part of the Assi Ghat Sunrise Tour?</strong><br>
+        Sunrise and Subah-e-Banaras are the standout features. The boat cruise and temple visits top the list of features for me.</p>
+    </div>
+    <div class=\"faq-item\">
+        <p><strong>2. Is the boat ride included?</strong><br>
+        Yes, the boat ride on the River Ganga in the morning has been included in the package.</p>
+    </div>
+    <div class=\"faq-item\">
+        <p><strong>3. What temples will be on the pilgrimage itinerary?</strong><br>
+        The tour takes you to Sankat Mochan Hanuman Temple and New Vishwanath Temple, as well as to Tulsi Ghat and Banaras Hindu University.</p>
+    </div>
+    <div class=\"faq-item\">
+        <p><strong>4. Are food and breakfast included?</strong><br>
+        No. These are excluded items, so you will need to budget for these individually.</p>
+    </div>
+    <div class=\"faq-item\">
+        <p><strong>5. In which locations will I be picked up?</strong><br>
+        The package includes pickup and drop-off from the hotel, airport, and railway station. Please confirm your exact pickup point with the booking team before the tour.</p>
+    </div>
+</div>
+
+<h2>See Varanasi Before the Day Gets Busy</h2>
+<p>The early morning in Varanasi may be a very nice experience. Sitting in the boat, glancing at the ghats, hearing the music at the Assi Ghat, or observing the Ganga as the sun rises, you may enjoy all of them. It is a matter of style for everyone.</p>
+<p>With a <strong>Kashi Ghoomo</strong> package, you get to see the ghat and the temples and see how Varanasi appears in the morning hours.</p>
+<p><strong>Relax &amp; Recline.</strong> If you want to explore Varanasi, it is certainly the best tour for you. Check our packages, plan your trip, and get ready for your very first sunrise at the Ganga.</p>',
+  inclusions = '[\"Pickup and drop-off from your hotel, airport, or railway station\",\"Private air-conditioned cab\",\"Sunrise boat ride on the River Ganga\",\"Subah-e-Banaras cultural experience\",\"Walking tour around Assi Ghat\",\"Visit to Tulsi Ghat\",\"Visit to Sankat Mochan Hanuman Temple\",\"Visits to BHU and New Vishwanath Temple\",\"Local tour guide\",\"Mineral water bottle\",\"Parking and toll charges\"]',
+  exclusions = '[\"Breakfast and other meals\",\"Personal shopping\",\"Temple donations\",\"Camera charges, where applicable\",\"Travel insurance\",\"Tips for the driver and guide\"]',
+  itinerary = '[{\"day\":\"Step 1\",\"title\":\"Start With the Sunrise and Subah-e-Banaras\",\"description\":\"Our first destination is Assi Ghat, where you\\u2019ll attend the morning programs and enjoy by the river Ganga. Just relax and be simply aware. Notice the minute things happening around you. Notice the pilgrims sitting peacefully on the bank of the River Ganges and doing yoga and prayer. Do take an opportunity to know more about why the River Ganges is so holy for the people of Varanasi.\"},{\"day\":\"Step 2\",\"title\":\"See the Ghats from a Boat\",\"description\":\"After the morning experience, you can enjoy a boat ride on the Ganga. Seeing the ghats from the water offers a new perspective of the city. You will pass steps to the river and some old buildings along the banks and begin to see people starting their day. This boat journey also provides an opportunity to take a rest and relax while taking in the views without walking. If you like taking pictures, click photos of the scene and the environment to capture a memorable moment and keep it as a memory.\"},{\"day\":\"Step 3\",\"title\":\"Visit Tulsi Ghat\",\"description\":\"Tulsi Ghat is another place you will visit during the tour. Situated on the Ganga like the rest of the ghats, it adds to the history of Varanasi\' uniqueness and its culture. This is also your chance to observe your environment, snap a few pictures where you\'re allowed, and discover more about this ghat with your local guide. You may also wish to spend a few moments soaking up the river before proceeding to the next point.\"},{\"day\":\"Step 4\",\"title\":\"Visit Sankat Mochan Hanuman Temple\",\"description\":\"Your guide will take you to the Sankat Mochan Hanuman Temple. It is a popular temple dedicated to Lord Hanuman. And many pilgrims come here for offering prayers. Please remember that others could be observing for religious reasons or personal things when you visit. Follow the guidelines, keep an eye on your belongings, and walk with manners around the temple.\"},{\"day\":\"Step 5\",\"title\":\"Explore BHU and New Vishwanath Temple\",\"description\":\"Banaras Hindu University (BHU) is another famous university in Varanasi. Its spacious campus is a sight to behold, and it is also an integral part of the education history of India. The New Vishwanath Temple is situated at the BHU campus. It is one of the most visited temples by devotees for all time when they visit Varanasi. Varanasi is not famous only for its ghats, but it\\u2019s beautiful because of its history, temples, markets, people, and educational institutions.\"},{\"day\":\"Step 6\",\"title\":\"Pause for Snacks or Shopping\",\"description\":\"Later you can take a rest for some time, and you can have some snacks and can visit local shops & markets. Stop for a quick snack or drink, bring back a small souvenir, and sit down and rest before heading back. (Note: Meals are not included in the package).\"}]',
+  meta_title = 'Assi Ghat Sunrise Tour | The Side of Varanasi You Shouldn\'t Miss | Kashi Ghoomo',
+  meta_description = 'Experience Assi Ghat Morning with Subah-e-Banaras, Ganga boat ride, Tulsi Ghat, Sankat Mochan Temple, BHU & New Vishwanath Temple with Kashi Ghoomo.',
+  duration = '1 Day'
+WHERE slug = 'assi-ghat-sunrise-spiritual-walk-experience';
+
+-- Package: Dashashwamedh Ghat Ganga (dashashwamedh-ghat-ganga-1)
+UPDATE packages SET 
+  title = 'Dashashwamedh Ghat Ganga',
+  description = '<p>Witness the world-famous <strong>Ganga Aarti</strong> at Dashashwamedh Ghat and immerse yourself in the spiritual heart of Varanasi. This one-day tour includes a traditional boat ride on the Ganges, visits to the iconic Kashi Vishwanath Temple, Annapurna Temple, Vishalakshi Temple, and a guided walk through the ancient lanes of Kashi. Perfect for pilgrims, families, and cultural travelers seeking an unforgettable experience.</p>',
+  inclusions = '[\"Hotel \\/ Airport \\/ Railway Station Pickup & Drop\",\"Private AC Cab\",\"Traditional Ganga Boat Ride\",\"Reserved Seating for Ganga Aarti (Subject to Availability)\",\"Kashi Vishwanath Temple Darshan Assistance\",\"Visit to Annapurna Temple\",\"Visit to Vishalakshi Temple\",\"Walking Tour of Old Kashi\",\"Professional Local Tour Guide\",\"Mineral Water Bottle\",\"Parking & Toll Charges\"]',
+  exclusions = '[\"VIP Darshan Charges (if opted)\",\"Lunch & Dinner\",\"Personal Shopping\",\"Temple Donations\",\"Camera Charges\",\"Travel Insurance\",\"Tips to Driver & Guide\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Kashi Heritage & Ganga Aarti\",\"description\":\"Pickup from your hotel, airport, or railway station. Visit Kashi Vishwanath Temple, Annapurna Temple, and Vishalakshi Temple. Explore the narrow heritage lanes of Kashi and local markets. In the evening, enjoy a peaceful boat ride before witnessing the spectacular Ganga Aarti at Dashashwamedh Ghat. Return after the ceremony.\"}]',
+  meta_title = 'Dashashwamedh Ghat Ganga Aarti Tour | One Day Varanasi Package',
+  meta_description = 'Experience the famous Ganga Aarti at Dashashwamedh Ghat with a boat ride, Kashi Vishwanath Darshan, temple visits, and guided heritage walk in Varanasi.',
+  duration = '1day'
+WHERE slug = 'dashashwamedh-ghat-ganga-1';
+
+-- Package: Varanasi Famous Ghats (varanasi-famous-ghats-1)
+UPDATE packages SET 
+  title = 'Varanasi Famous Ghats',
+  description = '<p>Explore the timeless beauty of Varanasi\'s iconic ghats on this full-day heritage tour. Witness the sunrise over the Ganga, enjoy a traditional boat ride, visit the famous Dashashwamedh Ghat, Assi Ghat, Manikarnika Ghat, Panchganga Ghat, Rajendra Prasad Ghat, and Tulsi Ghat. Learn about the city\'s spiritual traditions, history, and culture from an experienced local guide while experiencing the authentic charm of Kashi.</p>',
+  inclusions = '[\"Private AC Cab\",\"Traditional Ganga Boat Ride\",\"Professional Local Tour Guide\",\"Visit to Assi Ghat\",\"Visit to Dashashwamedh Ghat\",\"Visit to Manikarnika Ghat\",\"Visit to Panchganga Ghat\",\"Visit to Tulsi Ghat\",\"Hotel Pickup & Drop\",\"Mineral Water Bottle\",\"Parking & Toll Charges\"]',
+  exclusions = '[\"Meals & Beverages\",\"Temple Donations\",\"Personal Shopping\",\"Camera Charges\",\"Travel Insurance\",\"Tips to Driver & Guide\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Explore the Sacred Ghats of Kashi\",\"description\":\"Begin your day with a sunrise boat ride from Assi Ghat. Visit Dashashwamedh Ghat, Manikarnika Ghat, Panchganga Ghat, Rajendra Prasad Ghat, Kedar Ghat, and Tulsi Ghat while learning about the rich spiritual and cultural history of Varanasi. End the tour with the spectacular evening Ganga Aarti at Dashashwamedh Ghat before returning to your hotel.\"}]',
+  meta_title = 'Varanasi Famous Ghats Heritage Tour | One Day Ghat Tour',
+  meta_description = 'Discover the famous ghats of Varanasi with a sunrise boat ride, Ganga Aarti, heritage walk, and guided sightseeing on this one-day spiritual tour.',
+  duration = '1 day'
+WHERE slug = 'varanasi-famous-ghats-1';
+
+-- Package: Sunrise Ganga Boat (sunrise-ganga-boat-1)
+UPDATE packages SET 
+  title = 'Sunrise Ganga Boat',
+  description = '<h2 style=\"color: #1a1a1a; font-weight: 700; margin-top: 20px; margin-bottom: 16px; line-height: 1.35;\">Before the City Wakes: A Sunrise Boat Ride Varanasi Worth Setting an Alarm For</h2>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">There\'s this one hour in Varanasi where the whole city just holds its breath. Right before the sun actually clears the horizon. The ghats go quiet except for oars dipping into the water and maybe a bell or two starting up somewhere down the bank. A <strong style=\"color: #1a1a1a;\">sunrise boat ride Varanasi</strong> gives you exactly this: watching the ghats wake up from the water itself instead of standing on land like everyone else. Kashi Ghoomo\'s been running these rides for years now, and if there\'s one thing past travelers keep saying that was unmissable, it\'s this.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Why 5 AM in Varanasi Feels Like an Entirely Different City</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">Even the Varanasi you\'ve already seen during a normal visit looks nothing like this at 5 AM:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">As afternoon turns to evening the ghats become clogged with vendors and tourists, but come morning they will be deserted save for priests preparing for their morning prayers.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Light hits the water low and soft; everything turns this golden hue that just doesn\'t happen later once the sun\'s fully up.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">Bells and chanting start slow, one distant sound at first, building into something bigger as more ghats stir.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\">A <strong style=\"color: #1a1a1a;\">sunrise boat ride Varanasi</strong> lets you drift through all of it, watching from the water instead of fighting crowds on the steps.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">How a Sunrise Boat Ride Varanasi Actually Unfolds, Start to Finish</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">It takes the stress out of the experience if you\'re new to the booking process.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Almost all boats leave a little after <strong style=\"color: #1a1a1a;\">5:00 AM or 6:00 AM</strong> (so that you get on the water when the dawn is just breaking and not higher up in the sky when the sun has risen and is bathing everything in daylight). Boats leave from <strong style=\"color: #1a1a1a;\">Assi Ghat</strong> or <strong style=\"color: #1a1a1a;\">Dashashwamedh Ghat</strong>, both very easy to find and reach.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">The classic destination route extends towards <strong style=\"color: #1a1a1a;\">Manikarnika Ghat</strong>; there are so many other not-so-popular ghats in between, which often go unnoticed by those ashore. The classic <strong style=\"color: #1a1a1a;\">Sunrise Boat Ride Varanasi</strong> lasts an hour to 2 hours, so there is plenty of time to witness the changing light without rushing past it.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Bajra Boat or Hand Boat? Here\'s the Actual Difference</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">Kashi Ghoomo runs a few different boat types for a <strong style=\"color: #1a1a1a;\">sunrise boat ride Varanasi</strong>, and honestly, which one you pick changes the whole feel of the ride, not just what you\'re paying:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Bajra boats:</strong> Big, traditionally built wooden boats that genuinely feel ancient. More space, shade, and a smoother ride — good if you\'ve got a family or a bigger group along.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Hand boats (Rowing Boats):</strong> Smaller, with one boatman rowing, quieter, and closer to the water. Feels more personal, better for couples, or if you\'re going alone.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Motorboats:</strong> Faster, cover more ground quicker, useful if you\'ve got other early morning plans stacked on top.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Private charters:</strong> Full control, your timing, your stops, your pace, with no sharing the boat with strangers.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Why Assi Ghat and Dashashwamedh Ghat Make the Best Starting Points</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">They\'re not random choices; each one brings something genuinely different to how the ride starts.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Assi Ghat</strong> sits right where the Ganga meets the Assi River, and mornings there feel particularly still, with people doing rituals under the trees nearby — a genuinely calm way to start before you\'re even on the boat.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\"><strong style=\"color: #1a1a1a;\">Dashashwamedh Ghat</strong> is a different story; that\'s where the famous evening Ganga Aarti happens, so catching it quiet and empty in the morning, instead of packed with crowds like it is by evening, is honestly a unique experience on its own. Either way, Kashi Ghoomo\'s boatmen know exactly when to leave so you catch the light right, no matter which one you pick.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">What You\'ll Actually See Along the Ghats During the Ride</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">A <strong style=\"color: #1a1a1a;\">sunrise boat ride Varanasi</strong> isn\'t just open water; it\'s what\'s happening on the banks as you glide past:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Manikarnika Ghat:</strong> Hits you first; this is Varanasi\'s oldest sacred cremation ghat, and watching that whole cycle of life and death play out right there tends to leave people quieter than they expected — not just watching, but deeply reflecting.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Kedar Ghat:</strong> The opposite feeling — a calmer, vibrantly striped ghat away from everything else, genuinely scenic if your boatman slows down for a moment here.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 12px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Hidden Smaller Ghats:</strong> The smaller ghats in between often go unnoticed from land. But from the water, they\'re filled with gentle morning moments — a family offering puja, yogis in deep meditation, and someone sitting quietly alone by the holy river.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">A Few Practical Things Worth Knowing Before You Go</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">Some details genuinely matter if this is your first <strong style=\"color: #1a1a1a;\">sunrise boat ride Varanasi</strong>. Mornings on the river are breezier and chillier than you might expect, even outside of winter, so bring a light wrap or shawl if you\'re on the water before 6:00 AM.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">Bajras offer cushioned seats and shade, while hand boats have lower sides and are more rustic, which you may want to consider if traveling with elderly relatives. Kashi Ghoomo\'s boatmen are government-certified, life-jackets are provided, and all boats undergo regular safety checks — ensuring complete peace of mind.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Getting Good Photos on Your Sunrise Boat Ride Varanasi</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">If for you a <strong style=\"color: #1a1a1a;\">sunrise boat ride Varanasi</strong> is mainly about capturing memorable photographs, keep these insider tips in mind:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Golden Hour Lighting:</strong> You will enjoy softer, forgiving light right before and after sunrise; midday sunlight tends to wash colors out.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Steady Framing:</strong> A rowing boat drifting still produces crisper shots than a motorized boat vibrating, so let your boatman know your photography preferences beforehand.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Perspective:</strong> Wide shots of the ghats reflecting across the sacred water capture the spiritual mood best, alongside close-up candid shots of morning rituals.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Experienced Guides:</strong> Kashi Ghoomo\'s boatmen know every photogenic bend and will orient the boat to the best lighting angles naturally.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Timing Your Trip Actually Matters More Than You\'d Think</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">Not every season gives you the exact same sunrise boat ride Varanasi experience, and a little planning genuinely helps:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">November to February (Winter):</strong> Typically brings a soft morning mist over the river that creates an atmospheric, mystical view, though early hours can feel chilly.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">March to June (Summer):</strong> Offers crystal-clear skies and crisp sunrises. Starting at 5:00 AM allows you to complete the ride well before the day\'s heat rises.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Festival Times:</strong> Auspicious days like Dev Deepawali and Karthik Purnima lend a vibrant, celebratory energy to the river, while regular weekday mornings provide pure tranquility.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">Pairing Your Sunrise Boat Ride With the Rest of Your Varanasi Trip</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 18px; line-height: 1.8; font-size: 15px;\">A lot of travelers don\'t book the <strong style=\"color: #1a1a1a;\">sunrise boat ride Varanasi</strong> as a standalone thing; they slot it seamlessly into a broader Kashi Ghoomo tour.</p>
+
+<p style=\"color: #2C2C2C; margin-bottom: 24px; line-height: 1.8; font-size: 15px;\">Enjoying a hearty local breakfast (kachori-jalebi or chai) riverside after disembarking, followed by heading to <strong style=\"color: #1a1a1a;\">Kashi Vishwanath Temple</strong> for early morning darshan, makes for a complete, unrushed morning without jumping frantically between sites. On multi-day itineraries, the sunrise boat ride usually lands on Day 2 or Day 3, when you are refreshed and ready for peaceful contemplation.</p>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">What Travelers Keep Bringing Up Long After the Ride Ends</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">Real feedback usually zeroes in on specific moments, not vague compliments. People who\'ve done a sunrise boat ride Varanasi through Kashi Ghoomo keep mentioning the same handful of highlights:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Serene Stillness:</strong> How tranquil the holy water is before the city wakes up to daily hustle.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Authentic Stories:</strong> Boatmen who know the living history of each ghat and narrate it naturally rather than reciting a canned script.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Golden Glow:</strong> The magical amber sunlight illuminating centuries-old temple spires right as the sun breaches the horizon.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Personal Connection:</strong> Travelers frequently emphasize how much more intimate and soulful morning boating feels compared to evening Aarti crowds.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 16px; line-height: 1.4;\">How to Actually Book This Through Kashi Ghoomo</h3>
+
+<p style=\"color: #2C2C2C; margin-bottom: 16px; line-height: 1.8; font-size: 15px;\">Getting started is genuinely simple — no haggling with random boatmen on the ghats, and no wondering if you\'re being overcharged:</p>
+
+<ul style=\"list-style-type: disc !important; padding-left: 28px !important; margin-bottom: 24px !important;\">
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Step 1:</strong> Reach out to Kashi Ghoomo via phone, WhatsApp, or our quick online package booking form.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Step 2:</strong> Select your preferred boat type (Bajra, hand rowing boat, motorboat, or private luxury charter) according to your group size and style.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Step 3:</strong> Specify your departure ghat (Assi Ghat or Dashashwamedh Ghat) and your preferred pickup time.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Step 4:</strong> Add any optional customizations you desire, such as a guided storyteller or floral puja diya offerings.</li>
+    <li style=\"list-style: disc !important; display: list-item !important; margin-bottom: 10px !important; color: #2C2C2C; line-height: 1.75;\"><strong style=\"color: #1a1a1a;\">Step 5:</strong> Receive instant booking confirmation with your boatman\'s contact details and exact boarding point.</li>
+</ul>
+
+<hr style=\"border: 0; border-top: 1px solid #E8E8E8; margin: 30px 0;\">
+
+<h3 style=\"color: #1a1a1a; font-weight: 700; margin-top: 28px; margin-bottom: 20px; line-height: 1.4;\">Frequently Asked Questions (FAQs)</h3>
+
+<div class=\"faq-list\" style=\"margin-top: 16px;\">
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">1. What is the actual time of a sunrise boat ride Varanasi?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Most boat rides depart between <strong style=\"color: #1a1a1a;\">5:00 AM and 6:00 AM</strong>, aligning precisely with the morning twilight so you are floating comfortably on the Ganga just as the sun begins to rise.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">2. How much time will it take all in?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">The tour typically lasts between <strong style=\"color: #1a1a1a;\">1 to 2 hours</strong>, covering the iconic stretch between Assi Ghat and Manikarnika Ghat and back at an unhurried, peaceful pace.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">3. Bajra boat or hand boat: Which one would I like to take on my sunrise trip?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">A <strong style=\"color: #1a1a1a;\">Bajra boat</strong> is more spacious with shaded seating, ideal for families and larger groups. Traditional <strong style=\"color: #1a1a1a;\">hand boats (rowing boats)</strong> are quieter, closer to the water, and perfect for couples or solo travelers seeking a peaceful, private ride.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">4. Is there a private boat option?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Yes, Kashi Ghoomo offers dedicated private charters for sunrise boat rides in Varanasi, fully customizable with your personal departure timings, preferred ghats, and duration.</p>
+    </div>
+
+    <div class=\"faq-item\" style=\"margin-bottom: 18px; padding: 18px 22px; border-radius: 12px; background: #ffffff; border: 1px solid #E8E8E8; box-shadow: 0 2px 8px rgba(0,0,0,0.02);\">
+        <p style=\"color: #1a1a1a; font-weight: 700; font-size: 15.5px; margin-bottom: 8px;\">5. Is it actually safe? Are the boatmen properly experienced?</p>
+        <p style=\"color: #2C2C2C; font-size: 14.5px; line-height: 1.7; margin-bottom: 0;\">Yes, absolutely. All boats are regularly inspected for safety, certified life jackets are provided on board, and our boatmen are government-licensed locals with generations of river navigation experience.</p>
+    </div>
+</div>',
+  inclusions = '[\"Traditional Wooden Boat Ride\",\"Experienced Boatman\",\"Sunrise Cruise on River Ganga\",\"Bottled Drinking Water\",\"Local Tour Assistance\",\"Life Jackets\",\"Photography Stops\"]',
+  exclusions = '[\"Hotel Pickup & Drop\",\"Meals & Beverages\",\"Temple Donations\",\"Personal Expenses\",\"Professional Photography Charges\",\"Tips & Gratuities\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Sunrise Boat Ride\",\"description\":\"Meet at Assi Ghat before sunrise. Board a traditional wooden boat and cruise along the River Ganga while passing Assi Ghat, Tulsi Ghat, Kedar Ghat, Harishchandra Ghat, Manikarnika Ghat, and Dashashwamedh Ghat. Enjoy spectacular sunrise views, observe morning rituals, and conclude the tour at Dashashwamedh Ghat.\"}]',
+  meta_title = 'Sunrise Ganga Boat Ride in Varanasi | Assi to Dashashwamedh',
+  meta_description = 'Book a sunrise Ganga Boat Ride in Varanasi and enjoy breathtaking river views, famous ghats, spiritual rituals, and an unforgettable boating experience.',
+  duration = '1day'
+WHERE slug = 'sunrise-ganga-boat-1';
+
+-- Package: Book Kashi, Prayagraj & Ayodhya Tour Package (3 Nights / 4 Days) (book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days)
+UPDATE packages SET 
+  title = 'Book Kashi, Prayagraj & Ayodhya Tour Package (3 Nights / 4 Days)',
+  description = '<p>Embark on a divine journey through three of India\'s most sacred pilgrimage destinations with our <strong>Kashi, Prayagraj &amp; Ayodhya Tour Package (3 Nights / 4 Days)</strong>. This carefully planned spiritual tour is perfect for families, couples, senior citizens, and devotees seeking peace, blessings, and cultural heritage.</p><p>Your journey begins in the holy city of <strong>Kashi (Varanasi)</strong>, where you\'ll experience the divine atmosphere of <strong>Shri Kashi Vishwanath Temple</strong>, witness the mesmerizing <strong>Evening Ganga Aarti</strong>, enjoy a sunrise <strong>boat ride across the 84 Ghats</strong>, and explore the ancient temples that make Varanasi one of the oldest living cities in the world.</p><p>Continue your pilgrimage to <strong>Prayagraj</strong>, home to the sacred <strong>Triveni Sangam</strong>, where the Ganga, Yamuna, and Saraswati rivers meet. Visit important religious sites such as <strong>Bade Hanuman Temple</strong>, <strong>Alopi Devi Temple</strong>, <strong>Shankar Viman Mandapam</strong>, and experience the spiritual significance of this holy city.</p><p>The final destination is <strong>Ayodhya</strong>, the birthplace of <strong>Lord Shri Ram</strong>. Seek blessings at the magnificent <strong>Shri Ram Janmabhoomi Mandir</strong>, visit <strong>Hanuman Garhi</strong>, <strong>Kanak Bhawan</strong>, witness the divine <strong>Saryu Aarti</strong>, and explore the peaceful surroundings of <strong>Ram Ki Paidi</strong>.</p><p>Travel in comfortable AC vehicles, stay in quality hotels, and enjoy a hassle-free journey with professional drivers and 24×7 customer support. This package is fully customizable according to your travel dates, group size, hotel preferences, and sightseeing requirements.</p>',
+  inclusions = '[\"Pickup from Varanasi Airport \\/ Railway Station \\/ Hotel\",\"AC Hotel Accommodation (Double Sharing)\",\"Daily Breakfast\",\"Private Air-Conditioned Vehicle\",\"Professional Driver\",\"Driver Allowance\",\"Fuel Charges\",\"Parking Charges\",\"Toll Tax\",\"Boat Ride in Varanasi\",\"Local Sightseeing\",\"Guide Assistance\",\"All Intercity Transfers\",\"Drop at Ayodhya \\/ Lucknow \\/ Varanasi (as per booking)\",\"24\\u00d77 Customer Support\"]',
+  exclusions = '[\"Lunch & Dinner\",\"Personal Expenses\",\"Travel Insurance\",\"Temple VIP Darshan Tickets\",\"Puja Charges\",\"Boat Ride at Prayagraj\",\"Camera Charges\",\"Laundry Charges\",\"Medical Expenses\",\"Anything Not Mentioned in Inclusions\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Arrival in Varanasi\",\"description\":\"Pickup from Airport\\/Railway Station, Hotel Check-in, Kal Bhairav Temple, Mritunjay Mahadev Temple, Evening Ganga Aarti, Banaras Street Food Tour, Vishwanath Gali Shopping.\"},{\"day\":\"Day 2\",\"title\":\"Explore Spiritual Varanasi\",\"description\":\"Sunrise Boat Ride, Shri Kashi Vishwanath Temple, Annapurna Temple, Vishalakshi Temple, Kashi Karvat, Durga Kund, Tulsi Manas Mandir, Sankat Mochan Temple, Mani Mandir, Sarnath, Swarved Mahamandir.\"},{\"day\":\"Day 3\",\"title\":\"Prayagraj & Ayodhya\",\"description\":\"Early morning departure, Triveni Sangam, Bade Hanuman Temple, Alopi Devi Temple, Shankar Viman Mandapam, Patalpuri Temple, Drive to Ayodhya, Shri Ram Janmabhoomi, Hanuman Garhi, Kanak Bhawan, Saryu Aarti, Ram Ki Paidi.\"},{\"day\":\"Day 4\",\"title\":\"Ayodhya Darshan & Departure\",\"description\":\"Morning Temple Visit, Local Shopping, Breakfast, Hotel Check-out and Drop at Ayodhya Airport, Lucknow Airport or Varanasi as per booking.\"}]',
+  meta_title = 'Book Kashi Prayagraj Ayodhya Tour Package 3 Nights 4 Days | Kashi Ghoomo',
+  meta_description = 'Book the best Kashi, Prayagraj & Ayodhya Tour Package (3 Nights / 4 Days). Visit Kashi Vishwanath, Triveni Sangam & Ram Janmabhoomi with hotel, cab & sightseeing.',
+  duration = '3N-4D'
+WHERE slug = 'book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days';
+
+-- Package: Dev Diwali Boat Ride Experience in Varanasi (dev-diwali-boat-ride-experience)
+UPDATE packages SET 
+  title = 'Dev Diwali Boat Ride Experience in Varanasi',
+  description = '<h2>Dev Deepawali Boat Booking Online for the Best View of the Festival</h2>
+<p>Dev Deepawali is one of those festivals for which you have to see from the river to actually appreciate its beauty. The whole evening feels different as the ghats are lit by countless diyas. Book your Dev Deepawali boat online and get your spot on the Ganga to enjoy the festivities from the water. Kashi Ghoomo makes booking easy so you can concentrate on the lights, prayers, music and beautiful sights.</p>
+
+<h3>What Makes the Dev Deepawali Boat Ride Special?</h3>
+<p>Watching Dev Deepawali from the river gives a view that is challenging to get compared to the crowded ghats. Dev Deepawali boat booking online allows you to remain close to the lights, prayers, music and festive energy and enjoy the festivities from the Ganga.</p>
+<ul>
+    <li>Thousands of diyas lighting up the ghats</li>
+    <li>Beautiful views of all 84 Ganga ghats</li>
+    <li>The famous Ganga Aarti from the river</li>
+    <li>Fireworks lighting up the evening sky</li>
+    <li>Traditional music and cultural performances</li>
+    <li>A peaceful view of Varanasi from the Ganga</li>
+</ul>
+
+<h3>Choose the Boat That Fits Your Celebration</h3>
+<p>Some groups do not want the same quality boat ride, so we offer different options based on budget, group size, and comfort level.</p>
+<p><strong>Shared Motor Boat</strong> – A simple option for those travelers who want to enjoy Dev Deepawali from the Ganga without spending too much money. Suitable for couples, families and small groups.</p>
+<p><strong>Premium Light Motor Boat</strong> – For those seeking a more comfortable experience and better boat views of the lighted ghats, Ganga Aarti and evening celebrations.</p>
+<p><strong>Private Bajra Boat</strong> — Perfect for families or groups looking for privacy and a traditional Varanasi experience. You can enjoy the festival together without sharing your boat with other travellers.</p>
+<p><strong>Luxury AC Cruise</strong> — A good choice when comfort matters most. The cruise provides a more spacious air-conditioned environment with washroom facilities to enjoy a relaxing evening on the river.</p>
+<p><strong>Private Boat</strong> – Ideal for larger groups wanting to gather collectively at their personal pace whilst enjoying the views and the atmosphere.</p>
+
+<h3>Find the Right Boat for Your Dev Deepawali Evening</h3>
+<p>Planning your boat ride becomes easier when you know what each option offers. At Kashi Ghoomo, select a ride that best fits your group, comfort level and the type of evening you prefer to have.</p>
+<p><strong>For couples and small families:</strong><br>Shared and premium motor boats are simple choices for smaller groups who want to enjoy the lights, Ganga Aarti, and fireworks without booking a larger private boat.</p>
+<p><strong>For families and private groups:</strong><br>A private boat, or Bajra, gives your group more personal space, making it easier to enjoy the evening together without sharing the ride with other passengers.</p>
+<p><strong>For the traveler who wants a little extra comfort:</strong><br>If you want more space, air conditioning, a washroom and a quiet place to enjoy the festivities, then a luxury AC cruise is the better choice.</p>
+
+<h3>Book Your Dev Deepawali Boat Without the Last-Minute Rush</h3>
+<p>Dev Deepawali brings in a humongous number of tourists to Varanasi annually and as the festival approaches, the demand for boats rises quickly. If you are aware of exactly when you are going to travel, then it is better to sort your boat out early rather than leave it to the final few days. For Dev Deepawali, you can book a boat online and enjoy the luxury of choosing your boat, filling in your details and getting booking confirmation without wasting hours to search for a boat after arriving in Varanasi.</p>
+<p>Be sure that you choose the appropriate vessel that is sufficient for your number of participants, the amount that you could spare the expenses for, and ease the travel by its suitability.</p>
+<p>Please do send us the details of your booking, including your name, the date you wanted, and how many passengers are together with your boat selection.</p>
+<p>Please never forget to receive your confirmation, reporting point and boarding instructions.</p>
+<p>Reach the reporting point in time to enjoy the boat ride with ease and avoid the commotion.</p>
+<p>Enjoy the celebration from the river on the festive evening as the ghats, diyas, prayers, music and fireworks come alive.</p>
+
+<h3>What Your Dev Deepawali Boat Booking Includes</h3>
+<p>Kashi Ghoomo Dev Deepawali boat booking online includes the basic arrangements you need for a smooth evening on the Ganga.</p>
+<p><strong>Passenger Life Jackets:</strong><br>The life jackets on the boats are provided prior to embarking on your adventure. Safety comes as a foremost priority on this boatride! You may relax in the knowledge that you have the means of safety provided all throughout your journey.</p>
+<p><strong>Experienced Boat Crews:</strong><br>The boats are well looked after and manned by a competent crew who assist passengers both upon boarding as well as on the water itself. It makes for a much easier transfer, particularly for families and newcomers to Varanasi.</p>
+<p><strong>Ganga Aarti viewing:</strong><br>Witnessing the legendary Ganga Aarti ceremony from the river is a major attraction in itself! From on board you are able to see the festivities unfold in a manner that is inaccessible from any other viewpoint!</p>
+<p><strong>Illuminated Ghats views:</strong><br>As the sun begins to set, the ghats are awash with a thousand diyas! Rather than trying to elbow your way past crowds of other tourists at the temples, why not witness this spectacular sight from the banks of the Ganga with a Dev Deepawali boat booking online.</p>
+<p><strong>Fireworks and Cultural Programmes:</strong><br>The celebration does not end with the diyas. You can also enjoy fireworks lighting up the sky along with traditional music, dance and cultural programs taking place around the ghats.</p>
+<p><strong>Help With Boarding Arrangements:</strong><br>Kashi Ghoomo also provides the necessary boarding information so that you know where to report and when to arrive. Reaching the reporting point on time can make the start of your boat ride much more comfortable.</p>
+
+<h3>What to Expect During the Dev Deepawali Boat Ride</h3>
+<p><strong>1. Reaching the Ganga Before Sunset</strong><br>When you get to the reporting point, the boarding process starts and you can find your place on the boat you’ve chosen. It is advisable to reach there on time, as Dev Deepawali draws a large crowd and if you reach late, your evening may start on a hurried note.</p>
+<p><strong>2. Watching the Ghats Come Alive</strong><br>The view changes with every ghat as the boat moves along the Ganga. The spirit is totally different with thousands of diyas, decorated temples, prayers and festivities. A Dev Deepawali boat booking online lets you watch these festivities from the river.</p>
+<p><strong>3. The Night On The Water</strong><br>And the best part is when the celebrations are at their peak. You can sit on the boat with your group and watch the Ganga Aarti, fireworks and cultural programs. With Kashi Ghoomo, the evening is more about celebrating the festival and not being concerned about the arrangements.</p>
+
+<h3>Experience the Spiritual Side of Dev Deepawali</h3>
+<p>Dev Deepawali in Varanasi is one of the most fantastic evenings you’d ever experience on planet Earth when tens of thousands of diyas glow around. The holy river Ganges. This festival of light on the full moon of Karthik attracts hundreds of thousands of tourists and pilgrims from all parts of the world and the land. They offer worship in illuminated temples, while in other temples you’ll be amazed at the performances by bands playing sacred and other forms of music, chanting in the glory of the God.</p>
+<p>Dev Deepavali, experienced while floating in the waters of the Holy Ganga from a boat, is an unmissable sight for any traveler. Instead of standing in the crowded area, you can sit on a boat and observe the decorated ghats, prayers and lit-up fireworks from the water. With Dev Deepawali boat booking online, you can book your boat ride in advance and enjoy the evening without wasting your time in finding a boat at the last moment.</p>
+
+<h3>What You Get With Your Dev Deepawali Boat Package</h3>
+<p>Your boat package is planned to cover the main things you need for enjoying the celebration comfortably from the Ganga.</p>
+<p><strong>Life Jackets for Every Passenger:</strong><br>Certified life jackets are provided to all passengers, so everyone can enjoy the boat ride with the required safety arrangements in place.</p>
+<p><strong>Experienced Boat Crew:</strong><br>The boat is conducted by an experienced and licensed crew that assists the passengers in the arrangements for boarding and travel and assists them throughout the journey.</p>
+<p><strong>Live Ganga Aarti Viewing:</strong><br>Watch the famous Ganga Aarti from the river and get a different view of the prayers, lamps and rituals taking place along the ghats.</p>
+<p><strong>Fireworks From the River:</strong><br>As the celebrations reach their peak, you can watch the spectacular fireworks lighting up the evening sky from your boat.</p>
+<p><strong>Views of the Illuminated Ghats:</strong><br>The boat gives you a wider view of the ghats decorated with thousands of diyas, allowing you to take in the festive scene from the water.</p>
+<p><strong>Cultural Program View:</strong><br>Traditional music, dance, and other cultural events will give you an opportunity for a richer evening, beyond the light and prayer.</p>
+<p><strong>Assistance in Hindi and English:</strong><br>During the tour, assistance is provided in Hindi and English to help you in your journey to Varanasi from different parts of the country and the world.</p>
+<p><strong>Managed Boarding Arrangements:</strong><br>You receive the necessary reporting and boarding information beforehand, helping you reach the right place and get onto the boat without unnecessary confusion.</p>
+<p>Since you have the Dev Deepawali boat online booking done ahead of time, you just have to sit and wait in comfort. Take your place at the preferred pickup location and let yourself go in the evening. Dev Diwali Celebrations Celebrate on the banks of river Ganga with a cruise that fills your senses with joy.</p>
+
+<h3>Find a Dev Deepawali Boat That Fits Your Budget</h3>
+<p>The price of your boat ride mainly depends on the boat you choose, the number of people travelling with you and the level of comfort you want during the celebration.</p>
+<figure class=\"table\">
+<table class=\"table table-bordered\">
+<thead>
+    <tr>
+        <th>Boat Type</th>
+        <th>Price</th>
+        <th>Suitability & Details</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td><strong>Shared Motor Boat</strong></td>
+        <td><strong>₹2,499</strong> per person</td>
+        <td>A budget-friendly option for couples, families and smaller groups who mainly want to enjoy the illuminated ghats, Ganga Aarti and fireworks from the river.</td>
+    </tr>
+    <tr>
+        <td><strong>Premium Light Motor Boat</strong></td>
+        <td><strong>₹3,999</strong> per person</td>
+        <td>A step up compared to the communal option, this is a more luxurious means to take in the views and festive vibes along the Ganga.</td>
+    </tr>
+    <tr>
+        <td><strong>Royal Bajra Boat</strong></td>
+        <td><strong>₹9,499</strong> per person</td>
+        <td>Perfect for families and groups who want a more private and traditional boat but still want to celebrate together.</td>
+    </tr>
+    <tr>
+        <td><strong>Luxury AC Cruise</strong></td>
+        <td><strong>₹11,499</strong> per person</td>
+        <td>If comfort is what you are looking for, then this is a better AC option with a washroom facility on the evening boat ride.</td>
+    </tr>
+    <tr>
+        <td><strong>Private Boat (Up to 15 Guests)</strong></td>
+        <td><strong>From ₹58,000</strong></td>
+        <td>For groups of up to 15 guests who prefer to have their own boat and enjoy the celebration together rather than having to share the ride with other passengers.</td>
+    </tr>
+</tbody>
+</table>
+</figure>
+<p>Book Your Dev Deepawali Boat in Advance with an online booking facility for a comfortable experience on Dev Deepawali; you get a wide variety of boats depending upon the size of your group, number of people and budget. Charges differ, so it will be better to ask about the availability, fare, etc., with Kashi Ghoomo before you book for the boat journey.</p>
+
+<h3>Why Choose Kashi Ghoomo for Your Dev Deepawali Boat Ride?</h3>
+<p>Choosing the right boat service matters when you are visiting Varanasi for a festival as busy as Dev Deepawali. Kashi Ghoomo has been helping travellers experience the celebration of the Ganga since 2018, with more than 1,500 travellers choosing their services over the years.</p>
+<ul>
+    <li><strong>Experience Since 2018:</strong> Years of experience in organizing boat rides for travelers coming to Varanasi on Dev Deepawali.</li>
+    <li><strong>Multiple Boat Choices:</strong> Shared boats, premium motor boats, Bajras, luxury cruises and private options for various groups and budgets.</li>
+    <li><strong>Suitable for different travelers:</strong> Families, couples, travelers, companies, and tourists from other nations can choose an option as per their needs.</li>
+    <li><strong>Clear Booking Information:</strong> Know about the boat, the reporting point and boarding instructions to know what to expect before you reach Ganga.</li>
+    <li><strong>Safety Arrangements:</strong> Safety arrangements, including life jackets and experienced crew on the boat, are made so that you enjoy the evening.</li>
+    <li><strong>Easy Online Booking:</strong> Book your Dev Deepawali boat online to pre-book your ride rather than searching for a boat once you reach Varanasi.</li>
+</ul>
+<p>If you would like to experience Dev Deepawali from the Ganga, Kashi Ghoomo offers you different options to enjoy the evening as per your group, budget and comfort.</p>
+
+<h3>Ready to Experience Dev Deepawali From the Ganga?</h3>
+<p>Dev Deepawali is an evening you will want to enjoy without worrying about finding a boat at the last moment. You can book your boat online for Dev Deepawali, selecting your boat, sharing the travel details and confirming your booking before the festival\'s rush begins. Choose Kashi Ghoomo and get ready to enjoy the lit-up ghats, Ganga Aarti, music and fireworks from the river.</p>
+<p><strong>Book your Dev Deepawali Boat now and make your Varanasi festival celebration memorable.</strong></p>
+
+<h3>Frequently Asked Questions (FAQs)</h3>
+<div class=\"faq-list\">
+    <div class=\"faq-item mb-3\">
+        <p><strong>1. When should we book a boat for Dev Deepawali?</strong><br>
+        It is better to book the boat in advance, as the demand for boat rental increases during Dev Deepawali. Dev Deepawali boat booking online helps you to decide well in advance based on the size of your family or friends and your budget as well.</p>
+    </div>
+    <div class=\"faq-item mb-3\">
+        <p><strong>2. Which boat is suitable for a family?</strong><br>
+        You could hire a shared motorboat, a deluxe boat, a private boat, or a luxury cruise. But if it is your family, then you can opt for a private boat for your night for a luxurious and private trip.</p>
+    </div>
+    <div class=\"faq-item mb-3\">
+        <p><strong>3. What does the Dev Deepawali package for a boat include?</strong><br>
+        The package includes life jackets, the services of an experienced crew of boatmen, a special cruise to view Ganga Aarti, fireworks on board and a gala view of beautifully illuminated ghats. The boats offer an option of air conditioner and washroom facilities based on your choice.</p>
+    </div>
+    <div class=\"faq-item mb-3\">
+        <p><strong>4. Where do I check in for the boat trip?</strong><br>
+        After the booking is confirmed, you will be intimated about the reporting venue and boarding instructions. It is very essential that you adhere to the boarding instructions, as the festival time usually sees a large number of people converging at the banks of the Ganga.</p>
+    </div>
+    <div class=\"faq-item mb-3\">
+        <p><strong>5. Can we hire a private boat for our group?</strong><br>
+        Yes, you can get options with the private boat facility too for groups wishing to do Dev Deepavali together without sharing it with other guests. The private boat facility can be available with approx. 1-15 guests.</p>
+    </div>
+</div>',
+  inclusions = '[\"Boat ride as per selected category\",\"Life jacket for every passenger\",\"Professional and licensed boatman\",\"Live Ganga Aarti viewing from the river\",\"Fireworks viewing\",\"84 Ghats illuminated with diyas\",\"Cultural programme viewing\",\"Hindi and English assistance\",\"Safety briefing before boarding\",\"Boarding assistance\"]',
+  exclusions = '[\"Hotel accommodation\",\"Meals and beverages\",\"Personal expenses\",\"Transportation to reporting ghat\",\"Travel insurance\",\"Camera and photography charges\",\"Tips for boat staff\",\"Anything not mentioned in inclusions\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Reporting at Ravidas Ghat\",\"description\":\"Report at Ravidas Ghat by 4:00 PM. Complete verification and receive boarding instructions.\"},{\"day\":\"Day 1\",\"title\":\"Boat Boarding\",\"description\":\"Board the selected boat and receive life jackets with safety briefing before departure.\"},{\"day\":\"Day 1\",\"title\":\"Sunset Cruise\",\"description\":\"Cruise along the holy Ganga while enjoying the beautiful sunset over Varanasi.\"},{\"day\":\"Day 1\",\"title\":\"Dev Diwali Celebration\",\"description\":\"Witness millions of illuminated diyas across all 84 ghats with spectacular river views.\"},{\"day\":\"Day 1\",\"title\":\"Ganga Aarti Experience\",\"description\":\"Enjoy the world-famous Ganga Aarti ceremony from the comfort of your boat.\"},{\"day\":\"Day 1\",\"title\":\"Fireworks & Cultural Shows\",\"description\":\"Watch colorful fireworks and traditional cultural performances along the ghats.\"},{\"day\":\"Day 1\",\"title\":\"Return Journey\",\"description\":\"Return safely to Ravidas Ghat after completing the unforgettable Dev Diwali experience around 8:30 PM.\"}]',
+  meta_title = 'Dev Diwali Boat Ride Experience in Varanasi | Kashi Ghoomo',
+  meta_description = 'Experience the magic of Dev Diwali Boat Ride Experience in Varanasi with Kashi Ghoomo. Book now to enjoy the illuminated ghats and Ganga Aarti.',
+  duration = 'Evening (5:00 PM – 8:30 PM)'
+WHERE slug = 'dev-diwali-boat-ride-experience';
 
