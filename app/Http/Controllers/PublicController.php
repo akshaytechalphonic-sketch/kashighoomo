@@ -404,12 +404,19 @@ class PublicController extends Controller
 
     public function packageShow($slug)
     {
-        $package = Package::where('slug', $slug)->where('status', true)->firstOrFail();
+        $package = \App\Services\PackageContentService::findOrFallback($slug);
+        if (!$package) {
+            abort(404);
+        }
         $relatedPackages = Package::where('status', true)
-            ->where('id', '!=', $package->id)
+            ->where('id', '!=', $package->id ?? 0)
             ->where(function($q) use ($package) {
-                $q->where('destination_id', $package->destination_id)
-                  ->orWhere('service_id', $package->service_id);
+                if ($package->destination_id) {
+                    $q->where('destination_id', $package->destination_id);
+                }
+                if ($package->service_id) {
+                    $q->orWhere('service_id', $package->service_id);
+                }
             })
             ->take(3)->get();
 
