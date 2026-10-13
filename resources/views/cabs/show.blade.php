@@ -570,32 +570,32 @@
 
 <!-- Enquiry Modal -->
 <div class="modal fade" id="enquiryModal{{ $cab->id }}" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
         <div class="modal-content rounded-4 border-0 shadow-lg">
-            <div class="modal-header border-bottom p-4 bg-light">
+            <div class="modal-header border-bottom py-3 px-4 bg-light">
                 <div>
-                    <h5 class="modal-title fw-bold text-dark font-family-poppins">Enquire for {{ $cab->cab_name }}</h5>
+                    <h5 class="modal-title fw-bold text-dark font-family-poppins mb-1">Enquire for {{ $cab->cab_name }}</h5>
                     <span class="small text-muted" style="font-size:12px;">Submit details to get an instant customized quote.</span>
                 </div>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form action="{{ route('cabs.enquire', $cab->id) }}" method="POST">
                 @csrf
-                <div class="modal-body p-4">
+                <div class="modal-body p-4" style="max-height: calc(85vh - 140px); overflow-y: auto;">
                     <div class="row g-3">
-                        <div class="col-12">
+                        <div class="col-md-6">
                             <label class="form-label small fw-bold">Full Name *</label>
                             <input type="text" name="name" class="form-control rounded-3" placeholder="Enter your name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Phone Number *</label>
+                            <input type="tel" name="phone" class="form-control rounded-3" placeholder="e.g. +91 99999 99999" required>
                         </div>
                         <div class="col-md-6">
                             <label class="form-label small fw-bold">Email Address *</label>
                             <input type="email" name="email" class="form-control rounded-3" placeholder="name@example.com" required>
                         </div>
                         <div class="col-md-6">
-                            <label class="form-label small fw-bold">Phone Number *</label>
-                            <input type="tel" name="phone" class="form-control rounded-3" placeholder="e.g. +91 99999 99999" required>
-                        </div>
-                        <div class="col-12">
                             <label class="form-label small fw-bold">Travel Date *</label>
                             <input type="date" name="travel_date" class="form-control rounded-3" required min="{{ date('Y-m-d') }}">
                         </div>
@@ -609,11 +609,11 @@
                         </div>
                         <div class="col-12">
                             <label class="form-label small fw-bold">Special Requests / Itinerary</label>
-                            <textarea name="message" class="form-control rounded-3" rows="3" placeholder="Let us know if you need airport transfer, Sarnath sightseeing, multi-day yatra, etc."></textarea>
+                            <textarea name="message" class="form-control rounded-3" rows="2" placeholder="Let us know if you need airport transfer, Sarnath sightseeing, multi-day yatra, etc."></textarea>
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer p-4 border-top bg-light">
+                <div class="modal-footer py-3 px-4 border-top bg-light">
                     <button type="button" class="btn btn-outline-dark rounded-pill px-4" data-bs-dismiss="modal">Close</button>
                     <button type="submit" class="tf-btn primary hover-1 px-4 py-2 rounded-pill text-white border-0 fw-bold">Submit Enquiry</button>
                 </div>

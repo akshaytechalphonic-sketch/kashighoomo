@@ -397,6 +397,24 @@
             background-color: #34af23;
         }
 
+        /* Global Modal Enhancements & Positioning */
+        .modal {
+            z-index: 999999 !important;
+        }
+        .modal-backdrop {
+            z-index: 999998 !important;
+        }
+        .modal-dialog-scrollable {
+            max-height: calc(100vh - 40px) !important;
+        }
+        .modal-dialog-scrollable .modal-content {
+            max-height: calc(100vh - 40px) !important;
+            overflow: hidden;
+        }
+        .modal-dialog-scrollable .modal-body {
+            overflow-y: auto !important;
+        }
+
         /* ================================================
            GLOBAL MOBILE RESPONSIVE STYLES
            ================================================ */
