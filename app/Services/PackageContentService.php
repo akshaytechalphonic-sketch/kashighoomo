@@ -24,6 +24,9 @@ class PackageContentService
 
     public static function getContent(string $slug): ?array
     {
+        if ($slug === 'ayodhya') {
+            $slug = 'book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days';
+        }
         $all = self::all();
         return $all[$slug] ?? null;
     }
@@ -83,6 +86,9 @@ class PackageContentService
 
     public static function findOrFallback(string $slug): ?Package
     {
+        if ($slug === 'ayodhya') {
+            $slug = 'book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days';
+        }
         $package = Package::where('slug', $slug)->where('status', true)->first();
         if (!$package) {
             $package = Package::where('slug', $slug)->first();

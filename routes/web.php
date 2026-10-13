@@ -75,6 +75,7 @@ Route::get('/book-dev-diwali-boat-rides', [PublicController::class, 'devdiwali']
 
 
 
+Route::redirect('/packages/ayodhya', '/packages/book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days', 301);
 Route::get('/packages', [PublicController::class, 'packages'])->name('packages.index');
 Route::get('/packages/{slug}', [PublicController::class, 'packageShow'])->name('packages.show');
 Route::post('/packages/{package}/enquire', [PublicController::class, 'storePackageEnquiry'])->name('packages.enquire');
