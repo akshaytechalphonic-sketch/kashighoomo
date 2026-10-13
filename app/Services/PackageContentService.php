@@ -24,11 +24,39 @@ class PackageContentService
 
     public static function getContent(string $slug): ?array
     {
-        if ($slug === 'ayodhya') {
-            $slug = 'book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days';
-        }
         $all = self::all();
-        return $all[$slug] ?? null;
+        if (isset($all[$slug])) {
+            return $all[$slug];
+        }
+
+        $aliases = [
+            'ayodhya' => 'book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days',
+            'ayodhya-2-days-1-night' => 'book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days',
+            'sunrise-ganga-boat' => 'sunrise-ganga-boat-1',
+            'sunrise-ganga-boat-1' => 'sunrise-ganga-boat',
+            'dashashwamedh-ghat-ganga' => 'dashashwamedh-ghat-ganga-1',
+            'dashashwamedh-ghat-ganga-1' => 'dashashwamedh-ghat-ganga',
+            'varanasi-famous-ghats' => 'varanasi-famous-ghats-1',
+            'varanasi-famous-ghats-1' => 'varanasi-famous-ghats',
+        ];
+
+        if (isset($aliases[$slug]) && isset($all[$aliases[$slug]])) {
+            return $all[$aliases[$slug]];
+        }
+
+        if (str_ends_with($slug, '-1')) {
+            $baseSlug = substr($slug, 0, -2);
+            if (isset($all[$baseSlug])) {
+                return $all[$baseSlug];
+            }
+        } else {
+            $altSlug = $slug . '-1';
+            if (isset($all[$altSlug])) {
+                return $all[$altSlug];
+            }
+        }
+
+        return null;
     }
 
     public static function syncPackage(Package $package): Package
@@ -77,6 +105,19 @@ class PackageContentService
                     'duration' => $custom['duration'] ?? $package->duration,
                 ]);
             }
+
+            // Also sync twin slug in database (e.g. sunrise-ganga-boat and sunrise-ganga-boat-1)
+            $altSlug = str_ends_with($package->slug, '-1') ? substr($package->slug, 0, -2) : ($package->slug . '-1');
+            Package::where('slug', $altSlug)->update([
+                'title' => $custom['title'] ?? $package->title,
+                'description' => $custom['description'],
+                'inclusions' => json_encode($custom['inclusions'] ?? []),
+                'exclusions' => json_encode($custom['exclusions'] ?? []),
+                'itinerary' => json_encode($custom['itinerary'] ?? []),
+                'meta_title' => $custom['meta_title'] ?? $package->meta_title,
+                'meta_description' => $custom['meta_description'] ?? $package->meta_description,
+                'duration' => $custom['duration'] ?? $package->duration,
+            ]);
         } catch (\Throwable $e) {
             // Silently ignore DB errors so page rendering never breaks
         }
@@ -86,12 +127,37 @@ class PackageContentService
 
     public static function findOrFallback(string $slug): ?Package
     {
-        if ($slug === 'ayodhya') {
-            $slug = 'book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days';
-        }
+        $aliases = [
+            'ayodhya' => 'book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days',
+            'ayodhya-2-days-1-night' => 'book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days',
+            'sunrise-ganga-boat' => 'sunrise-ganga-boat-1',
+            'sunrise-ganga-boat-1' => 'sunrise-ganga-boat',
+            'dashashwamedh-ghat-ganga' => 'dashashwamedh-ghat-ganga-1',
+            'dashashwamedh-ghat-ganga-1' => 'dashashwamedh-ghat-ganga',
+            'varanasi-famous-ghats' => 'varanasi-famous-ghats-1',
+            'varanasi-famous-ghats-1' => 'varanasi-famous-ghats',
+        ];
+
         $package = Package::where('slug', $slug)->where('status', true)->first();
         if (!$package) {
             $package = Package::where('slug', $slug)->first();
+        }
+
+        // Check alias in DB
+        if (!$package && isset($aliases[$slug])) {
+            $package = Package::where('slug', $aliases[$slug])->where('status', true)->first();
+            if (!$package) {
+                $package = Package::where('slug', $aliases[$slug])->first();
+            }
+        }
+
+        // Check alternate with/without -1 in DB
+        if (!$package) {
+            $altSlug = str_ends_with($slug, '-1') ? substr($slug, 0, -2) : ($slug . '-1');
+            $package = Package::where('slug', $altSlug)->where('status', true)->first();
+            if (!$package) {
+                $package = Package::where('slug', $altSlug)->first();
+            }
         }
 
         if (!$package) {
