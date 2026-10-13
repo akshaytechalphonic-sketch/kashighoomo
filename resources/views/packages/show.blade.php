@@ -39,6 +39,9 @@
         .itinerary-timeline {
             border-left: 2px solid #8B1E1E !important;
         }
+        .description-content {
+            color: #2C2C2C !important;
+        }
         .description-content a {
             color: #F57C00 !important;
             text-decoration: underline !important;
@@ -49,33 +52,83 @@
         }
         .description-content ul {
             list-style-type: disc !important;
-            padding-left: 26px !important;
+            padding-left: 24px !important;
             margin-bottom: 20px !important;
         }
         .description-content ol {
             list-style-type: decimal !important;
-            padding-left: 26px !important;
+            padding-left: 24px !important;
             margin-bottom: 20px !important;
         }
-        .description-content li {
-            list-style: disc !important;
+        .description-content ul > li {
+            list-style-type: disc !important;
             display: list-item !important;
             margin-bottom: 10px !important;
             line-height: 1.75 !important;
             color: #2C2C2C !important;
         }
+        .description-content ol > li {
+            list-style-type: decimal !important;
+            display: list-item !important;
+            margin-bottom: 12px !important;
+            line-height: 1.75 !important;
+            color: #2C2C2C !important;
+        }
         .description-content p {
             color: #2C2C2C !important;
-            margin-bottom: 18px !important;
+            margin-bottom: 16px !important;
             line-height: 1.8 !important;
         }
+        .description-content h1,
         .description-content h2,
         .description-content h3,
-        .description-content h4 {
-            color: #1a1a1a !important;
+        .description-content h4,
+        .description-content h5 {
+            color: #111111 !important;
+            font-family: inherit;
             font-weight: 700 !important;
-            margin-top: 28px !important;
-            margin-bottom: 14px !important;
+            margin-top: 26px !important;
+            margin-bottom: 12px !important;
+            line-height: 1.4 !important;
+        }
+        .description-content h1 {
+            font-size: 26px !important;
+            font-weight: 800 !important;
+            color: #111111 !important;
+        }
+        .description-content h2 {
+            font-size: 22px !important;
+            font-weight: 700 !important;
+            color: #111111 !important;
+        }
+        .description-content h3 {
+            font-size: 18px !important;
+            font-weight: 700 !important;
+            color: #111111 !important;
+        }
+        .description-content h4 {
+            font-size: 16px !important;
+            font-weight: 700 !important;
+            color: #111111 !important;
+        }
+        .description-content strong,
+        .description-content b {
+            color: #111111 !important;
+            font-weight: 700 !important;
+        }
+        .description-content .faq-list {
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        .description-content .faq-item {
+            background: #FAFAFA;
+            border-left: 3px solid #8B1E1E;
+            padding: 14px 18px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+        }
+        .description-content .faq-item p:last-child {
+            margin-bottom: 0 !important;
         }
         .itinerary-timeline .badge {
             background-color: #8B1E1E !important;
@@ -220,7 +273,7 @@
                         <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
                             <div class="card border-0 shadow-sm p-5 rounded-4 bg-white mb-4">
                                 <h3 class="fw-bold mb-4 font-family-poppins text-dark">About This Tour</h3>
-                                <div class="description-content text-muted" style="line-height:1.7; font-size:15px;">
+                                <div class="description-content" style="line-height:1.7; font-size:15px;">
                                    {!! $package->description !!}
                                 </div>
                             </div>
