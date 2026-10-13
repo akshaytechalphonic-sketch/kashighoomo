@@ -697,6 +697,8 @@
         /* Timeline in modal */
         .timeline-wrapper {
             margin-top: 15px;
+            margin-left: 25px !important;
+            padding-left: 25px !important;
         }
         .timeline-item {
             padding-bottom: 5px;
@@ -704,6 +706,7 @@
         .timeline-dot {
             z-index: 2;
             box-shadow: 0 0 0 4px #ffffff;
+            left: -39px !important;
         }
 
         /* Modal z-index overrides to stack on top of header */
@@ -1955,7 +1958,7 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-4" style="background: #fdfbf7;">
-                    <div class="timeline-wrapper position-relative ps-4 border-start border-2 border-warning" style="border-color: #F57C00 !important; margin-left: 10px;">
+                    <div class="timeline-wrapper position-relative ps-4 border-start border-2 border-warning" style="border-color: #F57C00 !important; margin-left: 25px; padding-left: 25px;">
                         <!-- Day 1 -->
                         <div class="timeline-item mb-4 position-relative">
                             <div class="timeline-dot position-absolute bg-warning rounded-circle d-flex align-items-center justify-content-center text-white fw-bold" style="width: 28px; height: 28px; left: -39px; top: 0; background-color: #F57C00 !important; font-size: 12px;">1</div>
@@ -2004,7 +2007,7 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-4" style="background: #fdfbf7;">
-                    <div class="timeline-wrapper position-relative ps-4 border-start border-2 border-warning" style="border-color: #F57C00 !important; margin-left: 10px;">
+                    <div class="timeline-wrapper position-relative ps-4 border-start border-2 border-warning" style="border-color: #F57C00 !important; margin-left: 25px; padding-left: 25px;">
                         <!-- Day 1 -->
                         <div class="timeline-item mb-4 position-relative">
                             <div class="timeline-dot position-absolute bg-warning rounded-circle d-flex align-items-center justify-content-center text-white fw-bold" style="width: 28px; height: 28px; left: -39px; top: 0; background-color: #F57C00 !important; font-size: 12px;">1</div>
@@ -2059,7 +2062,7 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-4" style="background: #fdfbf7;">
-                    <div class="timeline-wrapper position-relative ps-4 border-start border-2 border-warning" style="border-color: #F57C00 !important; margin-left: 10px;">
+                    <div class="timeline-wrapper position-relative ps-4 border-start border-2 border-warning" style="border-color: #F57C00 !important; margin-left: 25px; padding-left: 25px;">
                         <!-- Day 1 -->
                         <div class="timeline-item mb-4 position-relative">
                             <div class="timeline-dot position-absolute bg-warning rounded-circle d-flex align-items-center justify-content-center text-white fw-bold" style="width: 28px; height: 28px; left: -39px; top: 0; background-color: #F57C00 !important; font-size: 12px;">1</div>
@@ -2108,7 +2111,7 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-4" style="background: #fdfbf7;">
-                    <div class="timeline-wrapper position-relative ps-4 border-start border-2 border-warning" style="border-color: #F57C00 !important; margin-left: 10px;">
+                    <div class="timeline-wrapper position-relative ps-4 border-start border-2 border-warning" style="border-color: #F57C00 !important; margin-left: 25px; padding-left: 25px;">
                         <!-- Day 1 -->
                         <div class="timeline-item mb-4 position-relative">
                             <div class="timeline-dot position-absolute bg-warning rounded-circle d-flex align-items-center justify-content-center text-white fw-bold" style="width: 28px; height: 28px; left: -39px; top: 0; background-color: #F57C00 !important; font-size: 12px;">1</div>
