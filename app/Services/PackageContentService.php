@@ -38,6 +38,8 @@ class PackageContentService
             'dashashwamedh-ghat-ganga-1' => 'dashashwamedh-ghat-ganga',
             'varanasi-famous-ghats' => 'varanasi-famous-ghats-1',
             'varanasi-famous-ghats-1' => 'varanasi-famous-ghats',
+            'dev-deepawali-boat-booking-online' => 'dev-diwali-boat-ride-experience',
+            'dev-diwali-boat-ride-experience' => 'dev-deepawali-boat-booking-online',
         ];
 
         if (isset($aliases[$slug]) && isset($all[$aliases[$slug]])) {
@@ -118,6 +120,23 @@ class PackageContentService
                 'meta_description' => $custom['meta_description'] ?? $package->meta_description,
                 'duration' => $custom['duration'] ?? $package->duration,
             ]);
+
+            $aliases = [
+                'dev-deepawali-boat-booking-online' => 'dev-diwali-boat-ride-experience',
+                'dev-diwali-boat-ride-experience' => 'dev-deepawali-boat-booking-online',
+            ];
+            if (isset($aliases[$package->slug])) {
+                Package::where('slug', $aliases[$package->slug])->update([
+                    'title' => $custom['title'] ?? $package->title,
+                    'description' => $custom['description'],
+                    'inclusions' => json_encode($custom['inclusions'] ?? []),
+                    'exclusions' => json_encode($custom['exclusions'] ?? []),
+                    'itinerary' => json_encode($custom['itinerary'] ?? []),
+                    'meta_title' => $custom['meta_title'] ?? $package->meta_title,
+                    'meta_description' => $custom['meta_description'] ?? $package->meta_description,
+                    'duration' => $custom['duration'] ?? $package->duration,
+                ]);
+            }
         } catch (\Throwable $e) {
             // Silently ignore DB errors so page rendering never breaks
         }
@@ -136,6 +155,8 @@ class PackageContentService
             'dashashwamedh-ghat-ganga-1' => 'dashashwamedh-ghat-ganga',
             'varanasi-famous-ghats' => 'varanasi-famous-ghats-1',
             'varanasi-famous-ghats-1' => 'varanasi-famous-ghats',
+            'dev-deepawali-boat-booking-online' => 'dev-diwali-boat-ride-experience',
+            'dev-diwali-boat-ride-experience' => 'dev-deepawali-boat-booking-online',
         ];
 
         $package = Package::where('slug', $slug)->where('status', true)->first();
