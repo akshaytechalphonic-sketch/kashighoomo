@@ -377,10 +377,77 @@ class PublicController extends Controller
 
     public function packages(Request $request)
     {
+        // Auto-heal known packages where destination_id is NULL or 0 in DB
+        try {
+            $autoDestMap = [
+                'vindhyachal'   => 2,
+                'prayagraj'     => 8,
+                'sarnath'       => 6,
+                'assi'          => 5,
+                'dashashwamedh' => 4,
+                'ayodhya'       => 1,
+                'ramnagar'      => 7,
+            ];
+            foreach ($autoDestMap as $kw => $dId) {
+                Package::where(function($q) {
+                        $q->whereNull('destination_id')->orWhere('destination_id', 0);
+                    })
+                    ->where(function($q) use ($kw) {
+                        $q->where('slug', 'like', '%' . $kw . '%')
+                          ->orWhere('title', 'like', '%' . $kw . '%');
+                    })
+                    ->update(['destination_id' => $dId]);
+            }
+        } catch (\Throwable $e) {}
+
+        // Auto-seed Ramnagar package if missing in DB
+        try {
+            $hasRamnagar = Package::where('destination_id', 7)
+                ->orWhere('slug', 'like', '%ramnagar%')
+                ->orWhere('title', 'like', '%ramnagar%')
+                ->exists();
+
+            if (!$hasRamnagar) {
+                \App\Services\PackageContentService::findOrFallback('royal-ramnagar-fort-heritage-tour');
+            }
+        } catch (\Throwable $e) {}
+
         $query = Package::where('status', true)->with(['destination', 'service']);
 
         if ($request->filled('destination_id')) {
-            $query->where('destination_id', $request->destination_id);
+            $destId = $request->destination_id;
+            $destination = Destination::find($destId);
+
+            if ($destination) {
+                $destName = trim(preg_replace('/\b(Tour|Yatra|Darshan|Temple|Fort|Ghat)\b/i', '', $destination->name));
+                $cleanSlug = preg_replace('/-(test|\d+)$/', '', $destination->slug);
+
+                // Auto-heal any package in DB where destination_id is null/0
+                try {
+                    Package::where(function($q) {
+                            $q->whereNull('destination_id')->orWhere('destination_id', 0);
+                        })
+                        ->where(function($q) use ($destination, $destName, $cleanSlug) {
+                            $q->where('title', 'like', '%' . $destination->name . '%')
+                              ->orWhere('slug', 'like', '%' . $cleanSlug . '%');
+                            if (!empty($destName)) {
+                                $q->orWhere('title', 'like', '%' . $destName . '%');
+                            }
+                        })
+                        ->update(['destination_id' => $destId]);
+                } catch (\Throwable $e) {}
+
+                $query->where(function ($q) use ($destId, $destination, $destName, $cleanSlug) {
+                    $q->where('destination_id', $destId)
+                      ->orWhere('slug', 'like', '%' . $cleanSlug . '%')
+                      ->orWhere('title', 'like', '%' . $destination->name . '%');
+                    if (!empty($destName)) {
+                        $q->orWhere('title', 'like', '%' . $destName . '%');
+                    }
+                });
+            } else {
+                $query->where('destination_id', $destId);
+            }
         }
         if ($request->filled('service_id')) {
             $query->where('service_id', $request->service_id);

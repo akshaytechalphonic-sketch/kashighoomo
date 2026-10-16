@@ -40,6 +40,9 @@ class PackageContentService
             'varanasi-famous-ghats-1' => 'varanasi-famous-ghats',
             'dev-deepawali-boat-booking-online' => 'dev-diwali-boat-ride-experience',
             'dev-diwali-boat-ride-experience' => 'dev-deepawali-boat-booking-online',
+            'ramnagar-fort-tour' => 'royal-ramnagar-fort-heritage-tour',
+            'ramnagar' => 'royal-ramnagar-fort-heritage-tour',
+            'ramnagar-fort' => 'royal-ramnagar-fort-heritage-tour',
         ];
 
         if (isset($aliases[$slug]) && isset($all[$aliases[$slug]])) {
@@ -157,6 +160,9 @@ class PackageContentService
             'varanasi-famous-ghats-1' => 'varanasi-famous-ghats',
             'dev-deepawali-boat-booking-online' => 'dev-diwali-boat-ride-experience',
             'dev-diwali-boat-ride-experience' => 'dev-deepawali-boat-booking-online',
+            'ramnagar-fort-tour' => 'royal-ramnagar-fort-heritage-tour',
+            'ramnagar' => 'royal-ramnagar-fort-heritage-tour',
+            'ramnagar-fort' => 'royal-ramnagar-fort-heritage-tour',
         ];
 
         $package = Package::where('slug', $slug)->where('status', true)->first();
@@ -188,21 +194,29 @@ class PackageContentService
                     $package = Package::create([
                         'title' => $custom['title'],
                         'slug' => $slug,
+                        'destination_id' => $custom['destination_id'] ?? null,
+                        'service_id' => $custom['service_id'] ?? 1,
                         'duration' => $custom['duration'] ?? '1 Day',
                         'price' => $custom['price'] ?? 1000.00,
+                        'difficulty' => $custom['difficulty'] ?? 'Easy',
+                        'best_season' => $custom['best_season'] ?? null,
+                        'start_location' => $custom['start_location'] ?? null,
                         'status' => true,
                         'featured' => true,
                         'description' => $custom['description'],
                         'inclusions' => $custom['inclusions'] ?? [],
                         'exclusions' => $custom['exclusions'] ?? [],
                         'itinerary' => $custom['itinerary'] ?? [],
+                        'images' => $custom['images'] ?? ['destinations/UfwwNeKs2LphzsOuEQFdAZj4wRgsIF7EtYLmJAAW.jpg'],
                         'meta_title' => $custom['meta_title'] ?? null,
                         'meta_description' => $custom['meta_description'] ?? null,
+                        'meta_keywords' => $custom['meta_keywords'] ?? null,
                     ]);
                 } catch (\Throwable $e) {
                     $package = new Package([
                         'title' => $custom['title'],
                         'slug' => $slug,
+                        'destination_id' => $custom['destination_id'] ?? null,
                         'description' => $custom['description'],
                         'inclusions' => $custom['inclusions'] ?? [],
                         'exclusions' => $custom['exclusions'] ?? [],

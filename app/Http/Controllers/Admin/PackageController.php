@@ -53,9 +53,20 @@ class PackageController extends Controller
         }
 
         $slug = Package::generateSlug($request->title);
+        $destId = $request->destination_id;
+        if (empty($destId)) {
+            $t = strtolower($request->title . ' ' . $slug);
+            if (str_contains($t, 'vindhyachal')) $destId = 2;
+            elseif (str_contains($t, 'prayagraj')) $destId = 8;
+            elseif (str_contains($t, 'sarnath')) $destId = 6;
+            elseif (str_contains($t, 'ayodhya')) $destId = 1;
+            elseif (str_contains($t, 'assi')) $destId = 5;
+            elseif (str_contains($t, 'dashashwamedh')) $destId = 4;
+            elseif (str_contains($t, 'ramnagar')) $destId = 7;
+        }
 
         Package::create([
-            'destination_id'   => $request->destination_id,
+            'destination_id'   => $destId,
             'service_id'       => $request->service_id,
             'cab_booking_package_id' => $request->cab_booking_package_id,
             'title'            => $request->title,
@@ -120,8 +131,20 @@ class PackageController extends Controller
             $slug = Package::generateSlug($request->title);
         }
 
+        $destId = $request->destination_id;
+        if (empty($destId)) {
+            $t = strtolower($request->title . ' ' . $slug);
+            if (str_contains($t, 'vindhyachal')) $destId = 2;
+            elseif (str_contains($t, 'prayagraj')) $destId = 8;
+            elseif (str_contains($t, 'sarnath')) $destId = 6;
+            elseif (str_contains($t, 'ayodhya')) $destId = 1;
+            elseif (str_contains($t, 'assi')) $destId = 5;
+            elseif (str_contains($t, 'dashashwamedh')) $destId = 4;
+            elseif (str_contains($t, 'ramnagar')) $destId = 7;
+        }
+
         $package->update([
-            'destination_id'   => $request->destination_id,
+            'destination_id'   => $destId,
             'service_id'       => $request->service_id,
             'cab_booking_package_id' => $request->cab_booking_package_id,
             'title'            => $request->title,

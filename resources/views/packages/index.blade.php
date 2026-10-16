@@ -574,7 +574,7 @@ nav.pkg-pagination ul li span[aria-current] {
                     <div class="pkg-card-dest">
                         <span class="dest-name">
                             <i class="bi bi-geo-alt-fill"></i>
-                            {{ $package->destination?->name ?? 'Kashi' }}
+                            {{ $package->destination?->name ?? (Str::contains(strtolower($package->title . ' ' . $package->slug), 'ramnagar') ? 'Ramnagar Fort' : (Str::contains(strtolower($package->title . ' ' . $package->slug), 'vindhyachal') ? 'Vindhyachal' : (Str::contains(strtolower($package->title . ' ' . $package->slug), 'prayagraj') ? 'Prayagraj' : (Str::contains(strtolower($package->title . ' ' . $package->slug), 'sarnath') ? 'Sarnath' : (Str::contains(strtolower($package->title . ' ' . $package->slug), 'ayodhya') ? 'Ayodhya' : 'Kashi'))))) }}
                         </span>
                         @if($package->best_season)
                         <span class="season"><i class="bi bi-sun"></i> {{ $package->best_season }}</span>

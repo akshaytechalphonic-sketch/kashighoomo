@@ -130,6 +130,87 @@
         .description-content .faq-item p:last-child {
             margin-bottom: 0 !important;
         }
+        .description-content p:empty {
+            display: none !important;
+            margin: 0 !important;
+        }
+        .description-content hr {
+            border: 0 !important;
+            border-top: 1px solid #E8E8E8 !important;
+            margin: 28px 0 !important;
+        }
+        .description-content .highlight-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #FFF8F0;
+            border: 1px solid #F57C00;
+            color: #8B1E1E;
+            font-size: 13.5px;
+            font-weight: 600;
+            padding: 7px 16px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+        }
+        /* Rich Table Styling for Rich Text / CKEditor Content */
+        .description-content figure.table {
+            width: 100% !important;
+            margin: 22px 0 28px 0 !important;
+            overflow-x: auto !important;
+            -webkit-overflow-scrolling: touch;
+        }
+        .description-content table {
+            width: 100% !important;
+            border-collapse: separate !important;
+            border-spacing: 0 !important;
+            border-radius: 12px !important;
+            overflow: hidden !important;
+            border: 1px solid #E8E8E8 !important;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.03) !important;
+            margin: 0 !important;
+            background: #FFFFFF !important;
+            font-size: 14.5px !important;
+        }
+        .description-content table thead th {
+            background-color: #FFF8F0 !important;
+            color: #8B1E1E !important;
+            font-weight: 700 !important;
+            padding: 14px 20px !important;
+            border-bottom: 2px solid #F57C00 !important;
+            border-top: none !important;
+            border-left: none !important;
+            border-right: none !important;
+            text-align: left !important;
+            font-size: 13.5px !important;
+            letter-spacing: 0.5px !important;
+            text-transform: uppercase !important;
+        }
+        .description-content table tbody td {
+            padding: 13px 20px !important;
+            border-bottom: 1px solid #F0F0F0 !important;
+            border-top: none !important;
+            border-left: none !important;
+            border-right: none !important;
+            vertical-align: middle !important;
+            line-height: 1.6 !important;
+            color: #2C2C2C !important;
+        }
+        .description-content table tbody td:first-child {
+            font-weight: 600 !important;
+            color: #111111 !important;
+            width: 38% !important;
+            background-color: #FAFAFA !important;
+            border-right: 1px solid #F0F0F0 !important;
+        }
+        .description-content table tbody tr:last-child td {
+            border-bottom: none !important;
+        }
+        .description-content table tbody tr:hover td {
+            background-color: #FFFDF9 !important;
+        }
+        .description-content table tbody tr:hover td:first-child {
+            background-color: #F5F5F0 !important;
+        }
         .itinerary-timeline .badge {
             background-color: #8B1E1E !important;
         }
@@ -274,7 +355,7 @@
                             <div class="card border-0 shadow-sm p-5 rounded-4 bg-white mb-4">
                                 <h3 class="fw-bold mb-4 font-family-poppins text-dark">About This Tour</h3>
                                 <div class="description-content" style="line-height:1.7; font-size:15px;">
-                                   {!! $package->description !!}
+                                   {!! preg_replace('/<p>\s*(&nbsp;|\s)*<\/p>/i', '', $package->description) !!}
                                 </div>
                             </div>
                         </div>
