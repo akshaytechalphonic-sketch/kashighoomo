@@ -549,19 +549,50 @@ nav.pkg-pagination ul li span[aria-current] {
         <div class="pkg-grid">
             @forelse($packages as $package)
             @php
-                $fallbacks = [
-                    'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&q=80&w=800',
-                    'https://images.unsplash.com/photo-1598897516650-df69c2fdd6a7?auto=format&fit=crop&q=80&w=800',
-                    'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800',
+                // Destination fallback image mapping
+                $destImage = $package->destination?->image;
+                if (!$destImage) {
+                    $titleSlug = strtolower($package->title . ' ' . $package->slug);
+                    if (str_contains($titleSlug, 'vindhyachal')) {
+                        $destImage = 'destinations/dRbv0G5PkanwB6OMEQFIbVIMWrG8IvLemwwFvtkA.jpg';
+                    } elseif (str_contains($titleSlug, 'ramnagar')) {
+                        $destImage = 'destinations/UfwwNeKs2LphzsOuEQFdAZj4wRgsIF7EtYLmJAAW.jpg';
+                    } elseif (str_contains($titleSlug, 'prayagraj')) {
+                        $destImage = 'destinations/onpmtuIqwY55hFd1sn5gup5RAGj9oQzQbMaP90oa.jpg';
+                    } elseif (str_contains($titleSlug, 'sarnath')) {
+                        $destImage = 'destinations/NnMZffLJJvCrUc7hsv4D48ZJ2lOjcjoHrRmZoWkt.jpg';
+                    } elseif (str_contains($titleSlug, 'ayodhya')) {
+                        $destImage = 'destinations/aNWV2lnikHvFTl7jNyPGBPbBCWiQzgZ5TOBZAZT3.jpg';
+                    }
+                }
+
+                // Verified local theme thumbnails that exist on both live & local without external dependency
+                $safeFallbacks = [
+                    asset('thumbs/package-thumb1.jpg'),
+                    asset('thumbs/package-thumb2.jpg'),
+                    asset('thumbs/package-thumb3.jpg'),
+                    asset('thumbs/package-thumb4.jpg'),
+                    asset('thumbs/package-thumb5.jpg'),
                 ];
-                $imgUrl = ($package->images && count($package->images) > 0)
-                    ? asset('storage/' . $package->images[0])
-                    : $fallbacks[$loop->index % 3];
+                $fallbackUrl = $destImage ? asset('storage/' . $destImage) : $safeFallbacks[$loop->index % count($safeFallbacks)];
+
+                $firstImg = (!empty($package->images) && is_array($package->images) && count($package->images) > 0) ? $package->images[0] : null;
+                if ($firstImg) {
+                    if (\Illuminate\Support\Str::startsWith($firstImg, ['http://', 'https://'])) {
+                        $imgUrl = $firstImg;
+                    } elseif (\Illuminate\Support\Str::startsWith($firstImg, ['uploads/', 'thumbs/', 'frontend-theme/'])) {
+                        $imgUrl = asset($firstImg);
+                    } else {
+                        $imgUrl = asset('storage/' . $firstImg);
+                    }
+                } else {
+                    $imgUrl = $fallbackUrl;
+                }
             @endphp
             <div class="pkg-card-item">
                 <div class="pkg-card-img">
                     <a href="{{ route('packages.show', $package->slug) }}" class="d-block w-100 h-100">
-                        <img src="{{ $imgUrl }}" alt="{{ $package->title }}">
+                        <img src="{{ $imgUrl }}" alt="{{ $package->title }}" onerror="this.onerror=null; this.src='{{ $fallbackUrl }}';">
                     </a>
                     @if($package->difficulty)
                         <span class="pkg-img-badge diff">{{ $package->difficulty }}</span>

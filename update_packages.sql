@@ -612,7 +612,9 @@ UPDATE packages SET
   itinerary = '[{\"day\":\"Day 1\",\"title\":\"Arrival & Maa Vindhyavasini Darshan\",\"description\":\"Arrive at Varanasi Airport or Railway Station and proceed to Vindhyachal. Check in to the hotel and visit Maa Vindhyavasini Temple. Attend the evening aarti and explore the local temple market.\"},{\"day\":\"Day 2\",\"title\":\"Trikon Parikrama & Departure\",\"description\":\"After breakfast, visit Ashtabhuja Devi Temple, Kali Khoh Temple, and the sacred Ganga Ghat. Complete the Trikon Parikrama before returning to Varanasi Airport or Railway Station for departure.\"}]',
   meta_title = 'Vindhyachal Devi Darshan Tour Package | 2 Days Pilgrimage from Varanasi',
   meta_description = 'Book the Vindhyachal Devi Darshan Tour Package with hotel stay, AC cab, Trikon Parikrama, Vindhyavasini Temple, and guided sightseeing from Varanasi.',
-  duration = '2 Days / 1 Night'
+  duration = '2 Days / 1 Night',
+  destination_id = 2,
+  images = '[\"destinations/dRbv0G5PkanwB6OMEQFIbVIMWrG8IvLemwwFvtkA.jpg\"]'
 WHERE slug = 'sacred-vindhyachal-devi-darshan-yatra';
 
 -- Package: Sarnath Buddhist Heritage Tour (sarnath-buddhist-heritage-tour)

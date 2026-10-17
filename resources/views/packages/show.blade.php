@@ -278,16 +278,40 @@
             <!-- Airbnb-style Photo Grid Collage -->
             @php
                 $images = !empty($package->images) && count($package->images) > 0 ? $package->images : [];
+                $destImage = $package->destination?->image;
+                if (!$destImage) {
+                    $titleSlug = strtolower($package->title . ' ' . $package->slug);
+                    if (str_contains($titleSlug, 'vindhyachal')) {
+                        $destImage = 'destinations/dRbv0G5PkanwB6OMEQFIbVIMWrG8IvLemwwFvtkA.jpg';
+                    } elseif (str_contains($titleSlug, 'ramnagar')) {
+                        $destImage = 'destinations/UfwwNeKs2LphzsOuEQFdAZj4wRgsIF7EtYLmJAAW.jpg';
+                    } elseif (str_contains($titleSlug, 'prayagraj')) {
+                        $destImage = 'destinations/onpmtuIqwY55hFd1sn5gup5RAGj9oQzQbMaP90oa.jpg';
+                    } elseif (str_contains($titleSlug, 'sarnath')) {
+                        $destImage = 'destinations/NnMZffLJJvCrUc7hsv4D48ZJ2lOjcjoHrRmZoWkt.jpg';
+                    } elseif (str_contains($titleSlug, 'ayodhya')) {
+                        $destImage = 'destinations/aNWV2lnikHvFTl7jNyPGBPbBCWiQzgZ5TOBZAZT3.jpg';
+                    }
+                }
+
+                $primaryFallback = $destImage ? asset('storage/' . $destImage) : asset('thumbs/package-thumb1.jpg');
                 $defaultImages = [
-                    'https://images.unsplash.com/photo-1598897516650-df69c2fdd6a7?auto=format&fit=crop&q=80&w=1000', // Ganga ghats
-                    'https://images.unsplash.com/photo-1561361060-61992518e1b8?auto=format&fit=crop&q=80&w=600',  // Ganga Aarti
-                    'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=600'   // Sarnath Stupa
+                    $primaryFallback,
+                    asset('thumbs/package-thumb2.jpg'),
+                    asset('thumbs/package-thumb3.jpg'),
                 ];
                 
                 $displayImages = [];
                 for ($i = 0; $i < 3; $i++) {
-                    if (isset($images[$i])) {
-                        $displayImages[] = asset('storage/' . $images[$i]);
+                    if (isset($images[$i]) && !empty($images[$i])) {
+                        $img = $images[$i];
+                        if (\Illuminate\Support\Str::startsWith($img, ['http://', 'https://'])) {
+                            $displayImages[] = $img;
+                        } elseif (\Illuminate\Support\Str::startsWith($img, ['uploads/', 'thumbs/', 'frontend-theme/'])) {
+                            $displayImages[] = asset($img);
+                        } else {
+                            $displayImages[] = asset('storage/' . $img);
+                        }
                     } else {
                         $displayImages[] = $defaultImages[$i];
                     }
@@ -300,16 +324,16 @@
                     <!-- Left Main Image -->
                     <div class="col-md-8 col-12">
                         <div class="collage-main-wrapper position-relative rounded-4 overflow-hidden" style="height: 400px; border: 1px solid #E8E8E8;">
-                            <img src="{{ $displayImages[0] }}" class="w-100 h-100 object-fit-cover" alt="Main image">
+                            <img src="{{ $displayImages[0] }}" class="w-100 h-100 object-fit-cover" alt="Main image" onerror="this.onerror=null; this.src='{{ $primaryFallback }}';">
                         </div>
                     </div>
                     <!-- Right Stacking Images -->
                     <div class="col-md-4 col-12 d-flex flex-column gap-2">
                         <div class="collage-side-wrapper position-relative rounded-4 overflow-hidden" style="height: 196px; border: 1px solid #E8E8E8;">
-                            <img src="{{ $displayImages[1] }}" class="w-100 h-100 object-fit-cover" alt="Side image 1">
+                            <img src="{{ $displayImages[1] }}" class="w-100 h-100 object-fit-cover" alt="Side image 1" onerror="this.onerror=null; this.src='{{ asset('thumbs/package-thumb2.jpg') }}';">
                         </div>
                         <div class="collage-side-wrapper position-relative rounded-4 overflow-hidden" style="height: 196px; border: 1px solid #E8E8E8;">
-                            <img src="{{ $displayImages[2] }}" class="w-100 h-100 object-fit-cover" alt="Side image 2">
+                            <img src="{{ $displayImages[2] }}" class="w-100 h-100 object-fit-cover" alt="Side image 2" onerror="this.onerror=null; this.src='{{ asset('thumbs/package-thumb3.jpg') }}';">
                             <button class="btn btn-light position-absolute show-all-photos-btn" data-bs-toggle="modal" data-bs-target="#galleryModal">
                                 <i class="bi bi-grid-3x3-gap-fill me-2"></i> Show all {{ max(count($images), 3) }} photos
                             </button>
@@ -529,9 +553,14 @@
                     <div class="row g-3">
                         @if(count($images) > 0)
                             @foreach($images as $img)
+                                @php
+                                    $modalImgUrl = \Illuminate\Support\Str::startsWith($img, ['http://', 'https://']) 
+                                        ? $img 
+                                        : (\Illuminate\Support\Str::startsWith($img, ['uploads/', 'thumbs/', 'frontend-theme/']) ? asset($img) : asset('storage/'.$img));
+                                @endphp
                                 <div class="col-md-6 col-12">
                                     <div class="rounded-3 overflow-hidden shadow-sm h-100" style="border: 1px solid #E8E8E8;">
-                                        <img src="{{ asset('storage/'.$img) }}" class="w-100 h-100 object-fit-cover" style="min-height: 250px;" alt="Tour photo">
+                                        <img src="{{ $modalImgUrl }}" class="w-100 h-100 object-fit-cover" style="min-height: 250px;" alt="Tour photo" onerror="this.onerror=null; this.src='{{ $primaryFallback }}';">
                                     </div>
                                 </div>
                             @endforeach
@@ -539,7 +568,7 @@
                             @foreach($defaultImages as $dimg)
                                 <div class="col-md-6 col-12">
                                     <div class="rounded-3 overflow-hidden shadow-sm h-100" style="border: 1px solid #E8E8E8;">
-                                        <img src="{{ $dimg }}" class="w-100 h-100 object-fit-cover" style="min-height: 250px;" alt="Tour photo">
+                                        <img src="{{ $dimg }}" class="w-100 h-100 object-fit-cover" style="min-height: 250px;" alt="Tour photo" onerror="this.onerror=null; this.src='{{ $primaryFallback }}';">
                                     </div>
                                 </div>
                             @endforeach

@@ -135,6 +135,12 @@
         "slug": "sacred-vindhyachal-devi-darshan-yatra",
         "duration": "2 Days / 1 Night",
         "price": 2500,
+        "destination_id": 2,
+        "images": [
+            "destinations/dRbv0G5PkanwB6OMEQFIbVIMWrG8IvLemwwFvtkA.jpg",
+            "uploads/packages/vindhyachal/kali-khoh-temple.jpg",
+            "uploads/packages/vindhyachal/vindhyavasini-corridor.jpg"
+        ],
         "meta_title": "Vindhyachal Devi Darshan Tour Package | 2 Days Pilgrimage from Varanasi",
         "meta_description": "Book the Vindhyachal Devi Darshan Tour Package with hotel stay, AC cab, Trikon Parikrama, Vindhyavasini Temple, and guided sightseeing from Varanasi.",
         "inclusions": [

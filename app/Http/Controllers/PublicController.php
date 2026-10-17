@@ -412,6 +412,28 @@ class PublicController extends Controller
             }
         } catch (\Throwable $e) {}
 
+        // Auto-heal Vindhyachal package image if missing or points to missing local file on live
+        try {
+            $vindhyachalPkg = Package::where('slug', 'sacred-vindhyachal-devi-darshan-yatra')
+                ->orWhere('slug', 'like', '%vindhyachal%')
+                ->first();
+            if ($vindhyachalPkg) {
+                $vImgs = $vindhyachalPkg->images;
+                $needsImageUpdate = empty($vImgs) 
+                    || !is_array($vImgs) 
+                    || count($vImgs) === 0 
+                    || (!file_exists(public_path('storage/' . ($vImgs[0] ?? ''))) && !file_exists(public_path($vImgs[0] ?? '')))
+                    || (is_array($vImgs) && !empty($vImgs[0]) && str_contains($vImgs[0], 'HX1ms52fhpMOosuJ0JcH6VQXEsBQCuvyzUlx8LDZ'));
+                if ($needsImageUpdate) {
+                    $vindhyachalPkg->images = [
+                        'destinations/dRbv0G5PkanwB6OMEQFIbVIMWrG8IvLemwwFvtkA.jpg'
+                    ];
+                    $vindhyachalPkg->destination_id = 2;
+                    $vindhyachalPkg->save();
+                }
+            }
+        } catch (\Throwable $e) {}
+
         $query = Package::where('status', true)->with(['destination', 'service']);
 
         if ($request->filled('destination_id')) {

@@ -94,12 +94,21 @@ class PackageContentService
         if (!empty($custom['price']) && (empty($package->price) || $package->price == 0)) {
             $package->price = $custom['price'];
         }
+        if (!empty($custom['images'])) {
+            $package->images = $custom['images'];
+        }
+        if (!empty($custom['destination_id'])) {
+            $package->destination_id = $custom['destination_id'];
+        }
 
         // Auto-sync into MySQL database on live Hostinger if database doesn't have the new content yet
         try {
             $dbDesc = $package->getOriginal('description');
-            if ($dbDesc !== $custom['description'] || $package->getOriginal('title') !== ($custom['title'] ?? $package->title)) {
-                Package::where('id', $package->id)->update([
+            $dbImages = $package->getOriginal('images');
+            $syncImages = !empty($custom['images']) && (empty($dbImages) || (is_array($dbImages) && count($dbImages) > 0 && !file_exists(public_path('storage/' . $dbImages[0]))));
+            
+            if ($dbDesc !== $custom['description'] || $package->getOriginal('title') !== ($custom['title'] ?? $package->title) || $syncImages) {
+                $fieldsToUpdate = [
                     'title' => $custom['title'] ?? $package->title,
                     'description' => $custom['description'],
                     'inclusions' => json_encode($custom['inclusions'] ?? []),
@@ -108,7 +117,14 @@ class PackageContentService
                     'meta_title' => $custom['meta_title'] ?? $package->meta_title,
                     'meta_description' => $custom['meta_description'] ?? $package->meta_description,
                     'duration' => $custom['duration'] ?? $package->duration,
-                ]);
+                ];
+                if (!empty($custom['images'])) {
+                    $fieldsToUpdate['images'] = json_encode($custom['images']);
+                }
+                if (!empty($custom['destination_id'])) {
+                    $fieldsToUpdate['destination_id'] = $custom['destination_id'];
+                }
+                Package::where('id', $package->id)->update($fieldsToUpdate);
             }
 
             // Also sync twin slug in database (e.g. sunrise-ganga-boat and sunrise-ganga-boat-1)
