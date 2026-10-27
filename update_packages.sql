@@ -3515,3 +3515,835 @@ ON DUPLICATE KEY UPDATE
 </div>',
   updated_at = NOW();
 
+
+
+-- =====================================================
+-- Updated Package: Dashashwamedh Ghat Ganga Aarti Tour
+-- =====================================================
+
+-- Package: Dashashwamedh Ghat Ganga Aarti Tour (dashashwamedh-ghat-ganga)
+INSERT INTO packages (slug, title, duration, price, destination_id, service_id, difficulty, best_season, start_location, status, featured, images, inclusions, exclusions, itinerary, meta_title, meta_description, meta_keywords, description, created_at, updated_at)
+VALUES ('dashashwamedh-ghat-ganga', 'Dashashwamedh Ghat Ganga Aarti Tour', '1 Day', 1234.00, 4, 4, 'Easy', 'October to March', 'Varanasi', 1, 1, '[\"packages\\/BPdZvPhrc65yeuX5gz9NWGuSVcvO4oMFSA04a8JI.jpg\",\"packages\\/6is6OnAm7Ltkifuu5qyGYcOKEZcAjFhgXLNNKskh.jpg\",\"packages\\/OtLt2O6ycQ6op6tOnCdpVzwsXpM8VGKnEHulqaTU.jpg\",\"packages\\/X7PuI6o67W3Q6s0IeJdPYrltHirBa6CPRQOXv0TC.jpg\"]', '[\"Private AC cab with pickup and drop-off\",\"Traditional boat ride during evening on River Ganga\",\"Booked Aarti seating (subject to onsite confirmation)\",\"Support for Kashi Vishwanath Darshan\",\"Visit to Annapurna Temple and Vishalakshi Temples\",\"Traditional Kashi stroll tour through heritage lanes with local guide\",\"One complimentary bottle of water per person\",\"All toll taxes, parking fees, and driver allowances\"]', '[\"VIP darshan charges (optional extra)\",\"Lunch and dinner\",\"Shopping and personal expenses\",\"Temple donations and puja offerings\",\"Camera and photography charges\",\"Travel insurance\",\"Tips for driver and guide\"]', '[{\"day\":\"Morning\",\"title\":\"Pickup & Sacred Temples Darshan\",\"description\":\"Pickup from your hotel, railway station, or airport in private AC cab. First visit Kashi Vishwanath, Annapurna Devi, and Vishalakshi Temples before they become overcrowded.\"},{\"day\":\"Afternoon\",\"title\":\"Old Kashi Heritage Lanes Walk & Street Food\",\"description\":\"A slow walk through ancient Kashi galis with stops for tea and local street snacks. Explore quiet hidden spots like Man Mandir observatory, Sheetla Ghat, and Nepali Temple.\"},{\"day\":\"Evening\",\"title\":\"River Boat Ride & Grand Ganga Aarti\",\"description\":\"Head towards the river for the boat ride as the ghats light up. Witness the mesmerizing Dashashwamedh Ghat Ganga Aarti with reserved seating. Walk back to cab and hotel drop-off.\"}]', 'Dashashwamedh Ghat Ganga Aarti Tour | One Day Varanasi Package | Kashi Ghoomo', 'Experience Dashashwamedh Ghat Ganga Aarti Tour (1 Day in Varanasi). Covers Kashi Vishwanath darshan, old galis walk, evening boat ride & reserved Aarti view.', 'Dashashwamedh Ghat Tour
+Ganga Aarti Tour
+Varanasi Evening Aarti
+Boat Ride Varanasi
+Kashi Heritage Walk
+Kashi Vishwanath Tour
+One Day Varanasi Tour', '<h1>Dashashwamedh Ghat Ganga Aarti Tour: One Day in Varanasi, Explained Simply</h1>
+
+<p>If you are not familiar with this place, there will be a few words arising here and there; let\'s have these cleared first.</p>
+
+<ul>
+    <li><strong>Ghat:</strong> stone stairs leading down to the river. There are 84 in Varanasi, each with a different vibe.</li>
+    <li><strong>Aarti:</strong> a prayer with fire. Priests hold large brass lamps in slow circles as bells toll and conch shells blow.</li>
+    <li><strong>Darshan:</strong> simply “seeing” the deity. When people say they’re going for darshan, they mean they’re going to stand before the idol and pray.</li>
+    <li><strong>Gali:</strong> a lane. Old Kashi is mostly galis, far too narrow for cars.</li>
+</ul>
+
+<p>Dashashwamedh is the main ghat and the busiest. The name means “ten horse sacrifices,\" and the story says Lord Brahma performed them here to welcome Shiva. On this one-day tour of Kashi Ghoomo, we arrange that a novice traveler should not miss the temples, lanes, boat, and Aarti and enjoy the entire experience with no hurry, no confusion.</p>
+
+<h2>How the Day Goes, From Pickup to the Evening Aarti</h2>
+
+<p>The timing can vary depending on the day you visit, and it may differ based on the number of people waiting at the temple. Request a pickup from your hotel, train station, or airport.</p>
+
+<ul>
+    <li>First visit Kashi Vishwanath, Annapurna, and Vishalakshi before they became overcrowded.</li>
+    <li>The old lanes: a slow walk through Kashi, with stops for tea and a look at the local markets.</li>
+    <li>Late afternoon: back towards the river for the boat ride.</li>
+    <li>Dusk: the Ganga Aarti at Dashashwamedh.</li>
+    <li>Post the Aarti: a peaceful walk back to the taxi and the transfer to your hotel.</li>
+</ul>
+
+<h2>Quiet Places Near the Ghat That Most Visitors Miss</h2>
+
+<p>Everyone knows the main gate. A few minutes’ walk in either direction, there are places most day-trippers never see. If there’s a little time in your day, these are worth asking for:</p>
+
+<ul>
+    <li><strong>Man Mandir Ghat and its old observatory:</strong> Just north of Dashashwamedh stands a palace built by Maharaja Jai Singh II. On its roof are stone instruments for tracking the sun and the stars, nearly 300 years old. Up there it looks gorgeous. Probably varies on time and entrance; ask first.</li>
+    <li><strong>Next door at Sheetla Ghat:</strong> The temple here is for Sheetla Mata. Locals visit it, and this ghat has the feeling of a local area, not a stage.</li>
+    <li><strong>The Nepali temple at Lalita Ghat:</strong> A wooden temple in Nepali style, with carved beams. Very few visitors step in. It’s a short walk north and feels completely different from the stone temples around it.</li>
+    <li><strong>The lanes behind the ghat after the Aarti:</strong> Shutters come down, chai stalls light up, and you can smell sweets frying. Walk it once, slowly.</li>
+</ul>
+
+<p>None of these is on a postcard, and that’s exactly why we like them. If you’d like to add one, mention it to your guide at the start of the day, because it depends on the crowd and the temple queue. The Kashi Ghoomo guides will fit it in when the day allows.</p>
+
+<h2>Where Should You Sit to Watch the Aarti?</h2>
+
+<p>There’s no single best seat. It depends on what you want from the evening.</p>
+
+<ul>
+    <li><strong>On the steps in front of the ghat:</strong> closest to the fire and the sound, and also the most crowded. Good if you love the atmosphere.</li>
+    <li><strong>On a boat:</strong> a calm, wide view of the whole ghat lit up, with the bells coming across the water. Many people find it the prettiest way to watch.</li>
+    <li><strong>From the roof or café terrace in the vicinity:</strong> a bird\'s-eye view that is kind to the legs.</li>
+    <li><strong>On the other side:</strong> fewer people, a side view of the priests, and a quieter atmosphere all around.</li>
+</ul>
+
+<p>Your package includes reserved seating for the Aarti, subject to availability. That means you’re not left hunting for space on the night. Ask your guide where your seat is before the crowd arrives.</p>
+
+<h2>Three Things People Often Get Wrong About the Aarti</h2>
+
+<ul>
+    <li><strong>“It’s only a show for tourists.”</strong> It isn’t. Entire evenings are dedicated to a procession of pilgrims and local families, many of whom are all the while standing with clasped hands. Trained priests perform it every day as an offering to the river.</li>
+    <li><strong>“We can arrive at sunset and find a spot.”</strong> Not on most days. The steps fill up well before the first lamp is lit, so arriving early, or having a reserved seat, saves a lot of stress.</li>
+    <li><strong>“It’s all about the evening.”</strong> The temples and lanes earlier in the day are half the experience. The Aarti feels bigger once you’ve already walked through the old city.</li>
+</ul>
+
+<h2>Kashi Vishwanath Darshan, Step by Step for First-Timers</h2>
+
+<p>Kashi Vishwanath is the temple most people come to Varanasi for, and it can feel confusing the first time. Here’s the simple order of things:</p>
+
+<ol>
+    <li>Dress modestly, with shoulders and knees covered.</li>
+    <li>Set down your phone, camera, and bags in the cab or a locker. Regulations differ, so check with your guide on the day.</li>
+    <li>Join your guide in the queue. Your tour includes darshan support; VIP darshan is an optional extra.</li>
+    <li>If you wish to buy an offering, like flowers, purchase from a reputable stall and check the price first with your guide.</li>
+    <li>After darshan, walk out through the corridor and look at the river from there.</li>
+</ol>
+
+<p>Don’t hurry that last part. Many people tell us the quiet minute before leaving is what they remember most.</p>
+
+<h2>Two Smaller Temples Worth Visiting: Annapurna and Vishalakshi</h2>
+
+<p>Annapurna temple is close to Vishwanath, and it’s dedicated to the goddess of food. Families pray here so that the kitchen at home never runs empty. It’s smaller and calmer than the main temple.</p>
+
+<p>Vishalakshi Temple is near Mir Ghat and is counted among the Shakti Peethas, places linked to the goddess. Many visitors skip it because it’s tucked away, which is a shame.</p>
+
+<p><strong>Quick tip:</strong> if you’re tired by this point, sit down for five minutes in either one. Nobody will hurry you.</p>
+
+<h2>What to Eat in Old Kashi Without Upsetting Your Stomach</h2>
+
+<p>Lunch and dinner aren’t part of the package, so you’ll eat on your own.</p>
+
+<h3>A few things are worth trying:</h3>
+<ul>
+    <li>Kachori with sabzi, followed by hot jalebi</li>
+    <li>Lassi in a clay cup</li>
+    <li>Tamatar chaat, Kashi’s tangy tomato version</li>
+    <li>Malaiyo, a light, frothy milk sweet, only in the winter months</li>
+</ul>
+
+<h3>And a few things to be careful about:</h3>
+<ul>
+    <li>Eat food that’s hot and freshly made.</li>
+    <li>Skip cut fruit that’s been sitting out.</li>
+    <li>Stick to bottled water. The package gives you a bottle.</li>
+</ul>
+
+<h2>What the Evening Boat Ride Is Like Before the Aarti</h2>
+
+<ul>
+    <li><strong>What will I see?</strong> The ghats are lighting up one by one, including Dashashwamedh, Man Mandir, and Sheetla, plus the temple spires behind them. At the far end, you may pass the cremation ghat of Manikarnika. Please be respectful and keep your camera down there.</li>
+    <li><strong>Is it noisy?</strong> Not on the water. You’ll hear bells and chanting from the shore and the oars or the engine, but it’s much calmer than the lanes.</li>
+    <li><strong>Do I need to bargain?</strong> No. Kashi Ghoomo arranges the boat as part of the package, so you don’t have to negotiate at the ghat.</li>
+    <li><strong>Is it safe?</strong> Generally, yes, if you stay seated. Ask for life jackets, especially for children.</li>
+</ul>
+
+<h2>What It Feels Like to See the Aarti for the First Time</h2>
+
+<p>You step off the boat, and the air changes. The steps are packed, but there’s a hush. Somewhere a bell starts, slowly at first. Then the conch joins in.</p>
+
+<p>There are seven priests on raised platforms, each of them carrying a brass lamp that is heavy; their candles flare and swirl around in the air. Smoke clouds over the water.</p>
+
+<p>Strangers are pressed shoulder-to-shoulder, and no one complains. It ends the way it began, with bells, and people drift slowly back towards the lanes. That is the moment many visitors say they didn’t expect.</p>
+
+<h2>What to Wear and Carry for Temples, Boats, and Crowds</h2>
+
+<h3>Wear</h3>
+<ul>
+    <li>Light cotton clothes that cover shoulders and knees</li>
+    <li>Slip-on shoes, since you’ll take them off at temples.</li>
+    <li>A light shawl or jacket, because it gets cool on the river in the evening</li>
+</ul>
+
+<h3>Carry</h3>
+<ul>
+    <li>A small cross-body bag</li>
+    <li>Some cash for small shops and offerings</li>
+    <li>A phone power bank</li>
+</ul>
+
+<h3>Leave behind</h3>
+<ul>
+    <li>Valuables, big bags, and anything you’d hate to lose</li>
+    <li>Leather belts and wallets, if you can. Some temples don’t allow them.</li>
+</ul>
+
+<h2>Visiting With Children or Older Family Members</h2>
+
+<p>Our best advice is simple. Don’t try to do everything at the same speed. The lanes are narrow and uneven, there can be long lines for the temple, and the Aarti can be crowded.</p>
+
+<ul>
+    <li>Let us know if someone walks slowly so we can make stops accordingly.</li>
+    <li>Have a water bottle and snacks available to keep the kiddos happy.</li>
+    <li>Keep your belongings safe when in crowds and plan a meeting spot if you become separated.</li>
+    <li>Sit down whenever you get the chance. Nobody is racing.</li>
+</ul>
+
+<h2>How to Send an Inquiry and What to Tell Us</h2>
+
+<p>Booking is simple. Open our <a href=\"https://kashighoomo.in/packages\">packages page</a>, choose the Dashashwamedh Ghat Ganga tour, and fill in the short inquiry form. It asks for:</p>
+
+<ul>
+    <li>Your name, phone number, and email</li>
+    <li>The date you’d like to travel</li>
+    <li>Numbers of adults and children.</li>
+    <li>Any special requests, such as slow walkers, food needs, or VIP darshan?</li>
+</ul>
+
+<p>Kashi Ghoomo will get back to you to confirm the details. You can also call or WhatsApp 9214191918 if you’d rather talk.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. What\'s in the package?</strong></p>
+        <p>Private AC cab with pickup and drop-off. Traditional boat ride booked Aarti seating (subject to onsite confirmation) Support for the Kashi Vishwanath Darshan. Visit to Annapurna Temple and Vishalakshi Temples Traditional Kashi stroll tour with a local guide and one bottle of water.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. Is the Aarti seat guaranteed?</strong></p>
+        <p>Reserved seating is included, subject to availability. Ask your guide on the day where you will sit.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. What costs extra?</strong></p>
+        <p>VIP darshan charges, lunch and dinner, shopping, temple donations, camera charges, travel insurance, and tips.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. How long does the tour take?</strong></p>
+        <p>It’s a one-day plan, and you return after the Aarti. The exact timing depends on your date and how long the temple queue is.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. Is it suitable for children and older people?</strong></p>
+        <p>Yes, with a little planning. Tell us in advance and we’ll go at your pace.</p>
+    </div>
+</div>
+
+<h2>A Last Thought Before You Plan Your Visit</h2>
+
+<p>Dashashwamedh is loud, crowded, and a little chaotic. It’s also one of the most moving places you’ll ever stand. Come with some patience and an open mind.</p>
+
+<p>If you have a question that isn’t here, just ask Kashi Ghoomo. We’d rather answer it before you arrive than after.</p>', NOW(), NOW())
+ON DUPLICATE KEY UPDATE
+  title = 'Dashashwamedh Ghat Ganga Aarti Tour',
+  duration = '1 Day',
+  price = 1234.00,
+  images = '[\"packages\\/BPdZvPhrc65yeuX5gz9NWGuSVcvO4oMFSA04a8JI.jpg\",\"packages\\/6is6OnAm7Ltkifuu5qyGYcOKEZcAjFhgXLNNKskh.jpg\",\"packages\\/OtLt2O6ycQ6op6tOnCdpVzwsXpM8VGKnEHulqaTU.jpg\",\"packages\\/X7PuI6o67W3Q6s0IeJdPYrltHirBa6CPRQOXv0TC.jpg\"]',
+  inclusions = '[\"Private AC cab with pickup and drop-off\",\"Traditional boat ride during evening on River Ganga\",\"Booked Aarti seating (subject to onsite confirmation)\",\"Support for Kashi Vishwanath Darshan\",\"Visit to Annapurna Temple and Vishalakshi Temples\",\"Traditional Kashi stroll tour through heritage lanes with local guide\",\"One complimentary bottle of water per person\",\"All toll taxes, parking fees, and driver allowances\"]',
+  exclusions = '[\"VIP darshan charges (optional extra)\",\"Lunch and dinner\",\"Shopping and personal expenses\",\"Temple donations and puja offerings\",\"Camera and photography charges\",\"Travel insurance\",\"Tips for driver and guide\"]',
+  itinerary = '[{\"day\":\"Morning\",\"title\":\"Pickup & Sacred Temples Darshan\",\"description\":\"Pickup from your hotel, railway station, or airport in private AC cab. First visit Kashi Vishwanath, Annapurna Devi, and Vishalakshi Temples before they become overcrowded.\"},{\"day\":\"Afternoon\",\"title\":\"Old Kashi Heritage Lanes Walk & Street Food\",\"description\":\"A slow walk through ancient Kashi galis with stops for tea and local street snacks. Explore quiet hidden spots like Man Mandir observatory, Sheetla Ghat, and Nepali Temple.\"},{\"day\":\"Evening\",\"title\":\"River Boat Ride & Grand Ganga Aarti\",\"description\":\"Head towards the river for the boat ride as the ghats light up. Witness the mesmerizing Dashashwamedh Ghat Ganga Aarti with reserved seating. Walk back to cab and hotel drop-off.\"}]',
+  meta_title = 'Dashashwamedh Ghat Ganga Aarti Tour | One Day Varanasi Package | Kashi Ghoomo',
+  meta_description = 'Experience Dashashwamedh Ghat Ganga Aarti Tour (1 Day in Varanasi). Covers Kashi Vishwanath darshan, old galis walk, evening boat ride & reserved Aarti view.',
+  meta_keywords = 'Dashashwamedh Ghat Tour
+Ganga Aarti Tour
+Varanasi Evening Aarti
+Boat Ride Varanasi
+Kashi Heritage Walk
+Kashi Vishwanath Tour
+One Day Varanasi Tour',
+  description = '<h1>Dashashwamedh Ghat Ganga Aarti Tour: One Day in Varanasi, Explained Simply</h1>
+
+<p>If you are not familiar with this place, there will be a few words arising here and there; let\'s have these cleared first.</p>
+
+<ul>
+    <li><strong>Ghat:</strong> stone stairs leading down to the river. There are 84 in Varanasi, each with a different vibe.</li>
+    <li><strong>Aarti:</strong> a prayer with fire. Priests hold large brass lamps in slow circles as bells toll and conch shells blow.</li>
+    <li><strong>Darshan:</strong> simply “seeing” the deity. When people say they’re going for darshan, they mean they’re going to stand before the idol and pray.</li>
+    <li><strong>Gali:</strong> a lane. Old Kashi is mostly galis, far too narrow for cars.</li>
+</ul>
+
+<p>Dashashwamedh is the main ghat and the busiest. The name means “ten horse sacrifices,\" and the story says Lord Brahma performed them here to welcome Shiva. On this one-day tour of Kashi Ghoomo, we arrange that a novice traveler should not miss the temples, lanes, boat, and Aarti and enjoy the entire experience with no hurry, no confusion.</p>
+
+<h2>How the Day Goes, From Pickup to the Evening Aarti</h2>
+
+<p>The timing can vary depending on the day you visit, and it may differ based on the number of people waiting at the temple. Request a pickup from your hotel, train station, or airport.</p>
+
+<ul>
+    <li>First visit Kashi Vishwanath, Annapurna, and Vishalakshi before they became overcrowded.</li>
+    <li>The old lanes: a slow walk through Kashi, with stops for tea and a look at the local markets.</li>
+    <li>Late afternoon: back towards the river for the boat ride.</li>
+    <li>Dusk: the Ganga Aarti at Dashashwamedh.</li>
+    <li>Post the Aarti: a peaceful walk back to the taxi and the transfer to your hotel.</li>
+</ul>
+
+<h2>Quiet Places Near the Ghat That Most Visitors Miss</h2>
+
+<p>Everyone knows the main gate. A few minutes’ walk in either direction, there are places most day-trippers never see. If there’s a little time in your day, these are worth asking for:</p>
+
+<ul>
+    <li><strong>Man Mandir Ghat and its old observatory:</strong> Just north of Dashashwamedh stands a palace built by Maharaja Jai Singh II. On its roof are stone instruments for tracking the sun and the stars, nearly 300 years old. Up there it looks gorgeous. Probably varies on time and entrance; ask first.</li>
+    <li><strong>Next door at Sheetla Ghat:</strong> The temple here is for Sheetla Mata. Locals visit it, and this ghat has the feeling of a local area, not a stage.</li>
+    <li><strong>The Nepali temple at Lalita Ghat:</strong> A wooden temple in Nepali style, with carved beams. Very few visitors step in. It’s a short walk north and feels completely different from the stone temples around it.</li>
+    <li><strong>The lanes behind the ghat after the Aarti:</strong> Shutters come down, chai stalls light up, and you can smell sweets frying. Walk it once, slowly.</li>
+</ul>
+
+<p>None of these is on a postcard, and that’s exactly why we like them. If you’d like to add one, mention it to your guide at the start of the day, because it depends on the crowd and the temple queue. The Kashi Ghoomo guides will fit it in when the day allows.</p>
+
+<h2>Where Should You Sit to Watch the Aarti?</h2>
+
+<p>There’s no single best seat. It depends on what you want from the evening.</p>
+
+<ul>
+    <li><strong>On the steps in front of the ghat:</strong> closest to the fire and the sound, and also the most crowded. Good if you love the atmosphere.</li>
+    <li><strong>On a boat:</strong> a calm, wide view of the whole ghat lit up, with the bells coming across the water. Many people find it the prettiest way to watch.</li>
+    <li><strong>From the roof or café terrace in the vicinity:</strong> a bird\'s-eye view that is kind to the legs.</li>
+    <li><strong>On the other side:</strong> fewer people, a side view of the priests, and a quieter atmosphere all around.</li>
+</ul>
+
+<p>Your package includes reserved seating for the Aarti, subject to availability. That means you’re not left hunting for space on the night. Ask your guide where your seat is before the crowd arrives.</p>
+
+<h2>Three Things People Often Get Wrong About the Aarti</h2>
+
+<ul>
+    <li><strong>“It’s only a show for tourists.”</strong> It isn’t. Entire evenings are dedicated to a procession of pilgrims and local families, many of whom are all the while standing with clasped hands. Trained priests perform it every day as an offering to the river.</li>
+    <li><strong>“We can arrive at sunset and find a spot.”</strong> Not on most days. The steps fill up well before the first lamp is lit, so arriving early, or having a reserved seat, saves a lot of stress.</li>
+    <li><strong>“It’s all about the evening.”</strong> The temples and lanes earlier in the day are half the experience. The Aarti feels bigger once you’ve already walked through the old city.</li>
+</ul>
+
+<h2>Kashi Vishwanath Darshan, Step by Step for First-Timers</h2>
+
+<p>Kashi Vishwanath is the temple most people come to Varanasi for, and it can feel confusing the first time. Here’s the simple order of things:</p>
+
+<ol>
+    <li>Dress modestly, with shoulders and knees covered.</li>
+    <li>Set down your phone, camera, and bags in the cab or a locker. Regulations differ, so check with your guide on the day.</li>
+    <li>Join your guide in the queue. Your tour includes darshan support; VIP darshan is an optional extra.</li>
+    <li>If you wish to buy an offering, like flowers, purchase from a reputable stall and check the price first with your guide.</li>
+    <li>After darshan, walk out through the corridor and look at the river from there.</li>
+</ol>
+
+<p>Don’t hurry that last part. Many people tell us the quiet minute before leaving is what they remember most.</p>
+
+<h2>Two Smaller Temples Worth Visiting: Annapurna and Vishalakshi</h2>
+
+<p>Annapurna temple is close to Vishwanath, and it’s dedicated to the goddess of food. Families pray here so that the kitchen at home never runs empty. It’s smaller and calmer than the main temple.</p>
+
+<p>Vishalakshi Temple is near Mir Ghat and is counted among the Shakti Peethas, places linked to the goddess. Many visitors skip it because it’s tucked away, which is a shame.</p>
+
+<p><strong>Quick tip:</strong> if you’re tired by this point, sit down for five minutes in either one. Nobody will hurry you.</p>
+
+<h2>What to Eat in Old Kashi Without Upsetting Your Stomach</h2>
+
+<p>Lunch and dinner aren’t part of the package, so you’ll eat on your own.</p>
+
+<h3>A few things are worth trying:</h3>
+<ul>
+    <li>Kachori with sabzi, followed by hot jalebi</li>
+    <li>Lassi in a clay cup</li>
+    <li>Tamatar chaat, Kashi’s tangy tomato version</li>
+    <li>Malaiyo, a light, frothy milk sweet, only in the winter months</li>
+</ul>
+
+<h3>And a few things to be careful about:</h3>
+<ul>
+    <li>Eat food that’s hot and freshly made.</li>
+    <li>Skip cut fruit that’s been sitting out.</li>
+    <li>Stick to bottled water. The package gives you a bottle.</li>
+</ul>
+
+<h2>What the Evening Boat Ride Is Like Before the Aarti</h2>
+
+<ul>
+    <li><strong>What will I see?</strong> The ghats are lighting up one by one, including Dashashwamedh, Man Mandir, and Sheetla, plus the temple spires behind them. At the far end, you may pass the cremation ghat of Manikarnika. Please be respectful and keep your camera down there.</li>
+    <li><strong>Is it noisy?</strong> Not on the water. You’ll hear bells and chanting from the shore and the oars or the engine, but it’s much calmer than the lanes.</li>
+    <li><strong>Do I need to bargain?</strong> No. Kashi Ghoomo arranges the boat as part of the package, so you don’t have to negotiate at the ghat.</li>
+    <li><strong>Is it safe?</strong> Generally, yes, if you stay seated. Ask for life jackets, especially for children.</li>
+</ul>
+
+<h2>What It Feels Like to See the Aarti for the First Time</h2>
+
+<p>You step off the boat, and the air changes. The steps are packed, but there’s a hush. Somewhere a bell starts, slowly at first. Then the conch joins in.</p>
+
+<p>There are seven priests on raised platforms, each of them carrying a brass lamp that is heavy; their candles flare and swirl around in the air. Smoke clouds over the water.</p>
+
+<p>Strangers are pressed shoulder-to-shoulder, and no one complains. It ends the way it began, with bells, and people drift slowly back towards the lanes. That is the moment many visitors say they didn’t expect.</p>
+
+<h2>What to Wear and Carry for Temples, Boats, and Crowds</h2>
+
+<h3>Wear</h3>
+<ul>
+    <li>Light cotton clothes that cover shoulders and knees</li>
+    <li>Slip-on shoes, since you’ll take them off at temples.</li>
+    <li>A light shawl or jacket, because it gets cool on the river in the evening</li>
+</ul>
+
+<h3>Carry</h3>
+<ul>
+    <li>A small cross-body bag</li>
+    <li>Some cash for small shops and offerings</li>
+    <li>A phone power bank</li>
+</ul>
+
+<h3>Leave behind</h3>
+<ul>
+    <li>Valuables, big bags, and anything you’d hate to lose</li>
+    <li>Leather belts and wallets, if you can. Some temples don’t allow them.</li>
+</ul>
+
+<h2>Visiting With Children or Older Family Members</h2>
+
+<p>Our best advice is simple. Don’t try to do everything at the same speed. The lanes are narrow and uneven, there can be long lines for the temple, and the Aarti can be crowded.</p>
+
+<ul>
+    <li>Let us know if someone walks slowly so we can make stops accordingly.</li>
+    <li>Have a water bottle and snacks available to keep the kiddos happy.</li>
+    <li>Keep your belongings safe when in crowds and plan a meeting spot if you become separated.</li>
+    <li>Sit down whenever you get the chance. Nobody is racing.</li>
+</ul>
+
+<h2>How to Send an Inquiry and What to Tell Us</h2>
+
+<p>Booking is simple. Open our <a href=\"https://kashighoomo.in/packages\">packages page</a>, choose the Dashashwamedh Ghat Ganga tour, and fill in the short inquiry form. It asks for:</p>
+
+<ul>
+    <li>Your name, phone number, and email</li>
+    <li>The date you’d like to travel</li>
+    <li>Numbers of adults and children.</li>
+    <li>Any special requests, such as slow walkers, food needs, or VIP darshan?</li>
+</ul>
+
+<p>Kashi Ghoomo will get back to you to confirm the details. You can also call or WhatsApp 9214191918 if you’d rather talk.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. What\'s in the package?</strong></p>
+        <p>Private AC cab with pickup and drop-off. Traditional boat ride booked Aarti seating (subject to onsite confirmation) Support for the Kashi Vishwanath Darshan. Visit to Annapurna Temple and Vishalakshi Temples Traditional Kashi stroll tour with a local guide and one bottle of water.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. Is the Aarti seat guaranteed?</strong></p>
+        <p>Reserved seating is included, subject to availability. Ask your guide on the day where you will sit.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. What costs extra?</strong></p>
+        <p>VIP darshan charges, lunch and dinner, shopping, temple donations, camera charges, travel insurance, and tips.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. How long does the tour take?</strong></p>
+        <p>It’s a one-day plan, and you return after the Aarti. The exact timing depends on your date and how long the temple queue is.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. Is it suitable for children and older people?</strong></p>
+        <p>Yes, with a little planning. Tell us in advance and we’ll go at your pace.</p>
+    </div>
+</div>
+
+<h2>A Last Thought Before You Plan Your Visit</h2>
+
+<p>Dashashwamedh is loud, crowded, and a little chaotic. It’s also one of the most moving places you’ll ever stand. Come with some patience and an open mind.</p>
+
+<p>If you have a question that isn’t here, just ask Kashi Ghoomo. We’d rather answer it before you arrive than after.</p>',
+  updated_at = NOW();
+
+-- Package: Dashashwamedh Ghat Ganga Aarti Tour (dashashwamedh-ghat-ganga-1)
+INSERT INTO packages (slug, title, duration, price, destination_id, service_id, difficulty, best_season, start_location, status, featured, images, inclusions, exclusions, itinerary, meta_title, meta_description, meta_keywords, description, created_at, updated_at)
+VALUES ('dashashwamedh-ghat-ganga-1', 'Dashashwamedh Ghat Ganga Aarti Tour', '1 Day', 1234.00, 4, 4, 'Easy', 'October to March', 'Varanasi', 1, 1, '[\"packages\\/BPdZvPhrc65yeuX5gz9NWGuSVcvO4oMFSA04a8JI.jpg\",\"packages\\/6is6OnAm7Ltkifuu5qyGYcOKEZcAjFhgXLNNKskh.jpg\",\"packages\\/OtLt2O6ycQ6op6tOnCdpVzwsXpM8VGKnEHulqaTU.jpg\",\"packages\\/X7PuI6o67W3Q6s0IeJdPYrltHirBa6CPRQOXv0TC.jpg\"]', '[\"Private AC cab with pickup and drop-off\",\"Traditional boat ride during evening on River Ganga\",\"Booked Aarti seating (subject to onsite confirmation)\",\"Support for Kashi Vishwanath Darshan\",\"Visit to Annapurna Temple and Vishalakshi Temples\",\"Traditional Kashi stroll tour through heritage lanes with local guide\",\"One complimentary bottle of water per person\",\"All toll taxes, parking fees, and driver allowances\"]', '[\"VIP darshan charges (optional extra)\",\"Lunch and dinner\",\"Shopping and personal expenses\",\"Temple donations and puja offerings\",\"Camera and photography charges\",\"Travel insurance\",\"Tips for driver and guide\"]', '[{\"day\":\"Morning\",\"title\":\"Pickup & Sacred Temples Darshan\",\"description\":\"Pickup from your hotel, railway station, or airport in private AC cab. First visit Kashi Vishwanath, Annapurna Devi, and Vishalakshi Temples before they become overcrowded.\"},{\"day\":\"Afternoon\",\"title\":\"Old Kashi Heritage Lanes Walk & Street Food\",\"description\":\"A slow walk through ancient Kashi galis with stops for tea and local street snacks. Explore quiet hidden spots like Man Mandir observatory, Sheetla Ghat, and Nepali Temple.\"},{\"day\":\"Evening\",\"title\":\"River Boat Ride & Grand Ganga Aarti\",\"description\":\"Head towards the river for the boat ride as the ghats light up. Witness the mesmerizing Dashashwamedh Ghat Ganga Aarti with reserved seating. Walk back to cab and hotel drop-off.\"}]', 'Dashashwamedh Ghat Ganga Aarti Tour | One Day Varanasi Package | Kashi Ghoomo', 'Experience Dashashwamedh Ghat Ganga Aarti Tour (1 Day in Varanasi). Covers Kashi Vishwanath darshan, old galis walk, evening boat ride & reserved Aarti view.', 'Dashashwamedh Ghat Tour
+Ganga Aarti Tour
+Varanasi Evening Aarti
+Boat Ride Varanasi
+Kashi Heritage Walk
+Kashi Vishwanath Tour
+One Day Varanasi Tour', '<h1>Dashashwamedh Ghat Ganga Aarti Tour: One Day in Varanasi, Explained Simply</h1>
+
+<p>If you are not familiar with this place, there will be a few words arising here and there; let\'s have these cleared first.</p>
+
+<ul>
+    <li><strong>Ghat:</strong> stone stairs leading down to the river. There are 84 in Varanasi, each with a different vibe.</li>
+    <li><strong>Aarti:</strong> a prayer with fire. Priests hold large brass lamps in slow circles as bells toll and conch shells blow.</li>
+    <li><strong>Darshan:</strong> simply “seeing” the deity. When people say they’re going for darshan, they mean they’re going to stand before the idol and pray.</li>
+    <li><strong>Gali:</strong> a lane. Old Kashi is mostly galis, far too narrow for cars.</li>
+</ul>
+
+<p>Dashashwamedh is the main ghat and the busiest. The name means “ten horse sacrifices,\" and the story says Lord Brahma performed them here to welcome Shiva. On this one-day tour of Kashi Ghoomo, we arrange that a novice traveler should not miss the temples, lanes, boat, and Aarti and enjoy the entire experience with no hurry, no confusion.</p>
+
+<h2>How the Day Goes, From Pickup to the Evening Aarti</h2>
+
+<p>The timing can vary depending on the day you visit, and it may differ based on the number of people waiting at the temple. Request a pickup from your hotel, train station, or airport.</p>
+
+<ul>
+    <li>First visit Kashi Vishwanath, Annapurna, and Vishalakshi before they became overcrowded.</li>
+    <li>The old lanes: a slow walk through Kashi, with stops for tea and a look at the local markets.</li>
+    <li>Late afternoon: back towards the river for the boat ride.</li>
+    <li>Dusk: the Ganga Aarti at Dashashwamedh.</li>
+    <li>Post the Aarti: a peaceful walk back to the taxi and the transfer to your hotel.</li>
+</ul>
+
+<h2>Quiet Places Near the Ghat That Most Visitors Miss</h2>
+
+<p>Everyone knows the main gate. A few minutes’ walk in either direction, there are places most day-trippers never see. If there’s a little time in your day, these are worth asking for:</p>
+
+<ul>
+    <li><strong>Man Mandir Ghat and its old observatory:</strong> Just north of Dashashwamedh stands a palace built by Maharaja Jai Singh II. On its roof are stone instruments for tracking the sun and the stars, nearly 300 years old. Up there it looks gorgeous. Probably varies on time and entrance; ask first.</li>
+    <li><strong>Next door at Sheetla Ghat:</strong> The temple here is for Sheetla Mata. Locals visit it, and this ghat has the feeling of a local area, not a stage.</li>
+    <li><strong>The Nepali temple at Lalita Ghat:</strong> A wooden temple in Nepali style, with carved beams. Very few visitors step in. It’s a short walk north and feels completely different from the stone temples around it.</li>
+    <li><strong>The lanes behind the ghat after the Aarti:</strong> Shutters come down, chai stalls light up, and you can smell sweets frying. Walk it once, slowly.</li>
+</ul>
+
+<p>None of these is on a postcard, and that’s exactly why we like them. If you’d like to add one, mention it to your guide at the start of the day, because it depends on the crowd and the temple queue. The Kashi Ghoomo guides will fit it in when the day allows.</p>
+
+<h2>Where Should You Sit to Watch the Aarti?</h2>
+
+<p>There’s no single best seat. It depends on what you want from the evening.</p>
+
+<ul>
+    <li><strong>On the steps in front of the ghat:</strong> closest to the fire and the sound, and also the most crowded. Good if you love the atmosphere.</li>
+    <li><strong>On a boat:</strong> a calm, wide view of the whole ghat lit up, with the bells coming across the water. Many people find it the prettiest way to watch.</li>
+    <li><strong>From the roof or café terrace in the vicinity:</strong> a bird\'s-eye view that is kind to the legs.</li>
+    <li><strong>On the other side:</strong> fewer people, a side view of the priests, and a quieter atmosphere all around.</li>
+</ul>
+
+<p>Your package includes reserved seating for the Aarti, subject to availability. That means you’re not left hunting for space on the night. Ask your guide where your seat is before the crowd arrives.</p>
+
+<h2>Three Things People Often Get Wrong About the Aarti</h2>
+
+<ul>
+    <li><strong>“It’s only a show for tourists.”</strong> It isn’t. Entire evenings are dedicated to a procession of pilgrims and local families, many of whom are all the while standing with clasped hands. Trained priests perform it every day as an offering to the river.</li>
+    <li><strong>“We can arrive at sunset and find a spot.”</strong> Not on most days. The steps fill up well before the first lamp is lit, so arriving early, or having a reserved seat, saves a lot of stress.</li>
+    <li><strong>“It’s all about the evening.”</strong> The temples and lanes earlier in the day are half the experience. The Aarti feels bigger once you’ve already walked through the old city.</li>
+</ul>
+
+<h2>Kashi Vishwanath Darshan, Step by Step for First-Timers</h2>
+
+<p>Kashi Vishwanath is the temple most people come to Varanasi for, and it can feel confusing the first time. Here’s the simple order of things:</p>
+
+<ol>
+    <li>Dress modestly, with shoulders and knees covered.</li>
+    <li>Set down your phone, camera, and bags in the cab or a locker. Regulations differ, so check with your guide on the day.</li>
+    <li>Join your guide in the queue. Your tour includes darshan support; VIP darshan is an optional extra.</li>
+    <li>If you wish to buy an offering, like flowers, purchase from a reputable stall and check the price first with your guide.</li>
+    <li>After darshan, walk out through the corridor and look at the river from there.</li>
+</ol>
+
+<p>Don’t hurry that last part. Many people tell us the quiet minute before leaving is what they remember most.</p>
+
+<h2>Two Smaller Temples Worth Visiting: Annapurna and Vishalakshi</h2>
+
+<p>Annapurna temple is close to Vishwanath, and it’s dedicated to the goddess of food. Families pray here so that the kitchen at home never runs empty. It’s smaller and calmer than the main temple.</p>
+
+<p>Vishalakshi Temple is near Mir Ghat and is counted among the Shakti Peethas, places linked to the goddess. Many visitors skip it because it’s tucked away, which is a shame.</p>
+
+<p><strong>Quick tip:</strong> if you’re tired by this point, sit down for five minutes in either one. Nobody will hurry you.</p>
+
+<h2>What to Eat in Old Kashi Without Upsetting Your Stomach</h2>
+
+<p>Lunch and dinner aren’t part of the package, so you’ll eat on your own.</p>
+
+<h3>A few things are worth trying:</h3>
+<ul>
+    <li>Kachori with sabzi, followed by hot jalebi</li>
+    <li>Lassi in a clay cup</li>
+    <li>Tamatar chaat, Kashi’s tangy tomato version</li>
+    <li>Malaiyo, a light, frothy milk sweet, only in the winter months</li>
+</ul>
+
+<h3>And a few things to be careful about:</h3>
+<ul>
+    <li>Eat food that’s hot and freshly made.</li>
+    <li>Skip cut fruit that’s been sitting out.</li>
+    <li>Stick to bottled water. The package gives you a bottle.</li>
+</ul>
+
+<h2>What the Evening Boat Ride Is Like Before the Aarti</h2>
+
+<ul>
+    <li><strong>What will I see?</strong> The ghats are lighting up one by one, including Dashashwamedh, Man Mandir, and Sheetla, plus the temple spires behind them. At the far end, you may pass the cremation ghat of Manikarnika. Please be respectful and keep your camera down there.</li>
+    <li><strong>Is it noisy?</strong> Not on the water. You’ll hear bells and chanting from the shore and the oars or the engine, but it’s much calmer than the lanes.</li>
+    <li><strong>Do I need to bargain?</strong> No. Kashi Ghoomo arranges the boat as part of the package, so you don’t have to negotiate at the ghat.</li>
+    <li><strong>Is it safe?</strong> Generally, yes, if you stay seated. Ask for life jackets, especially for children.</li>
+</ul>
+
+<h2>What It Feels Like to See the Aarti for the First Time</h2>
+
+<p>You step off the boat, and the air changes. The steps are packed, but there’s a hush. Somewhere a bell starts, slowly at first. Then the conch joins in.</p>
+
+<p>There are seven priests on raised platforms, each of them carrying a brass lamp that is heavy; their candles flare and swirl around in the air. Smoke clouds over the water.</p>
+
+<p>Strangers are pressed shoulder-to-shoulder, and no one complains. It ends the way it began, with bells, and people drift slowly back towards the lanes. That is the moment many visitors say they didn’t expect.</p>
+
+<h2>What to Wear and Carry for Temples, Boats, and Crowds</h2>
+
+<h3>Wear</h3>
+<ul>
+    <li>Light cotton clothes that cover shoulders and knees</li>
+    <li>Slip-on shoes, since you’ll take them off at temples.</li>
+    <li>A light shawl or jacket, because it gets cool on the river in the evening</li>
+</ul>
+
+<h3>Carry</h3>
+<ul>
+    <li>A small cross-body bag</li>
+    <li>Some cash for small shops and offerings</li>
+    <li>A phone power bank</li>
+</ul>
+
+<h3>Leave behind</h3>
+<ul>
+    <li>Valuables, big bags, and anything you’d hate to lose</li>
+    <li>Leather belts and wallets, if you can. Some temples don’t allow them.</li>
+</ul>
+
+<h2>Visiting With Children or Older Family Members</h2>
+
+<p>Our best advice is simple. Don’t try to do everything at the same speed. The lanes are narrow and uneven, there can be long lines for the temple, and the Aarti can be crowded.</p>
+
+<ul>
+    <li>Let us know if someone walks slowly so we can make stops accordingly.</li>
+    <li>Have a water bottle and snacks available to keep the kiddos happy.</li>
+    <li>Keep your belongings safe when in crowds and plan a meeting spot if you become separated.</li>
+    <li>Sit down whenever you get the chance. Nobody is racing.</li>
+</ul>
+
+<h2>How to Send an Inquiry and What to Tell Us</h2>
+
+<p>Booking is simple. Open our <a href=\"https://kashighoomo.in/packages\">packages page</a>, choose the Dashashwamedh Ghat Ganga tour, and fill in the short inquiry form. It asks for:</p>
+
+<ul>
+    <li>Your name, phone number, and email</li>
+    <li>The date you’d like to travel</li>
+    <li>Numbers of adults and children.</li>
+    <li>Any special requests, such as slow walkers, food needs, or VIP darshan?</li>
+</ul>
+
+<p>Kashi Ghoomo will get back to you to confirm the details. You can also call or WhatsApp 9214191918 if you’d rather talk.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. What\'s in the package?</strong></p>
+        <p>Private AC cab with pickup and drop-off. Traditional boat ride booked Aarti seating (subject to onsite confirmation) Support for the Kashi Vishwanath Darshan. Visit to Annapurna Temple and Vishalakshi Temples Traditional Kashi stroll tour with a local guide and one bottle of water.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. Is the Aarti seat guaranteed?</strong></p>
+        <p>Reserved seating is included, subject to availability. Ask your guide on the day where you will sit.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. What costs extra?</strong></p>
+        <p>VIP darshan charges, lunch and dinner, shopping, temple donations, camera charges, travel insurance, and tips.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. How long does the tour take?</strong></p>
+        <p>It’s a one-day plan, and you return after the Aarti. The exact timing depends on your date and how long the temple queue is.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. Is it suitable for children and older people?</strong></p>
+        <p>Yes, with a little planning. Tell us in advance and we’ll go at your pace.</p>
+    </div>
+</div>
+
+<h2>A Last Thought Before You Plan Your Visit</h2>
+
+<p>Dashashwamedh is loud, crowded, and a little chaotic. It’s also one of the most moving places you’ll ever stand. Come with some patience and an open mind.</p>
+
+<p>If you have a question that isn’t here, just ask Kashi Ghoomo. We’d rather answer it before you arrive than after.</p>', NOW(), NOW())
+ON DUPLICATE KEY UPDATE
+  title = 'Dashashwamedh Ghat Ganga Aarti Tour',
+  duration = '1 Day',
+  price = 1234.00,
+  images = '[\"packages\\/BPdZvPhrc65yeuX5gz9NWGuSVcvO4oMFSA04a8JI.jpg\",\"packages\\/6is6OnAm7Ltkifuu5qyGYcOKEZcAjFhgXLNNKskh.jpg\",\"packages\\/OtLt2O6ycQ6op6tOnCdpVzwsXpM8VGKnEHulqaTU.jpg\",\"packages\\/X7PuI6o67W3Q6s0IeJdPYrltHirBa6CPRQOXv0TC.jpg\"]',
+  inclusions = '[\"Private AC cab with pickup and drop-off\",\"Traditional boat ride during evening on River Ganga\",\"Booked Aarti seating (subject to onsite confirmation)\",\"Support for Kashi Vishwanath Darshan\",\"Visit to Annapurna Temple and Vishalakshi Temples\",\"Traditional Kashi stroll tour through heritage lanes with local guide\",\"One complimentary bottle of water per person\",\"All toll taxes, parking fees, and driver allowances\"]',
+  exclusions = '[\"VIP darshan charges (optional extra)\",\"Lunch and dinner\",\"Shopping and personal expenses\",\"Temple donations and puja offerings\",\"Camera and photography charges\",\"Travel insurance\",\"Tips for driver and guide\"]',
+  itinerary = '[{\"day\":\"Morning\",\"title\":\"Pickup & Sacred Temples Darshan\",\"description\":\"Pickup from your hotel, railway station, or airport in private AC cab. First visit Kashi Vishwanath, Annapurna Devi, and Vishalakshi Temples before they become overcrowded.\"},{\"day\":\"Afternoon\",\"title\":\"Old Kashi Heritage Lanes Walk & Street Food\",\"description\":\"A slow walk through ancient Kashi galis with stops for tea and local street snacks. Explore quiet hidden spots like Man Mandir observatory, Sheetla Ghat, and Nepali Temple.\"},{\"day\":\"Evening\",\"title\":\"River Boat Ride & Grand Ganga Aarti\",\"description\":\"Head towards the river for the boat ride as the ghats light up. Witness the mesmerizing Dashashwamedh Ghat Ganga Aarti with reserved seating. Walk back to cab and hotel drop-off.\"}]',
+  meta_title = 'Dashashwamedh Ghat Ganga Aarti Tour | One Day Varanasi Package | Kashi Ghoomo',
+  meta_description = 'Experience Dashashwamedh Ghat Ganga Aarti Tour (1 Day in Varanasi). Covers Kashi Vishwanath darshan, old galis walk, evening boat ride & reserved Aarti view.',
+  meta_keywords = 'Dashashwamedh Ghat Tour
+Ganga Aarti Tour
+Varanasi Evening Aarti
+Boat Ride Varanasi
+Kashi Heritage Walk
+Kashi Vishwanath Tour
+One Day Varanasi Tour',
+  description = '<h1>Dashashwamedh Ghat Ganga Aarti Tour: One Day in Varanasi, Explained Simply</h1>
+
+<p>If you are not familiar with this place, there will be a few words arising here and there; let\'s have these cleared first.</p>
+
+<ul>
+    <li><strong>Ghat:</strong> stone stairs leading down to the river. There are 84 in Varanasi, each with a different vibe.</li>
+    <li><strong>Aarti:</strong> a prayer with fire. Priests hold large brass lamps in slow circles as bells toll and conch shells blow.</li>
+    <li><strong>Darshan:</strong> simply “seeing” the deity. When people say they’re going for darshan, they mean they’re going to stand before the idol and pray.</li>
+    <li><strong>Gali:</strong> a lane. Old Kashi is mostly galis, far too narrow for cars.</li>
+</ul>
+
+<p>Dashashwamedh is the main ghat and the busiest. The name means “ten horse sacrifices,\" and the story says Lord Brahma performed them here to welcome Shiva. On this one-day tour of Kashi Ghoomo, we arrange that a novice traveler should not miss the temples, lanes, boat, and Aarti and enjoy the entire experience with no hurry, no confusion.</p>
+
+<h2>How the Day Goes, From Pickup to the Evening Aarti</h2>
+
+<p>The timing can vary depending on the day you visit, and it may differ based on the number of people waiting at the temple. Request a pickup from your hotel, train station, or airport.</p>
+
+<ul>
+    <li>First visit Kashi Vishwanath, Annapurna, and Vishalakshi before they became overcrowded.</li>
+    <li>The old lanes: a slow walk through Kashi, with stops for tea and a look at the local markets.</li>
+    <li>Late afternoon: back towards the river for the boat ride.</li>
+    <li>Dusk: the Ganga Aarti at Dashashwamedh.</li>
+    <li>Post the Aarti: a peaceful walk back to the taxi and the transfer to your hotel.</li>
+</ul>
+
+<h2>Quiet Places Near the Ghat That Most Visitors Miss</h2>
+
+<p>Everyone knows the main gate. A few minutes’ walk in either direction, there are places most day-trippers never see. If there’s a little time in your day, these are worth asking for:</p>
+
+<ul>
+    <li><strong>Man Mandir Ghat and its old observatory:</strong> Just north of Dashashwamedh stands a palace built by Maharaja Jai Singh II. On its roof are stone instruments for tracking the sun and the stars, nearly 300 years old. Up there it looks gorgeous. Probably varies on time and entrance; ask first.</li>
+    <li><strong>Next door at Sheetla Ghat:</strong> The temple here is for Sheetla Mata. Locals visit it, and this ghat has the feeling of a local area, not a stage.</li>
+    <li><strong>The Nepali temple at Lalita Ghat:</strong> A wooden temple in Nepali style, with carved beams. Very few visitors step in. It’s a short walk north and feels completely different from the stone temples around it.</li>
+    <li><strong>The lanes behind the ghat after the Aarti:</strong> Shutters come down, chai stalls light up, and you can smell sweets frying. Walk it once, slowly.</li>
+</ul>
+
+<p>None of these is on a postcard, and that’s exactly why we like them. If you’d like to add one, mention it to your guide at the start of the day, because it depends on the crowd and the temple queue. The Kashi Ghoomo guides will fit it in when the day allows.</p>
+
+<h2>Where Should You Sit to Watch the Aarti?</h2>
+
+<p>There’s no single best seat. It depends on what you want from the evening.</p>
+
+<ul>
+    <li><strong>On the steps in front of the ghat:</strong> closest to the fire and the sound, and also the most crowded. Good if you love the atmosphere.</li>
+    <li><strong>On a boat:</strong> a calm, wide view of the whole ghat lit up, with the bells coming across the water. Many people find it the prettiest way to watch.</li>
+    <li><strong>From the roof or café terrace in the vicinity:</strong> a bird\'s-eye view that is kind to the legs.</li>
+    <li><strong>On the other side:</strong> fewer people, a side view of the priests, and a quieter atmosphere all around.</li>
+</ul>
+
+<p>Your package includes reserved seating for the Aarti, subject to availability. That means you’re not left hunting for space on the night. Ask your guide where your seat is before the crowd arrives.</p>
+
+<h2>Three Things People Often Get Wrong About the Aarti</h2>
+
+<ul>
+    <li><strong>“It’s only a show for tourists.”</strong> It isn’t. Entire evenings are dedicated to a procession of pilgrims and local families, many of whom are all the while standing with clasped hands. Trained priests perform it every day as an offering to the river.</li>
+    <li><strong>“We can arrive at sunset and find a spot.”</strong> Not on most days. The steps fill up well before the first lamp is lit, so arriving early, or having a reserved seat, saves a lot of stress.</li>
+    <li><strong>“It’s all about the evening.”</strong> The temples and lanes earlier in the day are half the experience. The Aarti feels bigger once you’ve already walked through the old city.</li>
+</ul>
+
+<h2>Kashi Vishwanath Darshan, Step by Step for First-Timers</h2>
+
+<p>Kashi Vishwanath is the temple most people come to Varanasi for, and it can feel confusing the first time. Here’s the simple order of things:</p>
+
+<ol>
+    <li>Dress modestly, with shoulders and knees covered.</li>
+    <li>Set down your phone, camera, and bags in the cab or a locker. Regulations differ, so check with your guide on the day.</li>
+    <li>Join your guide in the queue. Your tour includes darshan support; VIP darshan is an optional extra.</li>
+    <li>If you wish to buy an offering, like flowers, purchase from a reputable stall and check the price first with your guide.</li>
+    <li>After darshan, walk out through the corridor and look at the river from there.</li>
+</ol>
+
+<p>Don’t hurry that last part. Many people tell us the quiet minute before leaving is what they remember most.</p>
+
+<h2>Two Smaller Temples Worth Visiting: Annapurna and Vishalakshi</h2>
+
+<p>Annapurna temple is close to Vishwanath, and it’s dedicated to the goddess of food. Families pray here so that the kitchen at home never runs empty. It’s smaller and calmer than the main temple.</p>
+
+<p>Vishalakshi Temple is near Mir Ghat and is counted among the Shakti Peethas, places linked to the goddess. Many visitors skip it because it’s tucked away, which is a shame.</p>
+
+<p><strong>Quick tip:</strong> if you’re tired by this point, sit down for five minutes in either one. Nobody will hurry you.</p>
+
+<h2>What to Eat in Old Kashi Without Upsetting Your Stomach</h2>
+
+<p>Lunch and dinner aren’t part of the package, so you’ll eat on your own.</p>
+
+<h3>A few things are worth trying:</h3>
+<ul>
+    <li>Kachori with sabzi, followed by hot jalebi</li>
+    <li>Lassi in a clay cup</li>
+    <li>Tamatar chaat, Kashi’s tangy tomato version</li>
+    <li>Malaiyo, a light, frothy milk sweet, only in the winter months</li>
+</ul>
+
+<h3>And a few things to be careful about:</h3>
+<ul>
+    <li>Eat food that’s hot and freshly made.</li>
+    <li>Skip cut fruit that’s been sitting out.</li>
+    <li>Stick to bottled water. The package gives you a bottle.</li>
+</ul>
+
+<h2>What the Evening Boat Ride Is Like Before the Aarti</h2>
+
+<ul>
+    <li><strong>What will I see?</strong> The ghats are lighting up one by one, including Dashashwamedh, Man Mandir, and Sheetla, plus the temple spires behind them. At the far end, you may pass the cremation ghat of Manikarnika. Please be respectful and keep your camera down there.</li>
+    <li><strong>Is it noisy?</strong> Not on the water. You’ll hear bells and chanting from the shore and the oars or the engine, but it’s much calmer than the lanes.</li>
+    <li><strong>Do I need to bargain?</strong> No. Kashi Ghoomo arranges the boat as part of the package, so you don’t have to negotiate at the ghat.</li>
+    <li><strong>Is it safe?</strong> Generally, yes, if you stay seated. Ask for life jackets, especially for children.</li>
+</ul>
+
+<h2>What It Feels Like to See the Aarti for the First Time</h2>
+
+<p>You step off the boat, and the air changes. The steps are packed, but there’s a hush. Somewhere a bell starts, slowly at first. Then the conch joins in.</p>
+
+<p>There are seven priests on raised platforms, each of them carrying a brass lamp that is heavy; their candles flare and swirl around in the air. Smoke clouds over the water.</p>
+
+<p>Strangers are pressed shoulder-to-shoulder, and no one complains. It ends the way it began, with bells, and people drift slowly back towards the lanes. That is the moment many visitors say they didn’t expect.</p>
+
+<h2>What to Wear and Carry for Temples, Boats, and Crowds</h2>
+
+<h3>Wear</h3>
+<ul>
+    <li>Light cotton clothes that cover shoulders and knees</li>
+    <li>Slip-on shoes, since you’ll take them off at temples.</li>
+    <li>A light shawl or jacket, because it gets cool on the river in the evening</li>
+</ul>
+
+<h3>Carry</h3>
+<ul>
+    <li>A small cross-body bag</li>
+    <li>Some cash for small shops and offerings</li>
+    <li>A phone power bank</li>
+</ul>
+
+<h3>Leave behind</h3>
+<ul>
+    <li>Valuables, big bags, and anything you’d hate to lose</li>
+    <li>Leather belts and wallets, if you can. Some temples don’t allow them.</li>
+</ul>
+
+<h2>Visiting With Children or Older Family Members</h2>
+
+<p>Our best advice is simple. Don’t try to do everything at the same speed. The lanes are narrow and uneven, there can be long lines for the temple, and the Aarti can be crowded.</p>
+
+<ul>
+    <li>Let us know if someone walks slowly so we can make stops accordingly.</li>
+    <li>Have a water bottle and snacks available to keep the kiddos happy.</li>
+    <li>Keep your belongings safe when in crowds and plan a meeting spot if you become separated.</li>
+    <li>Sit down whenever you get the chance. Nobody is racing.</li>
+</ul>
+
+<h2>How to Send an Inquiry and What to Tell Us</h2>
+
+<p>Booking is simple. Open our <a href=\"https://kashighoomo.in/packages\">packages page</a>, choose the Dashashwamedh Ghat Ganga tour, and fill in the short inquiry form. It asks for:</p>
+
+<ul>
+    <li>Your name, phone number, and email</li>
+    <li>The date you’d like to travel</li>
+    <li>Numbers of adults and children.</li>
+    <li>Any special requests, such as slow walkers, food needs, or VIP darshan?</li>
+</ul>
+
+<p>Kashi Ghoomo will get back to you to confirm the details. You can also call or WhatsApp 9214191918 if you’d rather talk.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. What\'s in the package?</strong></p>
+        <p>Private AC cab with pickup and drop-off. Traditional boat ride booked Aarti seating (subject to onsite confirmation) Support for the Kashi Vishwanath Darshan. Visit to Annapurna Temple and Vishalakshi Temples Traditional Kashi stroll tour with a local guide and one bottle of water.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. Is the Aarti seat guaranteed?</strong></p>
+        <p>Reserved seating is included, subject to availability. Ask your guide on the day where you will sit.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. What costs extra?</strong></p>
+        <p>VIP darshan charges, lunch and dinner, shopping, temple donations, camera charges, travel insurance, and tips.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. How long does the tour take?</strong></p>
+        <p>It’s a one-day plan, and you return after the Aarti. The exact timing depends on your date and how long the temple queue is.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. Is it suitable for children and older people?</strong></p>
+        <p>Yes, with a little planning. Tell us in advance and we’ll go at your pace.</p>
+    </div>
+</div>
+
+<h2>A Last Thought Before You Plan Your Visit</h2>
+
+<p>Dashashwamedh is loud, crowded, and a little chaotic. It’s also one of the most moving places you’ll ever stand. Come with some patience and an open mind.</p>
+
+<p>If you have a question that isn’t here, just ask Kashi Ghoomo. We’d rather answer it before you arrive than after.</p>',
+  updated_at = NOW();
+
