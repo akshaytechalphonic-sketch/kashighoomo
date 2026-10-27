@@ -1307,3 +1307,2048 @@ UPDATE packages SET
   duration = 'Evening (5:00 PM – 8:30 PM)'
 WHERE slug = 'dev-diwali-boat-ride-experience';
 
+
+
+-- =====================================================
+-- New Packages: Varanasi Ayodhya Prayagraj Package, Varanasi Tour Package for Family, Varanasi Boat Ride and Cruise
+-- =====================================================
+
+-- Package: Varanasi Ayodhya Prayagraj Package (varanasi-ayodhya-prayagraj-package)
+INSERT INTO packages (slug, title, duration, price, destination_id, service_id, difficulty, best_season, start_location, status, featured, images, inclusions, exclusions, itinerary, meta_title, meta_description, meta_keywords, description, created_at, updated_at)
+VALUES ('varanasi-ayodhya-prayagraj-package', 'Varanasi Ayodhya Prayagraj Package', '3 Nights / 4 Days', 18500.00, 1, 1, 'Easy', 'October to March', 'Varanasi', 1, 1, '[\"packages\\/NCUJO3exg03YJ64tKQif9f4Q2Az9hkqrmpDSqKF5.png\",\"packages\\/NjRvoNpJspwOKOzGrPW2iYcTokXueLBMAqd1VHqp.png\",\"packages\\/92XF8q3Urlyw0r2NJmTIL07m8rDc1V1Ut9tR2I1Z.png\"]', '[\"AC cab covering the whole route, no separate taxi negotiations city to city\",\"Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing\",\"VIP darshan passes at Kashi Vishwanath and Ram Janmabhoomi\",\"Boat rides in Varanasi already arranged (Evening Ganga Aarti & Sunrise)\",\"Airport or Railway Station pickup and drop in Varanasi\",\"All toll taxes, parking fees, and driver allowance\"]', '[\"Lunch and dinner (unless decided in advance)\",\"Shopping, tips, and personal expenses\",\"Monument entry tickets where applicable\",\"Airfare or train tickets to\\/from Varanasi\",\"Travel insurance\"]', '[{\"day\":\"Day 1\",\"title\":\"Varanasi Hotel and Ganga Aarti\",\"description\":\"Dashashwamedh Ghat & Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.\"},{\"day\":\"Day 2\",\"title\":\"Kashi Vishwanath, Annapurna Temple & Kaal Bhairav to Prayagraj & Ayodhya\",\"description\":\"In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple & Anand Bhawan. By night you reach Ayodhya and spend the night there.\"},{\"day\":\"Day 3\",\"title\":\"Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan & Dashrath Mahal\",\"description\":\"And maybe a Maharashtrian-style quality walk around the Saryu River too.\"},{\"day\":\"Day 4\",\"title\":\"Sarnath & Departure\",\"description\":\"Sarnath & then maybe some shopping if there is still time and we are on our way.\"}]', 'Varanasi Ayodhya Prayagraj Package | 3 Nights 4 Days Tour | Kashi Ghoomo', 'Book the best Varanasi Ayodhya Prayagraj package (3N/4D). Covers Kashi Vishwanath, Ganga Aarti boat ride, Triveni Sangam Prayagraj, Ram Janmabhoomi Ayodhya & Sarnath.', 'Varanasi Ayodhya Prayagraj package, Varanasi Ayodhya Prayagraj tour, Kashi Prayagraj Ayodhya package, 3 night 4 days Varanasi package', '<h1>One Trip, Three Rivers: Inside the Varanasi Ayodhya Prayagraj Package</h1>
+
+<p>Varanasi, Prayagraj, and Ayodhya. Most tourists want every single one, and there’s a good justification for that, truthfully. They\'re close enough together that doing them separately just means paying for the same taxi trip three times over. A proper Varanasi Ayodhya Prayagraj package puts them into one trip instead, and Kashi Ghoomo\'s been running this exact route since 2018.</p>
+
+<h2>Why This Particular Route Makes Sense Together</h2>
+
+<p>Travel time between Varanasi and Prayagraj is 2-3 hrs by road. Between Prayagraj and Ayodhya, it is 3-4 hours. You do not necessarily have to travel to them separately. They are part of one loop.</p>
+
+<ul>
+    <li>All three places have unique characteristics. Varanasi for ghats and aarti, Prayagraj for river confluence, and Ayodhya for temples.</li>
+    <li>We do only the Varanasi Ayodhya Prayagraj package as well, where we cover all three places.</li>
+    <li>The drive times work out well enough that nothing feels rushed if the itinerary\'s planned properly.</li>
+    <li>Most travelers who\'ve done Varanasi alone before say adding Prayagraj and Ayodhya genuinely rounds the trip out.</li>
+</ul>
+
+<h2>What a Typical Varanasi Ayodhya Prayagraj Package Actually Covers</h2>
+
+<p>Kashi Ghoomo runs this as a 3-night, 4-day trip. Here\'s roughly how it plays out.</p>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Varanasi Hotel and Ganga Aarti</h3>
+    <p>Dashashwamedh Ghat &amp; Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.</p>
+
+    <h3>Day 2: Kashi Vishwanath, Annapurna Temple &amp; Kaal Bhairav</h3>
+    <p>In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple &amp; Anand Bhawan. By night you reach Ayodhya and spend the night there.</p>
+
+    <h3>Day 3: Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan &amp; Dashrath Mahal</h3>
+    <p>And maybe a Maharashtrian-style quality walk around the Saryu River too.</p>
+
+    <h3>Day 4: Sarnath</h3>
+    <p>Sarnath &amp; then maybe some shopping if there is still time and we are on our way.</p>
+</div>
+
+<h2>What\'s Included in the Package</h2>
+
+<p>A properly run Varanasi Ayodhya Prayagraj package should take care of the parts that usually go wrong when people try to plan this route themselves.</p>
+
+<ul>
+    <li>AC cab covering the whole route, no separate taxi negotiations city to city</li>
+    <li>Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing</li>
+    <li>VIP darshan passes, which matter more than people expect, and queues at Kashi Vishwanath and Ram Janmabhoomi get long.</li>
+    <li>Boat rides in Varanasi are already arranged; there is nothing to sort out once you land.</li>
+</ul>
+
+<h2>Why a Varanasi Tour Package for Family Needs Different Planning</h2>
+
+<p>Having the kids along or an elderly parent who can\'t walk all day alters what truly counts on such a trip. A Varanasi family tour package should be nothing like one designed for two backpackers.</p>
+
+<p>Pace matters most. Cramming three temple visits and a four-hour drive into one day works fine for some travelers, badly for others. A genuine Varanasi tour package for family builds in breathing room. Vehicle size matters too; an Ertiga fits a family of six comfortably, while a Dzire really doesn\'t once luggage gets involved.</p>
+
+<p>Kashi Ghoomo also has the Force Tempo Traveler for bigger, multi-generation groups. And what makes the hotel selection is the fact that nothing should matter in the Varanasi Ayodhya Prayagraj package: the balcony by the river, which everyone will find time to sit in, but breakfast, WiFi, and room service.</p>
+
+<h2>What is the Varanasi Boat Ride and Cruise Experience? Explained</h2>
+
+<p>The Varanasi boat ride and cruise is generally the highlight for most travelers, so it\'s better to spend a bit of time describing it properly instead of covering it under the label \"just a boat trip.\"</p>
+
+<ul>
+    <li><strong>Evening aarti from the water</strong> – Priests, fire lamps, drums, hundreds of people on the ghats, all of it, but seen from the river instead of standing in that crowd yourself.</li>
+    <li><strong>Sunrise on Assi Ghat</strong> – A quieter version of the Varanasi boat ride and cruise, with chanting and morning rituals, far calmer than the evening\'s energy.</li>
+    <li><strong>Different boat types are available</strong> – Bajra boats, motor boats, and decorated boats for festivals. Kashi Ghoomo runs a few options depending on what you\'re after.</li>
+    <li><strong>Dev Diwali gets busy fast</strong> – A Varanasi Ayodhya Prayagraj package during Dev Diwali is genuinely worth it, but book early; this one fills up quicker than any other slot.</li>
+</ul>
+
+<h2>Understanding the Triveni Sangam Stop in Prayagraj</h2>
+
+<p>Triveni Sangam, where the holy Ganga and Yamuna are joined by a mysterious Saraswati, is actually the sole reason Prayagraj makes the cut when you shove it between the two standards: Varanasi and Ayodhya, a package, of course, that is strictly for those willing to spend a few coins longer.</p>
+
+<p>Among most pujaris, a bath here actually feels substantial; it\'s not just eye candy between two bigger cities. Bade Hanuman Temple and Anand Bhawan sit nearby too, giving the stop some depth beyond the river itself.</p>
+
+<h2>Why Ayodhya Has Become a Bigger Draw in Recent Years</h2>
+
+<p>Since Ram Janmabhoomi Temple\'s completion, Ayodhya has stopped being a side addition to this route and become a genuine reason people book the trip in the first place.</p>
+
+<p>The temple\'s size catches people off guard, even those who\'ve already seen photos. Hanuman Garhi and Kanak Bhawan sit close by. And the evening Saryu Aarti, quieter than the daytime crowds at the main temple, ends up being what a lot of travelers actually remember most from Ayodhya.</p>
+
+<h2>Choosing the Right Vehicle and Accommodation</h2>
+
+<p>Small decisions here shape the whole trip more than people expect.</p>
+
+<p>For couples or solo travelers, a Dzire\'s fine. Families of up to six do better in an Ertiga. Bigger groups, or pilgrim parties travelling together, lean toward the Innova Crysta or the Force Tempo Traveler. On stays, Kashi Ghoomo works with properties like Brijrama Palace Heritage Hotel and Taj Ganges Varanasi for travelers wanting something nicer and more moderately priced ghatside hotels for anyone prioritizing budget.</p>
+
+<h2>What Past Travelers Have Said</h2>
+
+<p>One traveler mentioned the airport pickup being right on time, calling the whole trip hassle-free. Another brought up trusting Kashi Ghoomo specifically for darshan and local sightseeing, describing it as a professional start to finish. A third pointed to the VIP darshan arrangement at Kashi Vishwanath, saying it saved a lot of time compared to standing in line themselves.</p>
+
+<h2>Why Travelers Choose Kashi Ghoomo for This Specific Route</h2>
+
+<p>Plenty of operators handle Varanasi well. Fewer handle all three cities with the same level of care; Prayagraj and Ayodhya often end up treated as an afterthought elsewhere.</p>
+
+<p>That\'s been the premise at Kashi Ghoomo since 2018, with all logistics for all three destinations transport, accommodations, and darshan booking all booked simultaneously so that the guest doesn\'t have to preoccupy themselves with the constant sourcing of logistics in three different unknown cities. That\'s the true differentiator of the total Varanasi Ayodhya Prayagraj package experience, not just the partial Varanasi.</p>
+
+<h2>Tips Before You Book Your Trip</h2>
+
+<p>Book a few weeks out if you\'re travelling during peak season or around Dev Diwali specifically; good hotels near the temples fill up fast. Check exactly what\'s in your package; meals and darshan assistance vary between operators. Bring comfortable shoes; there\'s real walking involved. If it is a Varanasi tour package for family, then do not forget to reconfirm the time before you proceed, as 4 days for 3 destinations can be a bit tiring if not taken care of correctly.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. How long is the Varanasi Ayodhya Prayagraj package?</strong></p>
+        <p>Most of our packages are 3 nights and 4 days long to help you unwind on the spiritual trip to Varanasi, Ayodhya, and Prayagraj without feeling stressed.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. What are all the Varanasi boat ride and cruise included in the package?</strong></p>
+        <p>Usually an evening Ganga Aarti cruise, and depending on the package, a sunrise ride along Assi Ghat too.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Is a Varanasi tour package for family really planned differently?</strong></p>
+        <p>Yes, pacing, vehicle size, and hotel choice all shift when kids or older relatives are part of the trip.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. Does VIP darshan come included?</strong></p>
+        <p>Yes, most packages through Kashi Ghoomo include it, and it makes a real difference at Kashi Vishwanath and Ram Janmabhoomi specifically.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. What vehicle works for a bigger group?</strong></p>
+        <p>Innova Crysta is for small to medium Pilgrim groups, and the Force tempo traveler is for Pilgrim groups or those who go from 4 people to 17.</p>
+    </div>
+</div>', NOW(), NOW())
+ON DUPLICATE KEY UPDATE
+  title = 'Varanasi Ayodhya Prayagraj Package',
+  duration = '3 Nights / 4 Days',
+  price = 18500.00,
+  images = '[\"packages\\/NCUJO3exg03YJ64tKQif9f4Q2Az9hkqrmpDSqKF5.png\",\"packages\\/NjRvoNpJspwOKOzGrPW2iYcTokXueLBMAqd1VHqp.png\",\"packages\\/92XF8q3Urlyw0r2NJmTIL07m8rDc1V1Ut9tR2I1Z.png\"]',
+  inclusions = '[\"AC cab covering the whole route, no separate taxi negotiations city to city\",\"Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing\",\"VIP darshan passes at Kashi Vishwanath and Ram Janmabhoomi\",\"Boat rides in Varanasi already arranged (Evening Ganga Aarti & Sunrise)\",\"Airport or Railway Station pickup and drop in Varanasi\",\"All toll taxes, parking fees, and driver allowance\"]',
+  exclusions = '[\"Lunch and dinner (unless decided in advance)\",\"Shopping, tips, and personal expenses\",\"Monument entry tickets where applicable\",\"Airfare or train tickets to\\/from Varanasi\",\"Travel insurance\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Varanasi Hotel and Ganga Aarti\",\"description\":\"Dashashwamedh Ghat & Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.\"},{\"day\":\"Day 2\",\"title\":\"Kashi Vishwanath, Annapurna Temple & Kaal Bhairav to Prayagraj & Ayodhya\",\"description\":\"In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple & Anand Bhawan. By night you reach Ayodhya and spend the night there.\"},{\"day\":\"Day 3\",\"title\":\"Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan & Dashrath Mahal\",\"description\":\"And maybe a Maharashtrian-style quality walk around the Saryu River too.\"},{\"day\":\"Day 4\",\"title\":\"Sarnath & Departure\",\"description\":\"Sarnath & then maybe some shopping if there is still time and we are on our way.\"}]',
+  meta_title = 'Varanasi Ayodhya Prayagraj Package | 3 Nights 4 Days Tour | Kashi Ghoomo',
+  meta_description = 'Book the best Varanasi Ayodhya Prayagraj package (3N/4D). Covers Kashi Vishwanath, Ganga Aarti boat ride, Triveni Sangam Prayagraj, Ram Janmabhoomi Ayodhya & Sarnath.',
+  meta_keywords = 'Varanasi Ayodhya Prayagraj package, Varanasi Ayodhya Prayagraj tour, Kashi Prayagraj Ayodhya package, 3 night 4 days Varanasi package',
+  description = '<h1>One Trip, Three Rivers: Inside the Varanasi Ayodhya Prayagraj Package</h1>
+
+<p>Varanasi, Prayagraj, and Ayodhya. Most tourists want every single one, and there’s a good justification for that, truthfully. They\'re close enough together that doing them separately just means paying for the same taxi trip three times over. A proper Varanasi Ayodhya Prayagraj package puts them into one trip instead, and Kashi Ghoomo\'s been running this exact route since 2018.</p>
+
+<h2>Why This Particular Route Makes Sense Together</h2>
+
+<p>Travel time between Varanasi and Prayagraj is 2-3 hrs by road. Between Prayagraj and Ayodhya, it is 3-4 hours. You do not necessarily have to travel to them separately. They are part of one loop.</p>
+
+<ul>
+    <li>All three places have unique characteristics. Varanasi for ghats and aarti, Prayagraj for river confluence, and Ayodhya for temples.</li>
+    <li>We do only the Varanasi Ayodhya Prayagraj package as well, where we cover all three places.</li>
+    <li>The drive times work out well enough that nothing feels rushed if the itinerary\'s planned properly.</li>
+    <li>Most travelers who\'ve done Varanasi alone before say adding Prayagraj and Ayodhya genuinely rounds the trip out.</li>
+</ul>
+
+<h2>What a Typical Varanasi Ayodhya Prayagraj Package Actually Covers</h2>
+
+<p>Kashi Ghoomo runs this as a 3-night, 4-day trip. Here\'s roughly how it plays out.</p>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Varanasi Hotel and Ganga Aarti</h3>
+    <p>Dashashwamedh Ghat &amp; Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.</p>
+
+    <h3>Day 2: Kashi Vishwanath, Annapurna Temple &amp; Kaal Bhairav</h3>
+    <p>In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple &amp; Anand Bhawan. By night you reach Ayodhya and spend the night there.</p>
+
+    <h3>Day 3: Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan &amp; Dashrath Mahal</h3>
+    <p>And maybe a Maharashtrian-style quality walk around the Saryu River too.</p>
+
+    <h3>Day 4: Sarnath</h3>
+    <p>Sarnath &amp; then maybe some shopping if there is still time and we are on our way.</p>
+</div>
+
+<h2>What\'s Included in the Package</h2>
+
+<p>A properly run Varanasi Ayodhya Prayagraj package should take care of the parts that usually go wrong when people try to plan this route themselves.</p>
+
+<ul>
+    <li>AC cab covering the whole route, no separate taxi negotiations city to city</li>
+    <li>Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing</li>
+    <li>VIP darshan passes, which matter more than people expect, and queues at Kashi Vishwanath and Ram Janmabhoomi get long.</li>
+    <li>Boat rides in Varanasi are already arranged; there is nothing to sort out once you land.</li>
+</ul>
+
+<h2>Why a Varanasi Tour Package for Family Needs Different Planning</h2>
+
+<p>Having the kids along or an elderly parent who can\'t walk all day alters what truly counts on such a trip. A Varanasi family tour package should be nothing like one designed for two backpackers.</p>
+
+<p>Pace matters most. Cramming three temple visits and a four-hour drive into one day works fine for some travelers, badly for others. A genuine Varanasi tour package for family builds in breathing room. Vehicle size matters too; an Ertiga fits a family of six comfortably, while a Dzire really doesn\'t once luggage gets involved.</p>
+
+<p>Kashi Ghoomo also has the Force Tempo Traveler for bigger, multi-generation groups. And what makes the hotel selection is the fact that nothing should matter in the Varanasi Ayodhya Prayagraj package: the balcony by the river, which everyone will find time to sit in, but breakfast, WiFi, and room service.</p>
+
+<h2>What is the Varanasi Boat Ride and Cruise Experience? Explained</h2>
+
+<p>The Varanasi boat ride and cruise is generally the highlight for most travelers, so it\'s better to spend a bit of time describing it properly instead of covering it under the label \"just a boat trip.\"</p>
+
+<ul>
+    <li><strong>Evening aarti from the water</strong> – Priests, fire lamps, drums, hundreds of people on the ghats, all of it, but seen from the river instead of standing in that crowd yourself.</li>
+    <li><strong>Sunrise on Assi Ghat</strong> – A quieter version of the Varanasi boat ride and cruise, with chanting and morning rituals, far calmer than the evening\'s energy.</li>
+    <li><strong>Different boat types are available</strong> – Bajra boats, motor boats, and decorated boats for festivals. Kashi Ghoomo runs a few options depending on what you\'re after.</li>
+    <li><strong>Dev Diwali gets busy fast</strong> – A Varanasi Ayodhya Prayagraj package during Dev Diwali is genuinely worth it, but book early; this one fills up quicker than any other slot.</li>
+</ul>
+
+<h2>Understanding the Triveni Sangam Stop in Prayagraj</h2>
+
+<p>Triveni Sangam, where the holy Ganga and Yamuna are joined by a mysterious Saraswati, is actually the sole reason Prayagraj makes the cut when you shove it between the two standards: Varanasi and Ayodhya, a package, of course, that is strictly for those willing to spend a few coins longer.</p>
+
+<p>Among most pujaris, a bath here actually feels substantial; it\'s not just eye candy between two bigger cities. Bade Hanuman Temple and Anand Bhawan sit nearby too, giving the stop some depth beyond the river itself.</p>
+
+<h2>Why Ayodhya Has Become a Bigger Draw in Recent Years</h2>
+
+<p>Since Ram Janmabhoomi Temple\'s completion, Ayodhya has stopped being a side addition to this route and become a genuine reason people book the trip in the first place.</p>
+
+<p>The temple\'s size catches people off guard, even those who\'ve already seen photos. Hanuman Garhi and Kanak Bhawan sit close by. And the evening Saryu Aarti, quieter than the daytime crowds at the main temple, ends up being what a lot of travelers actually remember most from Ayodhya.</p>
+
+<h2>Choosing the Right Vehicle and Accommodation</h2>
+
+<p>Small decisions here shape the whole trip more than people expect.</p>
+
+<p>For couples or solo travelers, a Dzire\'s fine. Families of up to six do better in an Ertiga. Bigger groups, or pilgrim parties travelling together, lean toward the Innova Crysta or the Force Tempo Traveler. On stays, Kashi Ghoomo works with properties like Brijrama Palace Heritage Hotel and Taj Ganges Varanasi for travelers wanting something nicer and more moderately priced ghatside hotels for anyone prioritizing budget.</p>
+
+<h2>What Past Travelers Have Said</h2>
+
+<p>One traveler mentioned the airport pickup being right on time, calling the whole trip hassle-free. Another brought up trusting Kashi Ghoomo specifically for darshan and local sightseeing, describing it as a professional start to finish. A third pointed to the VIP darshan arrangement at Kashi Vishwanath, saying it saved a lot of time compared to standing in line themselves.</p>
+
+<h2>Why Travelers Choose Kashi Ghoomo for This Specific Route</h2>
+
+<p>Plenty of operators handle Varanasi well. Fewer handle all three cities with the same level of care; Prayagraj and Ayodhya often end up treated as an afterthought elsewhere.</p>
+
+<p>That\'s been the premise at Kashi Ghoomo since 2018, with all logistics for all three destinations transport, accommodations, and darshan booking all booked simultaneously so that the guest doesn\'t have to preoccupy themselves with the constant sourcing of logistics in three different unknown cities. That\'s the true differentiator of the total Varanasi Ayodhya Prayagraj package experience, not just the partial Varanasi.</p>
+
+<h2>Tips Before You Book Your Trip</h2>
+
+<p>Book a few weeks out if you\'re travelling during peak season or around Dev Diwali specifically; good hotels near the temples fill up fast. Check exactly what\'s in your package; meals and darshan assistance vary between operators. Bring comfortable shoes; there\'s real walking involved. If it is a Varanasi tour package for family, then do not forget to reconfirm the time before you proceed, as 4 days for 3 destinations can be a bit tiring if not taken care of correctly.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. How long is the Varanasi Ayodhya Prayagraj package?</strong></p>
+        <p>Most of our packages are 3 nights and 4 days long to help you unwind on the spiritual trip to Varanasi, Ayodhya, and Prayagraj without feeling stressed.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. What are all the Varanasi boat ride and cruise included in the package?</strong></p>
+        <p>Usually an evening Ganga Aarti cruise, and depending on the package, a sunrise ride along Assi Ghat too.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Is a Varanasi tour package for family really planned differently?</strong></p>
+        <p>Yes, pacing, vehicle size, and hotel choice all shift when kids or older relatives are part of the trip.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. Does VIP darshan come included?</strong></p>
+        <p>Yes, most packages through Kashi Ghoomo include it, and it makes a real difference at Kashi Vishwanath and Ram Janmabhoomi specifically.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. What vehicle works for a bigger group?</strong></p>
+        <p>Innova Crysta is for small to medium Pilgrim groups, and the Force tempo traveler is for Pilgrim groups or those who go from 4 people to 17.</p>
+    </div>
+</div>',
+  updated_at = NOW();
+
+-- Package: Varanasi Tour Package for Family (varanasi-tour-package-for-family)
+INSERT INTO packages (slug, title, duration, price, destination_id, service_id, difficulty, best_season, start_location, status, featured, images, inclusions, exclusions, itinerary, meta_title, meta_description, meta_keywords, description, created_at, updated_at)
+VALUES ('varanasi-tour-package-for-family', 'Varanasi Tour Package for Family', '3 Nights / 4 Days', 17500.00, 3, 1, 'Easy', 'October to March', 'Varanasi', 1, 1, '[\"packages\\/pPUEFeqwutP2bKxfwkOE1xGexB6ikzf7Zynpvo28.jpg\",\"packages\\/N4lYLsQhuDIdKrxjOrgeN8JD7pzzlZxYlNvQ1COu.jpg\",\"packages\\/YWGv7dbOXzfRycMUAL1Uz5q5JHRkVHqWi01Io4ms.jpg\",\"packages\\/2pAy6lOMeDCxbOStHOsdeIMaqrgRHsYlBNcquqqv.jpg\"]', '[\"AC cab covering the whole route, no separate taxi negotiations city to city\",\"Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing\",\"VIP darshan passes at Kashi Vishwanath and Ram Janmabhoomi\",\"Boat rides in Varanasi already arranged (Evening Ganga Aarti & Sunrise)\",\"Airport or Railway Station pickup and drop in Varanasi\",\"All toll taxes, parking fees, and driver allowance\"]', '[\"Lunch and dinner (unless decided in advance)\",\"Shopping, tips, and personal expenses\",\"Monument entry tickets where applicable\",\"Airfare or train tickets to\\/from Varanasi\",\"Travel insurance\"]', '[{\"day\":\"Day 1\",\"title\":\"Varanasi Hotel and Ganga Aarti\",\"description\":\"Dashashwamedh Ghat & Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.\"},{\"day\":\"Day 2\",\"title\":\"Kashi Vishwanath, Annapurna Temple & Kaal Bhairav to Prayagraj & Ayodhya\",\"description\":\"In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple & Anand Bhawan. By night you reach Ayodhya and spend the night there.\"},{\"day\":\"Day 3\",\"title\":\"Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan & Dashrath Mahal\",\"description\":\"And maybe a Maharashtrian-style quality walk around the Saryu River too.\"},{\"day\":\"Day 4\",\"title\":\"Sarnath & Departure\",\"description\":\"Sarnath & then maybe some shopping if there is still time and we are on our way.\"}]', 'Varanasi Tour Package for Family | Kashi Ayodhya Prayagraj | Kashi Ghoomo', 'Best Varanasi tour package for family covering Varanasi, Prayagraj and Ayodhya at a comfortable pace with AC cab, hotel stays, boat rides and VIP darshan.', 'Varanasi tour package for family, Banaras family tour package, Varanasi Ayodhya family tour, Kashi tour for family', '<h1>One Trip, Three Rivers: Inside the Varanasi Ayodhya Prayagraj Package</h1>
+
+<p>Varanasi, Prayagraj, and Ayodhya. Most tourists want every single one, and there’s a good justification for that, truthfully. They\'re close enough together that doing them separately just means paying for the same taxi trip three times over. A proper Varanasi Ayodhya Prayagraj package puts them into one trip instead, and Kashi Ghoomo\'s been running this exact route since 2018.</p>
+
+<h2>Why This Particular Route Makes Sense Together</h2>
+
+<p>Travel time between Varanasi and Prayagraj is 2-3 hrs by road. Between Prayagraj and Ayodhya, it is 3-4 hours. You do not necessarily have to travel to them separately. They are part of one loop.</p>
+
+<ul>
+    <li>All three places have unique characteristics. Varanasi for ghats and aarti, Prayagraj for river confluence, and Ayodhya for temples.</li>
+    <li>We do only the Varanasi Ayodhya Prayagraj package as well, where we cover all three places.</li>
+    <li>The drive times work out well enough that nothing feels rushed if the itinerary\'s planned properly.</li>
+    <li>Most travelers who\'ve done Varanasi alone before say adding Prayagraj and Ayodhya genuinely rounds the trip out.</li>
+</ul>
+
+<h2>What a Typical Varanasi Ayodhya Prayagraj Package Actually Covers</h2>
+
+<p>Kashi Ghoomo runs this as a 3-night, 4-day trip. Here\'s roughly how it plays out.</p>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Varanasi Hotel and Ganga Aarti</h3>
+    <p>Dashashwamedh Ghat &amp; Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.</p>
+
+    <h3>Day 2: Kashi Vishwanath, Annapurna Temple &amp; Kaal Bhairav</h3>
+    <p>In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple &amp; Anand Bhawan. By night you reach Ayodhya and spend the night there.</p>
+
+    <h3>Day 3: Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan &amp; Dashrath Mahal</h3>
+    <p>And maybe a Maharashtrian-style quality walk around the Saryu River too.</p>
+
+    <h3>Day 4: Sarnath</h3>
+    <p>Sarnath &amp; then maybe some shopping if there is still time and we are on our way.</p>
+</div>
+
+<h2>What\'s Included in the Package</h2>
+
+<p>A properly run Varanasi Ayodhya Prayagraj package should take care of the parts that usually go wrong when people try to plan this route themselves.</p>
+
+<ul>
+    <li>AC cab covering the whole route, no separate taxi negotiations city to city</li>
+    <li>Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing</li>
+    <li>VIP darshan passes, which matter more than people expect, and queues at Kashi Vishwanath and Ram Janmabhoomi get long.</li>
+    <li>Boat rides in Varanasi are already arranged; there is nothing to sort out once you land.</li>
+</ul>
+
+<h2>Why a Varanasi Tour Package for Family Needs Different Planning</h2>
+
+<p>Having the kids along or an elderly parent who can\'t walk all day alters what truly counts on such a trip. A Varanasi family tour package should be nothing like one designed for two backpackers.</p>
+
+<p>Pace matters most. Cramming three temple visits and a four-hour drive into one day works fine for some travelers, badly for others. A genuine Varanasi tour package for family builds in breathing room. Vehicle size matters too; an Ertiga fits a family of six comfortably, while a Dzire really doesn\'t once luggage gets involved.</p>
+
+<p>Kashi Ghoomo also has the Force Tempo Traveler for bigger, multi-generation groups. And what makes the hotel selection is the fact that nothing should matter in the Varanasi Ayodhya Prayagraj package: the balcony by the river, which everyone will find time to sit in, but breakfast, WiFi, and room service.</p>
+
+<h2>What is the Varanasi Boat Ride and Cruise Experience? Explained</h2>
+
+<p>The Varanasi boat ride and cruise is generally the highlight for most travelers, so it\'s better to spend a bit of time describing it properly instead of covering it under the label \"just a boat trip.\"</p>
+
+<ul>
+    <li><strong>Evening aarti from the water</strong> – Priests, fire lamps, drums, hundreds of people on the ghats, all of it, but seen from the river instead of standing in that crowd yourself.</li>
+    <li><strong>Sunrise on Assi Ghat</strong> – A quieter version of the Varanasi boat ride and cruise, with chanting and morning rituals, far calmer than the evening\'s energy.</li>
+    <li><strong>Different boat types are available</strong> – Bajra boats, motor boats, and decorated boats for festivals. Kashi Ghoomo runs a few options depending on what you\'re after.</li>
+    <li><strong>Dev Diwali gets busy fast</strong> – A Varanasi Ayodhya Prayagraj package during Dev Diwali is genuinely worth it, but book early; this one fills up quicker than any other slot.</li>
+</ul>
+
+<h2>Understanding the Triveni Sangam Stop in Prayagraj</h2>
+
+<p>Triveni Sangam, where the holy Ganga and Yamuna are joined by a mysterious Saraswati, is actually the sole reason Prayagraj makes the cut when you shove it between the two standards: Varanasi and Ayodhya, a package, of course, that is strictly for those willing to spend a few coins longer.</p>
+
+<p>Among most pujaris, a bath here actually feels substantial; it\'s not just eye candy between two bigger cities. Bade Hanuman Temple and Anand Bhawan sit nearby too, giving the stop some depth beyond the river itself.</p>
+
+<h2>Why Ayodhya Has Become a Bigger Draw in Recent Years</h2>
+
+<p>Since Ram Janmabhoomi Temple\'s completion, Ayodhya has stopped being a side addition to this route and become a genuine reason people book the trip in the first place.</p>
+
+<p>The temple\'s size catches people off guard, even those who\'ve already seen photos. Hanuman Garhi and Kanak Bhawan sit close by. And the evening Saryu Aarti, quieter than the daytime crowds at the main temple, ends up being what a lot of travelers actually remember most from Ayodhya.</p>
+
+<h2>Choosing the Right Vehicle and Accommodation</h2>
+
+<p>Small decisions here shape the whole trip more than people expect.</p>
+
+<p>For couples or solo travelers, a Dzire\'s fine. Families of up to six do better in an Ertiga. Bigger groups, or pilgrim parties travelling together, lean toward the Innova Crysta or the Force Tempo Traveler. On stays, Kashi Ghoomo works with properties like Brijrama Palace Heritage Hotel and Taj Ganges Varanasi for travelers wanting something nicer and more moderately priced ghatside hotels for anyone prioritizing budget.</p>
+
+<h2>What Past Travelers Have Said</h2>
+
+<p>One traveler mentioned the airport pickup being right on time, calling the whole trip hassle-free. Another brought up trusting Kashi Ghoomo specifically for darshan and local sightseeing, describing it as a professional start to finish. A third pointed to the VIP darshan arrangement at Kashi Vishwanath, saying it saved a lot of time compared to standing in line themselves.</p>
+
+<h2>Why Travelers Choose Kashi Ghoomo for This Specific Route</h2>
+
+<p>Plenty of operators handle Varanasi well. Fewer handle all three cities with the same level of care; Prayagraj and Ayodhya often end up treated as an afterthought elsewhere.</p>
+
+<p>That\'s been the premise at Kashi Ghoomo since 2018, with all logistics for all three destinations transport, accommodations, and darshan booking all booked simultaneously so that the guest doesn\'t have to preoccupy themselves with the constant sourcing of logistics in three different unknown cities. That\'s the true differentiator of the total Varanasi Ayodhya Prayagraj package experience, not just the partial Varanasi.</p>
+
+<h2>Tips Before You Book Your Trip</h2>
+
+<p>Book a few weeks out if you\'re travelling during peak season or around Dev Diwali specifically; good hotels near the temples fill up fast. Check exactly what\'s in your package; meals and darshan assistance vary between operators. Bring comfortable shoes; there\'s real walking involved. If it is a Varanasi tour package for family, then do not forget to reconfirm the time before you proceed, as 4 days for 3 destinations can be a bit tiring if not taken care of correctly.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. How long is the Varanasi Ayodhya Prayagraj package?</strong></p>
+        <p>Most of our packages are 3 nights and 4 days long to help you unwind on the spiritual trip to Varanasi, Ayodhya, and Prayagraj without feeling stressed.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. What are all the Varanasi boat ride and cruise included in the package?</strong></p>
+        <p>Usually an evening Ganga Aarti cruise, and depending on the package, a sunrise ride along Assi Ghat too.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Is a Varanasi tour package for family really planned differently?</strong></p>
+        <p>Yes, pacing, vehicle size, and hotel choice all shift when kids or older relatives are part of the trip.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. Does VIP darshan come included?</strong></p>
+        <p>Yes, most packages through Kashi Ghoomo include it, and it makes a real difference at Kashi Vishwanath and Ram Janmabhoomi specifically.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. What vehicle works for a bigger group?</strong></p>
+        <p>Innova Crysta is for small to medium Pilgrim groups, and the Force tempo traveler is for Pilgrim groups or those who go from 4 people to 17.</p>
+    </div>
+</div>', NOW(), NOW())
+ON DUPLICATE KEY UPDATE
+  title = 'Varanasi Tour Package for Family',
+  duration = '3 Nights / 4 Days',
+  price = 17500.00,
+  images = '[\"packages\\/pPUEFeqwutP2bKxfwkOE1xGexB6ikzf7Zynpvo28.jpg\",\"packages\\/N4lYLsQhuDIdKrxjOrgeN8JD7pzzlZxYlNvQ1COu.jpg\",\"packages\\/YWGv7dbOXzfRycMUAL1Uz5q5JHRkVHqWi01Io4ms.jpg\",\"packages\\/2pAy6lOMeDCxbOStHOsdeIMaqrgRHsYlBNcquqqv.jpg\"]',
+  inclusions = '[\"AC cab covering the whole route, no separate taxi negotiations city to city\",\"Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing\",\"VIP darshan passes at Kashi Vishwanath and Ram Janmabhoomi\",\"Boat rides in Varanasi already arranged (Evening Ganga Aarti & Sunrise)\",\"Airport or Railway Station pickup and drop in Varanasi\",\"All toll taxes, parking fees, and driver allowance\"]',
+  exclusions = '[\"Lunch and dinner (unless decided in advance)\",\"Shopping, tips, and personal expenses\",\"Monument entry tickets where applicable\",\"Airfare or train tickets to\\/from Varanasi\",\"Travel insurance\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Varanasi Hotel and Ganga Aarti\",\"description\":\"Dashashwamedh Ghat & Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.\"},{\"day\":\"Day 2\",\"title\":\"Kashi Vishwanath, Annapurna Temple & Kaal Bhairav to Prayagraj & Ayodhya\",\"description\":\"In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple & Anand Bhawan. By night you reach Ayodhya and spend the night there.\"},{\"day\":\"Day 3\",\"title\":\"Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan & Dashrath Mahal\",\"description\":\"And maybe a Maharashtrian-style quality walk around the Saryu River too.\"},{\"day\":\"Day 4\",\"title\":\"Sarnath & Departure\",\"description\":\"Sarnath & then maybe some shopping if there is still time and we are on our way.\"}]',
+  meta_title = 'Varanasi Tour Package for Family | Kashi Ayodhya Prayagraj | Kashi Ghoomo',
+  meta_description = 'Best Varanasi tour package for family covering Varanasi, Prayagraj and Ayodhya at a comfortable pace with AC cab, hotel stays, boat rides and VIP darshan.',
+  meta_keywords = 'Varanasi tour package for family, Banaras family tour package, Varanasi Ayodhya family tour, Kashi tour for family',
+  description = '<h1>One Trip, Three Rivers: Inside the Varanasi Ayodhya Prayagraj Package</h1>
+
+<p>Varanasi, Prayagraj, and Ayodhya. Most tourists want every single one, and there’s a good justification for that, truthfully. They\'re close enough together that doing them separately just means paying for the same taxi trip three times over. A proper Varanasi Ayodhya Prayagraj package puts them into one trip instead, and Kashi Ghoomo\'s been running this exact route since 2018.</p>
+
+<h2>Why This Particular Route Makes Sense Together</h2>
+
+<p>Travel time between Varanasi and Prayagraj is 2-3 hrs by road. Between Prayagraj and Ayodhya, it is 3-4 hours. You do not necessarily have to travel to them separately. They are part of one loop.</p>
+
+<ul>
+    <li>All three places have unique characteristics. Varanasi for ghats and aarti, Prayagraj for river confluence, and Ayodhya for temples.</li>
+    <li>We do only the Varanasi Ayodhya Prayagraj package as well, where we cover all three places.</li>
+    <li>The drive times work out well enough that nothing feels rushed if the itinerary\'s planned properly.</li>
+    <li>Most travelers who\'ve done Varanasi alone before say adding Prayagraj and Ayodhya genuinely rounds the trip out.</li>
+</ul>
+
+<h2>What a Typical Varanasi Ayodhya Prayagraj Package Actually Covers</h2>
+
+<p>Kashi Ghoomo runs this as a 3-night, 4-day trip. Here\'s roughly how it plays out.</p>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Varanasi Hotel and Ganga Aarti</h3>
+    <p>Dashashwamedh Ghat &amp; Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.</p>
+
+    <h3>Day 2: Kashi Vishwanath, Annapurna Temple &amp; Kaal Bhairav</h3>
+    <p>In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple &amp; Anand Bhawan. By night you reach Ayodhya and spend the night there.</p>
+
+    <h3>Day 3: Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan &amp; Dashrath Mahal</h3>
+    <p>And maybe a Maharashtrian-style quality walk around the Saryu River too.</p>
+
+    <h3>Day 4: Sarnath</h3>
+    <p>Sarnath &amp; then maybe some shopping if there is still time and we are on our way.</p>
+</div>
+
+<h2>What\'s Included in the Package</h2>
+
+<p>A properly run Varanasi Ayodhya Prayagraj package should take care of the parts that usually go wrong when people try to plan this route themselves.</p>
+
+<ul>
+    <li>AC cab covering the whole route, no separate taxi negotiations city to city</li>
+    <li>Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing</li>
+    <li>VIP darshan passes, which matter more than people expect, and queues at Kashi Vishwanath and Ram Janmabhoomi get long.</li>
+    <li>Boat rides in Varanasi are already arranged; there is nothing to sort out once you land.</li>
+</ul>
+
+<h2>Why a Varanasi Tour Package for Family Needs Different Planning</h2>
+
+<p>Having the kids along or an elderly parent who can\'t walk all day alters what truly counts on such a trip. A Varanasi family tour package should be nothing like one designed for two backpackers.</p>
+
+<p>Pace matters most. Cramming three temple visits and a four-hour drive into one day works fine for some travelers, badly for others. A genuine Varanasi tour package for family builds in breathing room. Vehicle size matters too; an Ertiga fits a family of six comfortably, while a Dzire really doesn\'t once luggage gets involved.</p>
+
+<p>Kashi Ghoomo also has the Force Tempo Traveler for bigger, multi-generation groups. And what makes the hotel selection is the fact that nothing should matter in the Varanasi Ayodhya Prayagraj package: the balcony by the river, which everyone will find time to sit in, but breakfast, WiFi, and room service.</p>
+
+<h2>What is the Varanasi Boat Ride and Cruise Experience? Explained</h2>
+
+<p>The Varanasi boat ride and cruise is generally the highlight for most travelers, so it\'s better to spend a bit of time describing it properly instead of covering it under the label \"just a boat trip.\"</p>
+
+<ul>
+    <li><strong>Evening aarti from the water</strong> – Priests, fire lamps, drums, hundreds of people on the ghats, all of it, but seen from the river instead of standing in that crowd yourself.</li>
+    <li><strong>Sunrise on Assi Ghat</strong> – A quieter version of the Varanasi boat ride and cruise, with chanting and morning rituals, far calmer than the evening\'s energy.</li>
+    <li><strong>Different boat types are available</strong> – Bajra boats, motor boats, and decorated boats for festivals. Kashi Ghoomo runs a few options depending on what you\'re after.</li>
+    <li><strong>Dev Diwali gets busy fast</strong> – A Varanasi Ayodhya Prayagraj package during Dev Diwali is genuinely worth it, but book early; this one fills up quicker than any other slot.</li>
+</ul>
+
+<h2>Understanding the Triveni Sangam Stop in Prayagraj</h2>
+
+<p>Triveni Sangam, where the holy Ganga and Yamuna are joined by a mysterious Saraswati, is actually the sole reason Prayagraj makes the cut when you shove it between the two standards: Varanasi and Ayodhya, a package, of course, that is strictly for those willing to spend a few coins longer.</p>
+
+<p>Among most pujaris, a bath here actually feels substantial; it\'s not just eye candy between two bigger cities. Bade Hanuman Temple and Anand Bhawan sit nearby too, giving the stop some depth beyond the river itself.</p>
+
+<h2>Why Ayodhya Has Become a Bigger Draw in Recent Years</h2>
+
+<p>Since Ram Janmabhoomi Temple\'s completion, Ayodhya has stopped being a side addition to this route and become a genuine reason people book the trip in the first place.</p>
+
+<p>The temple\'s size catches people off guard, even those who\'ve already seen photos. Hanuman Garhi and Kanak Bhawan sit close by. And the evening Saryu Aarti, quieter than the daytime crowds at the main temple, ends up being what a lot of travelers actually remember most from Ayodhya.</p>
+
+<h2>Choosing the Right Vehicle and Accommodation</h2>
+
+<p>Small decisions here shape the whole trip more than people expect.</p>
+
+<p>For couples or solo travelers, a Dzire\'s fine. Families of up to six do better in an Ertiga. Bigger groups, or pilgrim parties travelling together, lean toward the Innova Crysta or the Force Tempo Traveler. On stays, Kashi Ghoomo works with properties like Brijrama Palace Heritage Hotel and Taj Ganges Varanasi for travelers wanting something nicer and more moderately priced ghatside hotels for anyone prioritizing budget.</p>
+
+<h2>What Past Travelers Have Said</h2>
+
+<p>One traveler mentioned the airport pickup being right on time, calling the whole trip hassle-free. Another brought up trusting Kashi Ghoomo specifically for darshan and local sightseeing, describing it as a professional start to finish. A third pointed to the VIP darshan arrangement at Kashi Vishwanath, saying it saved a lot of time compared to standing in line themselves.</p>
+
+<h2>Why Travelers Choose Kashi Ghoomo for This Specific Route</h2>
+
+<p>Plenty of operators handle Varanasi well. Fewer handle all three cities with the same level of care; Prayagraj and Ayodhya often end up treated as an afterthought elsewhere.</p>
+
+<p>That\'s been the premise at Kashi Ghoomo since 2018, with all logistics for all three destinations transport, accommodations, and darshan booking all booked simultaneously so that the guest doesn\'t have to preoccupy themselves with the constant sourcing of logistics in three different unknown cities. That\'s the true differentiator of the total Varanasi Ayodhya Prayagraj package experience, not just the partial Varanasi.</p>
+
+<h2>Tips Before You Book Your Trip</h2>
+
+<p>Book a few weeks out if you\'re travelling during peak season or around Dev Diwali specifically; good hotels near the temples fill up fast. Check exactly what\'s in your package; meals and darshan assistance vary between operators. Bring comfortable shoes; there\'s real walking involved. If it is a Varanasi tour package for family, then do not forget to reconfirm the time before you proceed, as 4 days for 3 destinations can be a bit tiring if not taken care of correctly.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. How long is the Varanasi Ayodhya Prayagraj package?</strong></p>
+        <p>Most of our packages are 3 nights and 4 days long to help you unwind on the spiritual trip to Varanasi, Ayodhya, and Prayagraj without feeling stressed.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. What are all the Varanasi boat ride and cruise included in the package?</strong></p>
+        <p>Usually an evening Ganga Aarti cruise, and depending on the package, a sunrise ride along Assi Ghat too.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Is a Varanasi tour package for family really planned differently?</strong></p>
+        <p>Yes, pacing, vehicle size, and hotel choice all shift when kids or older relatives are part of the trip.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. Does VIP darshan come included?</strong></p>
+        <p>Yes, most packages through Kashi Ghoomo include it, and it makes a real difference at Kashi Vishwanath and Ram Janmabhoomi specifically.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. What vehicle works for a bigger group?</strong></p>
+        <p>Innova Crysta is for small to medium Pilgrim groups, and the Force tempo traveler is for Pilgrim groups or those who go from 4 people to 17.</p>
+    </div>
+</div>',
+  updated_at = NOW();
+
+-- Package: Varanasi Boat Ride and Cruise (varanasi-boat-ride-and-cruise)
+INSERT INTO packages (slug, title, duration, price, destination_id, service_id, difficulty, best_season, start_location, status, featured, images, inclusions, exclusions, itinerary, meta_title, meta_description, meta_keywords, description, created_at, updated_at)
+VALUES ('varanasi-boat-ride-and-cruise', 'Varanasi Boat Ride and Cruise', '3 Nights / 4 Days', 16500.00, 4, 4, 'Easy', 'October to March', 'Varanasi', 1, 1, '[\"packages\\/ioTeBgWiWs4SU5ZToleXGCYYXQhjR9MnP2MaBf3a.jpg\",\"packages\\/AdrdiwKiL5pD4obRusB9VkIjROHjCUd6OiiiQ542.jpg\",\"packages\\/S4jQcdlsm98eXYBB1pHYhLit4JIgV7vxdEswlRB9.jpg\"]', '[\"AC cab covering the whole route, no separate taxi negotiations city to city\",\"Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing\",\"VIP darshan passes at Kashi Vishwanath and Ram Janmabhoomi\",\"Boat rides in Varanasi already arranged (Evening Ganga Aarti & Sunrise)\",\"Airport or Railway Station pickup and drop in Varanasi\",\"All toll taxes, parking fees, and driver allowance\"]', '[\"Lunch and dinner (unless decided in advance)\",\"Shopping, tips, and personal expenses\",\"Monument entry tickets where applicable\",\"Airfare or train tickets to\\/from Varanasi\",\"Travel insurance\"]', '[{\"day\":\"Day 1\",\"title\":\"Varanasi Hotel and Ganga Aarti\",\"description\":\"Dashashwamedh Ghat & Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.\"},{\"day\":\"Day 2\",\"title\":\"Kashi Vishwanath, Annapurna Temple & Kaal Bhairav to Prayagraj & Ayodhya\",\"description\":\"In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple & Anand Bhawan. By night you reach Ayodhya and spend the night there.\"},{\"day\":\"Day 3\",\"title\":\"Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan & Dashrath Mahal\",\"description\":\"And maybe a Maharashtrian-style quality walk around the Saryu River too.\"},{\"day\":\"Day 4\",\"title\":\"Sarnath & Departure\",\"description\":\"Sarnath & then maybe some shopping if there is still time and we are on our way.\"}]', 'Varanasi Boat Ride and Cruise | Ganga Aarti & Sunrise Boat | Kashi Ghoomo', 'Experience Varanasi boat ride and cruise during evening Ganga Aarti and morning sunrise. Complete Varanasi Ayodhya Prayagraj tour package with Kashi Ghoomo.', 'Varanasi boat ride and cruise, Varanasi boat ride, Ganga Aarti cruise Varanasi, Assi ghat sunrise boat ride, Varanasi Ayodhya Prayagraj package', '<h1>One Trip, Three Rivers: Inside the Varanasi Ayodhya Prayagraj Package</h1>
+
+<p>Varanasi, Prayagraj, and Ayodhya. Most tourists want every single one, and there’s a good justification for that, truthfully. They\'re close enough together that doing them separately just means paying for the same taxi trip three times over. A proper Varanasi Ayodhya Prayagraj package puts them into one trip instead, and Kashi Ghoomo\'s been running this exact route since 2018.</p>
+
+<h2>Why This Particular Route Makes Sense Together</h2>
+
+<p>Travel time between Varanasi and Prayagraj is 2-3 hrs by road. Between Prayagraj and Ayodhya, it is 3-4 hours. You do not necessarily have to travel to them separately. They are part of one loop.</p>
+
+<ul>
+    <li>All three places have unique characteristics. Varanasi for ghats and aarti, Prayagraj for river confluence, and Ayodhya for temples.</li>
+    <li>We do only the Varanasi Ayodhya Prayagraj package as well, where we cover all three places.</li>
+    <li>The drive times work out well enough that nothing feels rushed if the itinerary\'s planned properly.</li>
+    <li>Most travelers who\'ve done Varanasi alone before say adding Prayagraj and Ayodhya genuinely rounds the trip out.</li>
+</ul>
+
+<h2>What a Typical Varanasi Ayodhya Prayagraj Package Actually Covers</h2>
+
+<p>Kashi Ghoomo runs this as a 3-night, 4-day trip. Here\'s roughly how it plays out.</p>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Varanasi Hotel and Ganga Aarti</h3>
+    <p>Dashashwamedh Ghat &amp; Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.</p>
+
+    <h3>Day 2: Kashi Vishwanath, Annapurna Temple &amp; Kaal Bhairav</h3>
+    <p>In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple &amp; Anand Bhawan. By night you reach Ayodhya and spend the night there.</p>
+
+    <h3>Day 3: Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan &amp; Dashrath Mahal</h3>
+    <p>And maybe a Maharashtrian-style quality walk around the Saryu River too.</p>
+
+    <h3>Day 4: Sarnath</h3>
+    <p>Sarnath &amp; then maybe some shopping if there is still time and we are on our way.</p>
+</div>
+
+<h2>What\'s Included in the Package</h2>
+
+<p>A properly run Varanasi Ayodhya Prayagraj package should take care of the parts that usually go wrong when people try to plan this route themselves.</p>
+
+<ul>
+    <li>AC cab covering the whole route, no separate taxi negotiations city to city</li>
+    <li>Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing</li>
+    <li>VIP darshan passes, which matter more than people expect, and queues at Kashi Vishwanath and Ram Janmabhoomi get long.</li>
+    <li>Boat rides in Varanasi are already arranged; there is nothing to sort out once you land.</li>
+</ul>
+
+<h2>Why a Varanasi Tour Package for Family Needs Different Planning</h2>
+
+<p>Having the kids along or an elderly parent who can\'t walk all day alters what truly counts on such a trip. A Varanasi family tour package should be nothing like one designed for two backpackers.</p>
+
+<p>Pace matters most. Cramming three temple visits and a four-hour drive into one day works fine for some travelers, badly for others. A genuine Varanasi tour package for family builds in breathing room. Vehicle size matters too; an Ertiga fits a family of six comfortably, while a Dzire really doesn\'t once luggage gets involved.</p>
+
+<p>Kashi Ghoomo also has the Force Tempo Traveler for bigger, multi-generation groups. And what makes the hotel selection is the fact that nothing should matter in the Varanasi Ayodhya Prayagraj package: the balcony by the river, which everyone will find time to sit in, but breakfast, WiFi, and room service.</p>
+
+<h2>What is the Varanasi Boat Ride and Cruise Experience? Explained</h2>
+
+<p>The Varanasi boat ride and cruise is generally the highlight for most travelers, so it\'s better to spend a bit of time describing it properly instead of covering it under the label \"just a boat trip.\"</p>
+
+<ul>
+    <li><strong>Evening aarti from the water</strong> – Priests, fire lamps, drums, hundreds of people on the ghats, all of it, but seen from the river instead of standing in that crowd yourself.</li>
+    <li><strong>Sunrise on Assi Ghat</strong> – A quieter version of the Varanasi boat ride and cruise, with chanting and morning rituals, far calmer than the evening\'s energy.</li>
+    <li><strong>Different boat types are available</strong> – Bajra boats, motor boats, and decorated boats for festivals. Kashi Ghoomo runs a few options depending on what you\'re after.</li>
+    <li><strong>Dev Diwali gets busy fast</strong> – A Varanasi Ayodhya Prayagraj package during Dev Diwali is genuinely worth it, but book early; this one fills up quicker than any other slot.</li>
+</ul>
+
+<h2>Understanding the Triveni Sangam Stop in Prayagraj</h2>
+
+<p>Triveni Sangam, where the holy Ganga and Yamuna are joined by a mysterious Saraswati, is actually the sole reason Prayagraj makes the cut when you shove it between the two standards: Varanasi and Ayodhya, a package, of course, that is strictly for those willing to spend a few coins longer.</p>
+
+<p>Among most pujaris, a bath here actually feels substantial; it\'s not just eye candy between two bigger cities. Bade Hanuman Temple and Anand Bhawan sit nearby too, giving the stop some depth beyond the river itself.</p>
+
+<h2>Why Ayodhya Has Become a Bigger Draw in Recent Years</h2>
+
+<p>Since Ram Janmabhoomi Temple\'s completion, Ayodhya has stopped being a side addition to this route and become a genuine reason people book the trip in the first place.</p>
+
+<p>The temple\'s size catches people off guard, even those who\'ve already seen photos. Hanuman Garhi and Kanak Bhawan sit close by. And the evening Saryu Aarti, quieter than the daytime crowds at the main temple, ends up being what a lot of travelers actually remember most from Ayodhya.</p>
+
+<h2>Choosing the Right Vehicle and Accommodation</h2>
+
+<p>Small decisions here shape the whole trip more than people expect.</p>
+
+<p>For couples or solo travelers, a Dzire\'s fine. Families of up to six do better in an Ertiga. Bigger groups, or pilgrim parties travelling together, lean toward the Innova Crysta or the Force Tempo Traveler. On stays, Kashi Ghoomo works with properties like Brijrama Palace Heritage Hotel and Taj Ganges Varanasi for travelers wanting something nicer and more moderately priced ghatside hotels for anyone prioritizing budget.</p>
+
+<h2>What Past Travelers Have Said</h2>
+
+<p>One traveler mentioned the airport pickup being right on time, calling the whole trip hassle-free. Another brought up trusting Kashi Ghoomo specifically for darshan and local sightseeing, describing it as a professional start to finish. A third pointed to the VIP darshan arrangement at Kashi Vishwanath, saying it saved a lot of time compared to standing in line themselves.</p>
+
+<h2>Why Travelers Choose Kashi Ghoomo for This Specific Route</h2>
+
+<p>Plenty of operators handle Varanasi well. Fewer handle all three cities with the same level of care; Prayagraj and Ayodhya often end up treated as an afterthought elsewhere.</p>
+
+<p>That\'s been the premise at Kashi Ghoomo since 2018, with all logistics for all three destinations transport, accommodations, and darshan booking all booked simultaneously so that the guest doesn\'t have to preoccupy themselves with the constant sourcing of logistics in three different unknown cities. That\'s the true differentiator of the total Varanasi Ayodhya Prayagraj package experience, not just the partial Varanasi.</p>
+
+<h2>Tips Before You Book Your Trip</h2>
+
+<p>Book a few weeks out if you\'re travelling during peak season or around Dev Diwali specifically; good hotels near the temples fill up fast. Check exactly what\'s in your package; meals and darshan assistance vary between operators. Bring comfortable shoes; there\'s real walking involved. If it is a Varanasi tour package for family, then do not forget to reconfirm the time before you proceed, as 4 days for 3 destinations can be a bit tiring if not taken care of correctly.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. How long is the Varanasi Ayodhya Prayagraj package?</strong></p>
+        <p>Most of our packages are 3 nights and 4 days long to help you unwind on the spiritual trip to Varanasi, Ayodhya, and Prayagraj without feeling stressed.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. What are all the Varanasi boat ride and cruise included in the package?</strong></p>
+        <p>Usually an evening Ganga Aarti cruise, and depending on the package, a sunrise ride along Assi Ghat too.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Is a Varanasi tour package for family really planned differently?</strong></p>
+        <p>Yes, pacing, vehicle size, and hotel choice all shift when kids or older relatives are part of the trip.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. Does VIP darshan come included?</strong></p>
+        <p>Yes, most packages through Kashi Ghoomo include it, and it makes a real difference at Kashi Vishwanath and Ram Janmabhoomi specifically.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. What vehicle works for a bigger group?</strong></p>
+        <p>Innova Crysta is for small to medium Pilgrim groups, and the Force tempo traveler is for Pilgrim groups or those who go from 4 people to 17.</p>
+    </div>
+</div>', NOW(), NOW())
+ON DUPLICATE KEY UPDATE
+  title = 'Varanasi Boat Ride and Cruise',
+  duration = '3 Nights / 4 Days',
+  price = 16500.00,
+  images = '[\"packages\\/ioTeBgWiWs4SU5ZToleXGCYYXQhjR9MnP2MaBf3a.jpg\",\"packages\\/AdrdiwKiL5pD4obRusB9VkIjROHjCUd6OiiiQ542.jpg\",\"packages\\/S4jQcdlsm98eXYBB1pHYhLit4JIgV7vxdEswlRB9.jpg\"]',
+  inclusions = '[\"AC cab covering the whole route, no separate taxi negotiations city to city\",\"Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing\",\"VIP darshan passes at Kashi Vishwanath and Ram Janmabhoomi\",\"Boat rides in Varanasi already arranged (Evening Ganga Aarti & Sunrise)\",\"Airport or Railway Station pickup and drop in Varanasi\",\"All toll taxes, parking fees, and driver allowance\"]',
+  exclusions = '[\"Lunch and dinner (unless decided in advance)\",\"Shopping, tips, and personal expenses\",\"Monument entry tickets where applicable\",\"Airfare or train tickets to\\/from Varanasi\",\"Travel insurance\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Varanasi Hotel and Ganga Aarti\",\"description\":\"Dashashwamedh Ghat & Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.\"},{\"day\":\"Day 2\",\"title\":\"Kashi Vishwanath, Annapurna Temple & Kaal Bhairav to Prayagraj & Ayodhya\",\"description\":\"In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple & Anand Bhawan. By night you reach Ayodhya and spend the night there.\"},{\"day\":\"Day 3\",\"title\":\"Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan & Dashrath Mahal\",\"description\":\"And maybe a Maharashtrian-style quality walk around the Saryu River too.\"},{\"day\":\"Day 4\",\"title\":\"Sarnath & Departure\",\"description\":\"Sarnath & then maybe some shopping if there is still time and we are on our way.\"}]',
+  meta_title = 'Varanasi Boat Ride and Cruise | Ganga Aarti & Sunrise Boat | Kashi Ghoomo',
+  meta_description = 'Experience Varanasi boat ride and cruise during evening Ganga Aarti and morning sunrise. Complete Varanasi Ayodhya Prayagraj tour package with Kashi Ghoomo.',
+  meta_keywords = 'Varanasi boat ride and cruise, Varanasi boat ride, Ganga Aarti cruise Varanasi, Assi ghat sunrise boat ride, Varanasi Ayodhya Prayagraj package',
+  description = '<h1>One Trip, Three Rivers: Inside the Varanasi Ayodhya Prayagraj Package</h1>
+
+<p>Varanasi, Prayagraj, and Ayodhya. Most tourists want every single one, and there’s a good justification for that, truthfully. They\'re close enough together that doing them separately just means paying for the same taxi trip three times over. A proper Varanasi Ayodhya Prayagraj package puts them into one trip instead, and Kashi Ghoomo\'s been running this exact route since 2018.</p>
+
+<h2>Why This Particular Route Makes Sense Together</h2>
+
+<p>Travel time between Varanasi and Prayagraj is 2-3 hrs by road. Between Prayagraj and Ayodhya, it is 3-4 hours. You do not necessarily have to travel to them separately. They are part of one loop.</p>
+
+<ul>
+    <li>All three places have unique characteristics. Varanasi for ghats and aarti, Prayagraj for river confluence, and Ayodhya for temples.</li>
+    <li>We do only the Varanasi Ayodhya Prayagraj package as well, where we cover all three places.</li>
+    <li>The drive times work out well enough that nothing feels rushed if the itinerary\'s planned properly.</li>
+    <li>Most travelers who\'ve done Varanasi alone before say adding Prayagraj and Ayodhya genuinely rounds the trip out.</li>
+</ul>
+
+<h2>What a Typical Varanasi Ayodhya Prayagraj Package Actually Covers</h2>
+
+<p>Kashi Ghoomo runs this as a 3-night, 4-day trip. Here\'s roughly how it plays out.</p>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Varanasi Hotel and Ganga Aarti</h3>
+    <p>Dashashwamedh Ghat &amp; Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.</p>
+
+    <h3>Day 2: Kashi Vishwanath, Annapurna Temple &amp; Kaal Bhairav</h3>
+    <p>In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple &amp; Anand Bhawan. By night you reach Ayodhya and spend the night there.</p>
+
+    <h3>Day 3: Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan &amp; Dashrath Mahal</h3>
+    <p>And maybe a Maharashtrian-style quality walk around the Saryu River too.</p>
+
+    <h3>Day 4: Sarnath</h3>
+    <p>Sarnath &amp; then maybe some shopping if there is still time and we are on our way.</p>
+</div>
+
+<h2>What\'s Included in the Package</h2>
+
+<p>A properly run Varanasi Ayodhya Prayagraj package should take care of the parts that usually go wrong when people try to plan this route themselves.</p>
+
+<ul>
+    <li>AC cab covering the whole route, no separate taxi negotiations city to city</li>
+    <li>Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing</li>
+    <li>VIP darshan passes, which matter more than people expect, and queues at Kashi Vishwanath and Ram Janmabhoomi get long.</li>
+    <li>Boat rides in Varanasi are already arranged; there is nothing to sort out once you land.</li>
+</ul>
+
+<h2>Why a Varanasi Tour Package for Family Needs Different Planning</h2>
+
+<p>Having the kids along or an elderly parent who can\'t walk all day alters what truly counts on such a trip. A Varanasi family tour package should be nothing like one designed for two backpackers.</p>
+
+<p>Pace matters most. Cramming three temple visits and a four-hour drive into one day works fine for some travelers, badly for others. A genuine Varanasi tour package for family builds in breathing room. Vehicle size matters too; an Ertiga fits a family of six comfortably, while a Dzire really doesn\'t once luggage gets involved.</p>
+
+<p>Kashi Ghoomo also has the Force Tempo Traveler for bigger, multi-generation groups. And what makes the hotel selection is the fact that nothing should matter in the Varanasi Ayodhya Prayagraj package: the balcony by the river, which everyone will find time to sit in, but breakfast, WiFi, and room service.</p>
+
+<h2>What is the Varanasi Boat Ride and Cruise Experience? Explained</h2>
+
+<p>The Varanasi boat ride and cruise is generally the highlight for most travelers, so it\'s better to spend a bit of time describing it properly instead of covering it under the label \"just a boat trip.\"</p>
+
+<ul>
+    <li><strong>Evening aarti from the water</strong> – Priests, fire lamps, drums, hundreds of people on the ghats, all of it, but seen from the river instead of standing in that crowd yourself.</li>
+    <li><strong>Sunrise on Assi Ghat</strong> – A quieter version of the Varanasi boat ride and cruise, with chanting and morning rituals, far calmer than the evening\'s energy.</li>
+    <li><strong>Different boat types are available</strong> – Bajra boats, motor boats, and decorated boats for festivals. Kashi Ghoomo runs a few options depending on what you\'re after.</li>
+    <li><strong>Dev Diwali gets busy fast</strong> – A Varanasi Ayodhya Prayagraj package during Dev Diwali is genuinely worth it, but book early; this one fills up quicker than any other slot.</li>
+</ul>
+
+<h2>Understanding the Triveni Sangam Stop in Prayagraj</h2>
+
+<p>Triveni Sangam, where the holy Ganga and Yamuna are joined by a mysterious Saraswati, is actually the sole reason Prayagraj makes the cut when you shove it between the two standards: Varanasi and Ayodhya, a package, of course, that is strictly for those willing to spend a few coins longer.</p>
+
+<p>Among most pujaris, a bath here actually feels substantial; it\'s not just eye candy between two bigger cities. Bade Hanuman Temple and Anand Bhawan sit nearby too, giving the stop some depth beyond the river itself.</p>
+
+<h2>Why Ayodhya Has Become a Bigger Draw in Recent Years</h2>
+
+<p>Since Ram Janmabhoomi Temple\'s completion, Ayodhya has stopped being a side addition to this route and become a genuine reason people book the trip in the first place.</p>
+
+<p>The temple\'s size catches people off guard, even those who\'ve already seen photos. Hanuman Garhi and Kanak Bhawan sit close by. And the evening Saryu Aarti, quieter than the daytime crowds at the main temple, ends up being what a lot of travelers actually remember most from Ayodhya.</p>
+
+<h2>Choosing the Right Vehicle and Accommodation</h2>
+
+<p>Small decisions here shape the whole trip more than people expect.</p>
+
+<p>For couples or solo travelers, a Dzire\'s fine. Families of up to six do better in an Ertiga. Bigger groups, or pilgrim parties travelling together, lean toward the Innova Crysta or the Force Tempo Traveler. On stays, Kashi Ghoomo works with properties like Brijrama Palace Heritage Hotel and Taj Ganges Varanasi for travelers wanting something nicer and more moderately priced ghatside hotels for anyone prioritizing budget.</p>
+
+<h2>What Past Travelers Have Said</h2>
+
+<p>One traveler mentioned the airport pickup being right on time, calling the whole trip hassle-free. Another brought up trusting Kashi Ghoomo specifically for darshan and local sightseeing, describing it as a professional start to finish. A third pointed to the VIP darshan arrangement at Kashi Vishwanath, saying it saved a lot of time compared to standing in line themselves.</p>
+
+<h2>Why Travelers Choose Kashi Ghoomo for This Specific Route</h2>
+
+<p>Plenty of operators handle Varanasi well. Fewer handle all three cities with the same level of care; Prayagraj and Ayodhya often end up treated as an afterthought elsewhere.</p>
+
+<p>That\'s been the premise at Kashi Ghoomo since 2018, with all logistics for all three destinations transport, accommodations, and darshan booking all booked simultaneously so that the guest doesn\'t have to preoccupy themselves with the constant sourcing of logistics in three different unknown cities. That\'s the true differentiator of the total Varanasi Ayodhya Prayagraj package experience, not just the partial Varanasi.</p>
+
+<h2>Tips Before You Book Your Trip</h2>
+
+<p>Book a few weeks out if you\'re travelling during peak season or around Dev Diwali specifically; good hotels near the temples fill up fast. Check exactly what\'s in your package; meals and darshan assistance vary between operators. Bring comfortable shoes; there\'s real walking involved. If it is a Varanasi tour package for family, then do not forget to reconfirm the time before you proceed, as 4 days for 3 destinations can be a bit tiring if not taken care of correctly.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. How long is the Varanasi Ayodhya Prayagraj package?</strong></p>
+        <p>Most of our packages are 3 nights and 4 days long to help you unwind on the spiritual trip to Varanasi, Ayodhya, and Prayagraj without feeling stressed.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. What are all the Varanasi boat ride and cruise included in the package?</strong></p>
+        <p>Usually an evening Ganga Aarti cruise, and depending on the package, a sunrise ride along Assi Ghat too.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Is a Varanasi tour package for family really planned differently?</strong></p>
+        <p>Yes, pacing, vehicle size, and hotel choice all shift when kids or older relatives are part of the trip.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. Does VIP darshan come included?</strong></p>
+        <p>Yes, most packages through Kashi Ghoomo include it, and it makes a real difference at Kashi Vishwanath and Ram Janmabhoomi specifically.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. What vehicle works for a bigger group?</strong></p>
+        <p>Innova Crysta is for small to medium Pilgrim groups, and the Force tempo traveler is for Pilgrim groups or those who go from 4 people to 17.</p>
+    </div>
+</div>',
+  updated_at = NOW();
+
+-- Package: Book Kashi, Prayagraj & Ayodhya Tour Package (3 Nights / 4 Days) (book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days)
+INSERT INTO packages (slug, title, duration, price, destination_id, service_id, difficulty, best_season, start_location, status, featured, images, inclusions, exclusions, itinerary, meta_title, meta_description, meta_keywords, description, created_at, updated_at)
+VALUES ('book-kashi-prayagraj-ayodhya-tour-package-3-nights-4-days', 'Book Kashi, Prayagraj & Ayodhya Tour Package (3 Nights / 4 Days)', '3N-4D', 18500.00, 8, 1, 'Easy', 'October to March', 'Varanasi', 1, 1, '[\"packages\\/NCUJO3exg03YJ64tKQif9f4Q2Az9hkqrmpDSqKF5.png\",\"packages\\/NjRvoNpJspwOKOzGrPW2iYcTokXueLBMAqd1VHqp.png\",\"packages\\/92XF8q3Urlyw0r2NJmTIL07m8rDc1V1Ut9tR2I1Z.png\"]', '[\"AC cab covering the whole route, no separate taxi negotiations city to city\",\"Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing\",\"VIP darshan passes at Kashi Vishwanath and Ram Janmabhoomi\",\"Boat rides in Varanasi already arranged (Evening Ganga Aarti & Sunrise)\",\"Airport or Railway Station pickup and drop in Varanasi\",\"All toll taxes, parking fees, and driver allowance\"]', '[\"Lunch and dinner (unless decided in advance)\",\"Shopping, tips, and personal expenses\",\"Monument entry tickets where applicable\",\"Airfare or train tickets to\\/from Varanasi\",\"Travel insurance\"]', '[{\"day\":\"Day 1\",\"title\":\"Varanasi Hotel and Ganga Aarti\",\"description\":\"Dashashwamedh Ghat & Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.\"},{\"day\":\"Day 2\",\"title\":\"Kashi Vishwanath, Annapurna Temple & Kaal Bhairav to Prayagraj & Ayodhya\",\"description\":\"In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple & Anand Bhawan. By night you reach Ayodhya and spend the night there.\"},{\"day\":\"Day 3\",\"title\":\"Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan & Dashrath Mahal\",\"description\":\"And maybe a Maharashtrian-style quality walk around the Saryu River too.\"},{\"day\":\"Day 4\",\"title\":\"Sarnath & Departure\",\"description\":\"Sarnath & then maybe some shopping if there is still time and we are on our way.\"}]', 'Book Kashi Prayagraj Ayodhya Tour Package 3 Nights 4 Days | Kashi Ghoomo', 'Book the best Kashi, Prayagraj & Ayodhya Tour Package (3 Nights / 4 Days). Visit Kashi Vishwanath, Triveni Sangam & Ram Janmabhoomi with hotel, cab & sightseeing.', 'Kashi Tour Package, Prayagraj Tour Package, Ayodhya Tour Package, Kashi Prayagraj Ayodhya Package, Varanasi Tour, Spiritual Tour India, Ram Mandir Tour, Triveni Sangam Tour, Kashi Ghoomo, Pilgrimage Tour Uttar Pradesh', '<h1>One Trip, Three Rivers: Inside the Varanasi Ayodhya Prayagraj Package</h1>
+
+<p>Varanasi, Prayagraj, and Ayodhya. Most tourists want every single one, and there’s a good justification for that, truthfully. They\'re close enough together that doing them separately just means paying for the same taxi trip three times over. A proper Varanasi Ayodhya Prayagraj package puts them into one trip instead, and Kashi Ghoomo\'s been running this exact route since 2018.</p>
+
+<h2>Why This Particular Route Makes Sense Together</h2>
+
+<p>Travel time between Varanasi and Prayagraj is 2-3 hrs by road. Between Prayagraj and Ayodhya, it is 3-4 hours. You do not necessarily have to travel to them separately. They are part of one loop.</p>
+
+<ul>
+    <li>All three places have unique characteristics. Varanasi for ghats and aarti, Prayagraj for river confluence, and Ayodhya for temples.</li>
+    <li>We do only the Varanasi Ayodhya Prayagraj package as well, where we cover all three places.</li>
+    <li>The drive times work out well enough that nothing feels rushed if the itinerary\'s planned properly.</li>
+    <li>Most travelers who\'ve done Varanasi alone before say adding Prayagraj and Ayodhya genuinely rounds the trip out.</li>
+</ul>
+
+<h2>What a Typical Varanasi Ayodhya Prayagraj Package Actually Covers</h2>
+
+<p>Kashi Ghoomo runs this as a 3-night, 4-day trip. Here\'s roughly how it plays out.</p>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Varanasi Hotel and Ganga Aarti</h3>
+    <p>Dashashwamedh Ghat &amp; Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.</p>
+
+    <h3>Day 2: Kashi Vishwanath, Annapurna Temple &amp; Kaal Bhairav</h3>
+    <p>In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple &amp; Anand Bhawan. By night you reach Ayodhya and spend the night there.</p>
+
+    <h3>Day 3: Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan &amp; Dashrath Mahal</h3>
+    <p>And maybe a Maharashtrian-style quality walk around the Saryu River too.</p>
+
+    <h3>Day 4: Sarnath</h3>
+    <p>Sarnath &amp; then maybe some shopping if there is still time and we are on our way.</p>
+</div>
+
+<h2>What\'s Included in the Package</h2>
+
+<p>A properly run Varanasi Ayodhya Prayagraj package should take care of the parts that usually go wrong when people try to plan this route themselves.</p>
+
+<ul>
+    <li>AC cab covering the whole route, no separate taxi negotiations city to city</li>
+    <li>Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing</li>
+    <li>VIP darshan passes, which matter more than people expect, and queues at Kashi Vishwanath and Ram Janmabhoomi get long.</li>
+    <li>Boat rides in Varanasi are already arranged; there is nothing to sort out once you land.</li>
+</ul>
+
+<h2>Why a Varanasi Tour Package for Family Needs Different Planning</h2>
+
+<p>Having the kids along or an elderly parent who can\'t walk all day alters what truly counts on such a trip. A Varanasi family tour package should be nothing like one designed for two backpackers.</p>
+
+<p>Pace matters most. Cramming three temple visits and a four-hour drive into one day works fine for some travelers, badly for others. A genuine Varanasi tour package for family builds in breathing room. Vehicle size matters too; an Ertiga fits a family of six comfortably, while a Dzire really doesn\'t once luggage gets involved.</p>
+
+<p>Kashi Ghoomo also has the Force Tempo Traveler for bigger, multi-generation groups. And what makes the hotel selection is the fact that nothing should matter in the Varanasi Ayodhya Prayagraj package: the balcony by the river, which everyone will find time to sit in, but breakfast, WiFi, and room service.</p>
+
+<h2>What is the Varanasi Boat Ride and Cruise Experience? Explained</h2>
+
+<p>The Varanasi boat ride and cruise is generally the highlight for most travelers, so it\'s better to spend a bit of time describing it properly instead of covering it under the label \"just a boat trip.\"</p>
+
+<ul>
+    <li><strong>Evening aarti from the water</strong> – Priests, fire lamps, drums, hundreds of people on the ghats, all of it, but seen from the river instead of standing in that crowd yourself.</li>
+    <li><strong>Sunrise on Assi Ghat</strong> – A quieter version of the Varanasi boat ride and cruise, with chanting and morning rituals, far calmer than the evening\'s energy.</li>
+    <li><strong>Different boat types are available</strong> – Bajra boats, motor boats, and decorated boats for festivals. Kashi Ghoomo runs a few options depending on what you\'re after.</li>
+    <li><strong>Dev Diwali gets busy fast</strong> – A Varanasi Ayodhya Prayagraj package during Dev Diwali is genuinely worth it, but book early; this one fills up quicker than any other slot.</li>
+</ul>
+
+<h2>Understanding the Triveni Sangam Stop in Prayagraj</h2>
+
+<p>Triveni Sangam, where the holy Ganga and Yamuna are joined by a mysterious Saraswati, is actually the sole reason Prayagraj makes the cut when you shove it between the two standards: Varanasi and Ayodhya, a package, of course, that is strictly for those willing to spend a few coins longer.</p>
+
+<p>Among most pujaris, a bath here actually feels substantial; it\'s not just eye candy between two bigger cities. Bade Hanuman Temple and Anand Bhawan sit nearby too, giving the stop some depth beyond the river itself.</p>
+
+<h2>Why Ayodhya Has Become a Bigger Draw in Recent Years</h2>
+
+<p>Since Ram Janmabhoomi Temple\'s completion, Ayodhya has stopped being a side addition to this route and become a genuine reason people book the trip in the first place.</p>
+
+<p>The temple\'s size catches people off guard, even those who\'ve already seen photos. Hanuman Garhi and Kanak Bhawan sit close by. And the evening Saryu Aarti, quieter than the daytime crowds at the main temple, ends up being what a lot of travelers actually remember most from Ayodhya.</p>
+
+<h2>Choosing the Right Vehicle and Accommodation</h2>
+
+<p>Small decisions here shape the whole trip more than people expect.</p>
+
+<p>For couples or solo travelers, a Dzire\'s fine. Families of up to six do better in an Ertiga. Bigger groups, or pilgrim parties travelling together, lean toward the Innova Crysta or the Force Tempo Traveler. On stays, Kashi Ghoomo works with properties like Brijrama Palace Heritage Hotel and Taj Ganges Varanasi for travelers wanting something nicer and more moderately priced ghatside hotels for anyone prioritizing budget.</p>
+
+<h2>What Past Travelers Have Said</h2>
+
+<p>One traveler mentioned the airport pickup being right on time, calling the whole trip hassle-free. Another brought up trusting Kashi Ghoomo specifically for darshan and local sightseeing, describing it as a professional start to finish. A third pointed to the VIP darshan arrangement at Kashi Vishwanath, saying it saved a lot of time compared to standing in line themselves.</p>
+
+<h2>Why Travelers Choose Kashi Ghoomo for This Specific Route</h2>
+
+<p>Plenty of operators handle Varanasi well. Fewer handle all three cities with the same level of care; Prayagraj and Ayodhya often end up treated as an afterthought elsewhere.</p>
+
+<p>That\'s been the premise at Kashi Ghoomo since 2018, with all logistics for all three destinations transport, accommodations, and darshan booking all booked simultaneously so that the guest doesn\'t have to preoccupy themselves with the constant sourcing of logistics in three different unknown cities. That\'s the true differentiator of the total Varanasi Ayodhya Prayagraj package experience, not just the partial Varanasi.</p>
+
+<h2>Tips Before You Book Your Trip</h2>
+
+<p>Book a few weeks out if you\'re travelling during peak season or around Dev Diwali specifically; good hotels near the temples fill up fast. Check exactly what\'s in your package; meals and darshan assistance vary between operators. Bring comfortable shoes; there\'s real walking involved. If it is a Varanasi tour package for family, then do not forget to reconfirm the time before you proceed, as 4 days for 3 destinations can be a bit tiring if not taken care of correctly.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. How long is the Varanasi Ayodhya Prayagraj package?</strong></p>
+        <p>Most of our packages are 3 nights and 4 days long to help you unwind on the spiritual trip to Varanasi, Ayodhya, and Prayagraj without feeling stressed.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. What are all the Varanasi boat ride and cruise included in the package?</strong></p>
+        <p>Usually an evening Ganga Aarti cruise, and depending on the package, a sunrise ride along Assi Ghat too.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Is a Varanasi tour package for family really planned differently?</strong></p>
+        <p>Yes, pacing, vehicle size, and hotel choice all shift when kids or older relatives are part of the trip.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. Does VIP darshan come included?</strong></p>
+        <p>Yes, most packages through Kashi Ghoomo include it, and it makes a real difference at Kashi Vishwanath and Ram Janmabhoomi specifically.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. What vehicle works for a bigger group?</strong></p>
+        <p>Innova Crysta is for small to medium Pilgrim groups, and the Force tempo traveler is for Pilgrim groups or those who go from 4 people to 17.</p>
+    </div>
+</div>', NOW(), NOW())
+ON DUPLICATE KEY UPDATE
+  title = 'Book Kashi, Prayagraj & Ayodhya Tour Package (3 Nights / 4 Days)',
+  duration = '3N-4D',
+  price = 18500.00,
+  images = '[\"packages\\/NCUJO3exg03YJ64tKQif9f4Q2Az9hkqrmpDSqKF5.png\",\"packages\\/NjRvoNpJspwOKOzGrPW2iYcTokXueLBMAqd1VHqp.png\",\"packages\\/92XF8q3Urlyw0r2NJmTIL07m8rDc1V1Ut9tR2I1Z.png\"]',
+  inclusions = '[\"AC cab covering the whole route, no separate taxi negotiations city to city\",\"Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing\",\"VIP darshan passes at Kashi Vishwanath and Ram Janmabhoomi\",\"Boat rides in Varanasi already arranged (Evening Ganga Aarti & Sunrise)\",\"Airport or Railway Station pickup and drop in Varanasi\",\"All toll taxes, parking fees, and driver allowance\"]',
+  exclusions = '[\"Lunch and dinner (unless decided in advance)\",\"Shopping, tips, and personal expenses\",\"Monument entry tickets where applicable\",\"Airfare or train tickets to\\/from Varanasi\",\"Travel insurance\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Varanasi Hotel and Ganga Aarti\",\"description\":\"Dashashwamedh Ghat & Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.\"},{\"day\":\"Day 2\",\"title\":\"Kashi Vishwanath, Annapurna Temple & Kaal Bhairav to Prayagraj & Ayodhya\",\"description\":\"In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple & Anand Bhawan. By night you reach Ayodhya and spend the night there.\"},{\"day\":\"Day 3\",\"title\":\"Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan & Dashrath Mahal\",\"description\":\"And maybe a Maharashtrian-style quality walk around the Saryu River too.\"},{\"day\":\"Day 4\",\"title\":\"Sarnath & Departure\",\"description\":\"Sarnath & then maybe some shopping if there is still time and we are on our way.\"}]',
+  meta_title = 'Book Kashi Prayagraj Ayodhya Tour Package 3 Nights 4 Days | Kashi Ghoomo',
+  meta_description = 'Book the best Kashi, Prayagraj & Ayodhya Tour Package (3 Nights / 4 Days). Visit Kashi Vishwanath, Triveni Sangam & Ram Janmabhoomi with hotel, cab & sightseeing.',
+  meta_keywords = 'Kashi Tour Package, Prayagraj Tour Package, Ayodhya Tour Package, Kashi Prayagraj Ayodhya Package, Varanasi Tour, Spiritual Tour India, Ram Mandir Tour, Triveni Sangam Tour, Kashi Ghoomo, Pilgrimage Tour Uttar Pradesh',
+  description = '<h1>One Trip, Three Rivers: Inside the Varanasi Ayodhya Prayagraj Package</h1>
+
+<p>Varanasi, Prayagraj, and Ayodhya. Most tourists want every single one, and there’s a good justification for that, truthfully. They\'re close enough together that doing them separately just means paying for the same taxi trip three times over. A proper Varanasi Ayodhya Prayagraj package puts them into one trip instead, and Kashi Ghoomo\'s been running this exact route since 2018.</p>
+
+<h2>Why This Particular Route Makes Sense Together</h2>
+
+<p>Travel time between Varanasi and Prayagraj is 2-3 hrs by road. Between Prayagraj and Ayodhya, it is 3-4 hours. You do not necessarily have to travel to them separately. They are part of one loop.</p>
+
+<ul>
+    <li>All three places have unique characteristics. Varanasi for ghats and aarti, Prayagraj for river confluence, and Ayodhya for temples.</li>
+    <li>We do only the Varanasi Ayodhya Prayagraj package as well, where we cover all three places.</li>
+    <li>The drive times work out well enough that nothing feels rushed if the itinerary\'s planned properly.</li>
+    <li>Most travelers who\'ve done Varanasi alone before say adding Prayagraj and Ayodhya genuinely rounds the trip out.</li>
+</ul>
+
+<h2>What a Typical Varanasi Ayodhya Prayagraj Package Actually Covers</h2>
+
+<p>Kashi Ghoomo runs this as a 3-night, 4-day trip. Here\'s roughly how it plays out.</p>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Varanasi Hotel and Ganga Aarti</h3>
+    <p>Dashashwamedh Ghat &amp; Bhojan Ghat in the evening. Most of the groups that travel with us also do it from a boat in order to have a better view.</p>
+
+    <h3>Day 2: Kashi Vishwanath, Annapurna Temple &amp; Kaal Bhairav</h3>
+    <p>In the morning and back at the hotel for breakfast, then to Prayagraj and the sacred bath at Triveni Sangam with two quick stops at Bade Hanuman Temple &amp; Anand Bhawan. By night you reach Ayodhya and spend the night there.</p>
+
+    <h3>Day 3: Ram Janmabhoomi Temple, Hanuman Garhi, Kanak Bhawan &amp; Dashrath Mahal</h3>
+    <p>And maybe a Maharashtrian-style quality walk around the Saryu River too.</p>
+
+    <h3>Day 4: Sarnath</h3>
+    <p>Sarnath &amp; then maybe some shopping if there is still time and we are on our way.</p>
+</div>
+
+<h2>What\'s Included in the Package</h2>
+
+<p>A properly run Varanasi Ayodhya Prayagraj package should take care of the parts that usually go wrong when people try to plan this route themselves.</p>
+
+<ul>
+    <li>AC cab covering the whole route, no separate taxi negotiations city to city</li>
+    <li>Hotel stays with breakfast, usually 3-star, positioned near the actual sightseeing</li>
+    <li>VIP darshan passes, which matter more than people expect, and queues at Kashi Vishwanath and Ram Janmabhoomi get long.</li>
+    <li>Boat rides in Varanasi are already arranged; there is nothing to sort out once you land.</li>
+</ul>
+
+<h2>Why a Varanasi Tour Package for Family Needs Different Planning</h2>
+
+<p>Having the kids along or an elderly parent who can\'t walk all day alters what truly counts on such a trip. A Varanasi family tour package should be nothing like one designed for two backpackers.</p>
+
+<p>Pace matters most. Cramming three temple visits and a four-hour drive into one day works fine for some travelers, badly for others. A genuine Varanasi tour package for family builds in breathing room. Vehicle size matters too; an Ertiga fits a family of six comfortably, while a Dzire really doesn\'t once luggage gets involved.</p>
+
+<p>Kashi Ghoomo also has the Force Tempo Traveler for bigger, multi-generation groups. And what makes the hotel selection is the fact that nothing should matter in the Varanasi Ayodhya Prayagraj package: the balcony by the river, which everyone will find time to sit in, but breakfast, WiFi, and room service.</p>
+
+<h2>What is the Varanasi Boat Ride and Cruise Experience? Explained</h2>
+
+<p>The Varanasi boat ride and cruise is generally the highlight for most travelers, so it\'s better to spend a bit of time describing it properly instead of covering it under the label \"just a boat trip.\"</p>
+
+<ul>
+    <li><strong>Evening aarti from the water</strong> – Priests, fire lamps, drums, hundreds of people on the ghats, all of it, but seen from the river instead of standing in that crowd yourself.</li>
+    <li><strong>Sunrise on Assi Ghat</strong> – A quieter version of the Varanasi boat ride and cruise, with chanting and morning rituals, far calmer than the evening\'s energy.</li>
+    <li><strong>Different boat types are available</strong> – Bajra boats, motor boats, and decorated boats for festivals. Kashi Ghoomo runs a few options depending on what you\'re after.</li>
+    <li><strong>Dev Diwali gets busy fast</strong> – A Varanasi Ayodhya Prayagraj package during Dev Diwali is genuinely worth it, but book early; this one fills up quicker than any other slot.</li>
+</ul>
+
+<h2>Understanding the Triveni Sangam Stop in Prayagraj</h2>
+
+<p>Triveni Sangam, where the holy Ganga and Yamuna are joined by a mysterious Saraswati, is actually the sole reason Prayagraj makes the cut when you shove it between the two standards: Varanasi and Ayodhya, a package, of course, that is strictly for those willing to spend a few coins longer.</p>
+
+<p>Among most pujaris, a bath here actually feels substantial; it\'s not just eye candy between two bigger cities. Bade Hanuman Temple and Anand Bhawan sit nearby too, giving the stop some depth beyond the river itself.</p>
+
+<h2>Why Ayodhya Has Become a Bigger Draw in Recent Years</h2>
+
+<p>Since Ram Janmabhoomi Temple\'s completion, Ayodhya has stopped being a side addition to this route and become a genuine reason people book the trip in the first place.</p>
+
+<p>The temple\'s size catches people off guard, even those who\'ve already seen photos. Hanuman Garhi and Kanak Bhawan sit close by. And the evening Saryu Aarti, quieter than the daytime crowds at the main temple, ends up being what a lot of travelers actually remember most from Ayodhya.</p>
+
+<h2>Choosing the Right Vehicle and Accommodation</h2>
+
+<p>Small decisions here shape the whole trip more than people expect.</p>
+
+<p>For couples or solo travelers, a Dzire\'s fine. Families of up to six do better in an Ertiga. Bigger groups, or pilgrim parties travelling together, lean toward the Innova Crysta or the Force Tempo Traveler. On stays, Kashi Ghoomo works with properties like Brijrama Palace Heritage Hotel and Taj Ganges Varanasi for travelers wanting something nicer and more moderately priced ghatside hotels for anyone prioritizing budget.</p>
+
+<h2>What Past Travelers Have Said</h2>
+
+<p>One traveler mentioned the airport pickup being right on time, calling the whole trip hassle-free. Another brought up trusting Kashi Ghoomo specifically for darshan and local sightseeing, describing it as a professional start to finish. A third pointed to the VIP darshan arrangement at Kashi Vishwanath, saying it saved a lot of time compared to standing in line themselves.</p>
+
+<h2>Why Travelers Choose Kashi Ghoomo for This Specific Route</h2>
+
+<p>Plenty of operators handle Varanasi well. Fewer handle all three cities with the same level of care; Prayagraj and Ayodhya often end up treated as an afterthought elsewhere.</p>
+
+<p>That\'s been the premise at Kashi Ghoomo since 2018, with all logistics for all three destinations transport, accommodations, and darshan booking all booked simultaneously so that the guest doesn\'t have to preoccupy themselves with the constant sourcing of logistics in three different unknown cities. That\'s the true differentiator of the total Varanasi Ayodhya Prayagraj package experience, not just the partial Varanasi.</p>
+
+<h2>Tips Before You Book Your Trip</h2>
+
+<p>Book a few weeks out if you\'re travelling during peak season or around Dev Diwali specifically; good hotels near the temples fill up fast. Check exactly what\'s in your package; meals and darshan assistance vary between operators. Bring comfortable shoes; there\'s real walking involved. If it is a Varanasi tour package for family, then do not forget to reconfirm the time before you proceed, as 4 days for 3 destinations can be a bit tiring if not taken care of correctly.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. How long is the Varanasi Ayodhya Prayagraj package?</strong></p>
+        <p>Most of our packages are 3 nights and 4 days long to help you unwind on the spiritual trip to Varanasi, Ayodhya, and Prayagraj without feeling stressed.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. What are all the Varanasi boat ride and cruise included in the package?</strong></p>
+        <p>Usually an evening Ganga Aarti cruise, and depending on the package, a sunrise ride along Assi Ghat too.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Is a Varanasi tour package for family really planned differently?</strong></p>
+        <p>Yes, pacing, vehicle size, and hotel choice all shift when kids or older relatives are part of the trip.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. Does VIP darshan come included?</strong></p>
+        <p>Yes, most packages through Kashi Ghoomo include it, and it makes a real difference at Kashi Vishwanath and Ram Janmabhoomi specifically.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. What vehicle works for a bigger group?</strong></p>
+        <p>Innova Crysta is for small to medium Pilgrim groups, and the Force tempo traveler is for Pilgrim groups or those who go from 4 people to 17.</p>
+    </div>
+</div>',
+  updated_at = NOW();
+
+
+
+-- =====================================================
+-- New Packages: Ayodhya Tour Package, Ram Mandir Ayodhya Tour
+-- =====================================================
+
+-- Package: Ayodhya Tour Package (ayodhya-tour-package)
+INSERT INTO packages (slug, title, duration, price, destination_id, service_id, difficulty, best_season, start_location, status, featured, images, inclusions, exclusions, itinerary, meta_title, meta_description, meta_keywords, description, created_at, updated_at)
+VALUES ('ayodhya-tour-package', 'Ayodhya Tour Package', '2 Days / 1 Night', 4500.00, 1, 1, 'Easy', 'October to March', 'Ayodhya Airport / Railway Station', 1, 1, '[\"destinations\\/aNWV2lnikHvFTl7jNyPGBPbBCWiQzgZ5TOBZAZT3.jpg\",\"packages\\/NCUJO3exg03YJ64tKQif9f4Q2Az9hkqrmpDSqKF5.png\",\"packages\\/NjRvoNpJspwOKOzGrPW2iYcTokXueLBMAqd1VHqp.png\",\"packages\\/92XF8q3Urlyw0r2NJmTIL07m8rDc1V1Ut9tR2I1Z.png\"]', '[\"1 night accommodation in a deluxe hotel\",\"Daily breakfast\",\"Private AC cab for sightseeing\",\"Ram Mandir darshan assistance\",\"Hanuman Garhi visit\",\"Kanak Bhawan visit\",\"Saryu Aarti experience\",\"Airport or railway station pickup and drop\",\"Professional local guide\",\"Parking and toll charges\"]', '[\"Lunch and dinner\",\"Temple donations and personal pooja\",\"Camera charges\",\"Personal expenses\",\"Airfare or train tickets\",\"Travel insurance\",\"Tips for the driver or guide\"]', '[{\"day\":\"Day 1\",\"title\":\"Arrive at Ayodhya & Begin with Ram Janmabhoomi\",\"description\":\"You will reach Ayodhya Airport or Railway Station. From there, the transfer to the hotel is arranged, giving you some time to check in and get settled. The highlight of the sightseeing is Shri Ram Janmabhoomi Mandir. Post Ram Janmabhoomi, the route takes you to Hanuman Garhi and Kanak Bhawan. In the evening, visit Ram Ki Paidi for the Saryu Aarti. Overnight stay in Ayodhya.\"},{\"day\":\"Day 2\",\"title\":\"More Temples, Local Time, and Departure\",\"description\":\"The second morning starts after breakfast. We will be visiting Nageshwarnath Temple, Dashrath Mahal, and Tulsi Smarak Bhawan. You can also utilize some of the time to look out for some local shopping. At the appropriate time you will be taken to the airport\\/railway station.\"}]', 'Ayodhya Tour Package | Ram Mandir 2 Days 1 Night Trip | Kashi Ghoomo', 'Book Ayodhya tour package (2D/1N) with hotel, AC cab, Ram Janmabhoomi Darshan, Hanuman Garhi, Kanak Bhawan, Saryu Aarti & local guide with Kashi Ghoomo.', 'Ayodhya tour package, Ram Mandir Ayodhya Tour, Ayodhya 2 days package, Ram Janmabhoomi tour, Ayodhya pilgrimage package', '<h1>Ayodhya Tour Package: Your Quick Trip to Ram Mandir &amp; Beyond</h1>
+
+<p>Some journeys have you sticking to the traditional way: going from one sightseeing place to the next. Then some journeys have you feeling like you\'re taking your time a little. An Ayodhya visit is probably closer to the latter, especially once you\'re on the ground: Not only will you be able to look forward to visiting Ram Janmabhoomi, but there will be the temples, ghats, evening aarti, Old City, etc. that you will be able to soak in too.</p>
+
+<p>This Ayodhya tour package is a short pack of 2 days and 1 night. So you can enjoy the best of the city in a small span of time, without wasting much time. It also includes Ram Janmabhoomi, Hanuman Garhi, Kanak Bhawan, Ram ki Paidi, Saryu Ghat, and a few other spots around Ayodhya.</p>
+
+<p>Kashi Ghoomo takes care of the complete travel arrangement, hotel booking, breakfast, private AC cab, local sightseeing assistance, and so on and so forth. You\'ll be focused on nothing but looking forward to your trip.</p>
+
+<h2>Why Does Ayodhya Feel Different From a Regular Holiday?</h2>
+
+<p>Ayodhya cannot be a destination that is lost in a single monument. The city has temples, ghats, narrow streets, local markets, and a deep association with the Lord Ram\'s story and his worship.</p>
+
+<p>The first and foremost reason for planning an Ayodhya tour package for most of the travelers is Ram Mandir. The visit does not have to end after darshan. You can walk around temple areas. You can sit by the Saryu. You can attend the evening aarti. You can see how the city changes after sunset.</p>
+
+<p>There is also something nice about keeping the trip simple. You don\'t need to schedule each and every hour with sightseeing activities. Some of the attractions in Ayodhya are better enjoyed in a relaxed manner, especially when you have kids and family.</p>
+
+<h2>What Does This Short Ayodhya Trip Cover?</h2>
+
+<p>A little bit of history here: why don\'t you prepare yourself if you only have a couple of days? The Ram Mandir Ayodhya Tour shows some of the more popular religious and cultural attractions of the city.</p>
+
+<ul>
+    <li>Shri Ram Janmabhoomi Mandir</li>
+    <li>Hanuman Garhi</li>
+    <li>Kanak Bhawan</li>
+    <li>Ram Ki Paidi</li>
+    <li>Saryu Ghat</li>
+    <li>Nageshwarnath Temple</li>
+    <li>Dashrath Mahal</li>
+    <li>Tulsi Smarak Bhawan</li>
+    <li>Local shopping time</li>
+</ul>
+
+<p>This is not about doing the temple rounds of Ayodhya. Rather, it is a collection of sites that might introduce the city to a first-timer.</p>
+
+<h2>What Makes This Ram Mandir Ayodhya Tour Worth Planning?</h2>
+
+<p>The biggest advantage of a short pilgrimage trip is that you know where your time is going. With the Ram Mandir Ayodhya Tour, the main sightseeing is already planned, while the travel between places is handled through a private AC cab.</p>
+
+<p>You also get one night of hotel accommodation and daily breakfast. Ram Mandir darshan assistance is included as part of the package, along with a professional local guide.</p>
+
+<p>This can be useful when you are travelling with family and would rather have the basic arrangements sorted before reaching Ayodhya. Kashi Ghoomo also covers airport or railway station pickup and drop, so you don\'t have to start your journey with the fear of searching for conveyance.</p>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Arrive at Ayodhya &amp; Begin with Ram Janmabhoomi</h3>
+    <p>You will reach Ayodhya Airport or Railway Station. From there, the transfer to the hotel is arranged, giving you some time to check in and get settled.</p>
+    <p>The highlight of the sightseeing is Shri Ram Janmabhoomi Mandir. For most of us, this is the reason why we go to Ayodhya in the first place. Do not hurry through sightseeing places, as you will tend to cover more places in a day by doing this.</p>
+    <p>Post Ram Janmabhoomi, the route takes you to the famous religious places called Hanuman Garhi and Kanak Bhawan. Both these places can get rather crowded and decorate another aspect of the visit of the day.</p>
+    <p>In the evening, visit Ram Ki Paidi for the Saryu Aarti. Set a gentle pace to the night after an entire day of sightseeing. The riverfront, lamps, and evening prayers give the city a different atmosphere from what you see during the daytime. After the aarti, return to the hotel and get some rest.</p>
+    <p><strong>Overnight stay:</strong> Ayodhya</p>
+
+    <h3>Day 2: More Temples, Local Time, and Departure</h3>
+    <p>The second morning starts after breakfast. Final sightseeing is yet to be done before leaving Ayodhya. We will be visiting Nageshwarnath Temple, Dashrath Mahal, and Tulsi Smarak Bhawan on the day. This will give you a chance to explore more with the Ayodhya tour package instead of visiting around Ram Janmabhoomi the entire trip.</p>
+    <p>You can also utilize some of the time to look out for some local shopping. If you wish to carry something for your loved ones, then you should look around now before you go.</p>
+    <p>At the appropriate time you will be taken to the airport/railway station. And that ends the Ram Mandir Ayodhya Tour. It is a short trip, but the route gives you time for the main temple visits as well as a little space to experience Ayodhya beyond one landmark.</p>
+</div>
+
+<h2>A Closer Look at the Places You Will Visit</h2>
+
+<h3>Shri Ram Janmabhoomi Mandir</h3>
+<p>The temple is the main stop for most visitors coming to Ayodhya. If you are travelling mainly for Ram darshan, you will naturally want to keep enough time and patience for this part of the visit.</p>
+
+<h3>Hanuman Garhi</h3>
+<p>Hanuman Garhi is yet another significant temple of Ayodhya, and it is covered in the first day\'s tour. This is one such destination where you have a totally different feeling about the place when compared with a halting point for a photograph.</p>
+
+<h3>Kanak Bhawan</h3>
+<p>Known for its connection with Lord Ram and Mata Sita, Kanak Bhawan is another temple included in the route. It gives you another opportunity to explore Ayodhya\'s religious side.</p>
+
+<h3>Ram Ki Paidi and Saryu Ghat</h3>
+<p>Inward beyond the riverfront, this is one among the places for a pause from temple hopping. Nightfall here is beautiful due to the Saryu Aarti.</p>
+
+<h3>Nageshwarnath Temple</h3>
+<p>This temple is part of the second day\'s route. Adding it to the trip means you get to see another important religious site before leaving the city.</p>
+
+<h3>Dashrath Mahal</h3>
+<p>Dashrath Mahal is connected with the traditional stories of Ayodhya and is another stop on the second day.</p>
+
+<h3>Tulsi Smarak Bhawan</h3>
+<p>It provides you a taste of something cultural with the visit to the cultural pavilion Tulsi Smarak Bhawan. It is something new that you will get apart from your temple stops.</p>
+
+<h2>What Is Included in Your Ayodhya Tour Package?</h2>
+
+<p>Knowing the inclusions before booking makes things much easier. This Ayodhya tour package includes the main arrangements needed for the short trip.</p>
+
+<ul>
+    <li>1 night accommodation in a deluxe hotel</li>
+    <li>Daily breakfast</li>
+    <li>Private AC cab for sightseeing</li>
+    <li>Ram Mandir darshan assistance</li>
+    <li>Hanuman Garhi visit</li>
+    <li>Kanak Bhawan visit</li>
+    <li>Saryu Aarti experience</li>
+    <li>Airport or railway station pickup and drop</li>
+    <li>Professional local guide</li>
+    <li>Parking and toll charges</li>
+</ul>
+
+<p>The idea is to keep the important travel arrangements together so you are not booking each part separately.</p>
+
+<h2>What Will You Need to Pay for Separately?</h2>
+
+<p>Not every travel expense is covered in a package, so it is better to know this before you book. The following are listed separately from the package:</p>
+
+<ul>
+    <li>Lunch and dinner</li>
+    <li>Temple donations and personal pooja</li>
+    <li>Camera charges</li>
+    <li>Personal expenses</li>
+    <li>Airfare or train tickets</li>
+    <li>Travel insurance</li>
+    <li>Tips for the driver or guide</li>
+</ul>
+
+<p>If you have any special demand, it\'s better to get it confirmed before booking than assuming that you will get it in your Ayodhya tour package.</p>
+
+<h2>How the Travel Arrangements Work</h2>
+
+<p>One thing that can make a pilgrimage trip tiring is constantly looking for autos, cabs, or transfers between different places. Here, the sightseeing travel is planned around a private AC cab.</p>
+
+<p>For a family, this can make the day easier because you are travelling together rather than arranging separate rides at every stop. It also means your sightseeing route is already decided before you begin.</p>
+
+<p>The airport or railway station pickup and drop are also part of the package. So, whether you are arriving by train or flight, the transfer is planned around your arrival and departure.</p>
+
+<p>Included in the tour is a hotel accommodation for one night; breakfast during the stay and lunch and dinner are not included in the Ayodhya tour package. This enables you to choose the cuisine of your choice.</p>
+
+<h2>A Few Things to Keep in Mind Before You Visit Ayodhya</h2>
+
+<p>Attending a pilgrimage trip can be fun if you make some preparations in advance.</p>
+
+<ul>
+    <li><strong>Wear relaxed clothing and footwear:</strong> You are likely to walk around quite a lot in temple grounds, wait a lot in the temple and between the temples in a city, and shop around a lot too.</li>
+    <li><strong>Keep your necessities handy:</strong> A small bag carrying your water, medicine, ID proof, etc. may come very handy to you.</li>
+    <li><strong>Don\'t do back-to-back travel plans:</strong> Your temple visit and traffic condition may delay you.</li>
+    <li><strong>If you are traveling with senior family members:</strong> Then take along a plan for the day. Informing them about the actual walking distances would help in planning the day better.</li>
+    <li><strong>Confirm the most recent temple guidelines before you travel:</strong> Entry schedules, timings, and guidelines keep on changing, so it is best to confirm closer to travel.</li>
+</ul>
+
+<h2>Is This Ram Mandir Ayodhya Tour Right for You?</h2>
+
+<p>Not everyone can go for a few days. If you want to go somewhere, stay there for a few days, and then you will feel good while relaxing, just enjoying the place, doing any sightseeing, and not in a hurry.</p>
+
+<p>But if you go to the temple, Ram Janmabhumi, and the Saryu aarti are satisfied, and you go, then this one will do the trick.</p>
+
+<p>The Ram Mandir Ayodhya Package is the best choice for the families who want the hotel, cab, and sightseeing to be done according to their demand. Being a 1-night, 2-day tour, it should not be very hard for you to plan the trips with your work and school commitments.</p>
+
+<h2>Why Book With Kashi Ghoomo?</h2>
+
+<p>A trip to a holy site isn\'t only about choosing a few temples. It\'s also about deciding where to stay, how to get there, and whether you can fit it all in your schedule.</p>
+
+<p>Kashi Ghoomo brings these basic arrangements together in one package. The package is inclusive of the stay, breakfast, private cab, local guide, darshan assistance, and station/airport transfers.</p>
+
+<p>It might be useful, especially when you are travelling with family and don\'t want to get into the nitty-gritty of the minutiae once you get settled with the Ayodhya tour package.</p>
+
+<p>The package is linked to several travel and pilgrimage agents in &amp; around Varanasi, Prayagraj, and Ayodhya in case you want to include the journey further along any other route.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. Duration of this tour package?</strong></p>
+        <p>This is a 1-night, 2-day tour package, which starts on Day 1 evening and goes for sightseeing at other points as we come to Ayodhya on Day 2.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. Places you will cover in the Ram Mandir Ayodhya tour?</strong></p>
+        <p>Shri Ram Janmabhoomi Mandir, Shri Hanuman Garhi, Shri Kanak Bhawan, Ram Ki Paidi Saryu Ghat, Nageshwarnath Temple, Dashrath Mahal, and Tulsi Smarak Bhawan.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Does the Ram Mandir Ayodhya Tour cover darshan?</strong></p>
+        <p>Yes, the package includes a visit to Ram Mandir for darshan. It is advised to check the temple rules before your visit.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. What does the Ayodhya tour package include?</strong></p>
+        <p>Hotel stay for 1 night including breakfast, transportation in a private AC car for sightseeing, a high-end English-speaking guide, Darshan assistance, and all transfers from the airport/railway station.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. Does the Ayodhya Tour Package include transportation?</strong></p>
+        <p>You shall be provided with a private AC car that will be at your service for sightseeing and pick-up and drop-off at the airport or railway station.</p>
+    </div>
+</div>', NOW(), NOW())
+ON DUPLICATE KEY UPDATE
+  title = 'Ayodhya Tour Package',
+  duration = '2 Days / 1 Night',
+  price = 4500.00,
+  images = '[\"destinations\\/aNWV2lnikHvFTl7jNyPGBPbBCWiQzgZ5TOBZAZT3.jpg\",\"packages\\/NCUJO3exg03YJ64tKQif9f4Q2Az9hkqrmpDSqKF5.png\",\"packages\\/NjRvoNpJspwOKOzGrPW2iYcTokXueLBMAqd1VHqp.png\",\"packages\\/92XF8q3Urlyw0r2NJmTIL07m8rDc1V1Ut9tR2I1Z.png\"]',
+  inclusions = '[\"1 night accommodation in a deluxe hotel\",\"Daily breakfast\",\"Private AC cab for sightseeing\",\"Ram Mandir darshan assistance\",\"Hanuman Garhi visit\",\"Kanak Bhawan visit\",\"Saryu Aarti experience\",\"Airport or railway station pickup and drop\",\"Professional local guide\",\"Parking and toll charges\"]',
+  exclusions = '[\"Lunch and dinner\",\"Temple donations and personal pooja\",\"Camera charges\",\"Personal expenses\",\"Airfare or train tickets\",\"Travel insurance\",\"Tips for the driver or guide\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Arrive at Ayodhya & Begin with Ram Janmabhoomi\",\"description\":\"You will reach Ayodhya Airport or Railway Station. From there, the transfer to the hotel is arranged, giving you some time to check in and get settled. The highlight of the sightseeing is Shri Ram Janmabhoomi Mandir. Post Ram Janmabhoomi, the route takes you to Hanuman Garhi and Kanak Bhawan. In the evening, visit Ram Ki Paidi for the Saryu Aarti. Overnight stay in Ayodhya.\"},{\"day\":\"Day 2\",\"title\":\"More Temples, Local Time, and Departure\",\"description\":\"The second morning starts after breakfast. We will be visiting Nageshwarnath Temple, Dashrath Mahal, and Tulsi Smarak Bhawan. You can also utilize some of the time to look out for some local shopping. At the appropriate time you will be taken to the airport\\/railway station.\"}]',
+  meta_title = 'Ayodhya Tour Package | Ram Mandir 2 Days 1 Night Trip | Kashi Ghoomo',
+  meta_description = 'Book Ayodhya tour package (2D/1N) with hotel, AC cab, Ram Janmabhoomi Darshan, Hanuman Garhi, Kanak Bhawan, Saryu Aarti & local guide with Kashi Ghoomo.',
+  meta_keywords = 'Ayodhya tour package, Ram Mandir Ayodhya Tour, Ayodhya 2 days package, Ram Janmabhoomi tour, Ayodhya pilgrimage package',
+  description = '<h1>Ayodhya Tour Package: Your Quick Trip to Ram Mandir &amp; Beyond</h1>
+
+<p>Some journeys have you sticking to the traditional way: going from one sightseeing place to the next. Then some journeys have you feeling like you\'re taking your time a little. An Ayodhya visit is probably closer to the latter, especially once you\'re on the ground: Not only will you be able to look forward to visiting Ram Janmabhoomi, but there will be the temples, ghats, evening aarti, Old City, etc. that you will be able to soak in too.</p>
+
+<p>This Ayodhya tour package is a short pack of 2 days and 1 night. So you can enjoy the best of the city in a small span of time, without wasting much time. It also includes Ram Janmabhoomi, Hanuman Garhi, Kanak Bhawan, Ram ki Paidi, Saryu Ghat, and a few other spots around Ayodhya.</p>
+
+<p>Kashi Ghoomo takes care of the complete travel arrangement, hotel booking, breakfast, private AC cab, local sightseeing assistance, and so on and so forth. You\'ll be focused on nothing but looking forward to your trip.</p>
+
+<h2>Why Does Ayodhya Feel Different From a Regular Holiday?</h2>
+
+<p>Ayodhya cannot be a destination that is lost in a single monument. The city has temples, ghats, narrow streets, local markets, and a deep association with the Lord Ram\'s story and his worship.</p>
+
+<p>The first and foremost reason for planning an Ayodhya tour package for most of the travelers is Ram Mandir. The visit does not have to end after darshan. You can walk around temple areas. You can sit by the Saryu. You can attend the evening aarti. You can see how the city changes after sunset.</p>
+
+<p>There is also something nice about keeping the trip simple. You don\'t need to schedule each and every hour with sightseeing activities. Some of the attractions in Ayodhya are better enjoyed in a relaxed manner, especially when you have kids and family.</p>
+
+<h2>What Does This Short Ayodhya Trip Cover?</h2>
+
+<p>A little bit of history here: why don\'t you prepare yourself if you only have a couple of days? The Ram Mandir Ayodhya Tour shows some of the more popular religious and cultural attractions of the city.</p>
+
+<ul>
+    <li>Shri Ram Janmabhoomi Mandir</li>
+    <li>Hanuman Garhi</li>
+    <li>Kanak Bhawan</li>
+    <li>Ram Ki Paidi</li>
+    <li>Saryu Ghat</li>
+    <li>Nageshwarnath Temple</li>
+    <li>Dashrath Mahal</li>
+    <li>Tulsi Smarak Bhawan</li>
+    <li>Local shopping time</li>
+</ul>
+
+<p>This is not about doing the temple rounds of Ayodhya. Rather, it is a collection of sites that might introduce the city to a first-timer.</p>
+
+<h2>What Makes This Ram Mandir Ayodhya Tour Worth Planning?</h2>
+
+<p>The biggest advantage of a short pilgrimage trip is that you know where your time is going. With the Ram Mandir Ayodhya Tour, the main sightseeing is already planned, while the travel between places is handled through a private AC cab.</p>
+
+<p>You also get one night of hotel accommodation and daily breakfast. Ram Mandir darshan assistance is included as part of the package, along with a professional local guide.</p>
+
+<p>This can be useful when you are travelling with family and would rather have the basic arrangements sorted before reaching Ayodhya. Kashi Ghoomo also covers airport or railway station pickup and drop, so you don\'t have to start your journey with the fear of searching for conveyance.</p>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Arrive at Ayodhya &amp; Begin with Ram Janmabhoomi</h3>
+    <p>You will reach Ayodhya Airport or Railway Station. From there, the transfer to the hotel is arranged, giving you some time to check in and get settled.</p>
+    <p>The highlight of the sightseeing is Shri Ram Janmabhoomi Mandir. For most of us, this is the reason why we go to Ayodhya in the first place. Do not hurry through sightseeing places, as you will tend to cover more places in a day by doing this.</p>
+    <p>Post Ram Janmabhoomi, the route takes you to the famous religious places called Hanuman Garhi and Kanak Bhawan. Both these places can get rather crowded and decorate another aspect of the visit of the day.</p>
+    <p>In the evening, visit Ram Ki Paidi for the Saryu Aarti. Set a gentle pace to the night after an entire day of sightseeing. The riverfront, lamps, and evening prayers give the city a different atmosphere from what you see during the daytime. After the aarti, return to the hotel and get some rest.</p>
+    <p><strong>Overnight stay:</strong> Ayodhya</p>
+
+    <h3>Day 2: More Temples, Local Time, and Departure</h3>
+    <p>The second morning starts after breakfast. Final sightseeing is yet to be done before leaving Ayodhya. We will be visiting Nageshwarnath Temple, Dashrath Mahal, and Tulsi Smarak Bhawan on the day. This will give you a chance to explore more with the Ayodhya tour package instead of visiting around Ram Janmabhoomi the entire trip.</p>
+    <p>You can also utilize some of the time to look out for some local shopping. If you wish to carry something for your loved ones, then you should look around now before you go.</p>
+    <p>At the appropriate time you will be taken to the airport/railway station. And that ends the Ram Mandir Ayodhya Tour. It is a short trip, but the route gives you time for the main temple visits as well as a little space to experience Ayodhya beyond one landmark.</p>
+</div>
+
+<h2>A Closer Look at the Places You Will Visit</h2>
+
+<h3>Shri Ram Janmabhoomi Mandir</h3>
+<p>The temple is the main stop for most visitors coming to Ayodhya. If you are travelling mainly for Ram darshan, you will naturally want to keep enough time and patience for this part of the visit.</p>
+
+<h3>Hanuman Garhi</h3>
+<p>Hanuman Garhi is yet another significant temple of Ayodhya, and it is covered in the first day\'s tour. This is one such destination where you have a totally different feeling about the place when compared with a halting point for a photograph.</p>
+
+<h3>Kanak Bhawan</h3>
+<p>Known for its connection with Lord Ram and Mata Sita, Kanak Bhawan is another temple included in the route. It gives you another opportunity to explore Ayodhya\'s religious side.</p>
+
+<h3>Ram Ki Paidi and Saryu Ghat</h3>
+<p>Inward beyond the riverfront, this is one among the places for a pause from temple hopping. Nightfall here is beautiful due to the Saryu Aarti.</p>
+
+<h3>Nageshwarnath Temple</h3>
+<p>This temple is part of the second day\'s route. Adding it to the trip means you get to see another important religious site before leaving the city.</p>
+
+<h3>Dashrath Mahal</h3>
+<p>Dashrath Mahal is connected with the traditional stories of Ayodhya and is another stop on the second day.</p>
+
+<h3>Tulsi Smarak Bhawan</h3>
+<p>It provides you a taste of something cultural with the visit to the cultural pavilion Tulsi Smarak Bhawan. It is something new that you will get apart from your temple stops.</p>
+
+<h2>What Is Included in Your Ayodhya Tour Package?</h2>
+
+<p>Knowing the inclusions before booking makes things much easier. This Ayodhya tour package includes the main arrangements needed for the short trip.</p>
+
+<ul>
+    <li>1 night accommodation in a deluxe hotel</li>
+    <li>Daily breakfast</li>
+    <li>Private AC cab for sightseeing</li>
+    <li>Ram Mandir darshan assistance</li>
+    <li>Hanuman Garhi visit</li>
+    <li>Kanak Bhawan visit</li>
+    <li>Saryu Aarti experience</li>
+    <li>Airport or railway station pickup and drop</li>
+    <li>Professional local guide</li>
+    <li>Parking and toll charges</li>
+</ul>
+
+<p>The idea is to keep the important travel arrangements together so you are not booking each part separately.</p>
+
+<h2>What Will You Need to Pay for Separately?</h2>
+
+<p>Not every travel expense is covered in a package, so it is better to know this before you book. The following are listed separately from the package:</p>
+
+<ul>
+    <li>Lunch and dinner</li>
+    <li>Temple donations and personal pooja</li>
+    <li>Camera charges</li>
+    <li>Personal expenses</li>
+    <li>Airfare or train tickets</li>
+    <li>Travel insurance</li>
+    <li>Tips for the driver or guide</li>
+</ul>
+
+<p>If you have any special demand, it\'s better to get it confirmed before booking than assuming that you will get it in your Ayodhya tour package.</p>
+
+<h2>How the Travel Arrangements Work</h2>
+
+<p>One thing that can make a pilgrimage trip tiring is constantly looking for autos, cabs, or transfers between different places. Here, the sightseeing travel is planned around a private AC cab.</p>
+
+<p>For a family, this can make the day easier because you are travelling together rather than arranging separate rides at every stop. It also means your sightseeing route is already decided before you begin.</p>
+
+<p>The airport or railway station pickup and drop are also part of the package. So, whether you are arriving by train or flight, the transfer is planned around your arrival and departure.</p>
+
+<p>Included in the tour is a hotel accommodation for one night; breakfast during the stay and lunch and dinner are not included in the Ayodhya tour package. This enables you to choose the cuisine of your choice.</p>
+
+<h2>A Few Things to Keep in Mind Before You Visit Ayodhya</h2>
+
+<p>Attending a pilgrimage trip can be fun if you make some preparations in advance.</p>
+
+<ul>
+    <li><strong>Wear relaxed clothing and footwear:</strong> You are likely to walk around quite a lot in temple grounds, wait a lot in the temple and between the temples in a city, and shop around a lot too.</li>
+    <li><strong>Keep your necessities handy:</strong> A small bag carrying your water, medicine, ID proof, etc. may come very handy to you.</li>
+    <li><strong>Don\'t do back-to-back travel plans:</strong> Your temple visit and traffic condition may delay you.</li>
+    <li><strong>If you are traveling with senior family members:</strong> Then take along a plan for the day. Informing them about the actual walking distances would help in planning the day better.</li>
+    <li><strong>Confirm the most recent temple guidelines before you travel:</strong> Entry schedules, timings, and guidelines keep on changing, so it is best to confirm closer to travel.</li>
+</ul>
+
+<h2>Is This Ram Mandir Ayodhya Tour Right for You?</h2>
+
+<p>Not everyone can go for a few days. If you want to go somewhere, stay there for a few days, and then you will feel good while relaxing, just enjoying the place, doing any sightseeing, and not in a hurry.</p>
+
+<p>But if you go to the temple, Ram Janmabhumi, and the Saryu aarti are satisfied, and you go, then this one will do the trick.</p>
+
+<p>The Ram Mandir Ayodhya Package is the best choice for the families who want the hotel, cab, and sightseeing to be done according to their demand. Being a 1-night, 2-day tour, it should not be very hard for you to plan the trips with your work and school commitments.</p>
+
+<h2>Why Book With Kashi Ghoomo?</h2>
+
+<p>A trip to a holy site isn\'t only about choosing a few temples. It\'s also about deciding where to stay, how to get there, and whether you can fit it all in your schedule.</p>
+
+<p>Kashi Ghoomo brings these basic arrangements together in one package. The package is inclusive of the stay, breakfast, private cab, local guide, darshan assistance, and station/airport transfers.</p>
+
+<p>It might be useful, especially when you are travelling with family and don\'t want to get into the nitty-gritty of the minutiae once you get settled with the Ayodhya tour package.</p>
+
+<p>The package is linked to several travel and pilgrimage agents in &amp; around Varanasi, Prayagraj, and Ayodhya in case you want to include the journey further along any other route.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. Duration of this tour package?</strong></p>
+        <p>This is a 1-night, 2-day tour package, which starts on Day 1 evening and goes for sightseeing at other points as we come to Ayodhya on Day 2.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. Places you will cover in the Ram Mandir Ayodhya tour?</strong></p>
+        <p>Shri Ram Janmabhoomi Mandir, Shri Hanuman Garhi, Shri Kanak Bhawan, Ram Ki Paidi Saryu Ghat, Nageshwarnath Temple, Dashrath Mahal, and Tulsi Smarak Bhawan.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Does the Ram Mandir Ayodhya Tour cover darshan?</strong></p>
+        <p>Yes, the package includes a visit to Ram Mandir for darshan. It is advised to check the temple rules before your visit.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. What does the Ayodhya tour package include?</strong></p>
+        <p>Hotel stay for 1 night including breakfast, transportation in a private AC car for sightseeing, a high-end English-speaking guide, Darshan assistance, and all transfers from the airport/railway station.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. Does the Ayodhya Tour Package include transportation?</strong></p>
+        <p>You shall be provided with a private AC car that will be at your service for sightseeing and pick-up and drop-off at the airport or railway station.</p>
+    </div>
+</div>',
+  updated_at = NOW();
+
+-- Package: Ram Mandir Ayodhya Tour (ram-mandir-ayodhya-tour)
+INSERT INTO packages (slug, title, duration, price, destination_id, service_id, difficulty, best_season, start_location, status, featured, images, inclusions, exclusions, itinerary, meta_title, meta_description, meta_keywords, description, created_at, updated_at)
+VALUES ('ram-mandir-ayodhya-tour', 'Ram Mandir Ayodhya Tour', '2 Days / 1 Night', 4500.00, 1, 1, 'Easy', 'October to March', 'Ayodhya Airport / Railway Station', 1, 1, '[\"destinations\\/aNWV2lnikHvFTl7jNyPGBPbBCWiQzgZ5TOBZAZT3.jpg\",\"packages\\/NCUJO3exg03YJ64tKQif9f4Q2Az9hkqrmpDSqKF5.png\",\"packages\\/NjRvoNpJspwOKOzGrPW2iYcTokXueLBMAqd1VHqp.png\",\"packages\\/92XF8q3Urlyw0r2NJmTIL07m8rDc1V1Ut9tR2I1Z.png\"]', '[\"1 night accommodation in a deluxe hotel\",\"Daily breakfast\",\"Private AC cab for sightseeing\",\"Ram Mandir darshan assistance\",\"Hanuman Garhi visit\",\"Kanak Bhawan visit\",\"Saryu Aarti experience\",\"Airport or railway station pickup and drop\",\"Professional local guide\",\"Parking and toll charges\"]', '[\"Lunch and dinner\",\"Temple donations and personal pooja\",\"Camera charges\",\"Personal expenses\",\"Airfare or train tickets\",\"Travel insurance\",\"Tips for the driver or guide\"]', '[{\"day\":\"Day 1\",\"title\":\"Arrive at Ayodhya & Begin with Ram Janmabhoomi\",\"description\":\"You will reach Ayodhya Airport or Railway Station. From there, the transfer to the hotel is arranged, giving you some time to check in and get settled. The highlight of the sightseeing is Shri Ram Janmabhoomi Mandir. Post Ram Janmabhoomi, the route takes you to Hanuman Garhi and Kanak Bhawan. In the evening, visit Ram Ki Paidi for the Saryu Aarti. Overnight stay in Ayodhya.\"},{\"day\":\"Day 2\",\"title\":\"More Temples, Local Time, and Departure\",\"description\":\"The second morning starts after breakfast. We will be visiting Nageshwarnath Temple, Dashrath Mahal, and Tulsi Smarak Bhawan. You can also utilize some of the time to look out for some local shopping. At the appropriate time you will be taken to the airport\\/railway station.\"}]', 'Ram Mandir Ayodhya Tour | Quick Pilgrimage Trip | Kashi Ghoomo', 'Experience the Ram Mandir Ayodhya Tour (2 Days 1 Night). Covered with AC cab, hotel stay, VIP Ram Mandir darshan, Hanuman Garhi, Kanak Bhawan & Saryu Aarti.', 'Ram Mandir Ayodhya Tour, Ayodhya tour package, Ram Janmabhoomi Mandir package, Ayodhya Ram Mandir darshan', '<h1>Ayodhya Tour Package: Your Quick Trip to Ram Mandir &amp; Beyond</h1>
+
+<p>Some journeys have you sticking to the traditional way: going from one sightseeing place to the next. Then some journeys have you feeling like you\'re taking your time a little. An Ayodhya visit is probably closer to the latter, especially once you\'re on the ground: Not only will you be able to look forward to visiting Ram Janmabhoomi, but there will be the temples, ghats, evening aarti, Old City, etc. that you will be able to soak in too.</p>
+
+<p>This Ayodhya tour package is a short pack of 2 days and 1 night. So you can enjoy the best of the city in a small span of time, without wasting much time. It also includes Ram Janmabhoomi, Hanuman Garhi, Kanak Bhawan, Ram ki Paidi, Saryu Ghat, and a few other spots around Ayodhya.</p>
+
+<p>Kashi Ghoomo takes care of the complete travel arrangement, hotel booking, breakfast, private AC cab, local sightseeing assistance, and so on and so forth. You\'ll be focused on nothing but looking forward to your trip.</p>
+
+<h2>Why Does Ayodhya Feel Different From a Regular Holiday?</h2>
+
+<p>Ayodhya cannot be a destination that is lost in a single monument. The city has temples, ghats, narrow streets, local markets, and a deep association with the Lord Ram\'s story and his worship.</p>
+
+<p>The first and foremost reason for planning an Ayodhya tour package for most of the travelers is Ram Mandir. The visit does not have to end after darshan. You can walk around temple areas. You can sit by the Saryu. You can attend the evening aarti. You can see how the city changes after sunset.</p>
+
+<p>There is also something nice about keeping the trip simple. You don\'t need to schedule each and every hour with sightseeing activities. Some of the attractions in Ayodhya are better enjoyed in a relaxed manner, especially when you have kids and family.</p>
+
+<h2>What Does This Short Ayodhya Trip Cover?</h2>
+
+<p>A little bit of history here: why don\'t you prepare yourself if you only have a couple of days? The Ram Mandir Ayodhya Tour shows some of the more popular religious and cultural attractions of the city.</p>
+
+<ul>
+    <li>Shri Ram Janmabhoomi Mandir</li>
+    <li>Hanuman Garhi</li>
+    <li>Kanak Bhawan</li>
+    <li>Ram Ki Paidi</li>
+    <li>Saryu Ghat</li>
+    <li>Nageshwarnath Temple</li>
+    <li>Dashrath Mahal</li>
+    <li>Tulsi Smarak Bhawan</li>
+    <li>Local shopping time</li>
+</ul>
+
+<p>This is not about doing the temple rounds of Ayodhya. Rather, it is a collection of sites that might introduce the city to a first-timer.</p>
+
+<h2>What Makes This Ram Mandir Ayodhya Tour Worth Planning?</h2>
+
+<p>The biggest advantage of a short pilgrimage trip is that you know where your time is going. With the Ram Mandir Ayodhya Tour, the main sightseeing is already planned, while the travel between places is handled through a private AC cab.</p>
+
+<p>You also get one night of hotel accommodation and daily breakfast. Ram Mandir darshan assistance is included as part of the package, along with a professional local guide.</p>
+
+<p>This can be useful when you are travelling with family and would rather have the basic arrangements sorted before reaching Ayodhya. Kashi Ghoomo also covers airport or railway station pickup and drop, so you don\'t have to start your journey with the fear of searching for conveyance.</p>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Arrive at Ayodhya &amp; Begin with Ram Janmabhoomi</h3>
+    <p>You will reach Ayodhya Airport or Railway Station. From there, the transfer to the hotel is arranged, giving you some time to check in and get settled.</p>
+    <p>The highlight of the sightseeing is Shri Ram Janmabhoomi Mandir. For most of us, this is the reason why we go to Ayodhya in the first place. Do not hurry through sightseeing places, as you will tend to cover more places in a day by doing this.</p>
+    <p>Post Ram Janmabhoomi, the route takes you to the famous religious places called Hanuman Garhi and Kanak Bhawan. Both these places can get rather crowded and decorate another aspect of the visit of the day.</p>
+    <p>In the evening, visit Ram Ki Paidi for the Saryu Aarti. Set a gentle pace to the night after an entire day of sightseeing. The riverfront, lamps, and evening prayers give the city a different atmosphere from what you see during the daytime. After the aarti, return to the hotel and get some rest.</p>
+    <p><strong>Overnight stay:</strong> Ayodhya</p>
+
+    <h3>Day 2: More Temples, Local Time, and Departure</h3>
+    <p>The second morning starts after breakfast. Final sightseeing is yet to be done before leaving Ayodhya. We will be visiting Nageshwarnath Temple, Dashrath Mahal, and Tulsi Smarak Bhawan on the day. This will give you a chance to explore more with the Ayodhya tour package instead of visiting around Ram Janmabhoomi the entire trip.</p>
+    <p>You can also utilize some of the time to look out for some local shopping. If you wish to carry something for your loved ones, then you should look around now before you go.</p>
+    <p>At the appropriate time you will be taken to the airport/railway station. And that ends the Ram Mandir Ayodhya Tour. It is a short trip, but the route gives you time for the main temple visits as well as a little space to experience Ayodhya beyond one landmark.</p>
+</div>
+
+<h2>A Closer Look at the Places You Will Visit</h2>
+
+<h3>Shri Ram Janmabhoomi Mandir</h3>
+<p>The temple is the main stop for most visitors coming to Ayodhya. If you are travelling mainly for Ram darshan, you will naturally want to keep enough time and patience for this part of the visit.</p>
+
+<h3>Hanuman Garhi</h3>
+<p>Hanuman Garhi is yet another significant temple of Ayodhya, and it is covered in the first day\'s tour. This is one such destination where you have a totally different feeling about the place when compared with a halting point for a photograph.</p>
+
+<h3>Kanak Bhawan</h3>
+<p>Known for its connection with Lord Ram and Mata Sita, Kanak Bhawan is another temple included in the route. It gives you another opportunity to explore Ayodhya\'s religious side.</p>
+
+<h3>Ram Ki Paidi and Saryu Ghat</h3>
+<p>Inward beyond the riverfront, this is one among the places for a pause from temple hopping. Nightfall here is beautiful due to the Saryu Aarti.</p>
+
+<h3>Nageshwarnath Temple</h3>
+<p>This temple is part of the second day\'s route. Adding it to the trip means you get to see another important religious site before leaving the city.</p>
+
+<h3>Dashrath Mahal</h3>
+<p>Dashrath Mahal is connected with the traditional stories of Ayodhya and is another stop on the second day.</p>
+
+<h3>Tulsi Smarak Bhawan</h3>
+<p>It provides you a taste of something cultural with the visit to the cultural pavilion Tulsi Smarak Bhawan. It is something new that you will get apart from your temple stops.</p>
+
+<h2>What Is Included in Your Ayodhya Tour Package?</h2>
+
+<p>Knowing the inclusions before booking makes things much easier. This Ayodhya tour package includes the main arrangements needed for the short trip.</p>
+
+<ul>
+    <li>1 night accommodation in a deluxe hotel</li>
+    <li>Daily breakfast</li>
+    <li>Private AC cab for sightseeing</li>
+    <li>Ram Mandir darshan assistance</li>
+    <li>Hanuman Garhi visit</li>
+    <li>Kanak Bhawan visit</li>
+    <li>Saryu Aarti experience</li>
+    <li>Airport or railway station pickup and drop</li>
+    <li>Professional local guide</li>
+    <li>Parking and toll charges</li>
+</ul>
+
+<p>The idea is to keep the important travel arrangements together so you are not booking each part separately.</p>
+
+<h2>What Will You Need to Pay for Separately?</h2>
+
+<p>Not every travel expense is covered in a package, so it is better to know this before you book. The following are listed separately from the package:</p>
+
+<ul>
+    <li>Lunch and dinner</li>
+    <li>Temple donations and personal pooja</li>
+    <li>Camera charges</li>
+    <li>Personal expenses</li>
+    <li>Airfare or train tickets</li>
+    <li>Travel insurance</li>
+    <li>Tips for the driver or guide</li>
+</ul>
+
+<p>If you have any special demand, it\'s better to get it confirmed before booking than assuming that you will get it in your Ayodhya tour package.</p>
+
+<h2>How the Travel Arrangements Work</h2>
+
+<p>One thing that can make a pilgrimage trip tiring is constantly looking for autos, cabs, or transfers between different places. Here, the sightseeing travel is planned around a private AC cab.</p>
+
+<p>For a family, this can make the day easier because you are travelling together rather than arranging separate rides at every stop. It also means your sightseeing route is already decided before you begin.</p>
+
+<p>The airport or railway station pickup and drop are also part of the package. So, whether you are arriving by train or flight, the transfer is planned around your arrival and departure.</p>
+
+<p>Included in the tour is a hotel accommodation for one night; breakfast during the stay and lunch and dinner are not included in the Ayodhya tour package. This enables you to choose the cuisine of your choice.</p>
+
+<h2>A Few Things to Keep in Mind Before You Visit Ayodhya</h2>
+
+<p>Attending a pilgrimage trip can be fun if you make some preparations in advance.</p>
+
+<ul>
+    <li><strong>Wear relaxed clothing and footwear:</strong> You are likely to walk around quite a lot in temple grounds, wait a lot in the temple and between the temples in a city, and shop around a lot too.</li>
+    <li><strong>Keep your necessities handy:</strong> A small bag carrying your water, medicine, ID proof, etc. may come very handy to you.</li>
+    <li><strong>Don\'t do back-to-back travel plans:</strong> Your temple visit and traffic condition may delay you.</li>
+    <li><strong>If you are traveling with senior family members:</strong> Then take along a plan for the day. Informing them about the actual walking distances would help in planning the day better.</li>
+    <li><strong>Confirm the most recent temple guidelines before you travel:</strong> Entry schedules, timings, and guidelines keep on changing, so it is best to confirm closer to travel.</li>
+</ul>
+
+<h2>Is This Ram Mandir Ayodhya Tour Right for You?</h2>
+
+<p>Not everyone can go for a few days. If you want to go somewhere, stay there for a few days, and then you will feel good while relaxing, just enjoying the place, doing any sightseeing, and not in a hurry.</p>
+
+<p>But if you go to the temple, Ram Janmabhumi, and the Saryu aarti are satisfied, and you go, then this one will do the trick.</p>
+
+<p>The Ram Mandir Ayodhya Package is the best choice for the families who want the hotel, cab, and sightseeing to be done according to their demand. Being a 1-night, 2-day tour, it should not be very hard for you to plan the trips with your work and school commitments.</p>
+
+<h2>Why Book With Kashi Ghoomo?</h2>
+
+<p>A trip to a holy site isn\'t only about choosing a few temples. It\'s also about deciding where to stay, how to get there, and whether you can fit it all in your schedule.</p>
+
+<p>Kashi Ghoomo brings these basic arrangements together in one package. The package is inclusive of the stay, breakfast, private cab, local guide, darshan assistance, and station/airport transfers.</p>
+
+<p>It might be useful, especially when you are travelling with family and don\'t want to get into the nitty-gritty of the minutiae once you get settled with the Ayodhya tour package.</p>
+
+<p>The package is linked to several travel and pilgrimage agents in &amp; around Varanasi, Prayagraj, and Ayodhya in case you want to include the journey further along any other route.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. Duration of this tour package?</strong></p>
+        <p>This is a 1-night, 2-day tour package, which starts on Day 1 evening and goes for sightseeing at other points as we come to Ayodhya on Day 2.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. Places you will cover in the Ram Mandir Ayodhya tour?</strong></p>
+        <p>Shri Ram Janmabhoomi Mandir, Shri Hanuman Garhi, Shri Kanak Bhawan, Ram Ki Paidi Saryu Ghat, Nageshwarnath Temple, Dashrath Mahal, and Tulsi Smarak Bhawan.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Does the Ram Mandir Ayodhya Tour cover darshan?</strong></p>
+        <p>Yes, the package includes a visit to Ram Mandir for darshan. It is advised to check the temple rules before your visit.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. What does the Ayodhya tour package include?</strong></p>
+        <p>Hotel stay for 1 night including breakfast, transportation in a private AC car for sightseeing, a high-end English-speaking guide, Darshan assistance, and all transfers from the airport/railway station.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. Does the Ayodhya Tour Package include transportation?</strong></p>
+        <p>You shall be provided with a private AC car that will be at your service for sightseeing and pick-up and drop-off at the airport or railway station.</p>
+    </div>
+</div>', NOW(), NOW())
+ON DUPLICATE KEY UPDATE
+  title = 'Ram Mandir Ayodhya Tour',
+  duration = '2 Days / 1 Night',
+  price = 4500.00,
+  images = '[\"destinations\\/aNWV2lnikHvFTl7jNyPGBPbBCWiQzgZ5TOBZAZT3.jpg\",\"packages\\/NCUJO3exg03YJ64tKQif9f4Q2Az9hkqrmpDSqKF5.png\",\"packages\\/NjRvoNpJspwOKOzGrPW2iYcTokXueLBMAqd1VHqp.png\",\"packages\\/92XF8q3Urlyw0r2NJmTIL07m8rDc1V1Ut9tR2I1Z.png\"]',
+  inclusions = '[\"1 night accommodation in a deluxe hotel\",\"Daily breakfast\",\"Private AC cab for sightseeing\",\"Ram Mandir darshan assistance\",\"Hanuman Garhi visit\",\"Kanak Bhawan visit\",\"Saryu Aarti experience\",\"Airport or railway station pickup and drop\",\"Professional local guide\",\"Parking and toll charges\"]',
+  exclusions = '[\"Lunch and dinner\",\"Temple donations and personal pooja\",\"Camera charges\",\"Personal expenses\",\"Airfare or train tickets\",\"Travel insurance\",\"Tips for the driver or guide\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Arrive at Ayodhya & Begin with Ram Janmabhoomi\",\"description\":\"You will reach Ayodhya Airport or Railway Station. From there, the transfer to the hotel is arranged, giving you some time to check in and get settled. The highlight of the sightseeing is Shri Ram Janmabhoomi Mandir. Post Ram Janmabhoomi, the route takes you to Hanuman Garhi and Kanak Bhawan. In the evening, visit Ram Ki Paidi for the Saryu Aarti. Overnight stay in Ayodhya.\"},{\"day\":\"Day 2\",\"title\":\"More Temples, Local Time, and Departure\",\"description\":\"The second morning starts after breakfast. We will be visiting Nageshwarnath Temple, Dashrath Mahal, and Tulsi Smarak Bhawan. You can also utilize some of the time to look out for some local shopping. At the appropriate time you will be taken to the airport\\/railway station.\"}]',
+  meta_title = 'Ram Mandir Ayodhya Tour | Quick Pilgrimage Trip | Kashi Ghoomo',
+  meta_description = 'Experience the Ram Mandir Ayodhya Tour (2 Days 1 Night). Covered with AC cab, hotel stay, VIP Ram Mandir darshan, Hanuman Garhi, Kanak Bhawan & Saryu Aarti.',
+  meta_keywords = 'Ram Mandir Ayodhya Tour, Ayodhya tour package, Ram Janmabhoomi Mandir package, Ayodhya Ram Mandir darshan',
+  description = '<h1>Ayodhya Tour Package: Your Quick Trip to Ram Mandir &amp; Beyond</h1>
+
+<p>Some journeys have you sticking to the traditional way: going from one sightseeing place to the next. Then some journeys have you feeling like you\'re taking your time a little. An Ayodhya visit is probably closer to the latter, especially once you\'re on the ground: Not only will you be able to look forward to visiting Ram Janmabhoomi, but there will be the temples, ghats, evening aarti, Old City, etc. that you will be able to soak in too.</p>
+
+<p>This Ayodhya tour package is a short pack of 2 days and 1 night. So you can enjoy the best of the city in a small span of time, without wasting much time. It also includes Ram Janmabhoomi, Hanuman Garhi, Kanak Bhawan, Ram ki Paidi, Saryu Ghat, and a few other spots around Ayodhya.</p>
+
+<p>Kashi Ghoomo takes care of the complete travel arrangement, hotel booking, breakfast, private AC cab, local sightseeing assistance, and so on and so forth. You\'ll be focused on nothing but looking forward to your trip.</p>
+
+<h2>Why Does Ayodhya Feel Different From a Regular Holiday?</h2>
+
+<p>Ayodhya cannot be a destination that is lost in a single monument. The city has temples, ghats, narrow streets, local markets, and a deep association with the Lord Ram\'s story and his worship.</p>
+
+<p>The first and foremost reason for planning an Ayodhya tour package for most of the travelers is Ram Mandir. The visit does not have to end after darshan. You can walk around temple areas. You can sit by the Saryu. You can attend the evening aarti. You can see how the city changes after sunset.</p>
+
+<p>There is also something nice about keeping the trip simple. You don\'t need to schedule each and every hour with sightseeing activities. Some of the attractions in Ayodhya are better enjoyed in a relaxed manner, especially when you have kids and family.</p>
+
+<h2>What Does This Short Ayodhya Trip Cover?</h2>
+
+<p>A little bit of history here: why don\'t you prepare yourself if you only have a couple of days? The Ram Mandir Ayodhya Tour shows some of the more popular religious and cultural attractions of the city.</p>
+
+<ul>
+    <li>Shri Ram Janmabhoomi Mandir</li>
+    <li>Hanuman Garhi</li>
+    <li>Kanak Bhawan</li>
+    <li>Ram Ki Paidi</li>
+    <li>Saryu Ghat</li>
+    <li>Nageshwarnath Temple</li>
+    <li>Dashrath Mahal</li>
+    <li>Tulsi Smarak Bhawan</li>
+    <li>Local shopping time</li>
+</ul>
+
+<p>This is not about doing the temple rounds of Ayodhya. Rather, it is a collection of sites that might introduce the city to a first-timer.</p>
+
+<h2>What Makes This Ram Mandir Ayodhya Tour Worth Planning?</h2>
+
+<p>The biggest advantage of a short pilgrimage trip is that you know where your time is going. With the Ram Mandir Ayodhya Tour, the main sightseeing is already planned, while the travel between places is handled through a private AC cab.</p>
+
+<p>You also get one night of hotel accommodation and daily breakfast. Ram Mandir darshan assistance is included as part of the package, along with a professional local guide.</p>
+
+<p>This can be useful when you are travelling with family and would rather have the basic arrangements sorted before reaching Ayodhya. Kashi Ghoomo also covers airport or railway station pickup and drop, so you don\'t have to start your journey with the fear of searching for conveyance.</p>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Arrive at Ayodhya &amp; Begin with Ram Janmabhoomi</h3>
+    <p>You will reach Ayodhya Airport or Railway Station. From there, the transfer to the hotel is arranged, giving you some time to check in and get settled.</p>
+    <p>The highlight of the sightseeing is Shri Ram Janmabhoomi Mandir. For most of us, this is the reason why we go to Ayodhya in the first place. Do not hurry through sightseeing places, as you will tend to cover more places in a day by doing this.</p>
+    <p>Post Ram Janmabhoomi, the route takes you to the famous religious places called Hanuman Garhi and Kanak Bhawan. Both these places can get rather crowded and decorate another aspect of the visit of the day.</p>
+    <p>In the evening, visit Ram Ki Paidi for the Saryu Aarti. Set a gentle pace to the night after an entire day of sightseeing. The riverfront, lamps, and evening prayers give the city a different atmosphere from what you see during the daytime. After the aarti, return to the hotel and get some rest.</p>
+    <p><strong>Overnight stay:</strong> Ayodhya</p>
+
+    <h3>Day 2: More Temples, Local Time, and Departure</h3>
+    <p>The second morning starts after breakfast. Final sightseeing is yet to be done before leaving Ayodhya. We will be visiting Nageshwarnath Temple, Dashrath Mahal, and Tulsi Smarak Bhawan on the day. This will give you a chance to explore more with the Ayodhya tour package instead of visiting around Ram Janmabhoomi the entire trip.</p>
+    <p>You can also utilize some of the time to look out for some local shopping. If you wish to carry something for your loved ones, then you should look around now before you go.</p>
+    <p>At the appropriate time you will be taken to the airport/railway station. And that ends the Ram Mandir Ayodhya Tour. It is a short trip, but the route gives you time for the main temple visits as well as a little space to experience Ayodhya beyond one landmark.</p>
+</div>
+
+<h2>A Closer Look at the Places You Will Visit</h2>
+
+<h3>Shri Ram Janmabhoomi Mandir</h3>
+<p>The temple is the main stop for most visitors coming to Ayodhya. If you are travelling mainly for Ram darshan, you will naturally want to keep enough time and patience for this part of the visit.</p>
+
+<h3>Hanuman Garhi</h3>
+<p>Hanuman Garhi is yet another significant temple of Ayodhya, and it is covered in the first day\'s tour. This is one such destination where you have a totally different feeling about the place when compared with a halting point for a photograph.</p>
+
+<h3>Kanak Bhawan</h3>
+<p>Known for its connection with Lord Ram and Mata Sita, Kanak Bhawan is another temple included in the route. It gives you another opportunity to explore Ayodhya\'s religious side.</p>
+
+<h3>Ram Ki Paidi and Saryu Ghat</h3>
+<p>Inward beyond the riverfront, this is one among the places for a pause from temple hopping. Nightfall here is beautiful due to the Saryu Aarti.</p>
+
+<h3>Nageshwarnath Temple</h3>
+<p>This temple is part of the second day\'s route. Adding it to the trip means you get to see another important religious site before leaving the city.</p>
+
+<h3>Dashrath Mahal</h3>
+<p>Dashrath Mahal is connected with the traditional stories of Ayodhya and is another stop on the second day.</p>
+
+<h3>Tulsi Smarak Bhawan</h3>
+<p>It provides you a taste of something cultural with the visit to the cultural pavilion Tulsi Smarak Bhawan. It is something new that you will get apart from your temple stops.</p>
+
+<h2>What Is Included in Your Ayodhya Tour Package?</h2>
+
+<p>Knowing the inclusions before booking makes things much easier. This Ayodhya tour package includes the main arrangements needed for the short trip.</p>
+
+<ul>
+    <li>1 night accommodation in a deluxe hotel</li>
+    <li>Daily breakfast</li>
+    <li>Private AC cab for sightseeing</li>
+    <li>Ram Mandir darshan assistance</li>
+    <li>Hanuman Garhi visit</li>
+    <li>Kanak Bhawan visit</li>
+    <li>Saryu Aarti experience</li>
+    <li>Airport or railway station pickup and drop</li>
+    <li>Professional local guide</li>
+    <li>Parking and toll charges</li>
+</ul>
+
+<p>The idea is to keep the important travel arrangements together so you are not booking each part separately.</p>
+
+<h2>What Will You Need to Pay for Separately?</h2>
+
+<p>Not every travel expense is covered in a package, so it is better to know this before you book. The following are listed separately from the package:</p>
+
+<ul>
+    <li>Lunch and dinner</li>
+    <li>Temple donations and personal pooja</li>
+    <li>Camera charges</li>
+    <li>Personal expenses</li>
+    <li>Airfare or train tickets</li>
+    <li>Travel insurance</li>
+    <li>Tips for the driver or guide</li>
+</ul>
+
+<p>If you have any special demand, it\'s better to get it confirmed before booking than assuming that you will get it in your Ayodhya tour package.</p>
+
+<h2>How the Travel Arrangements Work</h2>
+
+<p>One thing that can make a pilgrimage trip tiring is constantly looking for autos, cabs, or transfers between different places. Here, the sightseeing travel is planned around a private AC cab.</p>
+
+<p>For a family, this can make the day easier because you are travelling together rather than arranging separate rides at every stop. It also means your sightseeing route is already decided before you begin.</p>
+
+<p>The airport or railway station pickup and drop are also part of the package. So, whether you are arriving by train or flight, the transfer is planned around your arrival and departure.</p>
+
+<p>Included in the tour is a hotel accommodation for one night; breakfast during the stay and lunch and dinner are not included in the Ayodhya tour package. This enables you to choose the cuisine of your choice.</p>
+
+<h2>A Few Things to Keep in Mind Before You Visit Ayodhya</h2>
+
+<p>Attending a pilgrimage trip can be fun if you make some preparations in advance.</p>
+
+<ul>
+    <li><strong>Wear relaxed clothing and footwear:</strong> You are likely to walk around quite a lot in temple grounds, wait a lot in the temple and between the temples in a city, and shop around a lot too.</li>
+    <li><strong>Keep your necessities handy:</strong> A small bag carrying your water, medicine, ID proof, etc. may come very handy to you.</li>
+    <li><strong>Don\'t do back-to-back travel plans:</strong> Your temple visit and traffic condition may delay you.</li>
+    <li><strong>If you are traveling with senior family members:</strong> Then take along a plan for the day. Informing them about the actual walking distances would help in planning the day better.</li>
+    <li><strong>Confirm the most recent temple guidelines before you travel:</strong> Entry schedules, timings, and guidelines keep on changing, so it is best to confirm closer to travel.</li>
+</ul>
+
+<h2>Is This Ram Mandir Ayodhya Tour Right for You?</h2>
+
+<p>Not everyone can go for a few days. If you want to go somewhere, stay there for a few days, and then you will feel good while relaxing, just enjoying the place, doing any sightseeing, and not in a hurry.</p>
+
+<p>But if you go to the temple, Ram Janmabhumi, and the Saryu aarti are satisfied, and you go, then this one will do the trick.</p>
+
+<p>The Ram Mandir Ayodhya Package is the best choice for the families who want the hotel, cab, and sightseeing to be done according to their demand. Being a 1-night, 2-day tour, it should not be very hard for you to plan the trips with your work and school commitments.</p>
+
+<h2>Why Book With Kashi Ghoomo?</h2>
+
+<p>A trip to a holy site isn\'t only about choosing a few temples. It\'s also about deciding where to stay, how to get there, and whether you can fit it all in your schedule.</p>
+
+<p>Kashi Ghoomo brings these basic arrangements together in one package. The package is inclusive of the stay, breakfast, private cab, local guide, darshan assistance, and station/airport transfers.</p>
+
+<p>It might be useful, especially when you are travelling with family and don\'t want to get into the nitty-gritty of the minutiae once you get settled with the Ayodhya tour package.</p>
+
+<p>The package is linked to several travel and pilgrimage agents in &amp; around Varanasi, Prayagraj, and Ayodhya in case you want to include the journey further along any other route.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. Duration of this tour package?</strong></p>
+        <p>This is a 1-night, 2-day tour package, which starts on Day 1 evening and goes for sightseeing at other points as we come to Ayodhya on Day 2.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. Places you will cover in the Ram Mandir Ayodhya tour?</strong></p>
+        <p>Shri Ram Janmabhoomi Mandir, Shri Hanuman Garhi, Shri Kanak Bhawan, Ram Ki Paidi Saryu Ghat, Nageshwarnath Temple, Dashrath Mahal, and Tulsi Smarak Bhawan.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Does the Ram Mandir Ayodhya Tour cover darshan?</strong></p>
+        <p>Yes, the package includes a visit to Ram Mandir for darshan. It is advised to check the temple rules before your visit.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. What does the Ayodhya tour package include?</strong></p>
+        <p>Hotel stay for 1 night including breakfast, transportation in a private AC car for sightseeing, a high-end English-speaking guide, Darshan assistance, and all transfers from the airport/railway station.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. Does the Ayodhya Tour Package include transportation?</strong></p>
+        <p>You shall be provided with a private AC car that will be at your service for sightseeing and pick-up and drop-off at the airport or railway station.</p>
+    </div>
+</div>',
+  updated_at = NOW();
+
+
+
+-- =====================================================
+-- New Package: Triveni Sangam Tour (triveni-sangam-tour)
+-- =====================================================
+
+-- Package: Triveni Sangam Tour (triveni-sangam-tour)
+INSERT INTO packages (slug, title, duration, price, destination_id, service_id, difficulty, best_season, start_location, status, featured, images, inclusions, exclusions, itinerary, meta_title, meta_description, meta_keywords, description, created_at, updated_at)
+VALUES ('triveni-sangam-tour', 'Triveni Sangam Tour', '1 Day (10-12 Hours)', 3999.00, 8, 1, 'Easy', 'October to March', 'Varanasi', 1, 1, '[\"packages\\/MNZIsKwzXtaMebEejpge2K3KQQGzEAD0kOXZcEpU.jpg\",\"packages\\/Os7a9fTQJFNLGcUQyewolBBG5MQxBOBtGPZWz9fh.jpg\",\"packages\\/4div7NqyCFAModDodXkoUfLyFvUBgaOXtg2TW9BI.jpg\",\"packages\\/TXSdg3lZf8HQoAZvyiaqeIy8MQkCKyoR6eOYd0Oq.jpg\",\"packages\\/bR5pypleSazFYDvjcaYm8X8axTOy4PljuxV2NnYE.jpg\"]', '[\"Private AC Cab for Varanasi to Prayagraj Round Trip\",\"Boat Ride to Triveni Sangam Confluence Point\",\"Assistance for Holy Dip & Changing Facilities\",\"Bade Hanuman Temple (Lete Hue Hanuman) Darshan\",\"Anand Bhawan & Alopi Devi Temple Sightseeing (Time Permitting)\",\"Pickup & Drop from Varanasi Hotel \\/ Railway Station\",\"All Parking Fees, Toll Taxes, and Driver Allowances\"]', '[\"Meals (Lunch & Dinner)\",\"Personal Offerings, Puja Samagri & Purohit Dakshina\",\"Monument Entry Tickets (e.g. Anand Bhawan museum)\",\"Personal Expenses & Shopping\",\"Tips for Driver and Guide\"]', '[{\"day\":\"Day 1\",\"title\":\"Varanasi to Prayagraj Triveni Sangam Day Excursion\",\"description\":\"Early morning pickup from Varanasi. Smooth 2.5-hour AC drive to Prayagraj. Board the boat at Sangam Ghat out to the sacred Triveni Sangam confluence of Ganga, Yamuna and Saraswati. Take the holy dip and witness the visible color difference of the waters. Visit the iconic Bade Hanuman Temple and nearby sacred shrines. Drive back to Varanasi by evening.\"}]', 'Triveni Sangam Tour Prayagraj | Holy Confluence Day Trip | Kashi Ghoomo', 'Book Triveni Sangam tour from Varanasi with private AC cab, Sangam boat ride, holy dip assistance & Bade Hanuman Temple darshan. Experience the divine river confluence.', 'Triveni Sangam tour, Prayagraj Sangam tour, Triveni Sangam boat ride, Prayagraj day tour from Varanasi, Triveni Sangam holy dip', '<h1>Triveni Sangam Tour: Why the Color Line Between the Rivers Stops People Mid-Sentence</h1>
+
+<p>There is a spot in Prayagraj where you can actually view two rivers coming together; the fresh, light-colored Yamuna and the darker Yamuna visibly merge where the two colors are side by side before they unify. A third river, the Saraswati, is said to join in too, just not one you can see.</p>
+
+<p>A Triveni Sangam tour takes you right out to that exact point, and honestly, most people who\'ve done it say photos really don\'t prepare you for it. Kashi Ghoomo runs this trip pretty regularly, usually tacked onto a Varanasi stay, since Prayagraj\'s close enough that skipping it would mean missing one of the biggest pilgrimage sites in North India.</p>
+
+<h2>Why This Meeting Point Matters So Much to Millions of Pilgrims</h2>
+
+<p>Once you actually are standing there, knowing why the Sangam\'s such a big deal honestly really makes a difference.</p>
+
+<ul>
+    <li>The Ganga, the Yamuna, and the legendary Saraswati all converge here, except the Saraswati is more speculative than visible.</li>
+    <li>That\'s why you have this Kumbh Mela happening in the town of Prayagraj, once after every twelve years, that someone or another in thousands come flocking to, which remains the world\'s largest congregation of any religion.</li>
+    <li>Indulging in a swim here, at the confluence of three holy rivers, is as associated with cleansing as a ritual that might beckon a long journey to witness.</li>
+    <li>For many travelers a Triveni Sangam tour is not sightseeing at all; it\'s truly a pilgrimage destination and something much bigger than a day trip.</li>
+</ul>
+
+<h2>How You Actually Get Out to the Confluence</h2>
+
+<p>You can\'t just stand on the bank and see the meeting point clearly; getting there really means going out on the water.</p>
+
+<p>Boats leave from Sangam Ghat, and that\'s basically the only real way to reach the exact spot where the two rivers meet, since it\'s a fair distance from shore. A Triveni Sangam tour with Kashi Ghoomo already has this boat ride included in the tour, so you won\'t be forced to try and negotiate with an obscure boatman when you arrive which many independent travelers have said is quite bothersome. The boat ride is not speedy, and there is enough time to simply hang out in the moment rather than rush through it.</p>
+
+<h2>What a Typical Day Trip From Varanasi Actually Looks Like</h2>
+
+<p>Most people doing this as a day trip start out from Varanasi, and the day tends to follow a fairly similar shape no matter who you book with.</p>
+
+<ul>
+    <li><strong>Early pickup from Varanasi</strong> – The drive to Prayagraj takes about 2 to 3 hours, so starting early genuinely means more time at the Sangam itself.</li>
+    <li><strong>Arrival, then the boat ride out to the confluence</strong> – This is really the main event of the whole day, actually reaching that point where the two rivers visibly meet.</li>
+    <li><strong>The holy dip, if you want to take part</strong> – Guided access into the water, usually with changing facilities close by for anyone joining in.</li>
+    <li><strong>A stop at a nearby temple</strong> – Most Triveni Sangam tour itineraries swing by Bade Hanuman Temple, known for its unusual reclining Hanuman statue, right near the confluence.</li>
+    <li><strong>Drive back to Varanasi</strong> – Usually timed so you\'re back by evening, often in time to catch the Ganga Aarti if that\'s part of your trip.</li>
+</ul>
+
+<h2>The River Color Difference You Can\'t Miss From the Boat</h2>
+
+<p>This is honestly one of the most talked-about parts of the whole trip, worth knowing about beforehand so you\'re actually watching for it.</p>
+
+<p>The Yamuna runs noticeably clearer, almost greenish, while the Ganga\'s muddier and more brown, and watching where these two different colors actually meet is genuinely something, a clean line where they sit next to each other before slowly mixing.</p>
+
+<p>Photos catch a bit of this, sure, but people who\'ve seen it from a slow-moving boat keep saying it just feels different in person. The Saraswati, supposedly joining right here too, isn\'t something you\'ll physically see; that part\'s purely about belief, not something the eye picks up.</p>
+
+<h2>What Actually Happens During the Holy Dip at the Sangam</h2>
+
+<p>If you\'re planning to take part in the ritual bath, knowing roughly what to expect makes it feel a lot less unfamiliar.</p>
+
+<p>The dip usually happens at a safe, designated platform close to the confluence, not something where you\'re swimming out into open water yourself. Changing rooms are generally nearby, and a Triveni Sangam tour that\'s actually organized well should already have this sorted rather than leaving you to figure it out once you get there. Priests are often around too, offering a more formal version of the ritual for anyone who wants it, blessings, and a short ceremony alongside the dip.</p>
+
+<p>Even those who don\'t participate in the dip at all spend half the day commenting on the vibe in the bunch, singing, bells, and pilgrims everywhere, easily one of the most incredible moments of the day.</p>
+
+<h2>Why Bade Hanuman Temple Ends Up on Almost Every Itinerary</h2>
+
+<p>This temple is located within walking distance of the Sangam, which has now become a semi-obligatory pit stop and actually has a reason to be.</p>
+
+<p>The temple is famous for its reclining Hanuman idol, which is quite the change from the traditional standing and sitting idols you see all over the rest of India.</p>
+
+<p>Its proximity to the confluence simply makes sense as a part of the overall spiritual theme of the journey rather than an add-on. Visitors tend not to linger as long here as at the Sangam itself, but it\'s a brief stop that is definitely worth it for how nearby it is.</p>
+
+<h2>When to Actually Go for the Best Experience</h2>
+
+<p>Timing genuinely changes what kind of day you\'ll have, worth thinking about rather than just booking whenever\'s easiest.</p>
+
+<ol>
+    <li><strong>October to March</strong> is the most comfortable stretch, both for the drive and for hanging around near the water, with no fighting through the summer heat that can wear you out by afternoon.</li>
+    <li><strong>Magh Mela (normally Jan)</strong> takes the trip to an entirely different level, spiritually and culturally, but will be packed in its own way, worth it once if the timing is in your favor, although not the peace and privacy one might want.</li>
+    <li><strong>Kumbh Mela years</strong>, occurring at approximately 12-year intervals, convert the entire region into one of the largest religious crowds in the universe. On a totally different scale, a trillion times over, attracting millions, and it requires many more years of planning.</li>
+</ol>
+
+<h2>Why Booking This Beats Just Showing Up and Figuring It Out</h2>
+
+<p>Most tourists think that just going to the Sangam Ghat and renting a boat there will work, and technically, yes, it does.</p>
+
+<p>Hard bargaining with boatmen on the spot is a total hassle; the price is drastically fluctuating, and unfortunately, you are under the risk of getting scammed by first-time visitors on the island. In a Triveni Sangam tour through Kashi Ghoomo, all this can be avoided.</p>
+
+<p>Everything from transportation to boat rides to timely matters is pre-planned, which makes the experience truly unforgettable. That matters even more if you\'re combining this with a longer Varanasi stay, since a smooth day trip means you\'re back without the whole thing feeling rushed or stressful.</p>
+
+<h2>Pairing This With a Longer Varanasi and Ayodhya Trip</h2>
+
+<p>A lot of travelers don\'t book this as a standalone thing. It generally fits smoothly into a larger trip, also including Varanasi and Ayodhya, since all three cities are so near each other.</p>
+
+<p>Kashi Ghoomo\'s extended packages will often traverse the Prayagraj leg smack in the middle of Varanasi and Ayodhya, allowing you all three the Ganga Aarti in Varanasi, the Sangam here, and Ram Janmabhoomi Temple in Ayodhya in one seamless journey instead of three disconnected ones.</p>
+
+<p>If you\'re pressed for time, this combined arrangement makes total sense vis-a-vis doing Prayagraj as a standalone one-day trip, which requires planning in itself.</p>
+
+<h2>What People Keep Bringing Up Long After the Trip Ends</h2>
+
+<p>Real feedback usually sticks to specific moments, not vague praise. People who\'ve done this through Kashi Ghoomo keep mentioning the same handful of things.</p>
+
+<p>That color difference between the two rivers was more striking in person than photos ever showed them. The atmosphere around the holy dip, chanting, bells, devotees everywhere, genuinely moving even for people who didn\'t get in the water themselves. And just how smooth everything felt, the boat, the timing, the quick stop at Bade Hanuman Temple, all flowing together without the stress of figuring it out on arrival.</p>
+
+<h2>A Few Practical Things Worth Knowing Beforehand</h2>
+
+<p>A handful of small things genuinely make the day easier. Bring a change of clothes if you\'re doing the dip; sitting around in damp clothes the rest of the day isn\'t fun. Sun protection matters too, especially outside winter, since a good chunk of the day happens outdoors near open water.</p>
+
+<p>Have some cash for small offerings or purchases at the temples; they\'ll take a card here and there, but most places around here are cash-only. Also, carry a slip on shoes so you\'ll be changing them frequently between boat, ghat, and temples.</p>
+
+<h2>Why Travelers Keep Choosing Kashi Ghoomo for This Trip</h2>
+
+<p>With a fair number of operators offering some version of a Triveni Sangam tour, what actually sets one apart from another usually comes down to how the day\'s actually handled, not just what\'s listed on a brochure.</p>
+
+<p>Kashi Ghoomo\'s been taking the same route here long enough to know the small details that really can make or break the day. Which boat timings sidestep the worst of the midday crush. How to keep the Bade Hanuman Temple stop quick but not rushed.</p>
+
+<p>Apart from that vague anticipation of that sense of being out and about as a tourist, people always discuss that they are very well cared for: not simply being transported there and back, but being towed along and helped through the day by someone who\'s been there himself. On an experience built around something as big as Sangam, that really counts.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. What is the timing of the Triveni Sangam Varanasi Tour?</strong></p>
+        <p>The average duration of your Triveni Sangam tour will be 10–12 hours, with 2 to 3 hours of driving one way, so you can spend some time at the Confluence and other places in Prayagraj.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. Should I be applying for the holy dip? Does one have to get involved in the holy dip?</strong></p>
+        <p>Of course not. A lot of tourists just love the vibe and cruise out to the confluence to relax.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. What can I do for a little less crowd?</strong></p>
+        <p>October to March tends to be the most comfortable and less crowded stretch overall, while Magh Mela in January and Kumbh Mela years, which happen roughly every 12 years, draw significantly larger numbers.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. Is it possible to do this in conjunction with the trip to Ayodhya as well?</strong></p>
+        <p>Yes, Kashi Ghoomo has longer duration trips that include Varanasi, Prayagraj, and Ayodhya together, so you visit all three on a single trip.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. Do I need to take care of the boat myself upon reaching Sangam Ghat?</strong></p>
+        <p>No, you have a boat with you on the Triveni Sangam tour in Kashi Ghoomo itself. So there\'s no need to bargain with boatmen once you reach.</p>
+    </div>
+</div>', NOW(), NOW())
+ON DUPLICATE KEY UPDATE
+  title = 'Triveni Sangam Tour',
+  duration = '1 Day (10-12 Hours)',
+  price = 3999.00,
+  images = '[\"packages\\/MNZIsKwzXtaMebEejpge2K3KQQGzEAD0kOXZcEpU.jpg\",\"packages\\/Os7a9fTQJFNLGcUQyewolBBG5MQxBOBtGPZWz9fh.jpg\",\"packages\\/4div7NqyCFAModDodXkoUfLyFvUBgaOXtg2TW9BI.jpg\",\"packages\\/TXSdg3lZf8HQoAZvyiaqeIy8MQkCKyoR6eOYd0Oq.jpg\",\"packages\\/bR5pypleSazFYDvjcaYm8X8axTOy4PljuxV2NnYE.jpg\"]',
+  inclusions = '[\"Private AC Cab for Varanasi to Prayagraj Round Trip\",\"Boat Ride to Triveni Sangam Confluence Point\",\"Assistance for Holy Dip & Changing Facilities\",\"Bade Hanuman Temple (Lete Hue Hanuman) Darshan\",\"Anand Bhawan & Alopi Devi Temple Sightseeing (Time Permitting)\",\"Pickup & Drop from Varanasi Hotel \\/ Railway Station\",\"All Parking Fees, Toll Taxes, and Driver Allowances\"]',
+  exclusions = '[\"Meals (Lunch & Dinner)\",\"Personal Offerings, Puja Samagri & Purohit Dakshina\",\"Monument Entry Tickets (e.g. Anand Bhawan museum)\",\"Personal Expenses & Shopping\",\"Tips for Driver and Guide\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Varanasi to Prayagraj Triveni Sangam Day Excursion\",\"description\":\"Early morning pickup from Varanasi. Smooth 2.5-hour AC drive to Prayagraj. Board the boat at Sangam Ghat out to the sacred Triveni Sangam confluence of Ganga, Yamuna and Saraswati. Take the holy dip and witness the visible color difference of the waters. Visit the iconic Bade Hanuman Temple and nearby sacred shrines. Drive back to Varanasi by evening.\"}]',
+  meta_title = 'Triveni Sangam Tour Prayagraj | Holy Confluence Day Trip | Kashi Ghoomo',
+  meta_description = 'Book Triveni Sangam tour from Varanasi with private AC cab, Sangam boat ride, holy dip assistance & Bade Hanuman Temple darshan. Experience the divine river confluence.',
+  meta_keywords = 'Triveni Sangam tour, Prayagraj Sangam tour, Triveni Sangam boat ride, Prayagraj day tour from Varanasi, Triveni Sangam holy dip',
+  description = '<h1>Triveni Sangam Tour: Why the Color Line Between the Rivers Stops People Mid-Sentence</h1>
+
+<p>There is a spot in Prayagraj where you can actually view two rivers coming together; the fresh, light-colored Yamuna and the darker Yamuna visibly merge where the two colors are side by side before they unify. A third river, the Saraswati, is said to join in too, just not one you can see.</p>
+
+<p>A Triveni Sangam tour takes you right out to that exact point, and honestly, most people who\'ve done it say photos really don\'t prepare you for it. Kashi Ghoomo runs this trip pretty regularly, usually tacked onto a Varanasi stay, since Prayagraj\'s close enough that skipping it would mean missing one of the biggest pilgrimage sites in North India.</p>
+
+<h2>Why This Meeting Point Matters So Much to Millions of Pilgrims</h2>
+
+<p>Once you actually are standing there, knowing why the Sangam\'s such a big deal honestly really makes a difference.</p>
+
+<ul>
+    <li>The Ganga, the Yamuna, and the legendary Saraswati all converge here, except the Saraswati is more speculative than visible.</li>
+    <li>That\'s why you have this Kumbh Mela happening in the town of Prayagraj, once after every twelve years, that someone or another in thousands come flocking to, which remains the world\'s largest congregation of any religion.</li>
+    <li>Indulging in a swim here, at the confluence of three holy rivers, is as associated with cleansing as a ritual that might beckon a long journey to witness.</li>
+    <li>For many travelers a Triveni Sangam tour is not sightseeing at all; it\'s truly a pilgrimage destination and something much bigger than a day trip.</li>
+</ul>
+
+<h2>How You Actually Get Out to the Confluence</h2>
+
+<p>You can\'t just stand on the bank and see the meeting point clearly; getting there really means going out on the water.</p>
+
+<p>Boats leave from Sangam Ghat, and that\'s basically the only real way to reach the exact spot where the two rivers meet, since it\'s a fair distance from shore. A Triveni Sangam tour with Kashi Ghoomo already has this boat ride included in the tour, so you won\'t be forced to try and negotiate with an obscure boatman when you arrive which many independent travelers have said is quite bothersome. The boat ride is not speedy, and there is enough time to simply hang out in the moment rather than rush through it.</p>
+
+<h2>What a Typical Day Trip From Varanasi Actually Looks Like</h2>
+
+<p>Most people doing this as a day trip start out from Varanasi, and the day tends to follow a fairly similar shape no matter who you book with.</p>
+
+<ul>
+    <li><strong>Early pickup from Varanasi</strong> – The drive to Prayagraj takes about 2 to 3 hours, so starting early genuinely means more time at the Sangam itself.</li>
+    <li><strong>Arrival, then the boat ride out to the confluence</strong> – This is really the main event of the whole day, actually reaching that point where the two rivers visibly meet.</li>
+    <li><strong>The holy dip, if you want to take part</strong> – Guided access into the water, usually with changing facilities close by for anyone joining in.</li>
+    <li><strong>A stop at a nearby temple</strong> – Most Triveni Sangam tour itineraries swing by Bade Hanuman Temple, known for its unusual reclining Hanuman statue, right near the confluence.</li>
+    <li><strong>Drive back to Varanasi</strong> – Usually timed so you\'re back by evening, often in time to catch the Ganga Aarti if that\'s part of your trip.</li>
+</ul>
+
+<h2>The River Color Difference You Can\'t Miss From the Boat</h2>
+
+<p>This is honestly one of the most talked-about parts of the whole trip, worth knowing about beforehand so you\'re actually watching for it.</p>
+
+<p>The Yamuna runs noticeably clearer, almost greenish, while the Ganga\'s muddier and more brown, and watching where these two different colors actually meet is genuinely something, a clean line where they sit next to each other before slowly mixing.</p>
+
+<p>Photos catch a bit of this, sure, but people who\'ve seen it from a slow-moving boat keep saying it just feels different in person. The Saraswati, supposedly joining right here too, isn\'t something you\'ll physically see; that part\'s purely about belief, not something the eye picks up.</p>
+
+<h2>What Actually Happens During the Holy Dip at the Sangam</h2>
+
+<p>If you\'re planning to take part in the ritual bath, knowing roughly what to expect makes it feel a lot less unfamiliar.</p>
+
+<p>The dip usually happens at a safe, designated platform close to the confluence, not something where you\'re swimming out into open water yourself. Changing rooms are generally nearby, and a Triveni Sangam tour that\'s actually organized well should already have this sorted rather than leaving you to figure it out once you get there. Priests are often around too, offering a more formal version of the ritual for anyone who wants it, blessings, and a short ceremony alongside the dip.</p>
+
+<p>Even those who don\'t participate in the dip at all spend half the day commenting on the vibe in the bunch, singing, bells, and pilgrims everywhere, easily one of the most incredible moments of the day.</p>
+
+<h2>Why Bade Hanuman Temple Ends Up on Almost Every Itinerary</h2>
+
+<p>This temple is located within walking distance of the Sangam, which has now become a semi-obligatory pit stop and actually has a reason to be.</p>
+
+<p>The temple is famous for its reclining Hanuman idol, which is quite the change from the traditional standing and sitting idols you see all over the rest of India.</p>
+
+<p>Its proximity to the confluence simply makes sense as a part of the overall spiritual theme of the journey rather than an add-on. Visitors tend not to linger as long here as at the Sangam itself, but it\'s a brief stop that is definitely worth it for how nearby it is.</p>
+
+<h2>When to Actually Go for the Best Experience</h2>
+
+<p>Timing genuinely changes what kind of day you\'ll have, worth thinking about rather than just booking whenever\'s easiest.</p>
+
+<ol>
+    <li><strong>October to March</strong> is the most comfortable stretch, both for the drive and for hanging around near the water, with no fighting through the summer heat that can wear you out by afternoon.</li>
+    <li><strong>Magh Mela (normally Jan)</strong> takes the trip to an entirely different level, spiritually and culturally, but will be packed in its own way, worth it once if the timing is in your favor, although not the peace and privacy one might want.</li>
+    <li><strong>Kumbh Mela years</strong>, occurring at approximately 12-year intervals, convert the entire region into one of the largest religious crowds in the universe. On a totally different scale, a trillion times over, attracting millions, and it requires many more years of planning.</li>
+</ol>
+
+<h2>Why Booking This Beats Just Showing Up and Figuring It Out</h2>
+
+<p>Most tourists think that just going to the Sangam Ghat and renting a boat there will work, and technically, yes, it does.</p>
+
+<p>Hard bargaining with boatmen on the spot is a total hassle; the price is drastically fluctuating, and unfortunately, you are under the risk of getting scammed by first-time visitors on the island. In a Triveni Sangam tour through Kashi Ghoomo, all this can be avoided.</p>
+
+<p>Everything from transportation to boat rides to timely matters is pre-planned, which makes the experience truly unforgettable. That matters even more if you\'re combining this with a longer Varanasi stay, since a smooth day trip means you\'re back without the whole thing feeling rushed or stressful.</p>
+
+<h2>Pairing This With a Longer Varanasi and Ayodhya Trip</h2>
+
+<p>A lot of travelers don\'t book this as a standalone thing. It generally fits smoothly into a larger trip, also including Varanasi and Ayodhya, since all three cities are so near each other.</p>
+
+<p>Kashi Ghoomo\'s extended packages will often traverse the Prayagraj leg smack in the middle of Varanasi and Ayodhya, allowing you all three the Ganga Aarti in Varanasi, the Sangam here, and Ram Janmabhoomi Temple in Ayodhya in one seamless journey instead of three disconnected ones.</p>
+
+<p>If you\'re pressed for time, this combined arrangement makes total sense vis-a-vis doing Prayagraj as a standalone one-day trip, which requires planning in itself.</p>
+
+<h2>What People Keep Bringing Up Long After the Trip Ends</h2>
+
+<p>Real feedback usually sticks to specific moments, not vague praise. People who\'ve done this through Kashi Ghoomo keep mentioning the same handful of things.</p>
+
+<p>That color difference between the two rivers was more striking in person than photos ever showed them. The atmosphere around the holy dip, chanting, bells, devotees everywhere, genuinely moving even for people who didn\'t get in the water themselves. And just how smooth everything felt, the boat, the timing, the quick stop at Bade Hanuman Temple, all flowing together without the stress of figuring it out on arrival.</p>
+
+<h2>A Few Practical Things Worth Knowing Beforehand</h2>
+
+<p>A handful of small things genuinely make the day easier. Bring a change of clothes if you\'re doing the dip; sitting around in damp clothes the rest of the day isn\'t fun. Sun protection matters too, especially outside winter, since a good chunk of the day happens outdoors near open water.</p>
+
+<p>Have some cash for small offerings or purchases at the temples; they\'ll take a card here and there, but most places around here are cash-only. Also, carry a slip on shoes so you\'ll be changing them frequently between boat, ghat, and temples.</p>
+
+<h2>Why Travelers Keep Choosing Kashi Ghoomo for This Trip</h2>
+
+<p>With a fair number of operators offering some version of a Triveni Sangam tour, what actually sets one apart from another usually comes down to how the day\'s actually handled, not just what\'s listed on a brochure.</p>
+
+<p>Kashi Ghoomo\'s been taking the same route here long enough to know the small details that really can make or break the day. Which boat timings sidestep the worst of the midday crush. How to keep the Bade Hanuman Temple stop quick but not rushed.</p>
+
+<p>Apart from that vague anticipation of that sense of being out and about as a tourist, people always discuss that they are very well cared for: not simply being transported there and back, but being towed along and helped through the day by someone who\'s been there himself. On an experience built around something as big as Sangam, that really counts.</p>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. What is the timing of the Triveni Sangam Varanasi Tour?</strong></p>
+        <p>The average duration of your Triveni Sangam tour will be 10–12 hours, with 2 to 3 hours of driving one way, so you can spend some time at the Confluence and other places in Prayagraj.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. Should I be applying for the holy dip? Does one have to get involved in the holy dip?</strong></p>
+        <p>Of course not. A lot of tourists just love the vibe and cruise out to the confluence to relax.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. What can I do for a little less crowd?</strong></p>
+        <p>October to March tends to be the most comfortable and less crowded stretch overall, while Magh Mela in January and Kumbh Mela years, which happen roughly every 12 years, draw significantly larger numbers.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. Is it possible to do this in conjunction with the trip to Ayodhya as well?</strong></p>
+        <p>Yes, Kashi Ghoomo has longer duration trips that include Varanasi, Prayagraj, and Ayodhya together, so you visit all three on a single trip.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. Do I need to take care of the boat myself upon reaching Sangam Ghat?</strong></p>
+        <p>No, you have a boat with you on the Triveni Sangam tour in Kashi Ghoomo itself. So there\'s no need to bargain with boatmen once you reach.</p>
+    </div>
+</div>',
+  updated_at = NOW();
+
