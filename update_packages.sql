@@ -3352,3 +3352,166 @@ ON DUPLICATE KEY UPDATE
 </div>',
   updated_at = NOW();
 
+
+
+-- =====================================================
+-- New Package: Kashi Vishwanath Tour Package (kashi-vishwanath)
+-- =====================================================
+
+-- Package: Kashi Vishwanath Tour Package (kashi-vishwanath)
+INSERT INTO packages (slug, title, duration, price, destination_id, service_id, difficulty, best_season, start_location, status, featured, images, inclusions, exclusions, itinerary, meta_title, meta_description, meta_keywords, description, created_at, updated_at)
+VALUES ('kashi-vishwanath', 'Kashi Vishwanath Tour Package', '2 Days / 1 Night', 3500.00, 3, 1, 'Easy', 'October to March', 'Varanasi Airport / Railway Station', 1, 1, '[\"packages\\/h6WnL7iNpLwA1WIRg0mkHBqCPjAhIsfZalu3Y9zN.jpg\",\"packages\\/pF5AVlpQcHJuaP5SGuUGk8QdIOa0xpTcYcACOOuS.jpg\",\"packages\\/uVe6K71HsQeuVeoUr8Taugk6OlXOnwcIDXL1y1Fo.jpg\",\"packages\\/rhWQMHVKAmezgi4YvLLIh5zYr1T0QbIGvpla0DEs.jpg\",\"packages\\/bQaGvczMgsTT8rpmUI1cN67Y7lsQuxyecIq1CEPE.jpg\",\"packages\\/DgYFudb8EPmrxKItWHkKIf79Pu7yM4b8LOkxDbAB.jpg\"]', '[\"Airport or Railway Station Pickup and Drop\",\"1 Night Hotel Accommodation (Clean & Comfortable)\",\"Daily Complimentary Breakfast\",\"VIP Darshan Passes for Kashi Vishwanath Temple\",\"Evening Boat Ride during Ganga Aarti at Dashashwamedh Ghat\",\"Sunrise Morning Boat Ride on River Ganga\",\"Temple Darshan: Kashi Vishwanath, Annapurna Devi & Kal Bhairav\",\"Excursion to Sarnath with Transfers\",\"Private AC Vehicle for all transfers and local sightseeing\",\"24\\/7 On-Ground Support by Kashi Ghoomo team\"]', '[\"Own expenses to certain monuments\",\"Lunch and dinner\",\"Shopping or personal expenses\",\"Tips for driver and guide\",\"Travel insurance\",\"Camera charges at specific temples\"]', '[{\"day\":\"Day 1\",\"title\":\"Arrival, Hotel Check-in & Evening Ganga Aarti Boat Ride\",\"description\":\"On arrival at Varanasi Airport or Railway Station, meet with our representative and transfer to hotel. In the evening, visit Dashashwamedh Ghat for a private boat ride during Ganga Aarti. Watching the Aarti from the river provides an extraordinary spiritual experience.\"},{\"day\":\"Day 2\",\"title\":\"Sunrise Boat Ride, Kashi Vishwanath Darshan & Sarnath\",\"description\":\"Early morning sunrise boat ride on the sacred Ganga. VIP Darshan at Kashi Vishwanath Temple, Annapurna Devi, and Kal Bhairav. Return for breakfast, visit historic Sarnath, and transfer to airport or railway station for onward departure.\"}]', 'Kashi Vishwanath Tour Package | VIP Darshan & Ganga Aarti | Kashi Ghoomo', 'Book Kashi Vishwanath tour package (2D/1N) with VIP temple darshan, hotel stay, private AC cab, Ganga Aarti boat ride, and Sarnath excursion with Kashi Ghoomo.', 'kashi vishwanath tour package, kashi vishwanath darshan, kashi vishwanath package, varanasi kashi vishwanath tour, kashi darshan package', '<h1>Kashi Vishwanath Tour Package: VIP Darshan, Sacred Ghats &amp; Beyond</h1>
+
+<p>A pilgrimage to Varanasi remains incomplete without seeking the divine blessings of Lord Shiva at the sacred <strong>Shri Kashi Vishwanath Jyotirlinga</strong>. One of the twelve revered Jyotirlingas in India, Kashi Vishwanath stands as the spiritual heart of Banaras. With the <strong>Kashi Vishwanath Tour Package by Kashi Ghoomo</strong>, you experience a comfortable, hassle-free pilgrimage that balances VIP temple darshan, mesmerizing Ganga Aarti from the river, serene morning boat rides, and heritage sightseeing without the exhaustion of waiting in crowded queues alone.</p>
+
+<h2>Why Book a Dedicated Kashi Vishwanath Tour Package?</h2>
+
+<p>Navigating the bustling lanes (galis) of Varanasi and managing temple security, electronic locker rules, and VIP darshan slots can be overwhelming for first-time visitors and families traveling with elderly parents. Our package ensures everything is pre-coordinated:</p>
+
+<ul>
+    <li><strong>VIP Darshan Assistance:</strong> Guided assistance at Shri Kashi Vishwanath Temple to avoid long queue hours.</li>
+    <li><strong>The Big Three Temples Darshan:</strong> Complete your sacred circuit with visits to Kashi Vishwanath, Annapurna Devi Temple, and the protective deity Kaal Bhairav.</li>
+    <li><strong>Mesmerizing Ganga Aarti from Private Boat:</strong> Witness the evening Aarti at Dashashwamedh Ghat from the water, skipping the intense bank crowds.</li>
+    <li><strong>Sunrise Ganga Boat Ride:</strong> An early morning peaceful boat ride across Assi Ghat to Manikarnika Ghat with Vedic chants in the air.</li>
+    <li><strong>Excursion to Sarnath:</strong> A serene contrast to the vibrant ghats, visiting Dhamek Stupa where Lord Buddha delivered his first sermon.</li>
+</ul>
+
+<h2>What\'s Included in This Package</h2>
+
+<p>Everything you need for a smooth, memorable 2-day pilgrimage in Varanasi:</p>
+
+<ul>
+    <li>Airport or Railway Station pickup and drop in a private AC cab</li>
+    <li>1 Night comfortable hotel accommodation with complimentary daily breakfast</li>
+    <li>Private evening boat ride during Ganga Aarti at Dashashwamedh Ghat</li>
+    <li>Sunrise morning boat ride on River Ganga</li>
+    <li>Temple darshan assistance at Kashi Vishwanath, Annapurna Devi, and Kaal Bhairav</li>
+    <li>Excursion to Sarnath with comfortable round-trip transfers</li>
+    <li>All toll taxes, parking fees, fuel, and driver allowances</li>
+    <li>24/7 on-ground assistance by the local Kashi Ghoomo team</li>
+</ul>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Arrival, Hotel Check-in &amp; Evening Ganga Aarti Boat Ride</h3>
+    <p>On arrival at Varanasi Airport or Railway Station, our representative welcomes you and assists with your transfer to the hotel. After check-in and relaxation, proceed to the ghats in the evening. Experience the world-renowned <strong>Ganga Aarti from a private boat</strong> opposite Dashashwamedh Ghat. The sacred lamps, chanting, and reflection on the water create an unforgettable spiritual atmosphere. Overnight stay in Varanasi.</p>
+
+    <h3>Day 2: Sunrise Cruise, Kashi Vishwanath Darshan &amp; Sarnath</h3>
+    <p>Begin your morning with a peaceful boat ride at sunrise along the ancient ghats. Next, proceed for divine darshan at <strong>Shri Kashi Vishwanath Temple, Annapurna Devi Temple, and Kaal Bhairav Temple</strong> in smooth succession. Return to the hotel for breakfast, then embark on an excursion to <strong>Sarnath</strong> to explore the Dhamek Stupa, Chaukhandi Stupa, and archaeological museum. Finally, transfer to the airport or railway station for your journey home.</p>
+</div>
+
+<h2>Tips for Visiting Kashi Vishwanath Temple</h2>
+
+<ul>
+    <li><strong>Dress Code:</strong> Wear modest, traditional attire covering shoulders and knees. Shawls or scarves are recommended.</li>
+    <li><strong>Electronic Devices:</strong> Mobile phones, smart watches, belts with large buckles, and cameras are strictly prohibited inside the inner temple sanctum. Locker facilities are arranged by our tour guide.</li>
+    <li><strong>Senior Citizens:</strong> Wheelchair assistance and battery-operated carts can be arranged through the Kashi Vishwanath Corridor upon prior request.</li>
+</ul>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. Does this Kashi Vishwanath tour package include VIP darshan?</strong></p>
+        <p>Yes, we provide VIP darshan passes and ground coordination to help you complete your darshan comfortably without standing in general hours-long queues.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. Can this tour be customized for families with elderly parents?</strong></p>
+        <p>Absolutely. We pace the itinerary comfortably, use sanitized AC cabs, select accessible hotels, and arrange corridor battery cart assistance for senior citizens.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Are boat rides included in the package?</strong></p>
+        <p>Yes! Both the evening Ganga Aarti boat ride from Dashashwamedh Ghat and the serene sunrise boat ride are fully included.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. How far in advance should I book?</strong></p>
+        <p>We recommend booking at least 1 to 2 weeks in advance, especially during festival seasons like Maha Shivratri, Shravan Maas, and Dev Deepawali when temple queues and hotels book out rapidly.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. Can we extend this package to include Ayodhya or Prayagraj?</strong></p>
+        <p>Yes, Kashi Ghoomo provides extended 3-night and 4-day packages combining Varanasi, Prayagraj Triveni Sangam, and Ayodhya Ram Mandir.</p>
+    </div>
+</div>', NOW(), NOW())
+ON DUPLICATE KEY UPDATE
+  title = 'Kashi Vishwanath Tour Package',
+  duration = '2 Days / 1 Night',
+  price = 3500.00,
+  images = '[\"packages\\/h6WnL7iNpLwA1WIRg0mkHBqCPjAhIsfZalu3Y9zN.jpg\",\"packages\\/pF5AVlpQcHJuaP5SGuUGk8QdIOa0xpTcYcACOOuS.jpg\",\"packages\\/uVe6K71HsQeuVeoUr8Taugk6OlXOnwcIDXL1y1Fo.jpg\",\"packages\\/rhWQMHVKAmezgi4YvLLIh5zYr1T0QbIGvpla0DEs.jpg\",\"packages\\/bQaGvczMgsTT8rpmUI1cN67Y7lsQuxyecIq1CEPE.jpg\",\"packages\\/DgYFudb8EPmrxKItWHkKIf79Pu7yM4b8LOkxDbAB.jpg\"]',
+  inclusions = '[\"Airport or Railway Station Pickup and Drop\",\"1 Night Hotel Accommodation (Clean & Comfortable)\",\"Daily Complimentary Breakfast\",\"VIP Darshan Passes for Kashi Vishwanath Temple\",\"Evening Boat Ride during Ganga Aarti at Dashashwamedh Ghat\",\"Sunrise Morning Boat Ride on River Ganga\",\"Temple Darshan: Kashi Vishwanath, Annapurna Devi & Kal Bhairav\",\"Excursion to Sarnath with Transfers\",\"Private AC Vehicle for all transfers and local sightseeing\",\"24\\/7 On-Ground Support by Kashi Ghoomo team\"]',
+  exclusions = '[\"Own expenses to certain monuments\",\"Lunch and dinner\",\"Shopping or personal expenses\",\"Tips for driver and guide\",\"Travel insurance\",\"Camera charges at specific temples\"]',
+  itinerary = '[{\"day\":\"Day 1\",\"title\":\"Arrival, Hotel Check-in & Evening Ganga Aarti Boat Ride\",\"description\":\"On arrival at Varanasi Airport or Railway Station, meet with our representative and transfer to hotel. In the evening, visit Dashashwamedh Ghat for a private boat ride during Ganga Aarti. Watching the Aarti from the river provides an extraordinary spiritual experience.\"},{\"day\":\"Day 2\",\"title\":\"Sunrise Boat Ride, Kashi Vishwanath Darshan & Sarnath\",\"description\":\"Early morning sunrise boat ride on the sacred Ganga. VIP Darshan at Kashi Vishwanath Temple, Annapurna Devi, and Kal Bhairav. Return for breakfast, visit historic Sarnath, and transfer to airport or railway station for onward departure.\"}]',
+  meta_title = 'Kashi Vishwanath Tour Package | VIP Darshan & Ganga Aarti | Kashi Ghoomo',
+  meta_description = 'Book Kashi Vishwanath tour package (2D/1N) with VIP temple darshan, hotel stay, private AC cab, Ganga Aarti boat ride, and Sarnath excursion with Kashi Ghoomo.',
+  meta_keywords = 'kashi vishwanath tour package, kashi vishwanath darshan, kashi vishwanath package, varanasi kashi vishwanath tour, kashi darshan package',
+  description = '<h1>Kashi Vishwanath Tour Package: VIP Darshan, Sacred Ghats &amp; Beyond</h1>
+
+<p>A pilgrimage to Varanasi remains incomplete without seeking the divine blessings of Lord Shiva at the sacred <strong>Shri Kashi Vishwanath Jyotirlinga</strong>. One of the twelve revered Jyotirlingas in India, Kashi Vishwanath stands as the spiritual heart of Banaras. With the <strong>Kashi Vishwanath Tour Package by Kashi Ghoomo</strong>, you experience a comfortable, hassle-free pilgrimage that balances VIP temple darshan, mesmerizing Ganga Aarti from the river, serene morning boat rides, and heritage sightseeing without the exhaustion of waiting in crowded queues alone.</p>
+
+<h2>Why Book a Dedicated Kashi Vishwanath Tour Package?</h2>
+
+<p>Navigating the bustling lanes (galis) of Varanasi and managing temple security, electronic locker rules, and VIP darshan slots can be overwhelming for first-time visitors and families traveling with elderly parents. Our package ensures everything is pre-coordinated:</p>
+
+<ul>
+    <li><strong>VIP Darshan Assistance:</strong> Guided assistance at Shri Kashi Vishwanath Temple to avoid long queue hours.</li>
+    <li><strong>The Big Three Temples Darshan:</strong> Complete your sacred circuit with visits to Kashi Vishwanath, Annapurna Devi Temple, and the protective deity Kaal Bhairav.</li>
+    <li><strong>Mesmerizing Ganga Aarti from Private Boat:</strong> Witness the evening Aarti at Dashashwamedh Ghat from the water, skipping the intense bank crowds.</li>
+    <li><strong>Sunrise Ganga Boat Ride:</strong> An early morning peaceful boat ride across Assi Ghat to Manikarnika Ghat with Vedic chants in the air.</li>
+    <li><strong>Excursion to Sarnath:</strong> A serene contrast to the vibrant ghats, visiting Dhamek Stupa where Lord Buddha delivered his first sermon.</li>
+</ul>
+
+<h2>What\'s Included in This Package</h2>
+
+<p>Everything you need for a smooth, memorable 2-day pilgrimage in Varanasi:</p>
+
+<ul>
+    <li>Airport or Railway Station pickup and drop in a private AC cab</li>
+    <li>1 Night comfortable hotel accommodation with complimentary daily breakfast</li>
+    <li>Private evening boat ride during Ganga Aarti at Dashashwamedh Ghat</li>
+    <li>Sunrise morning boat ride on River Ganga</li>
+    <li>Temple darshan assistance at Kashi Vishwanath, Annapurna Devi, and Kaal Bhairav</li>
+    <li>Excursion to Sarnath with comfortable round-trip transfers</li>
+    <li>All toll taxes, parking fees, fuel, and driver allowances</li>
+    <li>24/7 on-ground assistance by the local Kashi Ghoomo team</li>
+</ul>
+
+<div class=\\\"day-plan-section\\\">
+    <h3>Day 1: Arrival, Hotel Check-in &amp; Evening Ganga Aarti Boat Ride</h3>
+    <p>On arrival at Varanasi Airport or Railway Station, our representative welcomes you and assists with your transfer to the hotel. After check-in and relaxation, proceed to the ghats in the evening. Experience the world-renowned <strong>Ganga Aarti from a private boat</strong> opposite Dashashwamedh Ghat. The sacred lamps, chanting, and reflection on the water create an unforgettable spiritual atmosphere. Overnight stay in Varanasi.</p>
+
+    <h3>Day 2: Sunrise Cruise, Kashi Vishwanath Darshan &amp; Sarnath</h3>
+    <p>Begin your morning with a peaceful boat ride at sunrise along the ancient ghats. Next, proceed for divine darshan at <strong>Shri Kashi Vishwanath Temple, Annapurna Devi Temple, and Kaal Bhairav Temple</strong> in smooth succession. Return to the hotel for breakfast, then embark on an excursion to <strong>Sarnath</strong> to explore the Dhamek Stupa, Chaukhandi Stupa, and archaeological museum. Finally, transfer to the airport or railway station for your journey home.</p>
+</div>
+
+<h2>Tips for Visiting Kashi Vishwanath Temple</h2>
+
+<ul>
+    <li><strong>Dress Code:</strong> Wear modest, traditional attire covering shoulders and knees. Shawls or scarves are recommended.</li>
+    <li><strong>Electronic Devices:</strong> Mobile phones, smart watches, belts with large buckles, and cameras are strictly prohibited inside the inner temple sanctum. Locker facilities are arranged by our tour guide.</li>
+    <li><strong>Senior Citizens:</strong> Wheelchair assistance and battery-operated carts can be arranged through the Kashi Vishwanath Corridor upon prior request.</li>
+</ul>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+
+<div class=\\\"faq-list\\\">
+    <div class=\\\"faq-item\\\">
+        <p><strong>1. Does this Kashi Vishwanath tour package include VIP darshan?</strong></p>
+        <p>Yes, we provide VIP darshan passes and ground coordination to help you complete your darshan comfortably without standing in general hours-long queues.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>2. Can this tour be customized for families with elderly parents?</strong></p>
+        <p>Absolutely. We pace the itinerary comfortably, use sanitized AC cabs, select accessible hotels, and arrange corridor battery cart assistance for senior citizens.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>3. Are boat rides included in the package?</strong></p>
+        <p>Yes! Both the evening Ganga Aarti boat ride from Dashashwamedh Ghat and the serene sunrise boat ride are fully included.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>4. How far in advance should I book?</strong></p>
+        <p>We recommend booking at least 1 to 2 weeks in advance, especially during festival seasons like Maha Shivratri, Shravan Maas, and Dev Deepawali when temple queues and hotels book out rapidly.</p>
+    </div>
+    <div class=\\\"faq-item\\\">
+        <p><strong>5. Can we extend this package to include Ayodhya or Prayagraj?</strong></p>
+        <p>Yes, Kashi Ghoomo provides extended 3-night and 4-day packages combining Varanasi, Prayagraj Triveni Sangam, and Ayodhya Ram Mandir.</p>
+    </div>
+</div>',
+  updated_at = NOW();
+

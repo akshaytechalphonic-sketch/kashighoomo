@@ -59,6 +59,21 @@ class PackageContentService
             'sangam-tour' => 'triveni-sangam-tour',
             'prayagraj-sangam-tour' => 'triveni-sangam-tour',
             'triveni-sangam-prayagraj' => 'triveni-sangam-tour',
+            'kashi-vishwanath' => 'kashi-vishwanath',
+            'kashi-vishwanath-1' => 'kashi-vishwanath',
+            'kashi-vishwanath-darshan' => 'kashi-vishwanath',
+            'kashi-vishwanath-tour' => 'kashi-vishwanath',
+            'kashi-vishwanath-tour-package' => 'kashi-vishwanath',
+            'kashi-vishwanath-package' => 'kashi-vishwanath',
+            'essential-kashi-vishwanath-darshan-yatra' => 'kashi-vishwanath',
+            'kashi' => 'kashi-vishwanath',
+            'sarnath' => 'sarnath-buddhist-heritage-tour',
+            'sarnath-1' => 'sarnath-buddhist-heritage-tour',
+            'assi-ghat' => 'assi-ghat-sunrise-spiritual-walk-experience',
+            'assi-ghat-1' => 'assi-ghat-sunrise-spiritual-walk-experience',
+            'vindhyachal' => 'sacred-vindhyachal-devi-darshan-yatra',
+            'vindhyachal-test' => 'sacred-vindhyachal-devi-darshan-yatra',
+            'dashashwamedh-ghat' => 'dashashwamedh-ghat-ganga-1',
         ];
 
         if (isset($aliases[$slug]) && isset($all[$aliases[$slug]])) {
@@ -211,6 +226,21 @@ class PackageContentService
             'sangam-tour' => 'triveni-sangam-tour',
             'prayagraj-sangam-tour' => 'triveni-sangam-tour',
             'triveni-sangam-prayagraj' => 'triveni-sangam-tour',
+            'kashi-vishwanath' => 'kashi-vishwanath',
+            'kashi-vishwanath-1' => 'kashi-vishwanath',
+            'kashi-vishwanath-darshan' => 'kashi-vishwanath',
+            'kashi-vishwanath-tour' => 'kashi-vishwanath',
+            'kashi-vishwanath-tour-package' => 'kashi-vishwanath',
+            'kashi-vishwanath-package' => 'kashi-vishwanath',
+            'essential-kashi-vishwanath-darshan-yatra' => 'kashi-vishwanath',
+            'kashi' => 'kashi-vishwanath',
+            'sarnath' => 'sarnath-buddhist-heritage-tour',
+            'sarnath-1' => 'sarnath-buddhist-heritage-tour',
+            'assi-ghat' => 'assi-ghat-sunrise-spiritual-walk-experience',
+            'assi-ghat-1' => 'assi-ghat-sunrise-spiritual-walk-experience',
+            'vindhyachal' => 'sacred-vindhyachal-devi-darshan-yatra',
+            'vindhyachal-test' => 'sacred-vindhyachal-devi-darshan-yatra',
+            'dashashwamedh-ghat' => 'dashashwamedh-ghat-ganga-1',
         ];
 
         $package = Package::where('slug', $slug)->where('status', true)->first();
